@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-14T16:14:25+00:00",
+  "updated_at": "2026-05-14T16:25:29+00:00",
   "date": "2026-05-14",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 824841,
@@ -2610,11 +2610,25 @@
       "game_pk": 824517,
       "home_team_id": 113,
       "away_team_id": 120,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.453,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.514,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 695578,
+        "current_batter_name": "James Wood",
+        "current_pitcher_id": 695505,
+        "current_pitcher_name": "Chase Burns"
+      },
       "lineups": {
         "home": [
           {
@@ -2765,7 +2779,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 695505,
+          "pitcher_name": "Chase Burns",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 656492,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823630,
