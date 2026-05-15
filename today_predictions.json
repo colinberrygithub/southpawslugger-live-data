@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-15T22:25:15+00:00",
+  "updated_at": "2026-05-15T22:36:14+00:00",
   "date": "2026-05-15",
-  "live_game_count": 1,
+  "live_game_count": 3,
   "games": [
     {
       "game_pk": 823383,
@@ -1966,11 +1966,25 @@
       "game_pk": 822739,
       "home_team_id": 120,
       "away_team_id": 110,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5115,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.537,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 683002,
+        "current_batter_name": "Gunnar Henderson",
+        "current_pitcher_id": 641793,
+        "current_pitcher_name": "Zack Littell"
+      },
       "lineups": {
         "home": [
           {
@@ -2121,17 +2135,44 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 641793,
+          "pitcher_name": "Zack Littell",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 669358,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824280,
       "home_team_id": 116,
       "away_team_id": 141,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.478,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.446,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 543807,
+        "current_batter_name": "George Springer",
+        "current_pitcher_id": 669724,
+        "current_pitcher_name": "Brenan Hanifee"
+      },
       "lineups": {
         "home": [
           {
@@ -2282,7 +2323,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 669724,
+          "pitcher_name": "Brenan Hanifee",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 702056,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824439,
@@ -4139,7 +4193,80 @@
             "season_slg": ".362"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 808982,
+            "name": "Jung Hoo Lee",
+            "season_avg": ".267",
+            "season_obp": ".313",
+            "season_slg": ".394"
+          },
+          {
+            "order": 2,
+            "player_id": 650333,
+            "name": "Luis Arraez",
+            "season_avg": ".302",
+            "season_obp": ".339",
+            "season_slg": ".370"
+          },
+          {
+            "order": 3,
+            "player_id": 656305,
+            "name": "Matt Chapman",
+            "season_avg": ".224",
+            "season_obp": ".302",
+            "season_slg": ".304"
+          },
+          {
+            "order": 4,
+            "player_id": 646240,
+            "name": "Rafael Devers",
+            "season_avg": ".247",
+            "season_obp": ".294",
+            "season_slg": ".392"
+          },
+          {
+            "order": 5,
+            "player_id": 671218,
+            "name": "Heliot Ramos",
+            "season_avg": ".265",
+            "season_obp": ".306",
+            "season_slg": ".426"
+          },
+          {
+            "order": 6,
+            "player_id": 642715,
+            "name": "Willy Adames",
+            "season_avg": ".218",
+            "season_obp": ".253",
+            "season_slg": ".339"
+          },
+          {
+            "order": 7,
+            "player_id": 805811,
+            "name": "Bryce Eldridge",
+            "season_avg": ".095",
+            "season_obp": ".174",
+            "season_slg": ".238"
+          },
+          {
+            "order": 8,
+            "player_id": 691740,
+            "name": "Daniel Susac",
+            "season_avg": ".478",
+            "season_obp": ".500",
+            "season_slg": ".652"
+          },
+          {
+            "order": 9,
+            "player_id": 664056,
+            "name": "Harrison Bader",
+            "season_avg": ".136",
+            "season_obp": ".161",
+            "season_slg": ".271"
+          }
+        ]
       },
       "starting_pitchers": null
     }
