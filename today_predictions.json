@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-15T22:14:15+00:00",
+  "updated_at": "2026-05-15T22:25:15+00:00",
   "date": "2026-05-15",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 823383,
@@ -1778,11 +1778,25 @@
       "game_pk": 823384,
       "home_team_id": 134,
       "away_team_id": 143,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5525,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.583,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 607208,
+        "current_batter_name": "Trea Turner",
+        "current_pitcher_id": 677952,
+        "current_pitcher_name": "Braxton Ashcraft"
+      },
       "lineups": {
         "home": [
           {
@@ -1933,7 +1947,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 677952,
+          "pitcher_name": "Braxton Ashcraft",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 605400,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 822739,
@@ -3951,7 +3978,80 @@
             "season_slg": ".400"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 701538,
+            "name": "Jackson Merrill",
+            "season_avg": ".215",
+            "season_obp": ".287",
+            "season_slg": ".342"
+          },
+          {
+            "order": 2,
+            "player_id": 665487,
+            "name": "Fernando Tatis Jr.",
+            "season_avg": ".244",
+            "season_obp": ".318",
+            "season_slg": ".288"
+          },
+          {
+            "order": 3,
+            "player_id": 592518,
+            "name": "Manny Machado",
+            "season_avg": ".190",
+            "season_obp": ".287",
+            "season_slg": ".340"
+          },
+          {
+            "order": 4,
+            "player_id": 657757,
+            "name": "Gavin Sheets",
+            "season_avg": ".229",
+            "season_obp": ".289",
+            "season_slg": ".458"
+          },
+          {
+            "order": 5,
+            "player_id": 593428,
+            "name": "Xander Bogaerts",
+            "season_avg": ".257",
+            "season_obp": ".331",
+            "season_slg": ".414"
+          },
+          {
+            "order": 6,
+            "player_id": 609280,
+            "name": "Miguel Andujar",
+            "season_avg": ".289",
+            "season_obp": ".314",
+            "season_slg": ".482"
+          },
+          {
+            "order": 7,
+            "player_id": 657656,
+            "name": "Ram\u00f3n Laureano",
+            "season_avg": ".214",
+            "season_obp": ".296",
+            "season_slg": ".379"
+          },
+          {
+            "order": 8,
+            "player_id": 823550,
+            "name": "Sung-Mun Song",
+            "season_avg": ".154",
+            "season_obp": ".313",
+            "season_slg": ".231"
+          },
+          {
+            "order": 9,
+            "player_id": 666023,
+            "name": "Freddy Fermin",
+            "season_avg": ".176",
+            "season_obp": ".267",
+            "season_slg": ".230"
+          }
+        ]
       },
       "starting_pitchers": null
     },
