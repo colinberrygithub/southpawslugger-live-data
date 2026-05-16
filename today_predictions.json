@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-16T16:47:16+00:00",
+  "updated_at": "2026-05-16T16:58:12+00:00",
   "date": "2026-05-16",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 823384,
@@ -2422,11 +2422,25 @@
       "game_pk": 824278,
       "home_team_id": 116,
       "away_team_id": 141,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.515,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.511,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 543807,
+        "current_batter_name": "George Springer",
+        "current_pitcher_id": 663554,
+        "current_pitcher_name": "Casey Mize"
+      },
       "lineups": {
         "home": [
           {
@@ -2577,7 +2591,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 663554,
+          "pitcher_name": "Casey Mize",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 689254,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823060,
