@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-17T16:03:08+00:00",
+  "updated_at": "2026-05-17T16:14:13+00:00",
   "date": "2026-05-17",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824278,
@@ -2422,11 +2422,25 @@
       "game_pk": 822982,
       "home_team_id": 139,
       "away_team_id": 146,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5735,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.579,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 669364,
+        "current_batter_name": "Xavier Edwards",
+        "current_pitcher_id": 656876,
+        "current_pitcher_name": "Drew Rasmussen"
+      },
       "lineups": {
         "home": [
           {
@@ -2577,7 +2591,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 656876,
+          "pitcher_name": "Drew Rasmussen",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 691587,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 822738,
@@ -4194,13 +4221,86 @@
       "home_team_id": 115,
       "away_team_id": 109,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.414,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
         "home": null,
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 545121,
+            "name": "Ildemaro Vargas",
+            "season_avg": ".338",
+            "season_obp": ".359",
+            "season_slg": ".561"
+          },
+          {
+            "order": 2,
+            "player_id": 682998,
+            "name": "Corbin Carroll",
+            "season_avg": ".272",
+            "season_obp": ".384",
+            "season_slg": ".503"
+          },
+          {
+            "order": 3,
+            "player_id": 672695,
+            "name": "Geraldo Perdomo",
+            "season_avg": ".218",
+            "season_obp": ".335",
+            "season_slg": ".345"
+          },
+          {
+            "order": 4,
+            "player_id": 571448,
+            "name": "Nolan Arenado",
+            "season_avg": ".273",
+            "season_obp": ".348",
+            "season_slg": ".453"
+          },
+          {
+            "order": 5,
+            "player_id": 666971,
+            "name": "Lourdes Gurriel Jr.",
+            "season_avg": ".216",
+            "season_obp": ".289",
+            "season_slg": ".270"
+          },
+          {
+            "order": 6,
+            "player_id": 680728,
+            "name": "Adrian Del Castillo",
+            "season_avg": ".195",
+            "season_obp": ".245",
+            "season_slg": ".345"
+          },
+          {
+            "order": 7,
+            "player_id": 672515,
+            "name": "Gabriel Moreno",
+            "season_avg": ".228",
+            "season_obp": ".276",
+            "season_slg": ".354"
+          },
+          {
+            "order": 8,
+            "player_id": 699912,
+            "name": "Jose Fernandez",
+            "season_avg": ".274",
+            "season_obp": ".309",
+            "season_slg": ".385"
+          },
+          {
+            "order": 9,
+            "player_id": 814439,
+            "name": "Ryan Waldschmidt",
+            "season_avg": ".280",
+            "season_obp": ".333",
+            "season_slg": ".360"
+          }
+        ]
       },
       "starting_pitchers": null
     },
