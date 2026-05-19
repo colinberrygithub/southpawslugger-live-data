@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-19T01:36:17+00:00",
+  "updated_at": "2026-05-19T01:47:17+00:00",
   "date": "2026-05-19",
-  "live_game_count": 12,
+  "live_game_count": 10,
   "games": [
     {
       "game_pk": 824277,
@@ -10,21 +10,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5345,
-      "live_home_win_prob": 0.003,
+      "live_home_win_prob": 0.0,
       "linescore": {
-        "current_inning": 8,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 9,
+        "inning_state": "Top",
+        "is_top_inning": true,
         "home_runs": 2,
-        "away_runs": 7,
-        "balls": 2,
-        "strikes": 2,
+        "away_runs": 8,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0,
         "base_state": "000",
-        "current_batter_id": 663837,
-        "current_batter_name": "Matt Vierling",
-        "current_pitcher_id": 677944,
-        "current_pitcher_name": "Slade Cecconi"
+        "current_batter_id": 800050,
+        "current_batter_name": "Chase DeLauter",
+        "current_pitcher_id": 646241,
+        "current_pitcher_name": "Enmanuel De Jesus"
       },
       "lineups": {
         "home": [
@@ -32,9 +32,9 @@
             "order": 1,
             "player_id": 690993,
             "name": "Colt Keith",
-            "season_avg": ".295",
-            "season_obp": ".336",
-            "season_slg": ".356"
+            "season_avg": ".293",
+            "season_obp": ".333",
+            "season_slg": ".353"
           },
           {
             "order": 2,
@@ -88,17 +88,17 @@
             "order": 8,
             "player_id": 672761,
             "name": "Wenceel P\u00e9rez",
-            "season_avg": ".165",
-            "season_obp": ".214",
-            "season_slg": ".247"
+            "season_avg": ".163",
+            "season_obp": ".212",
+            "season_slg": ".245"
           },
           {
             "order": 9,
-            "player_id": 670097,
-            "name": "Zack Short",
-            "season_avg": ".000",
-            "season_obp": ".267",
-            "season_slg": ".000"
+            "player_id": 669398,
+            "name": "Gage Workman",
+            "season_avg": ".217",
+            "season_obp": ".217",
+            "season_slg": ".565"
           }
         ],
         "away": [
@@ -114,9 +114,9 @@
             "order": 2,
             "player_id": 608070,
             "name": "Jos\u00e9 Ram\u00edrez",
-            "season_avg": ".236",
-            "season_obp": ".366",
-            "season_slg": ".410"
+            "season_avg": ".240",
+            "season_obp": ".369",
+            "season_slg": ".430"
           },
           {
             "order": 3,
@@ -899,7 +899,7 @@
         "away": {
           "pitcher_id": 677944,
           "pitcher_name": "Slade Cecconi",
-          "pitch_count": 91,
+          "pitch_count": 96,
           "pitches": [
             {
               "px": -1.2999922278865235,
@@ -1628,6 +1628,46 @@
               "velocity": 85.9,
               "call": "X",
               "inning": 8
+            },
+            {
+              "px": -0.27443031948267343,
+              "pz": 3.300330306966131,
+              "type": "SI",
+              "velocity": 92.1,
+              "call": "S",
+              "inning": 8
+            },
+            {
+              "px": -2.245414179749987,
+              "pz": 2.68887112729023,
+              "type": "CU",
+              "velocity": 76.7,
+              "call": "B",
+              "inning": 8
+            },
+            {
+              "px": 0.7647402615776644,
+              "pz": 1.9796060328291074,
+              "type": "FC",
+              "velocity": 86.0,
+              "call": "F",
+              "inning": 8
+            },
+            {
+              "px": 0.07445942785973132,
+              "pz": 1.2420754249220916,
+              "type": "CU",
+              "velocity": 76.8,
+              "call": "B",
+              "inning": 8
+            },
+            {
+              "px": -0.2578646652464786,
+              "pz": 1.6911052206721366,
+              "type": "FC",
+              "velocity": 86.7,
+              "call": "S",
+              "inning": 8
             }
           ]
         }
@@ -1638,7 +1678,7 @@
       "home_team_id": 139,
       "away_team_id": 110,
       "abstract_status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "pre_home_win_prob": 0.631,
       "live_home_win_prob": null,
       "linescore": null,
@@ -1959,25 +1999,11 @@
       "game_pk": 823867,
       "home_team_id": 146,
       "away_team_id": 144,
-      "abstract_status": "Live",
-      "detailed_status": "In Progress",
+      "abstract_status": "Final",
+      "detailed_status": "Game Over",
       "pre_home_win_prob": 0.4015,
-      "live_home_win_prob": 1.0,
-      "linescore": {
-        "current_inning": 9,
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "home_runs": 12,
-        "away_runs": 0,
-        "balls": 2,
-        "strikes": 2,
-        "outs": 1,
-        "base_state": "000",
-        "current_batter_id": 640492,
-        "current_batter_name": "Jos\u00e9 Az\u00f3car",
-        "current_pitcher_id": 669199,
-        "current_pitcher_name": "Lake Bachar"
-      },
+      "live_home_win_prob": null,
+      "linescore": null,
       "lineups": {
         "home": [
           {
@@ -2098,9 +2124,9 @@
             "order": 6,
             "player_id": 643289,
             "name": "Mauricio Dub\u00f3n",
-            "season_avg": ".247",
-            "season_obp": ".306",
-            "season_slg": ".386"
+            "season_avg": ".246",
+            "season_obp": ".304",
+            "season_slg": ".383"
           },
           {
             "order": 7,
@@ -2128,1462 +2154,7 @@
           }
         ]
       },
-      "starting_pitchers": {
-        "home": {
-          "pitcher_id": 676974,
-          "pitcher_name": "Max Meyer",
-          "pitch_count": 97,
-          "pitches": [
-            {
-              "px": 1.0232584798989675,
-              "pz": 2.6045079365679658,
-              "type": "FF",
-              "velocity": 95.2,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": 0.09747537476121469,
-              "pz": 2.334193654772459,
-              "type": "CH",
-              "velocity": 85.9,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": 0.3380995847533222,
-              "pz": -0.04184991398254951,
-              "type": "SL",
-              "velocity": 89.2,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -0.515197460956216,
-              "pz": 3.337384567665319,
-              "type": "SL",
-              "velocity": 88.8,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": -0.01592389612052254,
-              "pz": 2.1310319714900174,
-              "type": "SL",
-              "velocity": 89.8,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": 1.5318880185332504,
-              "pz": 0.5356847496757372,
-              "type": "ST",
-              "velocity": 90.0,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -0.5480909853465568,
-              "pz": 3.5290641913748098,
-              "type": "FF",
-              "velocity": 95.6,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": 0.2826322412218523,
-              "pz": 2.5620398135873197,
-              "type": "SL",
-              "velocity": 91.0,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": -0.030186196412103374,
-              "pz": 3.129607151068686,
-              "type": "FF",
-              "velocity": 95.9,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": -0.9041114905077994,
-              "pz": 3.1494326421675116,
-              "type": "ST",
-              "velocity": 88.3,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -1.1432572056537362,
-              "pz": 2.3477322308395676,
-              "type": "CH",
-              "velocity": 87.4,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -0.8544114919162135,
-              "pz": 3.3326032252523845,
-              "type": "ST",
-              "velocity": 88.2,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -0.2755702819504103,
-              "pz": 3.695767674043324,
-              "type": "FF",
-              "velocity": 95.9,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": 0.40293564557808376,
-              "pz": 2.0363668616098938,
-              "type": "FF",
-              "velocity": 95.1,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": -0.26753509572815287,
-              "pz": 2.5810059047590244,
-              "type": "SL",
-              "velocity": 89.3,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": 0.8207828664353648,
-              "pz": 3.3620906668522568,
-              "type": "FF",
-              "velocity": 96.2,
-              "call": "X",
-              "inning": 1
-            },
-            {
-              "px": 0.9357537070918613,
-              "pz": 2.8092886930739067,
-              "type": "FF",
-              "velocity": 97.0,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -0.35704245469807916,
-              "pz": 3.1803434063904654,
-              "type": "ST",
-              "velocity": 88.8,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": -1.5055523898971006,
-              "pz": 3.066133461708589,
-              "type": "CH",
-              "velocity": 86.3,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -0.04141951989800619,
-              "pz": 2.1770101490749068,
-              "type": "FF",
-              "velocity": 96.1,
-              "call": "X",
-              "inning": 1
-            },
-            {
-              "px": -0.12317270714658593,
-              "pz": 2.18197041929206,
-              "type": "ST",
-              "velocity": 89.0,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": 1.1057538673771035,
-              "pz": 2.7438954964127475,
-              "type": "FF",
-              "velocity": 96.4,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -0.3937280052438666,
-              "pz": 3.188200849884644,
-              "type": "FF",
-              "velocity": 93.9,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": 1.6252255459636606,
-              "pz": 1.8102438432158001,
-              "type": "FF",
-              "velocity": 94.9,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": 0.8703731400055839,
-              "pz": 0.452514134998364,
-              "type": "SL",
-              "velocity": 90.0,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": -0.6658739149190057,
-              "pz": 3.0860459488781213,
-              "type": "SL",
-              "velocity": 89.1,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": 1.237423888114901,
-              "pz": 2.3175419109150686,
-              "type": "ST",
-              "velocity": 88.8,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": -1.0998803130451047,
-              "pz": 2.6465654039406803,
-              "type": "FF",
-              "velocity": 95.2,
-              "call": "X",
-              "inning": 2
-            },
-            {
-              "px": 0.887255748631329,
-              "pz": 1.7034919777938942,
-              "type": "SL",
-              "velocity": 89.3,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": 0.16006875502967857,
-              "pz": 2.0040605873477824,
-              "type": "ST",
-              "velocity": 88.6,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": -0.6825659035281824,
-              "pz": 2.632784114890377,
-              "type": "ST",
-              "velocity": 89.4,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": 0.6798368777103255,
-              "pz": 0.7490972910668545,
-              "type": "SL",
-              "velocity": 91.0,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": -0.7178104056614236,
-              "pz": 3.38710401913659,
-              "type": "SI",
-              "velocity": 95.0,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": 1.186481332616779,
-              "pz": 0.5066793255879092,
-              "type": "SL",
-              "velocity": 87.9,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": 1.551935770477011,
-              "pz": 0.15607764346940858,
-              "type": "ST",
-              "velocity": 88.7,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": -0.24555528367762597,
-              "pz": 1.457380757598403,
-              "type": "ST",
-              "velocity": 89.4,
-              "call": "X",
-              "inning": 2
-            },
-            {
-              "px": 0.7667083605845751,
-              "pz": 2.0789762025100056,
-              "type": "FF",
-              "velocity": 94.6,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": -0.28833640783229525,
-              "pz": 1.4625727356843363,
-              "type": "CH",
-              "velocity": 86.9,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": -1.0812125784604723,
-              "pz": 2.217623406885718,
-              "type": "SI",
-              "velocity": 93.6,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": -1.971082635383556,
-              "pz": 3.1970371113621847,
-              "type": "CH",
-              "velocity": 85.8,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": 0.08379115142428317,
-              "pz": 3.350210311588541,
-              "type": "SL",
-              "velocity": 90.8,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": 0.22509099917431422,
-              "pz": 2.352294975241685,
-              "type": "SL",
-              "velocity": 89.0,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": 0.4425562856933032,
-              "pz": 1.391062503447883,
-              "type": "ST",
-              "velocity": 90.4,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": -0.3101193075651548,
-              "pz": 4.193721705361427,
-              "type": "FF",
-              "velocity": 95.8,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": -0.7908027825126251,
-              "pz": 2.3555663467500345,
-              "type": "SL",
-              "velocity": 90.1,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": -0.45905753151241097,
-              "pz": 2.26386446077265,
-              "type": "FF",
-              "velocity": 93.6,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": -1.1298414614335928,
-              "pz": 3.0675982624064586,
-              "type": "FF",
-              "velocity": 93.1,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": -0.9130501188765827,
-              "pz": 2.375212870037781,
-              "type": "SL",
-              "velocity": 90.1,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 0.6356925333135164,
-              "pz": 1.6175768631688463,
-              "type": "SL",
-              "velocity": 89.5,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": 0.8801952105290173,
-              "pz": 0.5711920789328292,
-              "type": "ST",
-              "velocity": 89.4,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": -0.7929789766254209,
-              "pz": 2.287171265693699,
-              "type": "CH",
-              "velocity": 87.8,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": -0.17903535584900512,
-              "pz": 2.4388250261194035,
-              "type": "FF",
-              "velocity": 95.7,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": -0.08108390196807057,
-              "pz": 2.7158075351803235,
-              "type": "FF",
-              "velocity": 95.5,
-              "call": "X",
-              "inning": 3
-            },
-            {
-              "px": 0.293751403490282,
-              "pz": 2.035172917559126,
-              "type": "ST",
-              "velocity": 89.0,
-              "call": "X",
-              "inning": 3
-            },
-            {
-              "px": -0.9404265132376655,
-              "pz": 3.359502156422126,
-              "type": "SI",
-              "velocity": 93.9,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": -0.5760520245654189,
-              "pz": 2.0663148659277213,
-              "type": "CH",
-              "velocity": 87.2,
-              "call": "X",
-              "inning": 3
-            },
-            {
-              "px": -1.3356508136584615,
-              "pz": 2.168481304901652,
-              "type": "SI",
-              "velocity": 91.9,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": -0.19891678726644962,
-              "pz": 1.7449149906531936,
-              "type": "FF",
-              "velocity": 94.8,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": -1.4584733256847358,
-              "pz": 3.1812466515122626,
-              "type": "CH",
-              "velocity": 87.7,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": -0.1385701384652738,
-              "pz": 2.3788241675792,
-              "type": "FF",
-              "velocity": 94.5,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": -0.3164026683743881,
-              "pz": 2.6682931960357132,
-              "type": "ST",
-              "velocity": 88.6,
-              "call": "X",
-              "inning": 4
-            },
-            {
-              "px": -1.3121639587558886,
-              "pz": 2.506576887749684,
-              "type": "CH",
-              "velocity": 87.3,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": -0.19327154457911577,
-              "pz": 1.7664973274822369,
-              "type": "ST",
-              "velocity": 88.2,
-              "call": "X",
-              "inning": 4
-            },
-            {
-              "px": 0.22813870870387182,
-              "pz": 2.8293227249921395,
-              "type": "FF",
-              "velocity": 95.5,
-              "call": "X",
-              "inning": 4
-            },
-            {
-              "px": 0.3925253648942533,
-              "pz": 1.8804530184843813,
-              "type": "SI",
-              "velocity": 92.8,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": -0.656364035353363,
-              "pz": 2.485510112094098,
-              "type": "SI",
-              "velocity": 93.4,
-              "call": "X",
-              "inning": 5
-            },
-            {
-              "px": -0.24735579988906634,
-              "pz": 2.355955170319923,
-              "type": "FF",
-              "velocity": 93.6,
-              "call": "F",
-              "inning": 5
-            },
-            {
-              "px": -0.6322318876599512,
-              "pz": 3.3723325464022644,
-              "type": "SI",
-              "velocity": 93.2,
-              "call": "F",
-              "inning": 5
-            },
-            {
-              "px": -1.3252428262280722,
-              "pz": 1.4141688959431025,
-              "type": "SI",
-              "velocity": 92.9,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": 0.32534783511496584,
-              "pz": 2.3919748542722568,
-              "type": "FF",
-              "velocity": 95.8,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": 0.763900604135829,
-              "pz": 1.1325908991796856,
-              "type": "SL",
-              "velocity": 90.8,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": 0.8444327465406344,
-              "pz": 1.185261856419635,
-              "type": "SL",
-              "velocity": 91.9,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": 0.8930468355302438,
-              "pz": 0.9057196614042209,
-              "type": "ST",
-              "velocity": 89.3,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": 0.3908541319778149,
-              "pz": 1.7882247717470157,
-              "type": "FF",
-              "velocity": 95.5,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": 0.45006154103724766,
-              "pz": 0.5905012244776936,
-              "type": "SL",
-              "velocity": 91.7,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": 0.2591014217946593,
-              "pz": 1.2721017817806712,
-              "type": "FF",
-              "velocity": 95.3,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": -1.0567320686865425,
-              "pz": 4.266578660944349,
-              "type": "SL",
-              "velocity": 91.0,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": 0.8935649847595366,
-              "pz": 1.1499835825846132,
-              "type": "SL",
-              "velocity": 90.6,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": -0.015607727803773412,
-              "pz": 2.382467227127965,
-              "type": "FF",
-              "velocity": 95.9,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": 0.9126705270432025,
-              "pz": 1.0218893846949748,
-              "type": "ST",
-              "velocity": 90.4,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": -0.6909901115567993,
-              "pz": 2.8009576714091184,
-              "type": "CH",
-              "velocity": 85.8,
-              "call": "S",
-              "inning": 6
-            },
-            {
-              "px": -0.15578089815177343,
-              "pz": 2.4661068155858366,
-              "type": "CH",
-              "velocity": 86.9,
-              "call": "X",
-              "inning": 6
-            },
-            {
-              "px": -0.5512873959538706,
-              "pz": 3.66162583748956,
-              "type": "FF",
-              "velocity": 93.8,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": -1.5712240602134813,
-              "pz": 3.2470984519275063,
-              "type": "SI",
-              "velocity": 91.2,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": -0.025710249208758872,
-              "pz": 2.2146928915581383,
-              "type": "SL",
-              "velocity": 88.6,
-              "call": "F",
-              "inning": 6
-            },
-            {
-              "px": -0.0027142975555135705,
-              "pz": 2.9498739609771834,
-              "type": "SL",
-              "velocity": 88.9,
-              "call": "S",
-              "inning": 6
-            },
-            {
-              "px": -0.5482404642245272,
-              "pz": 3.246014969826517,
-              "type": "SL",
-              "velocity": 89.0,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": -0.020182059024666094,
-              "pz": 2.110891378786639,
-              "type": "ST",
-              "velocity": 87.5,
-              "call": "S",
-              "inning": 6
-            },
-            {
-              "px": 0.28364280425589394,
-              "pz": 1.2271951305913804,
-              "type": "SL",
-              "velocity": 91.1,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": -0.68961054903077,
-              "pz": 2.8744271820504026,
-              "type": "ST",
-              "velocity": 88.1,
-              "call": "S",
-              "inning": 6
-            },
-            {
-              "px": 0.7527469832513661,
-              "pz": 0.61953224458527,
-              "type": "ST",
-              "velocity": 89.9,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": 0.03201405758628669,
-              "pz": 1.7982465285633982,
-              "type": "ST",
-              "velocity": 89.0,
-              "call": "X",
-              "inning": 6
-            },
-            {
-              "px": 0.39319596818266267,
-              "pz": 1.7575758611760586,
-              "type": "FF",
-              "velocity": 95.4,
-              "call": "S",
-              "inning": 6
-            },
-            {
-              "px": 0.22205174742403055,
-              "pz": 1.0719223196109093,
-              "type": "CH",
-              "velocity": 87.3,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": 0.3948979146768926,
-              "pz": 3.1556071363296345,
-              "type": "FF",
-              "velocity": 96.1,
-              "call": "S",
-              "inning": 6
-            },
-            {
-              "px": 1.0621875859600223,
-              "pz": 2.534055872513611,
-              "type": "FF",
-              "velocity": 95.7,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": -0.08707375974564645,
-              "pz": 2.476582121877435,
-              "type": "CH",
-              "velocity": 88.2,
-              "call": "X",
-              "inning": 6
-            }
-          ]
-        },
-        "away": {
-          "pitcher_id": 702275,
-          "pitcher_name": "JR Ritchie",
-          "pitch_count": 83,
-          "pitches": [
-            {
-              "px": -1.530702539919331,
-              "pz": 4.254335649588545,
-              "type": "FF",
-              "velocity": 94.1,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -0.1741904160731149,
-              "pz": 3.3806639110048584,
-              "type": "FF",
-              "velocity": 94.6,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": -0.5980815412469266,
-              "pz": 2.6028198251587438,
-              "type": "CH",
-              "velocity": 88.1,
-              "call": "X",
-              "inning": 1
-            },
-            {
-              "px": 0.540161129344722,
-              "pz": 2.145365531110287,
-              "type": "CU",
-              "velocity": 83.4,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": 1.8075050028384347,
-              "pz": 3.3047933530940714,
-              "type": "FC",
-              "velocity": 90.5,
-              "call": "X",
-              "inning": 1
-            },
-            {
-              "px": 0.4678085216477524,
-              "pz": 1.5757334761896955,
-              "type": "FC",
-              "velocity": 91.4,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": 0.5405496853893461,
-              "pz": 1.2441015727383196,
-              "type": "CU",
-              "velocity": 83.4,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -0.8567202037836391,
-              "pz": 1.7493221729300084,
-              "type": "CH",
-              "velocity": 86.8,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": -0.22976255299093967,
-              "pz": 1.2400140537876534,
-              "type": "CH",
-              "velocity": 87.3,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": 0.08624746012308049,
-              "pz": 2.1189062152794156,
-              "type": "CU",
-              "velocity": 82.4,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": 1.5357706517823042,
-              "pz": 1.4551745442946462,
-              "type": "CU",
-              "velocity": 83.9,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": 0.9658402181565231,
-              "pz": 2.621997683868388,
-              "type": "CU",
-              "velocity": 83.9,
-              "call": "X",
-              "inning": 1
-            },
-            {
-              "px": -1.3056156333948985,
-              "pz": 4.54331402935236,
-              "type": "FC",
-              "velocity": 90.0,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": 1.751009496696949,
-              "pz": 0.49975881093327595,
-              "type": "CU",
-              "velocity": 82.4,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": -0.9335348484303867,
-              "pz": 3.338009579866501,
-              "type": "FF",
-              "velocity": 93.2,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": 0.35536391269603723,
-              "pz": 3.3625223696040907,
-              "type": "FF",
-              "velocity": 93.0,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": -0.2257022561782476,
-              "pz": 2.7726247067990357,
-              "type": "SL",
-              "velocity": 85.8,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": -0.1384594748258456,
-              "pz": 2.3590646826579147,
-              "type": "CU",
-              "velocity": 83.0,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": -0.14194233764861458,
-              "pz": 2.5441656806808397,
-              "type": "FF",
-              "velocity": 94.7,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": -0.8302778107108176,
-              "pz": 3.4321962167222364,
-              "type": "FF",
-              "velocity": 94.2,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": 0.1047464134978982,
-              "pz": 2.8162309659720113,
-              "type": "SL",
-              "velocity": 85.1,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": -0.8662830901965376,
-              "pz": 2.0808943810287177,
-              "type": "CH",
-              "velocity": 89.1,
-              "call": "X",
-              "inning": 2
-            },
-            {
-              "px": -0.15757431300040606,
-              "pz": 1.8314311061946618,
-              "type": "FF",
-              "velocity": 93.9,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": 0.43495358830495723,
-              "pz": 2.542584636298186,
-              "type": "FC",
-              "velocity": 89.0,
-              "call": "X",
-              "inning": 2
-            },
-            {
-              "px": 0.17647687657443545,
-              "pz": 2.1670742757553594,
-              "type": "CH",
-              "velocity": 87.0,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": 0.602221279375485,
-              "pz": 1.8050035776252777,
-              "type": "CH",
-              "velocity": 87.8,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": 0.1736691372301821,
-              "pz": 1.69324461723356,
-              "type": "CU",
-              "velocity": 82.4,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": 1.146717179972318,
-              "pz": 1.246539156787144,
-              "type": "CU",
-              "velocity": 83.7,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": 0.2867204103975005,
-              "pz": 2.0923498888133896,
-              "type": "CH",
-              "velocity": 88.3,
-              "call": "X",
-              "inning": 2
-            },
-            {
-              "px": -0.6847159935881433,
-              "pz": 1.707660007033355,
-              "type": "SI",
-              "velocity": 94.9,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": 1.173742722783503,
-              "pz": 0.8175591953483642,
-              "type": "CU",
-              "velocity": 83.2,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": 1.278951918717568,
-              "pz": 1.4298052492266937,
-              "type": "SI",
-              "velocity": 95.3,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": -0.8420316809109415,
-              "pz": 2.918407022814618,
-              "type": "SI",
-              "velocity": 95.5,
-              "call": "X",
-              "inning": 2
-            },
-            {
-              "px": 0.15888045125250322,
-              "pz": 3.4510047093947365,
-              "type": "FC",
-              "velocity": 90.1,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": -0.887825310561923,
-              "pz": 1.8443622419074905,
-              "type": "CH",
-              "velocity": 88.8,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": -0.09661464212290376,
-              "pz": 2.488454730115916,
-              "type": "CU",
-              "velocity": 82.9,
-              "call": "F",
-              "inning": 3
-            },
-            {
-              "px": -0.43299349414599,
-              "pz": 2.152587536451028,
-              "type": "CU",
-              "velocity": 82.2,
-              "call": "X",
-              "inning": 3
-            },
-            {
-              "px": -1.0775263932065668,
-              "pz": 2.7213869912241013,
-              "type": "CH",
-              "velocity": 90.1,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": -1.4582510953081664,
-              "pz": 3.1754461632905926,
-              "type": "CU",
-              "velocity": 80.6,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 1.3951294731415063,
-              "pz": 2.6658199422035422,
-              "type": "FC",
-              "velocity": 90.2,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": -0.1053434778332569,
-              "pz": 2.532622867579588,
-              "type": "CU",
-              "velocity": 82.3,
-              "call": "X",
-              "inning": 3
-            },
-            {
-              "px": 0.9938390207061062,
-              "pz": 1.7671257963635405,
-              "type": "SL",
-              "velocity": 86.0,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": 1.4666942433614005,
-              "pz": 2.5524397719356173,
-              "type": "CU",
-              "velocity": 83.2,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": 1.0979968979983983,
-              "pz": -0.1996116733367762,
-              "type": "CU",
-              "velocity": 83.8,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 0.18782743624182263,
-              "pz": 2.59257248338026,
-              "type": "CH",
-              "velocity": 88.4,
-              "call": "F",
-              "inning": 3
-            },
-            {
-              "px": 1.514030123256863,
-              "pz": 1.230101508386576,
-              "type": "CU",
-              "velocity": 84.5,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 1.5261790967593043,
-              "pz": 0.7162543618934438,
-              "type": "CH",
-              "velocity": 89.1,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 0.005995765583872758,
-              "pz": 3.05759587464661,
-              "type": "SL",
-              "velocity": 87.1,
-              "call": "X",
-              "inning": 3
-            },
-            {
-              "px": -0.2584225901841657,
-              "pz": 2.2914654892776927,
-              "type": "CU",
-              "velocity": 82.8,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": -0.9096043610960501,
-              "pz": 3.308761861085846,
-              "type": "FF",
-              "velocity": 93.6,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": -1.3602063117123833,
-              "pz": 3.0381290344353458,
-              "type": "FF",
-              "velocity": 93.9,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": -0.030199290157671452,
-              "pz": 2.195967425231996,
-              "type": "CU",
-              "velocity": 81.9,
-              "call": "X",
-              "inning": 4
-            },
-            {
-              "px": 1.2798887391290958,
-              "pz": 1.231983257174573,
-              "type": "CH",
-              "velocity": 88.6,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": 1.2258241367804283,
-              "pz": 1.3825388600181807,
-              "type": "SL",
-              "velocity": 85.0,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": 1.3957460027681883,
-              "pz": 2.5100564347127508,
-              "type": "FC",
-              "velocity": 89.5,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": 0.8047292881181679,
-              "pz": 2.5035115744467316,
-              "type": "FC",
-              "velocity": 89.9,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": 0.5283607584679421,
-              "pz": 1.2025409075000975,
-              "type": "CU",
-              "velocity": 83.3,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": 3.1014264831289684,
-              "pz": 2.162348352331008,
-              "type": "FC",
-              "velocity": 90.4,
-              "call": "X",
-              "inning": 4
-            },
-            {
-              "px": 0.6237133331009792,
-              "pz": 1.0825015869251613,
-              "type": "SL",
-              "velocity": 85.4,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": 2.0142892057324753,
-              "pz": 2.0434644612118196,
-              "type": "SL",
-              "velocity": 86.3,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": 0.18499572542863213,
-              "pz": 2.6804493601728914,
-              "type": "SI",
-              "velocity": 94.3,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": 0.27214301292617804,
-              "pz": 3.713950140056975,
-              "type": "SI",
-              "velocity": 93.0,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": 0.40060827507375507,
-              "pz": 1.9595546279771505,
-              "type": "SL",
-              "velocity": 87.2,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": -0.07660352239637307,
-              "pz": 1.3836787455457926,
-              "type": "CU",
-              "velocity": 82.8,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": 0.28144527598677765,
-              "pz": 3.0160052064377654,
-              "type": "FC",
-              "velocity": 89.0,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": -0.37020906994480834,
-              "pz": 1.9912912405168741,
-              "type": "CU",
-              "velocity": 82.2,
-              "call": "X",
-              "inning": 4
-            },
-            {
-              "px": -0.4501501021297332,
-              "pz": 2.7667169233012596,
-              "type": "SI",
-              "velocity": 93.0,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": 1.0124333835499602,
-              "pz": 1.499964594014621,
-              "type": "SL",
-              "velocity": 85.2,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": 0.9319076951759659,
-              "pz": 1.5673866947427202,
-              "type": "SL",
-              "velocity": 84.9,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": -0.4467344137333871,
-              "pz": 3.1195794760180147,
-              "type": "CH",
-              "velocity": 86.2,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": 0.22634206668115436,
-              "pz": 1.7616205909939993,
-              "type": "CU",
-              "velocity": 82.8,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": -0.6024071578524035,
-              "pz": 1.8003128672149733,
-              "type": "SL",
-              "velocity": 84.4,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": -0.7861799789647657,
-              "pz": 2.5435222149419316,
-              "type": "CH",
-              "velocity": 88.0,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": -0.18610453632504326,
-              "pz": 4.039371776450026,
-              "type": "FF",
-              "velocity": 93.1,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": -0.4735438487427399,
-              "pz": 0.9924043436619006,
-              "type": "CH",
-              "velocity": 86.9,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": -0.8553543195532486,
-              "pz": 2.1352347806080467,
-              "type": "CH",
-              "velocity": 87.8,
-              "call": "X",
-              "inning": 4
-            },
-            {
-              "px": 0.5545115149939454,
-              "pz": 1.7882357403179365,
-              "type": "CU",
-              "velocity": 82.5,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": -0.07184263179617732,
-              "pz": 4.128788669116664,
-              "type": "FF",
-              "velocity": 93.2,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": 0.38819437360811954,
-              "pz": 2.8252155479564163,
-              "type": "FF",
-              "velocity": 94.1,
-              "call": "X",
-              "inning": 4
-            },
-            {
-              "px": 2.417039126726151,
-              "pz": 0.6432872276714954,
-              "type": "SL",
-              "velocity": 85.5,
-              "call": "?",
-              "inning": 4
-            },
-            {
-              "px": 0.5190052192841733,
-              "pz": 0.9203710359522107,
-              "type": "CH",
-              "velocity": 87.9,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": 0.1771591582898199,
-              "pz": 1.5329190840702354,
-              "type": "CH",
-              "velocity": 87.5,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": 0.7215117130764728,
-              "pz": 3.1591338221797254,
-              "type": "FF",
-              "velocity": 93.8,
-              "call": "X",
-              "inning": 4
-            }
-          ]
-        }
-      }
+      "starting_pitchers": null
     },
     {
       "game_pk": 822734,
@@ -3592,21 +2163,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.446,
-      "live_home_win_prob": 0.719,
+      "live_home_win_prob": 0.513,
       "linescore": {
         "current_inning": 9,
-        "inning_state": "Bottom",
+        "inning_state": "End",
         "is_top_inning": false,
         "home_runs": 5,
         "away_runs": 5,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 1,
+        "strikes": 1,
+        "outs": 3,
         "base_state": "000",
-        "current_batter_id": 682928,
-        "current_batter_name": "CJ Abrams",
-        "current_pitcher_id": 596133,
-        "current_pitcher_name": "Luke Weaver"
+        "current_batter_id": 666182,
+        "current_batter_name": "Bo Bichette",
+        "current_pitcher_id": 687377,
+        "current_pitcher_name": "Orlando Ribalta"
       },
       "lineups": {
         "home": [
@@ -3638,41 +2209,41 @@
             "order": 4,
             "player_id": 682928,
             "name": "CJ Abrams",
-            "season_avg": ".292",
-            "season_obp": ".380",
-            "season_slg": ".520"
+            "season_avg": ".297",
+            "season_obp": ".383",
+            "season_slg": ".523"
           },
           {
             "order": 5,
             "player_id": 695734,
             "name": "Daylen Lile",
-            "season_avg": ".267",
-            "season_obp": ".329",
-            "season_slg": ".444"
+            "season_avg": ".266",
+            "season_obp": ".327",
+            "season_slg": ".441"
           },
           {
             "order": 6,
             "player_id": 686894,
             "name": "Joey Wiemer",
             "season_avg": ".290",
-            "season_obp": ".395",
+            "season_obp": ".402",
             "season_slg": ".522"
           },
           {
             "order": 7,
             "player_id": 677588,
             "name": "Jos\u00e9 Tena",
-            "season_avg": ".253",
-            "season_obp": ".316",
-            "season_slg": ".425"
+            "season_avg": ".250",
+            "season_obp": ".313",
+            "season_slg": ".420"
           },
           {
             "order": 8,
             "player_id": 678391,
             "name": "Jorbit Vivas",
-            "season_avg": ".233",
-            "season_obp": ".330",
-            "season_slg": ".279"
+            "season_avg": ".230",
+            "season_obp": ".327",
+            "season_slg": ".276"
           },
           {
             "order": 9,
@@ -5022,21 +3593,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5565,
-      "live_home_win_prob": 0.934,
+      "live_home_win_prob": 0.987,
       "linescore": {
-        "current_inning": 7,
-        "inning_state": "End",
-        "is_top_inning": false,
+        "current_inning": 8,
+        "inning_state": "Middle",
+        "is_top_inning": true,
         "home_runs": 7,
         "away_runs": 5,
-        "balls": 0,
-        "strikes": 1,
+        "balls": 2,
+        "strikes": 3,
         "outs": 3,
         "base_state": "000",
-        "current_batter_id": 665489,
-        "current_batter_name": "Vladimir Guerrero Jr.",
-        "current_pitcher_id": 621112,
-        "current_pitcher_name": "Paul Blackburn"
+        "current_batter_id": 680474,
+        "current_batter_name": "Max Schuemann",
+        "current_pitcher_id": 684320,
+        "current_pitcher_name": "Yariel Rodr\u00edguez"
       },
       "lineups": {
         "home": [
@@ -5127,32 +3698,32 @@
             "player_id": 665489,
             "name": "Vladimir Guerrero Jr.",
             "season_avg": ".287",
-            "season_obp": ".372",
+            "season_obp": ".376",
             "season_slg": ".380"
           },
           {
             "order": 3,
             "player_id": 672960,
             "name": "Kazuma Okamoto",
-            "season_avg": ".235",
-            "season_obp": ".319",
-            "season_slg": ".446"
+            "season_avg": ".234",
+            "season_obp": ".317",
+            "season_slg": ".443"
           },
           {
             "order": 4,
-            "player_id": 672820,
-            "name": "Lenyn Sosa",
-            "season_avg": ".210",
-            "season_obp": ".208",
-            "season_slg": ".310"
+            "player_id": 665926,
+            "name": "Andr\u00e9s Gim\u00e9nez",
+            "season_avg": ".237",
+            "season_obp": ".263",
+            "season_slg": ".395"
           },
           {
             "order": 5,
             "player_id": 662139,
             "name": "Daulton Varsho",
-            "season_avg": ".263",
-            "season_obp": ".335",
-            "season_slg": ".429"
+            "season_avg": ".261",
+            "season_obp": ".333",
+            "season_slg": ".427"
           },
           {
             "order": 6,
@@ -6561,25 +5132,11 @@
       "game_pk": 824114,
       "home_team_id": 118,
       "away_team_id": 111,
-      "abstract_status": "Live",
-      "detailed_status": "In Progress",
+      "abstract_status": "Final",
+      "detailed_status": "Game Over",
       "pre_home_win_prob": 0.4715,
-      "live_home_win_prob": 0.001,
-      "linescore": {
-        "current_inning": 9,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "home_runs": 1,
-        "away_runs": 3,
-        "balls": 3,
-        "strikes": 2,
-        "outs": 2,
-        "base_state": "000",
-        "current_batter_id": 695506,
-        "current_batter_name": "Jac Caglianone",
-        "current_pitcher_id": 547973,
-        "current_pitcher_name": "Aroldis Chapman"
-      },
+      "live_home_win_prob": null,
+      "linescore": null,
       "lineups": {
         "home": [
           {
@@ -6634,9 +5191,9 @@
             "order": 7,
             "player_id": 686555,
             "name": "Isaac Collins",
-            "season_avg": ".223",
-            "season_obp": ".340",
-            "season_slg": ".331"
+            "season_avg": ".221",
+            "season_obp": ".338",
+            "season_slg": ".328"
           },
           {
             "order": 8,
@@ -6730,1406 +5287,7 @@
           }
         ]
       },
-      "starting_pitchers": {
-        "home": {
-          "pitcher_id": 607625,
-          "pitcher_name": "Seth Lugo",
-          "pitch_count": 93,
-          "pitches": [
-            {
-              "px": 0.747566510753153,
-              "pz": 1.2120422082900362,
-              "type": "SI",
-              "velocity": 89.2,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": 0.06473669160754925,
-              "pz": 3.3690651188528076,
-              "type": "FC",
-              "velocity": 88.0,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": 1.661925544667856,
-              "pz": 2.6710476715970084,
-              "type": "FF",
-              "velocity": 91.8,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -0.03614128664652216,
-              "pz": 1.82066217371875,
-              "type": "SI",
-              "velocity": 92.2,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": -0.2909353729182804,
-              "pz": 2.33960169657922,
-              "type": "FF",
-              "velocity": 90.3,
-              "call": "X",
-              "inning": 1
-            },
-            {
-              "px": 0.48021322015358675,
-              "pz": 2.69534145559273,
-              "type": "FF",
-              "velocity": 91.9,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": 0.73844479362764,
-              "pz": 3.384066292157551,
-              "type": "FF",
-              "velocity": 91.2,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": 0.5449986909511996,
-              "pz": 0.9800967319156492,
-              "type": "SL",
-              "velocity": 85.6,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": 0.4534758191462199,
-              "pz": 1.1099584513312217,
-              "type": "SI",
-              "velocity": 92.7,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": 0.510262701239184,
-              "pz": 1.955363401130242,
-              "type": "FF",
-              "velocity": 94.3,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": -0.5510746309748599,
-              "pz": 3.0889666796210005,
-              "type": "CH",
-              "velocity": 83.6,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": -1.199562897708922,
-              "pz": 3.8995941617675296,
-              "type": "FF",
-              "velocity": 91.6,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -0.7748869295076778,
-              "pz": 2.6983975868997176,
-              "type": "FF",
-              "velocity": 92.0,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": -1.2761749493386256,
-              "pz": 2.7033265013636805,
-              "type": "FC",
-              "velocity": 89.0,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -1.1885745138292891,
-              "pz": 2.680273232155331,
-              "type": "SI",
-              "velocity": 92.2,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": -0.1559988579308454,
-              "pz": 2.215881107436282,
-              "type": "SI",
-              "velocity": 91.5,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": 0.25045916186931244,
-              "pz": 1.6942147357269524,
-              "type": "FC",
-              "velocity": 90.2,
-              "call": "F",
-              "inning": 1
-            },
-            {
-              "px": 0.18529268158512116,
-              "pz": 1.5992333105611316,
-              "type": "FF",
-              "velocity": 94.5,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": 0.6515117595811695,
-              "pz": 3.7961457061276764,
-              "type": "FF",
-              "velocity": 90.4,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": 0.18413720936543462,
-              "pz": 2.7982566874663988,
-              "type": "SI",
-              "velocity": 89.4,
-              "call": "X",
-              "inning": 2
-            },
-            {
-              "px": -0.40787090187454084,
-              "pz": 2.4173953976133955,
-              "type": "FF",
-              "velocity": 89.7,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": -0.8274523489842548,
-              "pz": 2.5130717286767688,
-              "type": "FC",
-              "velocity": 88.8,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": -0.2798437540494531,
-              "pz": 1.3810189167599054,
-              "type": "SI",
-              "velocity": 92.4,
-              "call": "X",
-              "inning": 2
-            },
-            {
-              "px": -0.4895940136836085,
-              "pz": 2.784305204816669,
-              "type": "SI",
-              "velocity": 91.8,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": 0.632362303408665,
-              "pz": 2.120150887669489,
-              "type": "SL",
-              "velocity": 84.3,
-              "call": "X",
-              "inning": 2
-            },
-            {
-              "px": -0.5534574375301559,
-              "pz": 2.2276529562758913,
-              "type": "SI",
-              "velocity": 91.2,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": 0.93754669415044,
-              "pz": 2.782370425962506,
-              "type": "FF",
-              "velocity": 91.3,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": 1.4923408215824494,
-              "pz": 1.3698743848169603,
-              "type": "SI",
-              "velocity": 91.9,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": 0.06297646013965043,
-              "pz": 1.188693024448028,
-              "type": "CU",
-              "velocity": 78.1,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": 0.8513816187593989,
-              "pz": 1.3028629886201906,
-              "type": "CH",
-              "velocity": 84.0,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": 0.6895240577925921,
-              "pz": 2.548062899592665,
-              "type": "CH",
-              "velocity": 84.8,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": -0.17420492704666146,
-              "pz": 3.253153866904984,
-              "type": "SI",
-              "velocity": 89.2,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": 0.3095844666258157,
-              "pz": 2.1455127532157783,
-              "type": "SI",
-              "velocity": 89.3,
-              "call": "F",
-              "inning": 3
-            },
-            {
-              "px": 0.6966038646171939,
-              "pz": 1.8843360301996264,
-              "type": "ST",
-              "velocity": 77.9,
-              "call": "X",
-              "inning": 3
-            },
-            {
-              "px": -0.09656157249706122,
-              "pz": 3.065462868343278,
-              "type": "FC",
-              "velocity": 87.8,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": -0.3271750346430095,
-              "pz": 1.9470416891641509,
-              "type": "CU",
-              "velocity": 76.2,
-              "call": "X",
-              "inning": 3
-            },
-            {
-              "px": 0.07415567372580134,
-              "pz": 1.524598210834166,
-              "type": "SI",
-              "velocity": 90.7,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 1.1827076241924326,
-              "pz": 3.250165990235172,
-              "type": "FC",
-              "velocity": 88.2,
-              "call": "F",
-              "inning": 3
-            },
-            {
-              "px": -0.9474014835531193,
-              "pz": 1.2595221810405288,
-              "type": "CU",
-              "velocity": 76.6,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": -0.2598887252802255,
-              "pz": 2.7530697595802387,
-              "type": "FF",
-              "velocity": 92.2,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": 0.2796216065595067,
-              "pz": 0.38412439613078614,
-              "type": "SL",
-              "velocity": 85.3,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 1.1242345784076564,
-              "pz": 1.7369045276266752,
-              "type": "FC",
-              "velocity": 90.7,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 1.108227377345101,
-              "pz": 1.9116038584830495,
-              "type": "SI",
-              "velocity": 91.2,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 0.3395792585244673,
-              "pz": 1.0583581448226962,
-              "type": "FF",
-              "velocity": 92.9,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 0.7013076571730071,
-              "pz": 1.8175305934198487,
-              "type": "SI",
-              "velocity": 91.7,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": -1.2534363552712722,
-              "pz": 2.2323450190001197,
-              "type": "FF",
-              "velocity": 92.5,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": -0.29740902785943185,
-              "pz": 2.6075938978392044,
-              "type": "SI",
-              "velocity": 91.2,
-              "call": "X",
-              "inning": 3
-            },
-            {
-              "px": -0.14195864897737098,
-              "pz": 2.4601021246619457,
-              "type": "SI",
-              "velocity": 90.4,
-              "call": "X",
-              "inning": 4
-            },
-            {
-              "px": 0.7771026875434409,
-              "pz": 3.712870123207956,
-              "type": "SI",
-              "velocity": 89.9,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": 0.5252384686582643,
-              "pz": 2.3161783270595153,
-              "type": "SI",
-              "velocity": 90.7,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": 1.7024383061932415,
-              "pz": 1.8776654957863212,
-              "type": "ST",
-              "velocity": 80.2,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": 0.40886342330611375,
-              "pz": 1.8775388051691078,
-              "type": "SI",
-              "velocity": 91.3,
-              "call": "X",
-              "inning": 4
-            },
-            {
-              "px": -0.4797259336357979,
-              "pz": 2.527501821265231,
-              "type": "SI",
-              "velocity": 93.3,
-              "call": "X",
-              "inning": 4
-            },
-            {
-              "px": 0.22859629472626308,
-              "pz": 2.799412180623948,
-              "type": "SL",
-              "velocity": 85.6,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": 1.1447309201222455,
-              "pz": 1.0098150328412376,
-              "type": "ST",
-              "velocity": 81.2,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": 1.7595213131730465,
-              "pz": 1.7919760497834416,
-              "type": "SL",
-              "velocity": 81.2,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": -0.2075454967683424,
-              "pz": 2.4980681500542947,
-              "type": "FC",
-              "velocity": 91.8,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": 0.10047829506834846,
-              "pz": 3.332079125300981,
-              "type": "FF",
-              "velocity": 95.1,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": -0.00913722653417928,
-              "pz": 3.8701626834509346,
-              "type": "ST",
-              "velocity": 84.1,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": -0.06684160436173472,
-              "pz": 1.8993551566951297,
-              "type": "SI",
-              "velocity": 90.1,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": 1.0218848223251575,
-              "pz": 3.2822105984699164,
-              "type": "FF",
-              "velocity": 91.3,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": 0.4916752053489228,
-              "pz": 2.954945073983214,
-              "type": "FC",
-              "velocity": 88.1,
-              "call": "X",
-              "inning": 5
-            },
-            {
-              "px": -0.5027210451835143,
-              "pz": 3.296951050053442,
-              "type": "SL",
-              "velocity": 85.0,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": -0.6814765469058908,
-              "pz": 3.017972407999282,
-              "type": "ST",
-              "velocity": 79.7,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": -0.13403566812084633,
-              "pz": 4.131171961484306,
-              "type": "FF",
-              "velocity": 93.8,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": 0.5885188697106263,
-              "pz": 2.5044015961217725,
-              "type": "ST",
-              "velocity": 82.0,
-              "call": "X",
-              "inning": 5
-            },
-            {
-              "px": 0.857575963669613,
-              "pz": 2.0511697437463368,
-              "type": "SI",
-              "velocity": 92.3,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": 1.3741008763811953,
-              "pz": 0.5022950057667154,
-              "type": "CH",
-              "velocity": 84.7,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": 0.40470596053032093,
-              "pz": 1.721544464622296,
-              "type": "SI",
-              "velocity": 92.8,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": -0.357653447853489,
-              "pz": 1.2026201028018624,
-              "type": "CU",
-              "velocity": 80.8,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": 0.897198612486154,
-              "pz": 1.6495532694600665,
-              "type": "SI",
-              "velocity": 92.7,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": -0.9386185878422023,
-              "pz": 2.2701781777341483,
-              "type": "FC",
-              "velocity": 90.0,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": -1.008008594802103,
-              "pz": 1.4384016492893306,
-              "type": "CH",
-              "velocity": 82.8,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": -1.038093927592611,
-              "pz": 2.7983841569031247,
-              "type": "FF",
-              "velocity": 93.9,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": -1.8807868204886216,
-              "pz": 3.3019927508781355,
-              "type": "CU",
-              "velocity": 75.5,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": -0.57125733190636,
-              "pz": 2.530834923760459,
-              "type": "FC",
-              "velocity": 87.8,
-              "call": "S",
-              "inning": 6
-            },
-            {
-              "px": -0.22413984856504302,
-              "pz": 1.1010968241918573,
-              "type": "SL",
-              "velocity": 82.7,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": -0.4858739688014032,
-              "pz": 2.0699044005927782,
-              "type": "SI",
-              "velocity": 91.9,
-              "call": "X",
-              "inning": 6
-            },
-            {
-              "px": -0.4126217082012948,
-              "pz": 2.156935058766602,
-              "type": "SI",
-              "velocity": 91.5,
-              "call": "S",
-              "inning": 6
-            },
-            {
-              "px": -0.9192312527593656,
-              "pz": 1.4770151141381738,
-              "type": "CH",
-              "velocity": 83.9,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": -0.19361547506655025,
-              "pz": 2.507944548263521,
-              "type": "FF",
-              "velocity": 92.4,
-              "call": "F",
-              "inning": 6
-            },
-            {
-              "px": -1.833818142207995,
-              "pz": 2.738940776511692,
-              "type": "FC",
-              "velocity": 91.6,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": 1.3729055073763037,
-              "pz": 0.942737482875512,
-              "type": "SV",
-              "velocity": 80.5,
-              "call": "?",
-              "inning": 6
-            },
-            {
-              "px": 0.1978294945332312,
-              "pz": 2.231013116401315,
-              "type": "FC",
-              "velocity": 90.6,
-              "call": "X",
-              "inning": 6
-            },
-            {
-              "px": -1.601732954352846,
-              "pz": 2.057298843078242,
-              "type": "SI",
-              "velocity": 89.5,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": 0.016625404918226495,
-              "pz": 2.052205970304718,
-              "type": "SI",
-              "velocity": 90.6,
-              "call": "X",
-              "inning": 6
-            },
-            {
-              "px": -0.3306337138413591,
-              "pz": 1.9125514592000399,
-              "type": "SI",
-              "velocity": 92.8,
-              "call": "S",
-              "inning": 6
-            },
-            {
-              "px": 0.5159217399228857,
-              "pz": 0.8508277620226226,
-              "type": "ST",
-              "velocity": 80.8,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": 0.3900777630111152,
-              "pz": 2.685133905519415,
-              "type": "CH",
-              "velocity": 84.5,
-              "call": "X",
-              "inning": 6
-            },
-            {
-              "px": -0.029081138057185624,
-              "pz": 3.3013205604732003,
-              "type": "FC",
-              "velocity": 88.4,
-              "call": "F",
-              "inning": 6
-            },
-            {
-              "px": 0.8803228149793111,
-              "pz": 2.715065290024714,
-              "type": "FC",
-              "velocity": 90.1,
-              "call": "X",
-              "inning": 6
-            },
-            {
-              "px": -0.18552826305591488,
-              "pz": 2.2988479071505967,
-              "type": "CU",
-              "velocity": 77.3,
-              "call": "S",
-              "inning": 6
-            },
-            {
-              "px": 0.46284557790967024,
-              "pz": 3.366916992675719,
-              "type": "FC",
-              "velocity": 90.0,
-              "call": "X",
-              "inning": 6
-            }
-          ]
-        },
-        "away": {
-          "pitcher_id": 543243,
-          "pitcher_name": "Sonny Gray",
-          "pitch_count": 80,
-          "pitches": [
-            {
-              "px": -0.12305701024524093,
-              "pz": 3.037769652130087,
-              "type": "FF",
-              "velocity": 92.4,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": -0.05923942019424024,
-              "pz": 1.5593119652623613,
-              "type": "FC",
-              "velocity": 89.8,
-              "call": "X",
-              "inning": 1
-            },
-            {
-              "px": 0.5695969907748207,
-              "pz": 2.4979707870325516,
-              "type": "FC",
-              "velocity": 88.8,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": -0.7242557298024453,
-              "pz": 1.4569235695132976,
-              "type": "SI",
-              "velocity": 93.4,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": 1.7306398017205045,
-              "pz": 0.8579716498737571,
-              "type": "ST",
-              "velocity": 86.8,
-              "call": "B",
-              "inning": 1
-            },
-            {
-              "px": 1.2402123912137515,
-              "pz": 0.6777615740904698,
-              "type": "ST",
-              "velocity": 86.2,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": -0.3453610685442795,
-              "pz": 2.1176112241795932,
-              "type": "CU",
-              "velocity": 80.0,
-              "call": "S",
-              "inning": 1
-            },
-            {
-              "px": 0.2432165764810868,
-              "pz": 3.4994828450276487,
-              "type": "FF",
-              "velocity": 93.4,
-              "call": "X",
-              "inning": 1
-            },
-            {
-              "px": 1.1267509286903266,
-              "pz": 2.5960461991814214,
-              "type": "FC",
-              "velocity": 89.1,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": -1.7674322739397643,
-              "pz": 3.4073631991872895,
-              "type": "SI",
-              "velocity": 91.7,
-              "call": "X",
-              "inning": 2
-            },
-            {
-              "px": 0.9203521507730993,
-              "pz": 0.16030290078135867,
-              "type": "CU",
-              "velocity": 80.8,
-              "call": "?",
-              "inning": 2
-            },
-            {
-              "px": -0.2121223733732843,
-              "pz": 3.0411935348532313,
-              "type": "CU",
-              "velocity": 79.0,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": 0.7655225944499743,
-              "pz": 2.5474841353750004,
-              "type": "FC",
-              "velocity": 90.4,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": 1.1009122894525383,
-              "pz": 1.7113380766527586,
-              "type": "ST",
-              "velocity": 85.2,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": 0.763214868579149,
-              "pz": 2.328110221116488,
-              "type": "SI",
-              "velocity": 93.3,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": 0.7980776672022952,
-              "pz": 1.3944514907040988,
-              "type": "FC",
-              "velocity": 89.9,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": 0.7981314168778477,
-              "pz": 0.9623224948221702,
-              "type": "CU",
-              "velocity": 79.5,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": -0.3417210942990419,
-              "pz": 2.3393104155907434,
-              "type": "FF",
-              "velocity": 92.0,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": 0.13563511248849547,
-              "pz": 2.4625637578639203,
-              "type": "FF",
-              "velocity": 90.7,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": 0.9855802115582902,
-              "pz": 0.6955042602001968,
-              "type": "ST",
-              "velocity": 86.6,
-              "call": "?",
-              "inning": 2
-            },
-            {
-              "px": 0.3003632810991105,
-              "pz": 2.6349032620957606,
-              "type": "ST",
-              "velocity": 85.9,
-              "call": "X",
-              "inning": 2
-            },
-            {
-              "px": -0.05752270146520503,
-              "pz": 1.5156082395452286,
-              "type": "CU",
-              "velocity": 81.5,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": 0.9780642836806562,
-              "pz": 1.6393237960619662,
-              "type": "FC",
-              "velocity": 91.6,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": 0.28180984251004243,
-              "pz": 2.79858737486631,
-              "type": "SI",
-              "velocity": 94.5,
-              "call": "S",
-              "inning": 2
-            },
-            {
-              "px": 0.6818742322987028,
-              "pz": 1.6517165446399722,
-              "type": "CU",
-              "velocity": 80.9,
-              "call": "F",
-              "inning": 2
-            },
-            {
-              "px": -0.1990415198142608,
-              "pz": 3.9514985467476182,
-              "type": "FF",
-              "velocity": 92.6,
-              "call": "B",
-              "inning": 2
-            },
-            {
-              "px": -0.704272673521714,
-              "pz": 2.5559140797743276,
-              "type": "CU",
-              "velocity": 81.0,
-              "call": "X",
-              "inning": 2
-            },
-            {
-              "px": -0.4394825429123296,
-              "pz": 2.445931134372532,
-              "type": "FC",
-              "velocity": 89.6,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": 1.167883758327971,
-              "pz": -0.8660199046767144,
-              "type": "CU",
-              "velocity": 81.1,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": -0.9522343472382526,
-              "pz": 4.6077365311268075,
-              "type": "FF",
-              "velocity": 91.4,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 1.288847741833429,
-              "pz": 1.9476041928992938,
-              "type": "FC",
-              "velocity": 88.6,
-              "call": "F",
-              "inning": 3
-            },
-            {
-              "px": 0.6271811506405159,
-              "pz": 1.139083514695954,
-              "type": "ST",
-              "velocity": 86.3,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": -0.2387563410387135,
-              "pz": 1.5759326010271621,
-              "type": "SI",
-              "velocity": 92.5,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 0.36491173993481263,
-              "pz": 2.2466871966885282,
-              "type": "FF",
-              "velocity": 92.4,
-              "call": "X",
-              "inning": 3
-            },
-            {
-              "px": 0.527086798439019,
-              "pz": 2.653509230120908,
-              "type": "FC",
-              "velocity": 87.8,
-              "call": "X",
-              "inning": 3
-            },
-            {
-              "px": -0.07573424171671003,
-              "pz": 1.6076847372553928,
-              "type": "FF",
-              "velocity": 92.1,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 1.6476772531903616,
-              "pz": 0.05525636350590435,
-              "type": "CU",
-              "velocity": 81.5,
-              "call": "?",
-              "inning": 3
-            },
-            {
-              "px": 0.6342857196326046,
-              "pz": 2.56531032029416,
-              "type": "FC",
-              "velocity": 89.4,
-              "call": "F",
-              "inning": 3
-            },
-            {
-              "px": 1.0863062245280426,
-              "pz": 1.3403558236439646,
-              "type": "FC",
-              "velocity": 89.3,
-              "call": "B",
-              "inning": 3
-            },
-            {
-              "px": 0.3814299637875857,
-              "pz": 1.2158753690768758,
-              "type": "CU",
-              "velocity": 80.3,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": -0.8327856994884985,
-              "pz": 3.064010994624158,
-              "type": "FF",
-              "velocity": 91.9,
-              "call": "S",
-              "inning": 3
-            },
-            {
-              "px": 0.2418415234458859,
-              "pz": 2.56118998538709,
-              "type": "FC",
-              "velocity": 88.6,
-              "call": "F",
-              "inning": 4
-            },
-            {
-              "px": 1.5446587467305717,
-              "pz": -0.42208856355936,
-              "type": "ST",
-              "velocity": 84.8,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": 1.6423228826359262,
-              "pz": 0.44746471686742223,
-              "type": "ST",
-              "velocity": 85.6,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": 1.5087852323235742,
-              "pz": 1.0260342078153712,
-              "type": "ST",
-              "velocity": 86.0,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": 1.5134442567266808,
-              "pz": 0.31419922596899297,
-              "type": "CU",
-              "velocity": 80.6,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": 0.6438017542163934,
-              "pz": 2.0169995972668513,
-              "type": "FC",
-              "velocity": 89.3,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": 0.17553618663258738,
-              "pz": 2.306009872450265,
-              "type": "ST",
-              "velocity": 84.7,
-              "call": "X",
-              "inning": 4
-            },
-            {
-              "px": 1.6212200075819125,
-              "pz": 1.8183759957463062,
-              "type": "FC",
-              "velocity": 89.9,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": -0.5131748212263475,
-              "pz": 3.629391736082251,
-              "type": "FF",
-              "velocity": 92.2,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": 0.4857481333544884,
-              "pz": 2.0095045904612987,
-              "type": "CH",
-              "velocity": 85.9,
-              "call": "S",
-              "inning": 4
-            },
-            {
-              "px": 0.5761813307428496,
-              "pz": 1.1083153131215733,
-              "type": "SI",
-              "velocity": 92.9,
-              "call": "B",
-              "inning": 4
-            },
-            {
-              "px": -0.07931448351354642,
-              "pz": 2.3772523979582973,
-              "type": "FF",
-              "velocity": 93.0,
-              "call": "X",
-              "inning": 4
-            },
-            {
-              "px": -0.056978589433741726,
-              "pz": 2.9133408851909635,
-              "type": "FF",
-              "velocity": 91.9,
-              "call": "F",
-              "inning": 5
-            },
-            {
-              "px": 1.0809594996561165,
-              "pz": 1.1395995757872164,
-              "type": "CU",
-              "velocity": 80.3,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": 0.23342084749576977,
-              "pz": 2.3106151268122352,
-              "type": "ST",
-              "velocity": 84.5,
-              "call": "F",
-              "inning": 5
-            },
-            {
-              "px": 0.7726056542624457,
-              "pz": 1.2188302592062643,
-              "type": "ST",
-              "velocity": 85.7,
-              "call": "F",
-              "inning": 5
-            },
-            {
-              "px": 0.6414198284852084,
-              "pz": 0.8897367006075966,
-              "type": "ST",
-              "velocity": 82.3,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": 0.6739017729991285,
-              "pz": 2.0818333401706615,
-              "type": "FC",
-              "velocity": 88.4,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": 0.2033895891990077,
-              "pz": 2.7096955956299156,
-              "type": "FF",
-              "velocity": 92.8,
-              "call": "X",
-              "inning": 5
-            },
-            {
-              "px": 0.14266353622108613,
-              "pz": 3.827043848973247,
-              "type": "FF",
-              "velocity": 91.8,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": 0.3383207299424663,
-              "pz": 3.0752082274525163,
-              "type": "FC",
-              "velocity": 89.5,
-              "call": "X",
-              "inning": 5
-            },
-            {
-              "px": -0.15840935016072266,
-              "pz": 2.850721764432327,
-              "type": "SI",
-              "velocity": 92.8,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": -0.5102997299907237,
-              "pz": 1.3348757222542214,
-              "type": "SI",
-              "velocity": 92.8,
-              "call": "B",
-              "inning": 5
-            },
-            {
-              "px": -0.11512609097270145,
-              "pz": 2.0189700670188513,
-              "type": "FF",
-              "velocity": 93.0,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": 0.7388880646131823,
-              "pz": 0.3467388837549712,
-              "type": "ST",
-              "velocity": 85.2,
-              "call": "S",
-              "inning": 5
-            },
-            {
-              "px": -0.14996376017966845,
-              "pz": 3.1066286781295425,
-              "type": "SI",
-              "velocity": 90.7,
-              "call": "S",
-              "inning": 6
-            },
-            {
-              "px": 0.537201857127086,
-              "pz": 3.697219206863395,
-              "type": "ST",
-              "velocity": 83.5,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": 0.5409092707111121,
-              "pz": 0.5041671744808965,
-              "type": "ST",
-              "velocity": 84.6,
-              "call": "S",
-              "inning": 6
-            },
-            {
-              "px": 0.8477072519847823,
-              "pz": 2.3726691930886674,
-              "type": "SI",
-              "velocity": 93.2,
-              "call": "S",
-              "inning": 6
-            },
-            {
-              "px": 0.03755572653186937,
-              "pz": 1.4296765725145237,
-              "type": "CH",
-              "velocity": 84.4,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": -0.013516046624231996,
-              "pz": 3.510894073088268,
-              "type": "FF",
-              "velocity": 92.0,
-              "call": "X",
-              "inning": 6
-            },
-            {
-              "px": 0.4805239317643639,
-              "pz": 1.9568363584541093,
-              "type": "ST",
-              "velocity": 84.4,
-              "call": "F",
-              "inning": 6
-            },
-            {
-              "px": 0.7534487846976168,
-              "pz": 0.8874173225284219,
-              "type": "ST",
-              "velocity": 84.4,
-              "call": "B",
-              "inning": 6
-            },
-            {
-              "px": 0.009244951066561992,
-              "pz": 2.02934785350789,
-              "type": "SI",
-              "velocity": 92.9,
-              "call": "X",
-              "inning": 6
-            },
-            {
-              "px": -0.2340384394334846,
-              "pz": 3.613016584742515,
-              "type": "FF",
-              "velocity": 89.8,
-              "call": "B",
-              "inning": 7
-            },
-            {
-              "px": -1.2112810481852259,
-              "pz": 2.192768782344819,
-              "type": "CH",
-              "velocity": 84.1,
-              "call": "B",
-              "inning": 7
-            },
-            {
-              "px": 0.6773172949043001,
-              "pz": 3.5672862394587086,
-              "type": "FC",
-              "velocity": 87.9,
-              "call": "B",
-              "inning": 7
-            },
-            {
-              "px": 1.0397776218058525,
-              "pz": 1.866742939262966,
-              "type": "FF",
-              "velocity": 90.4,
-              "call": "B",
-              "inning": 7
-            },
-            {
-              "px": -0.12222623636559427,
-              "pz": 3.1901242484201076,
-              "type": "FF",
-              "velocity": 91.3,
-              "call": "X",
-              "inning": 7
-            }
-          ]
-        }
-      }
+      "starting_pitchers": null
     },
     {
       "game_pk": 823705,
@@ -9288,19 +6446,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.496,
-      "live_home_win_prob": 0.008,
+      "live_home_win_prob": 0.002,
       "linescore": {
-        "current_inning": 6,
+        "current_inning": 7,
         "inning_state": "Bottom",
         "is_top_inning": false,
         "home_runs": 3,
         "away_runs": 9,
         "balls": 0,
-        "strikes": 0,
-        "outs": 1,
-        "base_state": "110",
-        "current_batter_id": 691718,
-        "current_batter_name": "Pete Crow-Armstrong",
+        "strikes": 2,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 663538,
+        "current_batter_name": "Nico Hoerner",
         "current_pitcher_id": 675660,
         "current_pitcher_name": "Shane Drohan"
       },
@@ -9358,25 +6516,25 @@
             "order": 7,
             "player_id": 608348,
             "name": "Carson Kelly",
-            "season_avg": ".304",
-            "season_obp": ".391",
-            "season_slg": ".411"
+            "season_avg": ".310",
+            "season_obp": ".395",
+            "season_slg": ".416"
           },
           {
             "order": 8,
             "player_id": 691718,
             "name": "Pete Crow-Armstrong",
-            "season_avg": ".231",
-            "season_obp": ".311",
-            "season_slg": ".370"
+            "season_avg": ".230",
+            "season_obp": ".309",
+            "season_slg": ".368"
           },
           {
             "order": 9,
             "player_id": 621020,
             "name": "Dansby Swanson",
-            "season_avg": ".196",
-            "season_obp": ".304",
-            "season_slg": ".373"
+            "season_avg": ".195",
+            "season_obp": ".302",
+            "season_slg": ".370"
           }
         ],
         "away": [
@@ -9424,25 +6582,25 @@
             "order": 6,
             "player_id": 641343,
             "name": "Jake Bauers",
-            "season_avg": ".290",
-            "season_obp": ".364",
-            "season_slg": ".514"
+            "season_avg": ".288",
+            "season_obp": ".361",
+            "season_slg": ".511"
           },
           {
             "order": 7,
             "player_id": 650859,
             "name": "Luis Rengifo",
-            "season_avg": ".198",
-            "season_obp": ".264",
-            "season_slg": ".260"
+            "season_avg": ".205",
+            "season_obp": ".269",
+            "season_slg": ".265"
           },
           {
             "order": 8,
             "player_id": 686217,
             "name": "Sal Frelick",
-            "season_avg": ".228",
-            "season_obp": ".305",
-            "season_slg": ".317"
+            "season_avg": ".226",
+            "season_obp": ".303",
+            "season_slg": ".315"
           },
           {
             "order": 9,
@@ -10734,19 +7892,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.381,
-      "live_home_win_prob": 0.619,
+      "live_home_win_prob": 0.869,
       "linescore": {
-        "current_inning": 3,
+        "current_inning": 4,
         "inning_state": "Bottom",
         "is_top_inning": false,
-        "home_runs": 2,
+        "home_runs": 4,
         "away_runs": 1,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 2,
-        "base_state": "110",
-        "current_batter_id": 691720,
-        "current_batter_name": "Kyle Karros",
+        "balls": 2,
+        "strikes": 1,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 694514,
+        "current_batter_name": "Sterlin Thompson",
         "current_pitcher_id": 682608,
         "current_pitcher_name": "Peyton Gray"
       },
@@ -10804,9 +7962,9 @@
             "order": 7,
             "player_id": 691720,
             "name": "Kyle Karros",
-            "season_avg": ".229",
-            "season_obp": ".335",
-            "season_slg": ".305"
+            "season_avg": ".235",
+            "season_obp": ".340",
+            "season_slg": ".311"
           },
           {
             "order": 8,
@@ -10846,25 +8004,25 @@
             "order": 3,
             "player_id": 673962,
             "name": "Josh Jung",
-            "season_avg": ".299",
-            "season_obp": ".348",
-            "season_slg": ".470"
+            "season_avg": ".297",
+            "season_obp": ".346",
+            "season_slg": ".467"
           },
           {
             "order": 4,
             "player_id": 669394,
             "name": "Jake Burger",
-            "season_avg": ".231",
-            "season_obp": ".272",
-            "season_slg": ".408"
+            "season_avg": ".229",
+            "season_obp": ".271",
+            "season_slg": ".406"
           },
           {
             "order": 5,
             "player_id": 643376,
             "name": "Danny Jansen",
-            "season_avg": ".191",
-            "season_obp": ".301",
-            "season_slg": ".326"
+            "season_avg": ".189",
+            "season_obp": ".298",
+            "season_slg": ".322"
           },
           {
             "order": 6,
@@ -10904,7 +8062,7 @@
         "home": {
           "pitcher_id": 500779,
           "pitcher_name": "Jose Quintana",
-          "pitch_count": 45,
+          "pitch_count": 59,
           "pitches": [
             {
               "px": 0.10367415284060229,
@@ -11265,6 +8423,118 @@
               "velocity": 79.4,
               "call": "X",
               "inning": 3
+            },
+            {
+              "px": 0.39119201902359074,
+              "pz": 3.20768557108724,
+              "type": "CU",
+              "velocity": 77.8,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": 1.643560663262824,
+              "pz": 3.461069680137995,
+              "type": "CH",
+              "velocity": 83.8,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": 0.7317046132115851,
+              "pz": 3.7460272289585386,
+              "type": "CH",
+              "velocity": 83.6,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": 0.25281935427083907,
+              "pz": 2.296453832714057,
+              "type": "CU",
+              "velocity": 77.8,
+              "call": "X",
+              "inning": 4
+            },
+            {
+              "px": -1.1667528484898644,
+              "pz": 2.3506309319818297,
+              "type": "FF",
+              "velocity": 89.2,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": -0.5133163107520426,
+              "pz": 2.6804267200788847,
+              "type": "FF",
+              "velocity": 89.3,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": -0.24762949643664037,
+              "pz": 1.7748359599960843,
+              "type": "SV",
+              "velocity": 80.2,
+              "call": "F",
+              "inning": 4
+            },
+            {
+              "px": -0.23955768228256755,
+              "pz": 2.605715136793675,
+              "type": "FF",
+              "velocity": 89.2,
+              "call": "X",
+              "inning": 4
+            },
+            {
+              "px": -0.37908186307523434,
+              "pz": 2.891806117966581,
+              "type": "FF",
+              "velocity": 88.7,
+              "call": "F",
+              "inning": 4
+            },
+            {
+              "px": 0.45173512645506103,
+              "pz": 2.186142245564287,
+              "type": "CH",
+              "velocity": 82.6,
+              "call": "F",
+              "inning": 4
+            },
+            {
+              "px": 1.0897181493048027,
+              "pz": 1.9101669426345096,
+              "type": "SI",
+              "velocity": 88.8,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": 2.079679377622781,
+              "pz": 1.0605678907538745,
+              "type": "CH",
+              "velocity": 83.0,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": -0.3245156836700828,
+              "pz": 1.107989504109952,
+              "type": "SI",
+              "velocity": 89.2,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": -0.5586352499733866,
+              "pz": 2.386478784068312,
+              "type": "SI",
+              "velocity": 89.4,
+              "call": "X",
+              "inning": 4
             }
           ]
         },
@@ -11506,9 +8776,9 @@
       "home_team_id": 108,
       "away_team_id": 133,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.408,
-      "live_home_win_prob": 0.413,
+      "live_home_win_prob": 0.449,
       "linescore": {
         "current_inning": 1,
         "inning_state": "Top",
@@ -11516,11 +8786,11 @@
         "home_runs": 0,
         "away_runs": 0,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "base_state": "000",
-        "current_batter_id": 666126,
-        "current_batter_name": "Carlos Cortes",
+        "strikes": 1,
+        "outs": 2,
+        "base_state": "100",
+        "current_batter_id": 667670,
+        "current_batter_name": "Brent Rooker",
         "current_pitcher_id": 700712,
         "current_pitcher_name": "Walbert Ure\u00f1a"
       },
@@ -11605,24 +8875,24 @@
             "player_id": 666126,
             "name": "Carlos Cortes",
             "season_avg": ".346",
-            "season_obp": ".400",
+            "season_obp": ".405",
             "season_slg": ".558"
           },
           {
             "order": 2,
             "player_id": 669127,
             "name": "Shea Langeliers",
-            "season_avg": ".337",
-            "season_obp": ".396",
-            "season_slg": ".609"
+            "season_avg": ".335",
+            "season_obp": ".394",
+            "season_slg": ".606"
           },
           {
             "order": 3,
             "player_id": 701762,
             "name": "Nick Kurtz",
-            "season_avg": ".269",
-            "season_obp": ".432",
-            "season_slg": ".481"
+            "season_avg": ".267",
+            "season_obp": ".430",
+            "season_slg": ".478"
           },
           {
             "order": 4,
@@ -11678,8 +8948,137 @@
         "home": {
           "pitcher_id": 700712,
           "pitcher_name": "Walbert Ure\u00f1a",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 16,
+          "pitches": [
+            {
+              "px": -1.009080200250889,
+              "pz": 4.371505361698438,
+              "type": "SI",
+              "velocity": 95.8,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.7868566258342039,
+              "pz": 2.343859682120056,
+              "type": "SI",
+              "velocity": 95.9,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -1.2033675976377736,
+              "pz": 2.7278100108740815,
+              "type": "SI",
+              "velocity": 96.2,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.2033469815807185,
+              "pz": 3.601751530873233,
+              "type": "FF",
+              "velocity": 95.5,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.30550382528474124,
+              "pz": 2.7350102277034156,
+              "type": "FF",
+              "velocity": 97.6,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.3656946223348979,
+              "pz": 2.3450066553952684,
+              "type": "SI",
+              "velocity": 97.8,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.20579436652487187,
+              "pz": 2.910281241758855,
+              "type": "ST",
+              "velocity": 88.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.5405588749392106,
+              "pz": 2.5273847673239422,
+              "type": "CH",
+              "velocity": 91.7,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -1.2701082698791146,
+              "pz": 1.8963379924381778,
+              "type": "CH",
+              "velocity": 91.8,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.1486964896724231,
+              "pz": 3.9844163929646177,
+              "type": "SI",
+              "velocity": 97.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.5110942723332563,
+              "pz": 1.6649326604905204,
+              "type": "CH",
+              "velocity": 92.0,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -0.2620294665912354,
+              "pz": 1.399061364059081,
+              "type": "SI",
+              "velocity": 99.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -1.0672639440010387,
+              "pz": 1.9358871516942013,
+              "type": "CH",
+              "velocity": 92.0,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.4534847732858204,
+              "pz": 2.3551752927239114,
+              "type": "FF",
+              "velocity": 99.2,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.4411131238123709,
+              "pz": 2.610470641018608,
+              "type": "CH",
+              "velocity": 91.8,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.23031791412194627,
+              "pz": 1.2493556699141835,
+              "type": "ST",
+              "velocity": 87.1,
+              "call": "S",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 669372,
@@ -11694,23 +9093,23 @@
       "home_team_id": 135,
       "away_team_id": 119,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.432,
-      "live_home_win_prob": 0.421,
+      "live_home_win_prob": 0.446,
       "linescore": {
         "current_inning": 1,
-        "inning_state": "Top",
+        "inning_state": "Middle",
         "is_top_inning": true,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 3,
+        "strikes": 3,
+        "outs": 3,
         "base_state": "000",
-        "current_batter_id": 660271,
-        "current_batter_name": "Shohei Ohtani",
-        "current_pitcher_id": 650633,
-        "current_pitcher_name": "Michael King"
+        "current_batter_id": 665487,
+        "current_batter_name": "Fernando Tatis Jr.",
+        "current_pitcher_id": 808967,
+        "current_pitcher_name": "Yoshinobu Yamamoto"
       },
       "lineups": {
         "home": [
@@ -11792,25 +9191,25 @@
             "order": 1,
             "player_id": 660271,
             "name": "Shohei Ohtani",
-            "season_avg": ".258",
-            "season_obp": ".385",
-            "season_slg": ".454"
+            "season_avg": ".256",
+            "season_obp": ".383",
+            "season_slg": ".451"
           },
           {
             "order": 2,
             "player_id": 605141,
             "name": "Mookie Betts",
-            "season_avg": ".180",
-            "season_obp": ".255",
-            "season_slg": ".440"
+            "season_avg": ".196",
+            "season_obp": ".268",
+            "season_slg": ".451"
           },
           {
             "order": 3,
             "player_id": 518692,
             "name": "Freddie Freeman",
-            "season_avg": ".257",
-            "season_obp": ".335",
-            "season_slg": ".404"
+            "season_avg": ".256",
+            "season_obp": ".333",
+            "season_slg": ".401"
           },
           {
             "order": 4,
@@ -11866,8 +9265,137 @@
         "home": {
           "pitcher_id": 650633,
           "pitcher_name": "Michael King",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 16,
+          "pitches": [
+            {
+              "px": -0.24273943401792608,
+              "pz": 1.112500143826667,
+              "type": "FF",
+              "velocity": 94.5,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.8302561586358356,
+              "pz": 2.570434552408764,
+              "type": "FF",
+              "velocity": 94.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.74358134586183,
+              "pz": 2.2837285192950945,
+              "type": "CH",
+              "velocity": 87.0,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -1.3350785380931047,
+              "pz": 2.4506598768345516,
+              "type": "CH",
+              "velocity": 87.0,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -1.800537432663864,
+              "pz": 2.774975294364121,
+              "type": "CH",
+              "velocity": 86.7,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.7911975429454827,
+              "pz": 2.591778582764268,
+              "type": "SL",
+              "velocity": 85.0,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.02308026586599715,
+              "pz": 1.7868029445383757,
+              "type": "ST",
+              "velocity": 83.3,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.4155637635154634,
+              "pz": 2.909094585933816,
+              "type": "FF",
+              "velocity": 95.4,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.2537016375621383,
+              "pz": 1.8006886870860006,
+              "type": "SL",
+              "velocity": 85.8,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -1.437069447548977,
+              "pz": 1.6123415660134393,
+              "type": "CH",
+              "velocity": 86.6,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.9092246025865721,
+              "pz": 2.461564511285114,
+              "type": "SL",
+              "velocity": 84.6,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.6521117784544649,
+              "pz": 2.026980211700053,
+              "type": "SI",
+              "velocity": 92.9,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -1.5289031074721702,
+              "pz": 1.972365336573067,
+              "type": "CH",
+              "velocity": 86.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.58572504574507,
+              "pz": 3.4335005907707052,
+              "type": "FF",
+              "velocity": 94.4,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.9016582047835165,
+              "pz": 3.3381013007320766,
+              "type": "SI",
+              "velocity": 92.9,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.7353687178212092,
+              "pz": 2.347948573757705,
+              "type": "ST",
+              "velocity": 82.7,
+              "call": "S",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 808967,
@@ -11882,23 +9410,23 @@
       "home_team_id": 109,
       "away_team_id": 137,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.483,
-      "live_home_win_prob": 0.445,
+      "live_home_win_prob": 0.605,
       "linescore": {
         "current_inning": 1,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 0,
         "balls": 0,
-        "strikes": 0,
+        "strikes": 1,
         "outs": 0,
-        "base_state": "000",
-        "current_batter_id": 808982,
-        "current_batter_name": "Jung Hoo Lee",
-        "current_pitcher_id": 668678,
-        "current_pitcher_name": "Zac Gallen"
+        "base_state": "100",
+        "current_batter_id": 606466,
+        "current_batter_name": "Ketel Marte",
+        "current_pitcher_id": 592662,
+        "current_pitcher_name": "Robbie Ray"
       },
       "lineups": {
         "home": [
@@ -11906,9 +9434,9 @@
             "order": 1,
             "player_id": 606466,
             "name": "Ketel Marte",
-            "season_avg": ".216",
-            "season_obp": ".272",
-            "season_slg": ".365"
+            "season_avg": ".220",
+            "season_obp": ".276",
+            "season_slg": ".369"
           },
           {
             "order": 2,
@@ -11980,25 +9508,25 @@
             "order": 1,
             "player_id": 808982,
             "name": "Jung Hoo Lee",
-            "season_avg": ".266",
-            "season_obp": ".309",
-            "season_slg": ".384"
+            "season_avg": ".264",
+            "season_obp": ".307",
+            "season_slg": ".382"
           },
           {
             "order": 2,
             "player_id": 650333,
             "name": "Luis Arraez",
-            "season_avg": ".328",
-            "season_obp": ".370",
-            "season_slg": ".437"
+            "season_avg": ".326",
+            "season_obp": ".368",
+            "season_slg": ".434"
           },
           {
             "order": 3,
             "player_id": 669477,
             "name": "Casey Schmitt",
-            "season_avg": ".297",
-            "season_obp": ".344",
-            "season_slg": ".531"
+            "season_avg": ".295",
+            "season_obp": ".342",
+            "season_slg": ".527"
           },
           {
             "order": 4,
@@ -12054,14 +9582,112 @@
         "home": {
           "pitcher_id": 668678,
           "pitcher_name": "Zac Gallen",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 10,
+          "pitches": [
+            {
+              "px": -1.0591909202417407,
+              "pz": 3.108486918991609,
+              "type": "FF",
+              "velocity": 92.8,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.36574272192635326,
+              "pz": 1.3814760729589444,
+              "type": "FF",
+              "velocity": 92.9,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.16684424683054933,
+              "pz": 2.1677153837879946,
+              "type": "FF",
+              "velocity": 92.6,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -0.6148352904269744,
+              "pz": 1.9139108880569216,
+              "type": "KC",
+              "velocity": 80.5,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -0.4532249775632829,
+              "pz": 3.6288116368877428,
+              "type": "FF",
+              "velocity": 91.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.08389454745313432,
+              "pz": 2.444469880803147,
+              "type": "FF",
+              "velocity": 92.3,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -0.5679467446533255,
+              "pz": 2.5045459682088587,
+              "type": "SL",
+              "velocity": 88.0,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -1.1027490912466171,
+              "pz": 1.7863901929336972,
+              "type": "SI",
+              "velocity": 92.3,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.15623860656514393,
+              "pz": 0.9355089506382096,
+              "type": "SL",
+              "velocity": 86.9,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -0.5025403012028212,
+              "pz": 0.9526097355868957,
+              "type": "KC",
+              "velocity": 80.6,
+              "call": "S",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 592662,
-          "pitcher_name": null,
-          "pitch_count": 0,
-          "pitches": []
+          "pitcher_name": "Robbie Ray",
+          "pitch_count": 2,
+          "pitches": [
+            {
+              "px": 0.028205428191871683,
+              "pz": 2.6824530137351617,
+              "type": "KC",
+              "velocity": 79.8,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.9579302501952973,
+              "pz": 2.846682554884556,
+              "type": "FF",
+              "velocity": 93.1,
+              "call": "X",
+              "inning": 1
+            }
+          ]
         }
       }
     },
@@ -12070,7 +9696,7 @@
       "home_team_id": 136,
       "away_team_id": 145,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5775,
       "live_home_win_prob": 0.593,
       "linescore": {
@@ -12079,12 +9705,12 @@
         "is_top_inning": true,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "base_state": "000",
-        "current_batter_id": 803011,
-        "current_batter_name": "Sam Antonacci",
+        "balls": 2,
+        "strikes": 2,
+        "outs": 1,
+        "base_state": "100",
+        "current_batter_id": 678246,
+        "current_batter_name": "Miguel Vargas",
         "current_pitcher_id": 693433,
         "current_pitcher_name": "Bryan Woo"
       },
@@ -12168,16 +9794,16 @@
             "order": 1,
             "player_id": 803011,
             "name": "Sam Antonacci",
-            "season_avg": ".286",
-            "season_obp": ".383",
-            "season_slg": ".418"
+            "season_avg": ".293",
+            "season_obp": ".389",
+            "season_slg": ".424"
           },
           {
             "order": 2,
             "player_id": 808959,
             "name": "Munetaka Murakami",
             "season_avg": ".235",
-            "season_obp": ".372",
+            "season_obp": ".375",
             "season_slg": ".562"
           },
           {
@@ -12242,8 +9868,113 @@
         "home": {
           "pitcher_id": 693433,
           "pitcher_name": "Bryan Woo",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 13,
+          "pitches": [
+            {
+              "px": 0.2533431454045565,
+              "pz": 2.9300626767175277,
+              "type": "FF",
+              "velocity": 93.7,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -0.22431010878755306,
+              "pz": 2.92241466981587,
+              "type": "FF",
+              "velocity": 94.4,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.33511867670485335,
+              "pz": 2.814065356353352,
+              "type": "SL",
+              "velocity": 84.4,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.03350386747672859,
+              "pz": 1.2946417401754018,
+              "type": "ST",
+              "velocity": 82.6,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.21981702735817463,
+              "pz": 3.0550884620005827,
+              "type": "SL",
+              "velocity": 83.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -1.3184816216403257,
+              "pz": 4.71591139084653,
+              "type": "FF",
+              "velocity": 95.2,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 1.0647582364086652,
+              "pz": 1.0737178301486499,
+              "type": "SL",
+              "velocity": 84.9,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -1.4120744014177176,
+              "pz": 3.825455993800531,
+              "type": "FF",
+              "velocity": 95.7,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.6648857987277217,
+              "pz": 2.053129953129548,
+              "type": "SI",
+              "velocity": 94.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.017082705219509074,
+              "pz": 2.769764508494783,
+              "type": "SL",
+              "velocity": 85.7,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.6739148947065968,
+              "pz": 2.6158766132015243,
+              "type": "FF",
+              "velocity": 95.4,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 1.8604041143887644,
+              "pz": 0.9531121724025406,
+              "type": "ST",
+              "velocity": 84.9,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.9815214806405678,
+              "pz": 4.303998194342493,
+              "type": "FF",
+              "velocity": 95.2,
+              "call": "B",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 702273,
