@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-22T19:47:12+00:00",
+  "updated_at": "2026-05-22T19:58:11+00:00",
   "date": "2026-05-22",
   "live_game_count": 1,
   "games": [
@@ -1137,21 +1137,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5875,
-      "live_home_win_prob": 0.099,
+      "live_home_win_prob": 0.053,
       "linescore": {
         "current_inning": 5,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 0,
-        "away_runs": 3,
-        "balls": 0,
-        "strikes": 1,
+        "away_runs": 4,
+        "balls": 2,
+        "strikes": 2,
         "outs": 1,
-        "base_state": "110",
-        "current_batter_id": 676694,
-        "current_batter_name": "Jake Meyers",
-        "current_pitcher_id": 592791,
-        "current_pitcher_name": "Jameson Taillon"
+        "base_state": "000",
+        "current_batter_id": 683737,
+        "current_batter_name": "Michael Busch",
+        "current_pitcher_id": 681293,
+        "current_pitcher_name": "Spencer Arrighetti"
       },
       "lineups": {
         "home": [
@@ -1159,9 +1159,9 @@
             "order": 1,
             "player_id": 663538,
             "name": "Nico Hoerner",
-            "season_avg": ".263",
-            "season_obp": ".349",
-            "season_slg": ".389"
+            "season_avg": ".261",
+            "season_obp": ".348",
+            "season_slg": ".387"
           },
           {
             "order": 2,
@@ -1265,25 +1265,25 @@
             "order": 5,
             "player_id": 676694,
             "name": "Jake Meyers",
-            "season_avg": ".239",
-            "season_obp": ".308",
-            "season_slg": ".348"
+            "season_avg": ".234",
+            "season_obp": ".302",
+            "season_slg": ".340"
           },
           {
             "order": 6,
-            "player_id": 669699,
-            "name": "Braden Shewmake",
-            "season_avg": ".286",
-            "season_obp": ".298",
-            "season_slg": ".482"
+            "player_id": 694728,
+            "name": "Brice Matthews",
+            "season_avg": ".208",
+            "season_obp": ".262",
+            "season_slg": ".358"
           },
           {
             "order": 7,
             "player_id": 701358,
             "name": "Cam Smith",
-            "season_avg": ".210",
-            "season_obp": ".301",
-            "season_slg": ".321"
+            "season_avg": ".209",
+            "season_obp": ".299",
+            "season_slg": ".319"
           },
           {
             "order": 8,
@@ -1307,7 +1307,7 @@
         "home": {
           "pitcher_id": 592791,
           "pitcher_name": "Jameson Taillon",
-          "pitch_count": 89,
+          "pitch_count": 90,
           "pitches": [
             {
               "px": 0.4084428362640501,
@@ -2020,13 +2020,21 @@
               "velocity": 78.2,
               "call": "F",
               "inning": 5
+            },
+            {
+              "px": 0.07101448856578811,
+              "pz": 1.9789073669006585,
+              "type": "FC",
+              "velocity": 85.0,
+              "call": "X",
+              "inning": 5
             }
           ]
         },
         "away": {
           "pitcher_id": 681293,
           "pitcher_name": "Spencer Arrighetti",
-          "pitch_count": 68,
+          "pitch_count": 76,
           "pitches": [
             {
               "px": 0.574916780550117,
@@ -2571,6 +2579,70 @@
               "velocity": 81.3,
               "call": "X",
               "inning": 4
+            },
+            {
+              "px": 0.22760820976112778,
+              "pz": 2.8734190262410486,
+              "type": "CU",
+              "velocity": 75.0,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.8883327150102804,
+              "pz": 0.8234651993568999,
+              "type": "CU",
+              "velocity": 75.1,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.4192505506582972,
+              "pz": 3.0407496859691627,
+              "type": "FF",
+              "velocity": 91.4,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": 0.36030723204830656,
+              "pz": 0.9541991622140547,
+              "type": "ST",
+              "velocity": 81.3,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -1.644797837442165,
+              "pz": 2.5085171920816904,
+              "type": "SI",
+              "velocity": 92.2,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.7063804400119609,
+              "pz": 2.6989053989346727,
+              "type": "CU",
+              "velocity": 75.7,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.6900268688790938,
+              "pz": 1.7362571395335349,
+              "type": "CU",
+              "velocity": 75.3,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": -0.4069794321601098,
+              "pz": 3.715750483617525,
+              "type": "FF",
+              "velocity": 92.9,
+              "call": "B",
+              "inning": 5
             }
           ]
         }
@@ -3319,7 +3391,80 @@
             "season_slg": ".000"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 805808,
+            "name": "Kevin McGonigle",
+            "season_avg": ".286",
+            "season_obp": ".395",
+            "season_slg": ".407"
+          },
+          {
+            "order": 2,
+            "player_id": 693307,
+            "name": "Dillon Dingler",
+            "season_avg": ".241",
+            "season_obp": ".317",
+            "season_slg": ".469"
+          },
+          {
+            "order": 3,
+            "player_id": 663330,
+            "name": "Jahmai Jones",
+            "season_avg": ".175",
+            "season_obp": ".254",
+            "season_slg": ".316"
+          },
+          {
+            "order": 4,
+            "player_id": 682985,
+            "name": "Riley Greene",
+            "season_avg": ".326",
+            "season_obp": ".422",
+            "season_slg": ".475"
+          },
+          {
+            "order": 5,
+            "player_id": 679529,
+            "name": "Spencer Torkelson",
+            "season_avg": ".194",
+            "season_obp": ".306",
+            "season_slg": ".376"
+          },
+          {
+            "order": 6,
+            "player_id": 672761,
+            "name": "Wenceel P\u00e9rez",
+            "season_avg": ".160",
+            "season_obp": ".212",
+            "season_slg": ".236"
+          },
+          {
+            "order": 7,
+            "player_id": 656716,
+            "name": "Zach McKinstry",
+            "season_avg": ".193",
+            "season_obp": ".253",
+            "season_slg": ".261"
+          },
+          {
+            "order": 8,
+            "player_id": 669398,
+            "name": "Gage Workman",
+            "season_avg": ".179",
+            "season_obp": ".179",
+            "season_slg": ".464"
+          },
+          {
+            "order": 9,
+            "player_id": 701678,
+            "name": "Hao-Yu  Lee",
+            "season_avg": ".200",
+            "season_obp": ".250",
+            "season_slg": ".317"
+          }
+        ]
       },
       "starting_pitchers": null
     },
