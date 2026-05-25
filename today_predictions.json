@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-25T17:03:08+00:00",
+  "updated_at": "2026-05-25T17:14:16+00:00",
   "date": "2026-05-25",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 822813,
@@ -2437,11 +2437,25 @@
       "game_pk": 823380,
       "home_team_id": 134,
       "away_team_id": 112,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.507,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.498,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 691718,
+        "current_batter_name": "Pete Crow-Armstrong",
+        "current_pitcher_id": 669387,
+        "current_pitcher_name": "Carmen Mlodzinski"
+      },
       "lineups": {
         "home": [
           {
@@ -2592,7 +2606,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 669387,
+          "pitcher_name": "Carmen Mlodzinski",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 676962,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824838,
@@ -3248,7 +3275,80 @@
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 701807,
+            "name": "Carson Benge",
+            "season_avg": ".246",
+            "season_obp": ".305",
+            "season_slg": ".337"
+          },
+          {
+            "order": 2,
+            "player_id": 666182,
+            "name": "Bo Bichette",
+            "season_avg": ".218",
+            "season_obp": ".266",
+            "season_slg": ".315"
+          },
+          {
+            "order": 3,
+            "player_id": 668901,
+            "name": "Mark Vientos",
+            "season_avg": ".231",
+            "season_obp": ".271",
+            "season_slg": ".394"
+          },
+          {
+            "order": 4,
+            "player_id": 543760,
+            "name": "Marcus Semien",
+            "season_avg": ".214",
+            "season_obp": ".263",
+            "season_slg": ".297"
+          },
+          {
+            "order": 5,
+            "player_id": 805999,
+            "name": "A.J. Ewing",
+            "season_avg": ".275",
+            "season_obp": ".396",
+            "season_slg": ".400"
+          },
+          {
+            "order": 6,
+            "player_id": 621438,
+            "name": "Tyrone Taylor",
+            "season_avg": ".189",
+            "season_obp": ".214",
+            "season_slg": ".326"
+          },
+          {
+            "order": 7,
+            "player_id": 703492,
+            "name": "Nick Morabito",
+            "season_avg": ".000",
+            "season_obp": ".125",
+            "season_slg": ".000"
+          },
+          {
+            "order": 8,
+            "player_id": 683146,
+            "name": "Brett Baty",
+            "season_avg": ".236",
+            "season_obp": ".311",
+            "season_slg": ".350"
+          },
+          {
+            "order": 9,
+            "player_id": 620443,
+            "name": "Luis Torrens",
+            "season_avg": ".195",
+            "season_obp": ".262",
+            "season_slg": ".273"
+          }
+        ],
         "away": [
           {
             "order": 1,
