@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-27T16:47:17+00:00",
+  "updated_at": "2026-05-27T16:58:18+00:00",
   "date": "2026-05-27",
-  "live_game_count": 0,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 824434,
@@ -2422,11 +2422,25 @@
       "game_pk": 822809,
       "home_team_id": 141,
       "away_team_id": 146,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5765,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.624,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 669364,
+        "current_batter_name": "Xavier Edwards",
+        "current_pitcher_id": 592332,
+        "current_pitcher_name": "Kevin Gausman"
+      },
       "lineups": {
         "home": [
           {
@@ -2577,17 +2591,44 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 592332,
+          "pitcher_name": "Kevin Gausman",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 691587,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824432,
       "home_team_id": 114,
       "away_team_id": 120,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.645775,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.711,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 695578,
+        "current_batter_name": "James Wood",
+        "current_pitcher_id": 668909,
+        "current_pitcher_name": "Gavin Williams"
+      },
       "lineups": {
         "home": [
           {
@@ -2738,7 +2779,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 668909,
+          "pitcher_name": "Gavin Williams",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 676571,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823783,
@@ -3228,12 +3282,85 @@
       "home_team_id": 135,
       "away_team_id": 143,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.44475,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 665487,
+            "name": "Fernando Tatis Jr.",
+            "season_avg": ".255",
+            "season_obp": ".336",
+            "season_slg": ".296"
+          },
+          {
+            "order": 2,
+            "player_id": 609280,
+            "name": "Miguel Andujar",
+            "season_avg": ".274",
+            "season_obp": ".301",
+            "season_slg": ".471"
+          },
+          {
+            "order": 3,
+            "player_id": 657757,
+            "name": "Gavin Sheets",
+            "season_avg": ".255",
+            "season_obp": ".335",
+            "season_slg": ".503"
+          },
+          {
+            "order": 4,
+            "player_id": 592518,
+            "name": "Manny Machado",
+            "season_avg": ".173",
+            "season_obp": ".270",
+            "season_slg": ".346"
+          },
+          {
+            "order": 5,
+            "player_id": 593428,
+            "name": "Xander Bogaerts",
+            "season_avg": ".245",
+            "season_obp": ".313",
+            "season_slg": ".372"
+          },
+          {
+            "order": 6,
+            "player_id": 657656,
+            "name": "Ram\u00f3n Laureano",
+            "season_avg": ".211",
+            "season_obp": ".290",
+            "season_slg": ".386"
+          },
+          {
+            "order": 7,
+            "player_id": 701538,
+            "name": "Jackson Merrill",
+            "season_avg": ".194",
+            "season_obp": ".267",
+            "season_slg": ".309"
+          },
+          {
+            "order": 8,
+            "player_id": 592206,
+            "name": "Nick Castellanos",
+            "season_avg": ".182",
+            "season_obp": ".216",
+            "season_slg": ".336"
+          },
+          {
+            "order": 9,
+            "player_id": 666023,
+            "name": "Freddy Fermin",
+            "season_avg": ".143",
+            "season_obp": ".245",
+            "season_slg": ".187"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
