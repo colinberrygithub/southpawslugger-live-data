@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T17:03:21+00:00",
+  "updated_at": "2026-05-28T17:14:20+00:00",
   "date": "2026-05-28",
   "live_game_count": 1,
   "games": [
@@ -2423,7 +2423,7 @@
       "home_team_id": 116,
       "away_team_id": 108,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.526775,
       "live_home_win_prob": 0.523,
       "linescore": {
@@ -2434,10 +2434,10 @@
         "away_runs": 0,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "base_state": "000",
-        "current_batter_id": 687263,
-        "current_batter_name": "Zach Neto",
+        "outs": 1,
+        "base_state": "010",
+        "current_batter_id": 687093,
+        "current_batter_name": "Vaughn Grissom",
         "current_pitcher_id": 656427,
         "current_pitcher_name": "Jack Flaherty"
       },
@@ -2521,17 +2521,17 @@
             "order": 1,
             "player_id": 687263,
             "name": "Zach Neto",
-            "season_avg": ".228",
-            "season_obp": ".336",
-            "season_slg": ".429"
+            "season_avg": ".227",
+            "season_obp": ".335",
+            "season_slg": ".427"
           },
           {
             "order": 2,
             "player_id": 545361,
             "name": "Mike Trout",
-            "season_avg": ".232",
-            "season_obp": ".397",
-            "season_slg": ".474"
+            "season_avg": ".236",
+            "season_obp": ".399",
+            "season_slg": ".482"
           },
           {
             "order": 3,
@@ -2595,8 +2595,57 @@
         "home": {
           "pitcher_id": 656427,
           "pitcher_name": "Jack Flaherty",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 6,
+          "pitches": [
+            {
+              "px": 0.05263278707973178,
+              "pz": 2.225148533718009,
+              "type": "FF",
+              "velocity": 93.1,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.3197804327214425,
+              "pz": 2.340494023174078,
+              "type": "FF",
+              "velocity": 92.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -1.0642662254727235,
+              "pz": 2.305257054889921,
+              "type": "FF",
+              "velocity": 94.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.19674053105045963,
+              "pz": 1.5658397449113441,
+              "type": "FF",
+              "velocity": 93.8,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.5529212280553509,
+              "pz": 2.284336549035763,
+              "type": "KC",
+              "velocity": 79.7,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.003274500948647818,
+              "pz": 1.4801358823851778,
+              "type": "SL",
+              "velocity": 86.0,
+              "call": "B",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 680570,
