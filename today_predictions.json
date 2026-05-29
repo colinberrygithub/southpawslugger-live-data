@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-29T22:25:17+00:00",
+  "updated_at": "2026-05-29T22:36:14+00:00",
   "date": "2026-05-29",
-  "live_game_count": 2,
+  "live_game_count": 3,
   "games": [
     {
       "game_pk": 824272,
@@ -1161,11 +1161,25 @@
       "game_pk": 822732,
       "home_team_id": 120,
       "away_team_id": 135,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.46175,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.43,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 665487,
+        "current_batter_name": "Fernando Tatis Jr.",
+        "current_pitcher_id": 687606,
+        "current_pitcher_name": "Paxton Schultz"
+      },
       "lineups": {
         "home": [
           {
@@ -1316,7 +1330,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 687606,
+          "pitcher_name": "Paxton Schultz",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 608337,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823377,
@@ -3215,7 +3242,80 @@
             "season_slg": ".327"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 656941,
+            "name": "Kyle Schwarber",
+            "season_avg": ".238",
+            "season_obp": ".353",
+            "season_slg": ".604"
+          },
+          {
+            "order": 2,
+            "player_id": 607208,
+            "name": "Trea Turner",
+            "season_avg": ".226",
+            "season_obp": ".279",
+            "season_slg": ".358"
+          },
+          {
+            "order": 3,
+            "player_id": 547180,
+            "name": "Bryce Harper",
+            "season_avg": ".266",
+            "season_obp": ".361",
+            "season_slg": ".523"
+          },
+          {
+            "order": 4,
+            "player_id": 664761,
+            "name": "Alec Bohm",
+            "season_avg": ".212",
+            "season_obp": ".273",
+            "season_slg": ".328"
+          },
+          {
+            "order": 5,
+            "player_id": 681082,
+            "name": "Bryson Stott",
+            "season_avg": ".225",
+            "season_obp": ".274",
+            "season_slg": ".382"
+          },
+          {
+            "order": 6,
+            "player_id": 592663,
+            "name": "J.T. Realmuto",
+            "season_avg": ".233",
+            "season_obp": ".306",
+            "season_slg": ".317"
+          },
+          {
+            "order": 7,
+            "player_id": 669016,
+            "name": "Brandon Marsh",
+            "season_avg": ".326",
+            "season_obp": ".356",
+            "season_slg": ".481"
+          },
+          {
+            "order": 8,
+            "player_id": 666969,
+            "name": "Adolis Garc\u00eda",
+            "season_avg": ".201",
+            "season_obp": ".287",
+            "season_slg": ".312"
+          },
+          {
+            "order": 9,
+            "player_id": 672642,
+            "name": "Steward Berroa",
+            "season_avg": ".000",
+            "season_obp": ".000",
+            "season_slg": ".000"
+          }
+        ]
       },
       "starting_pitchers": null
     }
