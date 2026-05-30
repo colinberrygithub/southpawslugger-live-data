@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-30T19:25:12+00:00",
+  "updated_at": "2026-05-30T19:36:11+00:00",
   "date": "2026-05-30",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 824515,
@@ -2425,21 +2425,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5493,
-      "live_home_win_prob": 0.784,
+      "live_home_win_prob": 0.583,
       "linescore": {
-        "current_inning": 5,
-        "inning_state": "Middle",
+        "current_inning": 6,
+        "inning_state": "Top",
         "is_top_inning": true,
         "home_runs": 2,
         "away_runs": 1,
-        "balls": 1,
-        "strikes": 1,
-        "outs": 3,
-        "base_state": "000",
-        "current_batter_id": 682668,
-        "current_batter_name": "Luisangel Acu\u00f1a",
-        "current_pitcher_id": 664285,
-        "current_pitcher_name": "Framber Valdez"
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "110",
+        "current_batter_id": 679529,
+        "current_batter_name": "Spencer Torkelson",
+        "current_pitcher_id": 641743,
+        "current_pitcher_name": "Anthony Kay"
       },
       "lineups": {
         "home": [
@@ -2495,25 +2495,25 @@
             "order": 7,
             "player_id": 682668,
             "name": "Luisangel Acu\u00f1a",
-            "season_avg": ".170",
-            "season_obp": ".220",
-            "season_slg": ".180"
+            "season_avg": ".168",
+            "season_obp": ".218",
+            "season_slg": ".178"
           },
           {
             "order": 8,
             "player_id": 803011,
             "name": "Sam Antonacci",
-            "season_avg": ".288",
-            "season_obp": ".383",
-            "season_slg": ".379"
+            "season_avg": ".286",
+            "season_obp": ".381",
+            "season_slg": ".376"
           },
           {
             "order": 9,
             "player_id": 807747,
             "name": "Rikuu Nishida",
-            "season_avg": ".154",
-            "season_obp": ".154",
-            "season_slg": ".154"
+            "season_avg": ".143",
+            "season_obp": ".143",
+            "season_slg": ".143"
           }
         ],
         "away": [
@@ -2537,17 +2537,17 @@
             "order": 3,
             "player_id": 663837,
             "name": "Matt Vierling",
-            "season_avg": ".209",
-            "season_obp": ".277",
-            "season_slg": ".351"
+            "season_avg": ".215",
+            "season_obp": ".281",
+            "season_slg": ".356"
           },
           {
             "order": 4,
             "player_id": 682985,
             "name": "Riley Greene",
-            "season_avg": ".310",
-            "season_obp": ".401",
-            "season_slg": ".438"
+            "season_avg": ".308",
+            "season_obp": ".399",
+            "season_slg": ".436"
           },
           {
             "order": 5,
@@ -2595,7 +2595,7 @@
         "home": {
           "pitcher_id": 641743,
           "pitcher_name": "Anthony Kay",
-          "pitch_count": 81,
+          "pitch_count": 84,
           "pitches": [
             {
               "px": 0.12584221851000477,
@@ -3244,13 +3244,37 @@
               "velocity": 95.6,
               "call": "X",
               "inning": 5
+            },
+            {
+              "px": 0.6259504666702895,
+              "pz": 2.115474471755179,
+              "type": "SI",
+              "velocity": 93.8,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": 0.49006984369222995,
+              "pz": 1.8116471161708532,
+              "type": "CH",
+              "velocity": 84.5,
+              "call": "X",
+              "inning": 6
+            },
+            {
+              "px": 0.08918663006601385,
+              "pz": 2.3852310809360917,
+              "type": "ST",
+              "velocity": 81.3,
+              "call": "X",
+              "inning": 6
             }
           ]
         },
         "away": {
           "pitcher_id": 664285,
           "pitcher_name": "Framber Valdez",
-          "pitch_count": 59,
+          "pitch_count": 64,
           "pitches": [
             {
               "px": -0.8415815134509352,
@@ -3723,6 +3747,46 @@
               "velocity": 87.5,
               "call": "S",
               "inning": 4
+            },
+            {
+              "px": 0.021111752330137065,
+              "pz": 3.4594444258398998,
+              "type": "CH",
+              "velocity": 90.7,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": 0.6513820409649637,
+              "pz": 2.7998114743919973,
+              "type": "SI",
+              "velocity": 93.1,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.23923077007146015,
+              "pz": 3.4870599470831074,
+              "type": "SI",
+              "velocity": 94.6,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": -1.462419670723181,
+              "pz": 1.9347348245933098,
+              "type": "SL",
+              "velocity": 87.3,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.45313102905175,
+              "pz": 2.23737946633622,
+              "type": "SI",
+              "velocity": 94.8,
+              "call": "X",
+              "inning": 5
             }
           ]
         }
@@ -4054,11 +4118,25 @@
       "game_pk": 824833,
       "home_team_id": 110,
       "away_team_id": 141,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.42179999999999995,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.404,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 543807,
+        "current_batter_name": "George Springer",
+        "current_pitcher_id": 687064,
+        "current_pitcher_name": "Brandon Young"
+      },
       "lineups": {
         "home": [
           {
@@ -4209,7 +4287,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 687064,
+          "pitcher_name": "Brandon Young",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 702056,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823375,
@@ -5115,7 +5206,80 @@
             "season_slg": ".325"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 660670,
+            "name": "Ronald Acu\u00f1a Jr.",
+            "season_avg": ".239",
+            "season_obp": ".364",
+            "season_slg": ".380"
+          },
+          {
+            "order": 2,
+            "player_id": 671739,
+            "name": "Michael Harris II",
+            "season_avg": ".308",
+            "season_obp": ".333",
+            "season_slg": ".535"
+          },
+          {
+            "order": 3,
+            "player_id": 621566,
+            "name": "Matt Olson",
+            "season_avg": ".265",
+            "season_obp": ".344",
+            "season_slg": ".544"
+          },
+          {
+            "order": 4,
+            "player_id": 645277,
+            "name": "Ozzie Albies",
+            "season_avg": ".274",
+            "season_obp": ".331",
+            "season_slg": ".434"
+          },
+          {
+            "order": 5,
+            "player_id": 642086,
+            "name": "Dominic Smith",
+            "season_avg": ".336",
+            "season_obp": ".362",
+            "season_slg": ".513"
+          },
+          {
+            "order": 6,
+            "player_id": 643289,
+            "name": "Mauricio Dub\u00f3n",
+            "season_avg": ".252",
+            "season_obp": ".304",
+            "season_slg": ".376"
+          },
+          {
+            "order": 7,
+            "player_id": 573262,
+            "name": "Mike Yastrzemski",
+            "season_avg": ".243",
+            "season_obp": ".323",
+            "season_slg": ".375"
+          },
+          {
+            "order": 8,
+            "player_id": 622761,
+            "name": "Jorge Mateo",
+            "season_avg": ".319",
+            "season_obp": ".364",
+            "season_slg": ".458"
+          },
+          {
+            "order": 9,
+            "player_id": 506702,
+            "name": "Sandy Le\u00f3n",
+            "season_avg": ".091",
+            "season_obp": ".091",
+            "season_slg": ".091"
+          }
+        ]
       },
       "starting_pitchers": null
     },
