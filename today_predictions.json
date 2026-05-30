@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-30T19:36:11+00:00",
+  "updated_at": "2026-05-30T19:47:11+00:00",
   "date": "2026-05-30",
-  "live_game_count": 2,
+  "live_game_count": 6,
   "games": [
     {
       "game_pk": 824515,
@@ -2425,21 +2425,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5493,
-      "live_home_win_prob": 0.583,
+      "live_home_win_prob": 0.792,
       "linescore": {
         "current_inning": 6,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 2,
         "away_runs": 1,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "base_state": "110",
-        "current_batter_id": 679529,
-        "current_batter_name": "Spencer Torkelson",
-        "current_pitcher_id": 641743,
-        "current_pitcher_name": "Anthony Kay"
+        "strikes": 1,
+        "outs": 1,
+        "base_state": "000",
+        "current_batter_id": 678246,
+        "current_batter_name": "Miguel Vargas",
+        "current_pitcher_id": 664285,
+        "current_pitcher_name": "Framber Valdez"
       },
       "lineups": {
         "home": [
@@ -2447,9 +2447,9 @@
             "order": 1,
             "player_id": 805367,
             "name": "Chase Meidroth",
-            "season_avg": ".271",
-            "season_obp": ".343",
-            "season_slg": ".396"
+            "season_avg": ".269",
+            "season_obp": ".342",
+            "season_slg": ".394"
           },
           {
             "order": 2,
@@ -2553,25 +2553,25 @@
             "order": 5,
             "player_id": 679529,
             "name": "Spencer Torkelson",
-            "season_avg": ".205",
-            "season_obp": ".312",
-            "season_slg": ".395"
+            "season_avg": ".204",
+            "season_obp": ".311",
+            "season_slg": ".393"
           },
           {
             "order": 6,
-            "player_id": 663330,
-            "name": "Jahmai Jones",
-            "season_avg": ".157",
-            "season_obp": ".224",
-            "season_slg": ".271"
+            "player_id": 690993,
+            "name": "Colt Keith",
+            "season_avg": ".287",
+            "season_obp": ".331",
+            "season_slg": ".350"
           },
           {
             "order": 7,
             "player_id": 672761,
             "name": "Wenceel P\u00e9rez",
-            "season_avg": ".174",
-            "season_obp": ".238",
-            "season_slg": ".318"
+            "season_avg": ".173",
+            "season_obp": ".236",
+            "season_slg": ".316"
           },
           {
             "order": 8,
@@ -3274,7 +3274,7 @@
         "away": {
           "pitcher_id": 664285,
           "pitcher_name": "Framber Valdez",
-          "pitch_count": 64,
+          "pitch_count": 69,
           "pitches": [
             {
               "px": -0.8415815134509352,
@@ -3787,6 +3787,46 @@
               "velocity": 94.8,
               "call": "X",
               "inning": 5
+            },
+            {
+              "px": -0.37274271730757946,
+              "pz": 2.6922974932337667,
+              "type": "SI",
+              "velocity": 91.9,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": -0.14886847478901366,
+              "pz": 1.0842219165773672,
+              "type": "CH",
+              "velocity": 90.6,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": -0.6143091817840468,
+              "pz": 2.62675123306293,
+              "type": "CU",
+              "velocity": 79.4,
+              "call": "F",
+              "inning": 6
+            },
+            {
+              "px": 1.1999770806256767,
+              "pz": 2.2296857433183335,
+              "type": "CH",
+              "velocity": 90.8,
+              "call": "X",
+              "inning": 6
+            },
+            {
+              "px": 0.7496202979129201,
+              "pz": 2.7272917678624062,
+              "type": "SI",
+              "velocity": 93.9,
+              "call": "F",
+              "inning": 6
             }
           ]
         }
@@ -3796,11 +3836,25 @@
       "game_pk": 822731,
       "home_team_id": 120,
       "away_team_id": 135,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.4745,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.481,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 665487,
+        "current_batter_name": "Fernando Tatis Jr.",
+        "current_pitcher_id": 656492,
+        "current_pitcher_name": "Foster Griffin"
+      },
       "lineups": {
         "home": [
           {
@@ -3951,17 +4005,44 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 656492,
+          "pitcher_name": "Foster Griffin",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 650633,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 822893,
       "home_team_id": 140,
       "away_team_id": 118,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.527625,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.574,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 695600,
+        "current_batter_name": "Carter Jensen",
+        "current_pitcher_id": 677958,
+        "current_pitcher_name": "Kumar Rocker"
+      },
       "lineups": {
         "home": [
           {
@@ -4112,7 +4193,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 677958,
+          "pitcher_name": "Kumar Rocker",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 607625,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824833,
@@ -4306,11 +4400,25 @@
       "game_pk": 823375,
       "home_team_id": 134,
       "away_team_id": 142,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.62495,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.677,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 621439,
+        "current_batter_name": "Byron Buxton",
+        "current_pitcher_id": 656605,
+        "current_pitcher_name": "Mitch Keller"
+      },
       "lineups": {
         "home": [
           {
@@ -4461,7 +4569,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 656605,
+          "pitcher_name": "Mitch Keller",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 641927,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824431,
@@ -4628,11 +4749,25 @@
       "game_pk": 822975,
       "home_team_id": 139,
       "away_team_id": 108,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.6275,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.675,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 687263,
+        "current_batter_name": "Zach Neto",
+        "current_pitcher_id": 656876,
+        "current_pitcher_name": "Drew Rasmussen"
+      },
       "lineups": {
         "home": [
           {
@@ -4783,7 +4918,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 656876,
+          "pitcher_name": "Drew Rasmussen",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 672282,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823622,
@@ -5112,12 +5260,85 @@
       "home_team_id": 138,
       "away_team_id": 112,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.465575,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 802139,
+            "name": "JJ Wetherholt",
+            "season_avg": ".234",
+            "season_obp": ".349",
+            "season_slg": ".397"
+          },
+          {
+            "order": 2,
+            "player_id": 671056,
+            "name": "Iv\u00e1n Herrera",
+            "season_avg": ".265",
+            "season_obp": ".392",
+            "season_slg": ".436"
+          },
+          {
+            "order": 3,
+            "player_id": 676475,
+            "name": "Alec Burleson",
+            "season_avg": ".276",
+            "season_obp": ".345",
+            "season_slg": ".438"
+          },
+          {
+            "order": 4,
+            "player_id": 691023,
+            "name": "Jordan Walker",
+            "season_avg": ".296",
+            "season_obp": ".365",
+            "season_slg": ".568"
+          },
+          {
+            "order": 5,
+            "player_id": 669357,
+            "name": "Nolan Gorman",
+            "season_avg": ".215",
+            "season_obp": ".297",
+            "season_slg": ".339"
+          },
+          {
+            "order": 6,
+            "player_id": 691026,
+            "name": "Masyn Winn",
+            "season_avg": ".236",
+            "season_obp": ".313",
+            "season_slg": ".319"
+          },
+          {
+            "order": 7,
+            "player_id": 699625,
+            "name": "Jimmy Crooks",
+            "season_avg": ".000",
+            "season_obp": ".000",
+            "season_slg": ".000"
+          },
+          {
+            "order": 8,
+            "player_id": 663494,
+            "name": "Bryan Torres",
+            "season_avg": ".316",
+            "season_obp": ".381",
+            "season_slg": ".579"
+          },
+          {
+            "order": 9,
+            "player_id": 687363,
+            "name": "Victor Scott II",
+            "season_avg": ".190",
+            "season_obp": ".253",
+            "season_slg": ".255"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
