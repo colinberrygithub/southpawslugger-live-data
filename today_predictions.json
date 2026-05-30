@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-30T17:36:12+00:00",
+  "updated_at": "2026-05-30T17:47:15+00:00",
   "date": "2026-05-30",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824515,
@@ -2422,11 +2422,25 @@
       "game_pk": 824593,
       "home_team_id": 145,
       "away_team_id": 116,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5493,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.585,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 805808,
+        "current_batter_name": "Kevin McGonigle",
+        "current_pitcher_id": 641743,
+        "current_pitcher_name": "Anthony Kay"
+      },
       "lineups": {
         "home": [
           {
@@ -2577,7 +2591,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 641743,
+          "pitcher_name": "Anthony Kay",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 664285,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 822731,
@@ -3556,7 +3583,80 @@
             "season_slg": ".100"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 669364,
+            "name": "Xavier Edwards",
+            "season_avg": ".319",
+            "season_obp": ".400",
+            "season_slg": ".491"
+          },
+          {
+            "order": 2,
+            "player_id": 689414,
+            "name": "Liam Hicks",
+            "season_avg": ".264",
+            "season_obp": ".340",
+            "season_slg": ".473"
+          },
+          {
+            "order": 3,
+            "player_id": 672640,
+            "name": "Otto Lopez",
+            "season_avg": ".336",
+            "season_obp": ".364",
+            "season_slg": ".471"
+          },
+          {
+            "order": 4,
+            "player_id": 669065,
+            "name": "Kyle Stowers",
+            "season_avg": ".227",
+            "season_obp": ".313",
+            "season_slg": ".367"
+          },
+          {
+            "order": 5,
+            "player_id": 805300,
+            "name": "Jakob Marsee",
+            "season_avg": ".199",
+            "season_obp": ".322",
+            "season_slg": ".303"
+          },
+          {
+            "order": 6,
+            "player_id": 677870,
+            "name": "Leo Jim\u00e9nez",
+            "season_avg": ".227",
+            "season_obp": ".327",
+            "season_slg": ".250"
+          },
+          {
+            "order": 7,
+            "player_id": 683357,
+            "name": "Owen Caissie",
+            "season_avg": ".232",
+            "season_obp": ".286",
+            "season_slg": ".399"
+          },
+          {
+            "order": 8,
+            "player_id": 666624,
+            "name": "Christopher Morel",
+            "season_avg": ".169",
+            "season_obp": ".222",
+            "season_slg": ".220"
+          },
+          {
+            "order": 9,
+            "player_id": 691788,
+            "name": "Joe Mack",
+            "season_avg": ".213",
+            "season_obp": ".262",
+            "season_slg": ".262"
+          }
+        ]
       },
       "starting_pitchers": null
     },
@@ -3644,7 +3744,80 @@
             "season_slg": ".398"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 592885,
+            "name": "Christian Yelich",
+            "season_avg": ".268",
+            "season_obp": ".330",
+            "season_slg": ".464"
+          },
+          {
+            "order": 2,
+            "player_id": 694192,
+            "name": "Jackson Chourio",
+            "season_avg": ".267",
+            "season_obp": ".320",
+            "season_slg": ".411"
+          },
+          {
+            "order": 3,
+            "player_id": 668930,
+            "name": "Brice Turang",
+            "season_avg": ".273",
+            "season_obp": ".400",
+            "season_slg": ".455"
+          },
+          {
+            "order": 4,
+            "player_id": 661388,
+            "name": "William Contreras",
+            "season_avg": ".296",
+            "season_obp": ".363",
+            "season_slg": ".399"
+          },
+          {
+            "order": 5,
+            "player_id": 641343,
+            "name": "Jake Bauers",
+            "season_avg": ".281",
+            "season_obp": ".355",
+            "season_slg": ".485"
+          },
+          {
+            "order": 6,
+            "player_id": 683734,
+            "name": "Andrew Vaughn",
+            "season_avg": ".321",
+            "season_obp": ".410",
+            "season_slg": ".491"
+          },
+          {
+            "order": 7,
+            "player_id": 669003,
+            "name": "Garrett Mitchell",
+            "season_avg": ".241",
+            "season_obp": ".361",
+            "season_slg": ".383"
+          },
+          {
+            "order": 8,
+            "player_id": 687401,
+            "name": "Joey Ortiz",
+            "season_avg": ".195",
+            "season_obp": ".290",
+            "season_slg": ".239"
+          },
+          {
+            "order": 9,
+            "player_id": 666152,
+            "name": "David Hamilton",
+            "season_avg": ".226",
+            "season_obp": ".314",
+            "season_slg": ".282"
+          }
+        ]
       },
       "starting_pitchers": null
     },
