@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-02T22:25:11+00:00",
+  "updated_at": "2026-06-02T22:36:15+00:00",
   "date": "2026-06-02",
-  "live_game_count": 3,
+  "live_game_count": 4,
   "games": [
     {
       "game_pk": 822974,
@@ -2020,11 +2020,25 @@
       "game_pk": 822728,
       "home_team_id": 120,
       "away_team_id": 146,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.492775,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.498,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 681715,
+        "current_batter_name": "Heriberto Hern\u00e1ndez",
+        "current_pitcher_id": 663992,
+        "current_pitcher_name": "Richard Lovelady"
+      },
       "lineups": {
         "home": [
           {
@@ -2175,7 +2189,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 663992,
+          "pitcher_name": "Richard Lovelady",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 669199,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823541,
@@ -3719,12 +3746,85 @@
       "home_team_id": 136,
       "away_team_id": 121,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.557375,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 641487,
+            "name": "J.P. Crawford",
+            "season_avg": ".215",
+            "season_obp": ".338",
+            "season_slg": ".382"
+          },
+          {
+            "order": 2,
+            "player_id": 677594,
+            "name": "Julio Rodr\u00edguez",
+            "season_avg": ".259",
+            "season_obp": ".315",
+            "season_slg": ".457"
+          },
+          {
+            "order": 3,
+            "player_id": 668227,
+            "name": "Randy Arozarena",
+            "season_avg": ".286",
+            "season_obp": ".371",
+            "season_slg": ".446"
+          },
+          {
+            "order": 4,
+            "player_id": 670042,
+            "name": "Luke Raley",
+            "season_avg": ".276",
+            "season_obp": ".341",
+            "season_slg": ".579"
+          },
+          {
+            "order": 5,
+            "player_id": 702284,
+            "name": "Cole Young",
+            "season_avg": ".250",
+            "season_obp": ".325",
+            "season_slg": ".363"
+          },
+          {
+            "order": 6,
+            "player_id": 686527,
+            "name": "Dominic Canzone",
+            "season_avg": ".248",
+            "season_obp": ".324",
+            "season_slg": ".496"
+          },
+          {
+            "order": 7,
+            "player_id": 621550,
+            "name": "Patrick Wisdom",
+            "season_avg": ".133",
+            "season_obp": ".133",
+            "season_slg": ".200"
+          },
+          {
+            "order": 8,
+            "player_id": 640902,
+            "name": "Jhonny Pereda",
+            "season_avg": ".235",
+            "season_obp": ".316",
+            "season_slg": ".324"
+          },
+          {
+            "order": 9,
+            "player_id": 806068,
+            "name": "Colt Emerson",
+            "season_avg": ".250",
+            "season_obp": ".340",
+            "season_slg": ".568"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
