@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-03T22:25:16+00:00",
+  "updated_at": "2026-06-03T22:36:15+00:00",
   "date": "2026-06-03",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 822971,
@@ -2906,7 +2906,7 @@
       "home_team_id": 136,
       "away_team_id": 121,
       "abstract_status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "pre_home_win_prob": 0.550575,
       "live_home_win_prob": null,
       "linescore": null,
@@ -3254,11 +3254,25 @@
       "game_pk": 824755,
       "home_team_id": 111,
       "away_team_id": 110,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.564175,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.594,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 621493,
+        "current_batter_name": "Taylor Ward",
+        "current_pitcher_id": 801139,
+        "current_pitcher_name": "Payton Tolle"
+      },
       "lineups": {
         "home": [
           {
@@ -3409,7 +3423,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 801139,
+          "pitcher_name": "Payton Tolle",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 605135,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823540,
