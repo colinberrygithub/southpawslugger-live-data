@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-04T17:03:24+00:00",
+  "updated_at": "2026-06-04T17:14:15+00:00",
   "date": "2026-06-04",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 822727,
@@ -2423,23 +2423,23 @@
       "home_team_id": 143,
       "away_team_id": 135,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.574375,
-      "live_home_win_prob": 0.627,
+      "live_home_win_prob": 0.697,
       "linescore": {
         "current_inning": 1,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 0,
         "balls": 0,
-        "strikes": 0,
+        "strikes": 2,
         "outs": 0,
-        "base_state": "000",
-        "current_batter_id": 665487,
-        "current_batter_name": "Fernando Tatis Jr.",
-        "current_pitcher_id": 554430,
-        "current_pitcher_name": "Zack Wheeler"
+        "base_state": "100",
+        "current_batter_id": 607208,
+        "current_batter_name": "Trea Turner",
+        "current_pitcher_id": 608337,
+        "current_pitcher_name": "Lucas Giolito"
       },
       "lineups": {
         "home": [
@@ -2447,9 +2447,9 @@
             "order": 1,
             "player_id": 656941,
             "name": "Kyle Schwarber",
-            "season_avg": ".233",
-            "season_obp": ".351",
-            "season_slg": ".598"
+            "season_avg": ".236",
+            "season_obp": ".354",
+            "season_slg": ".600"
           },
           {
             "order": 2,
@@ -2521,25 +2521,25 @@
             "order": 1,
             "player_id": 665487,
             "name": "Fernando Tatis Jr.",
-            "season_avg": ".275",
-            "season_obp": ".345",
-            "season_slg": ".329"
+            "season_avg": ".274",
+            "season_obp": ".344",
+            "season_slg": ".327"
           },
           {
             "order": 2,
             "player_id": 657757,
             "name": "Gavin Sheets",
-            "season_avg": ".241",
-            "season_obp": ".332",
-            "season_slg": ".476"
+            "season_avg": ".240",
+            "season_obp": ".330",
+            "season_slg": ".474"
           },
           {
             "order": 3,
             "player_id": 592518,
             "name": "Manny Machado",
-            "season_avg": ".172",
-            "season_obp": ".263",
-            "season_slg": ".344"
+            "season_avg": ".171",
+            "season_obp": ".261",
+            "season_slg": ".343"
           },
           {
             "order": 4,
@@ -2595,14 +2595,144 @@
         "home": {
           "pitcher_id": 554430,
           "pitcher_name": "Zack Wheeler",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 9,
+          "pitches": [
+            {
+              "px": -0.6395071030441923,
+              "pz": 3.774780483453061,
+              "type": "FF",
+              "velocity": 97.1,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -0.4350683086227252,
+              "pz": 3.189810840259804,
+              "type": "FF",
+              "velocity": 96.0,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.5683759174995815,
+              "pz": 2.5102081827389293,
+              "type": "FS",
+              "velocity": 88.3,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -1.2513547214537233,
+              "pz": 3.9644540348856543,
+              "type": "SI",
+              "velocity": 96.2,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.45346221793010455,
+              "pz": 3.371838515322471,
+              "type": "FF",
+              "velocity": 96.9,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.9137641438094664,
+              "pz": 1.8291934102653935,
+              "type": "CU",
+              "velocity": 80.3,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.5373929125095079,
+              "pz": 3.2873602826117416,
+              "type": "FF",
+              "velocity": 96.7,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.03607457041860914,
+              "pz": 2.7897041277035672,
+              "type": "FF",
+              "velocity": 96.7,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.5007408476639982,
+              "pz": 2.9349503326518644,
+              "type": "FF",
+              "velocity": 97.0,
+              "call": "S",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 608337,
-          "pitcher_name": null,
-          "pitch_count": 0,
-          "pitches": []
+          "pitcher_name": "Lucas Giolito",
+          "pitch_count": 7,
+          "pitches": [
+            {
+              "px": -0.09517738818102596,
+              "pz": 2.311700653120776,
+              "type": "FF",
+              "velocity": 90.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.028467010048975772,
+              "pz": 1.4821126564888034,
+              "type": "SL",
+              "velocity": 83.3,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.3887888106557431,
+              "pz": 1.2154248058122896,
+              "type": "CU",
+              "velocity": 77.6,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.03818601002436965,
+              "pz": 6.10311868286833,
+              "type": "FF",
+              "velocity": 91.8,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.8969081017724294,
+              "pz": 2.959381113165439,
+              "type": "CH",
+              "velocity": 78.5,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.09112606961044789,
+              "pz": 3.710255002892762,
+              "type": "SL",
+              "velocity": 82.9,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -0.04589474592925579,
+              "pz": 2.359234446086217,
+              "type": "CU",
+              "velocity": 75.8,
+              "call": "S",
+              "inning": 1
+            }
+          ]
         }
       }
     },
@@ -2771,11 +2901,25 @@
       "game_pk": 823542,
       "home_team_id": 147,
       "away_team_id": 114,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.6496000000000001,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.706,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 681807,
+        "current_batter_name": "David Fry",
+        "current_pitcher_id": 607074,
+        "current_pitcher_name": "Carlos Rod\u00f3n"
+      },
       "lineups": {
         "home": [
           {
@@ -2926,7 +3070,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 607074,
+          "pitcher_name": "Carlos Rod\u00f3n",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 677944,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823779,
