@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-05T22:25:20+00:00",
+  "updated_at": "2026-06-05T22:36:10+00:00",
   "date": "2026-06-05",
-  "live_game_count": 2,
+  "live_game_count": 3,
   "games": [
     {
       "game_pk": 823457,
@@ -1993,11 +1993,25 @@
       "game_pk": 823538,
       "home_team_id": 147,
       "away_team_id": 111,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.546325,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.567,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 680776,
+        "current_batter_name": "Jarren Duran",
+        "current_pitcher_id": 677960,
+        "current_pitcher_name": "Ryan Weathers"
+      },
       "lineups": {
         "home": [
           {
@@ -2148,7 +2162,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 677960,
+          "pitcher_name": "Ryan Weathers",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 543243,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 822810,
