@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-05T18:47:16+00:00",
+  "updated_at": "2026-06-05T18:58:11+00:00",
   "date": "2026-06-05",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 823457,
@@ -1456,11 +1456,25 @@
       "game_pk": 824673,
       "home_team_id": 112,
       "away_team_id": 137,
-      "abstract_status": "Preview",
-      "detailed_status": "Delayed Start",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.537825,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.557,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 669477,
+        "current_batter_name": "Casey Schmitt",
+        "current_pitcher_id": 665795,
+        "current_pitcher_name": "Edward Cabrera"
+      },
       "lineups": {
         "home": [
           {
@@ -1611,7 +1625,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 665795,
+          "pitcher_name": "Edward Cabrera",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 592662,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824271,
@@ -1697,7 +1724,80 @@
             "season_slg": ".241"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 641487,
+            "name": "J.P. Crawford",
+            "season_avg": ".224",
+            "season_obp": ".351",
+            "season_slg": ".406"
+          },
+          {
+            "order": 2,
+            "player_id": 677594,
+            "name": "Julio Rodr\u00edguez",
+            "season_avg": ".256",
+            "season_obp": ".312",
+            "season_slg": ".461"
+          },
+          {
+            "order": 3,
+            "player_id": 668227,
+            "name": "Randy Arozarena",
+            "season_avg": ".280",
+            "season_obp": ".366",
+            "season_slg": ".435"
+          },
+          {
+            "order": 4,
+            "player_id": 647304,
+            "name": "Josh Naylor",
+            "season_avg": ".250",
+            "season_obp": ".312",
+            "season_slg": ".351"
+          },
+          {
+            "order": 5,
+            "player_id": 608701,
+            "name": "Rob Refsnyder",
+            "season_avg": ".114",
+            "season_obp": ".189",
+            "season_slg": ".228"
+          },
+          {
+            "order": 6,
+            "player_id": 641598,
+            "name": "Mitch Garver",
+            "season_avg": ".187",
+            "season_obp": ".330",
+            "season_slg": ".293"
+          },
+          {
+            "order": 7,
+            "player_id": 702284,
+            "name": "Cole Young",
+            "season_avg": ".250",
+            "season_obp": ".323",
+            "season_slg": ".359"
+          },
+          {
+            "order": 8,
+            "player_id": 645302,
+            "name": "Victor Robles",
+            "season_avg": ".308",
+            "season_obp": ".308",
+            "season_slg": ".385"
+          },
+          {
+            "order": 9,
+            "player_id": 806068,
+            "name": "Colt Emerson",
+            "season_avg": ".255",
+            "season_obp": ".333",
+            "season_slg": ".549"
+          }
+        ]
       },
       "starting_pitchers": null
     },
