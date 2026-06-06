@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06T17:03:14+00:00",
+  "updated_at": "2026-06-06T17:14:11+00:00",
   "date": "2026-06-06",
   "live_game_count": 1,
   "games": [
@@ -2423,9 +2423,9 @@
       "home_team_id": 116,
       "away_team_id": 136,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "Manager challenge",
       "pre_home_win_prob": 0.47025,
-      "live_home_win_prob": 0.447,
+      "live_home_win_prob": 0.51,
       "linescore": {
         "current_inning": 1,
         "inning_state": "Top",
@@ -2434,10 +2434,10 @@
         "away_runs": 0,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
+        "outs": 2,
         "base_state": "000",
-        "current_batter_id": 702284,
-        "current_batter_name": "Cole Young",
+        "current_batter_id": 647304,
+        "current_batter_name": "Josh Naylor",
         "current_pitcher_id": 672456,
         "current_pitcher_name": "Keider Montero"
       },
@@ -2521,17 +2521,17 @@
             "order": 1,
             "player_id": 702284,
             "name": "Cole Young",
-            "season_avg": ".250",
-            "season_obp": ".321",
-            "season_slg": ".357"
+            "season_avg": ".249",
+            "season_obp": ".320",
+            "season_slg": ".356"
           },
           {
             "order": 2,
             "player_id": 677594,
             "name": "Julio Rodr\u00edguez",
-            "season_avg": ".260",
-            "season_obp": ".317",
-            "season_slg": ".465"
+            "season_avg": ".259",
+            "season_obp": ".316",
+            "season_slg": ".463"
           },
           {
             "order": 3,
@@ -2595,8 +2595,57 @@
         "home": {
           "pitcher_id": 672456,
           "pitcher_name": "Keider Montero",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 6,
+          "pitches": [
+            {
+              "px": -0.6657140066135316,
+              "pz": 2.620904776015154,
+              "type": "FF",
+              "velocity": 93.0,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -0.016528308530025706,
+              "pz": 2.757083190160419,
+              "type": "SI",
+              "velocity": 93.8,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.4347127030593535,
+              "pz": 1.8045701793427913,
+              "type": "CH",
+              "velocity": 86.4,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 1.776725202282087,
+              "pz": 0.4469135516381281,
+              "type": "KC",
+              "velocity": 80.8,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 1.1064894025657428,
+              "pz": 1.8399474980994144,
+              "type": "KC",
+              "velocity": 81.3,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.23774539180943818,
+              "pz": 2.895355017993737,
+              "type": "SI",
+              "velocity": 96.3,
+              "call": "X",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 682243,
@@ -3597,7 +3646,80 @@
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 660670,
+            "name": "Ronald Acu\u00f1a Jr.",
+            "season_avg": ".254",
+            "season_obp": ".378",
+            "season_slg": ".432"
+          },
+          {
+            "order": 2,
+            "player_id": 643289,
+            "name": "Mauricio Dub\u00f3n",
+            "season_avg": ".259",
+            "season_obp": ".315",
+            "season_slg": ".418"
+          },
+          {
+            "order": 3,
+            "player_id": 621566,
+            "name": "Matt Olson",
+            "season_avg": ".272",
+            "season_obp": ".344",
+            "season_slg": ".552"
+          },
+          {
+            "order": 4,
+            "player_id": 645277,
+            "name": "Ozzie Albies",
+            "season_avg": ".276",
+            "season_obp": ".335",
+            "season_slg": ".443"
+          },
+          {
+            "order": 5,
+            "player_id": 642086,
+            "name": "Dominic Smith",
+            "season_avg": ".301",
+            "season_obp": ".333",
+            "season_slg": ".459"
+          },
+          {
+            "order": 6,
+            "player_id": 663586,
+            "name": "Austin Riley",
+            "season_avg": ".206",
+            "season_obp": ".284",
+            "season_slg": ".356"
+          },
+          {
+            "order": 7,
+            "player_id": 573262,
+            "name": "Mike Yastrzemski",
+            "season_avg": ".242",
+            "season_obp": ".331",
+            "season_slg": ".369"
+          },
+          {
+            "order": 8,
+            "player_id": 642851,
+            "name": "Austin Wynns",
+            "season_avg": ".077",
+            "season_obp": ".143",
+            "season_slg": ".077"
+          },
+          {
+            "order": 9,
+            "player_id": 673490,
+            "name": "Ha-Seong Kim",
+            "season_avg": ".102",
+            "season_obp": ".185",
+            "season_slg": ".102"
+          }
+        ],
         "away": [
           {
             "order": 1,
