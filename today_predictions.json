@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-07T17:25:09+00:00",
+  "updated_at": "2026-06-07T17:36:21+00:00",
   "date": "2026-06-07",
-  "live_game_count": 6,
+  "live_game_count": 5,
   "games": [
     {
       "game_pk": 824269,
@@ -2277,7 +2277,7 @@
       "home_team_id": 144,
       "away_team_id": 134,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5964750000000001,
       "live_home_win_prob": 0.638,
       "linescore": {
@@ -2286,8 +2286,8 @@
         "is_top_inning": true,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 0,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 1,
         "outs": 0,
         "base_state": "000",
         "current_batter_id": 687462,
@@ -2449,8 +2449,41 @@
         "home": {
           "pitcher_id": 693821,
           "pitcher_name": "Bryce Elder",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 4,
+          "pitches": [
+            {
+              "px": -0.4831006113429851,
+              "pz": 2.100985285061975,
+              "type": "FF",
+              "velocity": 91.7,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.4141347536127976,
+              "pz": 3.7424273638951675,
+              "type": "FF",
+              "velocity": 92.1,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.33143687028129987,
+              "pz": 4.172821325972363,
+              "type": "FC",
+              "velocity": 86.7,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.009260703453198222,
+              "pz": 0.6576423036241575,
+              "type": "FF",
+              "velocity": 92.4,
+              "call": "B",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 682254,
@@ -2465,7 +2498,7 @@
       "home_team_id": 143,
       "away_team_id": 145,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5518500000000001,
       "live_home_win_prob": 0.554,
       "linescore": {
@@ -2652,25 +2685,11 @@
       "game_pk": 823537,
       "home_team_id": 147,
       "away_team_id": 111,
-      "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "abstract_status": "Preview",
+      "detailed_status": "Delayed Start",
       "pre_home_win_prob": 0.56545,
-      "live_home_win_prob": 0.587,
-      "linescore": {
-        "current_inning": 1,
-        "inning_state": "Top",
-        "is_top_inning": true,
-        "home_runs": 0,
-        "away_runs": 0,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "base_state": "000",
-        "current_batter_id": 680776,
-        "current_batter_name": "Jarren Duran",
-        "current_pitcher_id": 693645,
-        "current_pitcher_name": "Cam Schlittler"
-      },
+      "live_home_win_prob": null,
+      "linescore": null,
       "lineups": {
         "home": [
           {
@@ -2821,20 +2840,7 @@
           }
         ]
       },
-      "starting_pitchers": {
-        "home": {
-          "pitcher_id": 693645,
-          "pitcher_name": "Cam Schlittler",
-          "pitch_count": 0,
-          "pitches": []
-        },
-        "away": {
-          "pitcher_id": 624133,
-          "pitcher_name": null,
-          "pitch_count": 0,
-          "pitches": []
-        }
-      }
+      "starting_pitchers": null
     },
     {
       "game_pk": 822807,
