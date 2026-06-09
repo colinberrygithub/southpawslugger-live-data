@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-09T22:03:11+00:00",
+  "updated_at": "2026-06-09T22:14:11+00:00",
   "date": "2026-06-09",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824829,
@@ -1295,11 +1295,25 @@
       "game_pk": 824830,
       "home_team_id": 110,
       "away_team_id": 136,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.37929999999999997,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.337,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 645302,
+        "current_batter_name": "Victor Robles",
+        "current_pitcher_id": 669432,
+        "current_pitcher_name": "Trevor Rogers"
+      },
       "lineups": {
         "home": [
           {
@@ -1450,7 +1464,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 669432,
+          "pitcher_name": "Trevor Rogers",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 669302,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823374,
@@ -3161,7 +3188,80 @@
             "season_slg": ".226"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 694362,
+            "name": "Blake Dunn",
+            "season_avg": ".295",
+            "season_obp": ".337",
+            "season_slg": ".421"
+          },
+          {
+            "order": 2,
+            "player_id": 668709,
+            "name": "JJ Bleday",
+            "season_avg": ".273",
+            "season_obp": ".363",
+            "season_slg": ".568"
+          },
+          {
+            "order": 3,
+            "player_id": 701398,
+            "name": "Sal Stewart",
+            "season_avg": ".254",
+            "season_obp": ".348",
+            "season_slg": ".455"
+          },
+          {
+            "order": 4,
+            "player_id": 663993,
+            "name": "Nathaniel Lowe",
+            "season_avg": ".252",
+            "season_obp": ".327",
+            "season_slg": ".503"
+          },
+          {
+            "order": 5,
+            "player_id": 668715,
+            "name": "Spencer Steer",
+            "season_avg": ".265",
+            "season_obp": ".345",
+            "season_slg": ".443"
+          },
+          {
+            "order": 6,
+            "player_id": 553993,
+            "name": "Eugenio Su\u00e1rez",
+            "season_avg": ".203",
+            "season_obp": ".279",
+            "season_slg": ".326"
+          },
+          {
+            "order": 7,
+            "player_id": 680574,
+            "name": "Matt McLain",
+            "season_avg": ".212",
+            "season_obp": ".310",
+            "season_slg": ".377"
+          },
+          {
+            "order": 8,
+            "player_id": 663886,
+            "name": "Tyler Stephenson",
+            "season_avg": ".205",
+            "season_obp": ".301",
+            "season_slg": ".342"
+          },
+          {
+            "order": 9,
+            "player_id": 695490,
+            "name": "Edwin Arroyo",
+            "season_avg": ".235",
+            "season_obp": ".300",
+            "season_slg": ".235"
+          }
+        ]
       },
       "starting_pitchers": null
     },
