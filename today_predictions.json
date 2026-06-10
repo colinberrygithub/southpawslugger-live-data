@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-10T16:25:30+00:00",
+  "updated_at": "2026-06-10T16:36:27+00:00",
   "date": "2026-06-10",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824830,
@@ -2583,11 +2583,25 @@
       "game_pk": 824428,
       "home_team_id": 114,
       "away_team_id": 147,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.480025,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.49,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 502671,
+        "current_batter_name": "Paul Goldschmidt",
+        "current_pitcher_id": 800048,
+        "current_pitcher_name": "Parker Messick"
+      },
       "lineups": {
         "home": [
           {
@@ -2738,7 +2752,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 800048,
+          "pitcher_name": "Parker Messick",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 607074,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823215,
