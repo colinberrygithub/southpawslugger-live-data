@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-11T20:03:22+00:00",
+  "updated_at": "2026-06-11T20:14:23+00:00",
   "date": "2026-06-11",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 822970,
@@ -2905,11 +2905,25 @@
       "game_pk": 824101,
       "home_team_id": 118,
       "away_team_id": 140,
-      "abstract_status": "Preview",
-      "detailed_status": "Delayed Start",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.563325,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.593,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 694671,
+        "current_batter_name": "Wyatt Langford",
+        "current_pitcher_id": 608379,
+        "current_pitcher_name": "Michael Wacha"
+      },
       "lineups": {
         "home": [
           {
@@ -3060,7 +3074,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 608379,
+          "pitcher_name": "Michael Wacha",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 677958,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824346,
@@ -3069,21 +3096,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.42179999999999995,
-      "live_home_win_prob": 0.129,
+      "live_home_win_prob": 0.091,
       "linescore": {
         "current_inning": 4,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 1,
         "away_runs": 4,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 1,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 2,
         "base_state": "000",
-        "current_batter_id": 663538,
-        "current_batter_name": "Nico Hoerner",
-        "current_pitcher_id": 663372,
-        "current_pitcher_name": "Ryan Feltner"
+        "current_batter_id": 694249,
+        "current_batter_name": "Cole Carrigg",
+        "current_pitcher_id": 665795,
+        "current_pitcher_name": "Edward Cabrera"
       },
       "lineups": {
         "home": [
@@ -3115,17 +3142,17 @@
             "order": 4,
             "player_id": 696100,
             "name": "Hunter Goodman",
-            "season_avg": ".248",
-            "season_obp": ".324",
-            "season_slg": ".526"
+            "season_avg": ".247",
+            "season_obp": ".323",
+            "season_slg": ".523"
           },
           {
             "order": 5,
             "player_id": 687859,
             "name": "Troy Johnston",
-            "season_avg": ".306",
-            "season_obp": ".363",
-            "season_slg": ".421"
+            "season_avg": ".309",
+            "season_obp": ".366",
+            "season_slg": ".424"
           },
           {
             "order": 6,
@@ -3205,25 +3232,25 @@
             "order": 6,
             "player_id": 663538,
             "name": "Nico Hoerner",
-            "season_avg": ".246",
-            "season_obp": ".328",
-            "season_slg": ".347"
+            "season_avg": ".245",
+            "season_obp": ".327",
+            "season_slg": ".346"
           },
           {
             "order": 7,
             "player_id": 694208,
             "name": "Mois\u00e9s Ballesteros",
-            "season_avg": ".236",
-            "season_obp": ".309",
-            "season_slg": ".396"
+            "season_avg": ".241",
+            "season_obp": ".313",
+            "season_slg": ".400"
           },
           {
             "order": 8,
             "player_id": 608348,
             "name": "Carson Kelly",
-            "season_avg": ".281",
-            "season_obp": ".358",
-            "season_slg": ".356"
+            "season_avg": ".280",
+            "season_obp": ".356",
+            "season_slg": ".354"
           },
           {
             "order": 9,
@@ -3239,7 +3266,7 @@
         "home": {
           "pitcher_id": 663372,
           "pitcher_name": "Ryan Feltner",
-          "pitch_count": 49,
+          "pitch_count": 62,
           "pitches": [
             {
               "px": -0.7191542565197611,
@@ -3632,13 +3659,117 @@
               "velocity": 95.3,
               "call": "B",
               "inning": 4
+            },
+            {
+              "px": 0.22506221254961573,
+              "pz": 1.6938569451659269,
+              "type": "CU",
+              "velocity": 80.6,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": -0.33244654615449076,
+              "pz": 4.502274535041,
+              "type": "CU",
+              "velocity": 80.6,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": -0.6994472400840838,
+              "pz": 3.786836119729505,
+              "type": "FF",
+              "velocity": 94.4,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": -0.5018828207398938,
+              "pz": 2.6974424859891717,
+              "type": "SL",
+              "velocity": 87.5,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": -0.21321487076781578,
+              "pz": 1.7172235817433705,
+              "type": "FF",
+              "velocity": 94.7,
+              "call": "X",
+              "inning": 4
+            },
+            {
+              "px": 0.1670267204074783,
+              "pz": 2.493101184679575,
+              "type": "CU",
+              "velocity": 80.9,
+              "call": "X",
+              "inning": 4
+            },
+            {
+              "px": 0.2682906731794583,
+              "pz": 2.704818646423307,
+              "type": "FF",
+              "velocity": 95.2,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": 0.5813814400171077,
+              "pz": 0.8885654487627058,
+              "type": "SI",
+              "velocity": 94.8,
+              "call": "?",
+              "inning": 4
+            },
+            {
+              "px": 0.8509825760559757,
+              "pz": 0.5021237535416677,
+              "type": "SL",
+              "velocity": 89.0,
+              "call": "?",
+              "inning": 4
+            },
+            {
+              "px": 0.8485003589728527,
+              "pz": 1.744187014064981,
+              "type": "CU",
+              "velocity": 81.6,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": 1.023513035066061,
+              "pz": 3.544426531915852,
+              "type": "ST",
+              "velocity": 88.7,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": -0.09451731497037602,
+              "pz": 1.8163727885206427,
+              "type": "SI",
+              "velocity": 95.0,
+              "call": "F",
+              "inning": 4
+            },
+            {
+              "px": 1.2282133269584468,
+              "pz": 1.5405031229898978,
+              "type": "ST",
+              "velocity": 82.7,
+              "call": "S",
+              "inning": 4
             }
           ]
         },
         "away": {
           "pitcher_id": 665795,
           "pitcher_name": "Edward Cabrera",
-          "pitch_count": 41,
+          "pitch_count": 49,
           "pitches": [
             {
               "px": -0.9060431035697181,
@@ -3967,6 +4098,70 @@
               "velocity": 98.6,
               "call": "X",
               "inning": 3
+            },
+            {
+              "px": 1.0823333982724948,
+              "pz": 1.4112523061000177,
+              "type": "SL",
+              "velocity": 89.1,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": -1.2678541297951744,
+              "pz": 1.979468842119517,
+              "type": "SI",
+              "velocity": 96.5,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": -0.23650821519331966,
+              "pz": 2.6306969773240723,
+              "type": "SL",
+              "velocity": 89.6,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": -0.6098989675501042,
+              "pz": 3.0291514364469254,
+              "type": "SL",
+              "velocity": 89.7,
+              "call": "F",
+              "inning": 4
+            },
+            {
+              "px": 0.3693997685801316,
+              "pz": 1.0168379817478086,
+              "type": "SL",
+              "velocity": 89.2,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": 0.2860621367496642,
+              "pz": 1.6035568867268275,
+              "type": "CU",
+              "velocity": 87.1,
+              "call": "X",
+              "inning": 4
+            },
+            {
+              "px": -0.7103912753567805,
+              "pz": 1.7700676344293655,
+              "type": "FF",
+              "velocity": 97.8,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": -0.10866717358491355,
+              "pz": 0.720084789177964,
+              "type": "CH",
+              "velocity": 93.2,
+              "call": "S",
+              "inning": 4
             }
           ]
         }
@@ -4226,13 +4421,159 @@
       "home_team_id": 145,
       "away_team_id": 144,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.418825,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
-        "away": null
+        "home": [
+          {
+            "order": 1,
+            "player_id": 805367,
+            "name": "Chase Meidroth",
+            "season_avg": ".273",
+            "season_obp": ".343",
+            "season_slg": ".388"
+          },
+          {
+            "order": 2,
+            "player_id": 545341,
+            "name": "Randal Grichuk",
+            "season_avg": ".273",
+            "season_obp": ".309",
+            "season_slg": ".545"
+          },
+          {
+            "order": 3,
+            "player_id": 678246,
+            "name": "Miguel Vargas",
+            "season_avg": ".243",
+            "season_obp": ".369",
+            "season_slg": ".494"
+          },
+          {
+            "order": 4,
+            "player_id": 695657,
+            "name": "Colson Montgomery",
+            "season_avg": ".225",
+            "season_obp": ".322",
+            "season_slg": ".479"
+          },
+          {
+            "order": 5,
+            "player_id": 677592,
+            "name": "Everson Pereira",
+            "season_avg": ".250",
+            "season_obp": ".310",
+            "season_slg": ".453"
+          },
+          {
+            "order": 6,
+            "player_id": 695731,
+            "name": "Braden Montgomery",
+            "season_avg": ".444",
+            "season_obp": ".444",
+            "season_slg": "1.000"
+          },
+          {
+            "order": 7,
+            "player_id": 700337,
+            "name": "Edgar Quero",
+            "season_avg": ".185",
+            "season_obp": ".260",
+            "season_slg": ".238"
+          },
+          {
+            "order": 8,
+            "player_id": 682668,
+            "name": "Luisangel Acu\u00f1a",
+            "season_avg": ".200",
+            "season_obp": ".248",
+            "season_slg": ".217"
+          },
+          {
+            "order": 9,
+            "player_id": 803011,
+            "name": "Sam Antonacci",
+            "season_avg": ".285",
+            "season_obp": ".387",
+            "season_slg": ".376"
+          }
+        ],
+        "away": [
+          {
+            "order": 1,
+            "player_id": 643289,
+            "name": "Mauricio Dub\u00f3n",
+            "season_avg": ".261",
+            "season_obp": ".319",
+            "season_slg": ".410"
+          },
+          {
+            "order": 2,
+            "player_id": 671739,
+            "name": "Michael Harris II",
+            "season_avg": ".306",
+            "season_obp": ".339",
+            "season_slg": ".513"
+          },
+          {
+            "order": 3,
+            "player_id": 621566,
+            "name": "Matt Olson",
+            "season_avg": ".272",
+            "season_obp": ".344",
+            "season_slg": ".558"
+          },
+          {
+            "order": 4,
+            "player_id": 645277,
+            "name": "Ozzie Albies",
+            "season_avg": ".280",
+            "season_obp": ".334",
+            "season_slg": ".444"
+          },
+          {
+            "order": 5,
+            "player_id": 663586,
+            "name": "Austin Riley",
+            "season_avg": ".206",
+            "season_obp": ".285",
+            "season_slg": ".352"
+          },
+          {
+            "order": 6,
+            "player_id": 622761,
+            "name": "Jorge Mateo",
+            "season_avg": ".300",
+            "season_obp": ".344",
+            "season_slg": ".489"
+          },
+          {
+            "order": 7,
+            "player_id": 642201,
+            "name": "Eli White",
+            "season_avg": ".205",
+            "season_obp": ".263",
+            "season_slg": ".342"
+          },
+          {
+            "order": 8,
+            "player_id": 673490,
+            "name": "Ha-Seong Kim",
+            "season_avg": ".096",
+            "season_obp": ".175",
+            "season_slg": ".096"
+          },
+          {
+            "order": 9,
+            "player_id": 506702,
+            "name": "Sandy Le\u00f3n",
+            "season_avg": ".083",
+            "season_obp": ".083",
+            "season_slg": ".083"
+          }
+        ]
       },
       "starting_pitchers": null
     }
