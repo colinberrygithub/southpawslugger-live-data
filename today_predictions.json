@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-12T22:25:10+00:00",
+  "updated_at": "2026-06-12T22:36:19+00:00",
   "date": "2026-06-12",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 823619,
@@ -1498,11 +1498,25 @@
       "game_pk": 824826,
       "home_team_id": 110,
       "away_team_id": 135,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.495325,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.454,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 665487,
+        "current_batter_name": "Fernando Tatis Jr.",
+        "current_pitcher_id": 669358,
+        "current_pitcher_name": "Shane Baz"
+      },
       "lineups": {
         "home": [
           {
@@ -1653,7 +1667,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 669358,
+          "pitcher_name": "Shane Baz",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 656288,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824425,
@@ -2143,7 +2170,7 @@
       "home_team_id": 121,
       "away_team_id": 144,
       "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "detailed_status": "Delayed Start",
       "pre_home_win_prob": 0.49915,
       "live_home_win_prob": null,
       "linescore": null,
