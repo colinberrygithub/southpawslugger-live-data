@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-13T17:36:13+00:00",
+  "updated_at": "2026-06-13T17:47:12+00:00",
   "date": "2026-06-13",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 823370,
@@ -2422,11 +2422,25 @@
       "game_pk": 823694,
       "home_team_id": 142,
       "away_team_id": 138,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.428175,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.429,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 691026,
+        "current_batter_name": "Masyn Winn",
+        "current_pitcher_id": 687570,
+        "current_pitcher_name": "Connor Prielipp"
+      },
       "lineups": {
         "home": [
           {
@@ -2577,7 +2591,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 687570,
+          "pitcher_name": "Connor Prielipp",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 669461,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 822802,
@@ -3146,7 +3173,80 @@
             "season_slg": ".268"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 689414,
+            "name": "Liam Hicks",
+            "season_avg": ".274",
+            "season_obp": ".355",
+            "season_slg": ".489"
+          },
+          {
+            "order": 2,
+            "player_id": 672640,
+            "name": "Otto Lopez",
+            "season_avg": ".342",
+            "season_obp": ".369",
+            "season_slg": ".484"
+          },
+          {
+            "order": 3,
+            "player_id": 669364,
+            "name": "Xavier Edwards",
+            "season_avg": ".304",
+            "season_obp": ".385",
+            "season_slg": ".447"
+          },
+          {
+            "order": 4,
+            "player_id": 669065,
+            "name": "Kyle Stowers",
+            "season_avg": ".220",
+            "season_obp": ".306",
+            "season_slg": ".382"
+          },
+          {
+            "order": 5,
+            "player_id": 681715,
+            "name": "Heriberto Hern\u00e1ndez",
+            "season_avg": ".236",
+            "season_obp": ".312",
+            "season_slg": ".382"
+          },
+          {
+            "order": 6,
+            "player_id": 677870,
+            "name": "Leo Jim\u00e9nez",
+            "season_avg": ".203",
+            "season_obp": ".297",
+            "season_slg": ".219"
+          },
+          {
+            "order": 7,
+            "player_id": 805300,
+            "name": "Jakob Marsee",
+            "season_avg": ".202",
+            "season_obp": ".335",
+            "season_slg": ".300"
+          },
+          {
+            "order": 8,
+            "player_id": 691594,
+            "name": "Javier Sanoja",
+            "season_avg": ".262",
+            "season_obp": ".313",
+            "season_slg": ".376"
+          },
+          {
+            "order": 9,
+            "player_id": 681393,
+            "name": "Connor Norby",
+            "season_avg": ".209",
+            "season_obp": ".325",
+            "season_slg": ".339"
+          }
+        ]
       },
       "starting_pitchers": null
     },
@@ -3524,22 +3624,14 @@
           },
           {
             "order": 4,
-            "player_id": 676724,
-            "name": "Jared Young",
-            "season_avg": ".271",
-            "season_obp": ".342",
-            "season_slg": ".500"
+            "player_id": 668901,
+            "name": "Mark Vientos",
+            "season_avg": ".211",
+            "season_obp": ".245",
+            "season_slg": ".366"
           },
           {
             "order": 5,
-            "player_id": 805999,
-            "name": "A.J. Ewing",
-            "season_avg": ".253",
-            "season_obp": ".330",
-            "season_slg": ".333"
-          },
-          {
-            "order": 6,
             "player_id": 543760,
             "name": "Marcus Semien",
             "season_avg": ".221",
@@ -3547,12 +3639,20 @@
             "season_slg": ".349"
           },
           {
+            "order": 6,
+            "player_id": 682626,
+            "name": "Francisco Alvarez",
+            "season_avg": ".246",
+            "season_obp": ".316",
+            "season_slg": ".410"
+          },
+          {
             "order": 7,
-            "player_id": 683146,
-            "name": "Brett Baty",
-            "season_avg": ".224",
-            "season_obp": ".289",
-            "season_slg": ".319"
+            "player_id": 676572,
+            "name": "Eric Wagaman",
+            "season_avg": ".250",
+            "season_obp": ".400",
+            "season_slg": "1.000"
           },
           {
             "order": 8,
@@ -3564,11 +3664,11 @@
           },
           {
             "order": 9,
-            "player_id": 620443,
-            "name": "Luis Torrens",
-            "season_avg": ".226",
-            "season_obp": ".282",
-            "season_slg": ".330"
+            "player_id": 660644,
+            "name": "Vidal Bruj\u00e1n",
+            "season_avg": ".125",
+            "season_obp": ".222",
+            "season_slg": ".125"
           }
         ],
         "away": [
