@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-15T00:36:11+00:00",
+  "updated_at": "2026-06-15T00:47:13+00:00",
   "date": "2026-06-15",
   "live_game_count": 1,
   "games": [
@@ -2103,21 +2103,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5578,
-      "live_home_win_prob": 0.063,
+      "live_home_win_prob": 0.037,
       "linescore": {
-        "current_inning": 4,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 5,
+        "inning_state": "Top",
+        "is_top_inning": true,
         "home_runs": 2,
         "away_runs": 6,
-        "balls": 0,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 1,
         "outs": 0,
-        "base_state": "000",
-        "current_batter_id": 575929,
-        "current_batter_name": "Willson Contreras",
-        "current_pitcher_id": 543135,
-        "current_pitcher_name": "Nathan Eovaldi"
+        "base_state": "100",
+        "current_batter_id": 683227,
+        "current_batter_name": "Cody Freeman",
+        "current_pitcher_id": 813349,
+        "current_pitcher_name": "Connelly Early"
       },
       "lineups": {
         "home": [
@@ -2149,25 +2149,25 @@
             "order": 4,
             "player_id": 575929,
             "name": "Willson Contreras",
-            "season_avg": ".299",
-            "season_obp": ".393",
-            "season_slg": ".556"
+            "season_avg": ".298",
+            "season_obp": ".391",
+            "season_slg": ".553"
           },
           {
             "order": 5,
             "player_id": 680776,
             "name": "Jarren Duran",
-            "season_avg": ".209",
-            "season_obp": ".267",
-            "season_slg": ".388"
+            "season_avg": ".212",
+            "season_obp": ".270",
+            "season_slg": ".390"
           },
           {
             "order": 6,
             "player_id": 702332,
             "name": "Caleb Durbin",
-            "season_avg": ".197",
-            "season_obp": ".258",
-            "season_slg": ".318"
+            "season_avg": ".196",
+            "season_obp": ".257",
+            "season_slg": ".317"
           },
           {
             "order": 7,
@@ -2239,9 +2239,9 @@
             "order": 6,
             "player_id": 679822,
             "name": "Justin Foscue",
-            "season_avg": ".257",
-            "season_obp": ".312",
-            "season_slg": ".443"
+            "season_avg": ".268",
+            "season_obp": ".321",
+            "season_slg": ".451"
           },
           {
             "order": 7,
@@ -2273,7 +2273,7 @@
         "home": {
           "pitcher_id": 813349,
           "pitcher_name": "Connelly Early",
-          "pitch_count": 76,
+          "pitch_count": 85,
           "pitches": [
             {
               "px": -0.3597810337257353,
@@ -2882,13 +2882,85 @@
               "velocity": 92.2,
               "call": "X",
               "inning": 4
+            },
+            {
+              "px": -0.37682165344109525,
+              "pz": 1.1187076870406987,
+              "type": "CU",
+              "velocity": 76.8,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.04724612481494193,
+              "pz": 1.5206044636120266,
+              "type": "SL",
+              "velocity": 86.1,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": -0.6259859067845498,
+              "pz": 1.7140198442135164,
+              "type": "CU",
+              "velocity": 78.0,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 1.210594270723222,
+              "pz": 1.9821592056567992,
+              "type": "CH",
+              "velocity": 82.3,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 0.6044284913863927,
+              "pz": 3.1123831880878434,
+              "type": "CH",
+              "velocity": 83.2,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": 0.7982585034483323,
+              "pz": 1.3283193462105374,
+              "type": "SI",
+              "velocity": 90.6,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 1.5896328897347958,
+              "pz": 2.6793783979701886,
+              "type": "SI",
+              "velocity": 91.0,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.06659254765966319,
+              "pz": 3.4894936317183523,
+              "type": "FF",
+              "velocity": 92.4,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 0.22239147661013386,
+              "pz": 1.309824658225528,
+              "type": "FF",
+              "velocity": 91.9,
+              "call": "B",
+              "inning": 5
             }
           ]
         },
         "away": {
           "pitcher_id": 543135,
           "pitcher_name": "Nathan Eovaldi",
-          "pitch_count": 46,
+          "pitch_count": 58,
           "pitches": [
             {
               "px": -0.6038075260713099,
@@ -3257,6 +3329,102 @@
               "velocity": 91.2,
               "call": "X",
               "inning": 3
+            },
+            {
+              "px": 0.10856967224008329,
+              "pz": 1.537484815224606,
+              "type": "FS",
+              "velocity": 87.2,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": 0.09812327305633073,
+              "pz": 2.730688839274262,
+              "type": "SI",
+              "velocity": 93.4,
+              "call": "F",
+              "inning": 4
+            },
+            {
+              "px": 0.3088710532571483,
+              "pz": 2.1272830031397305,
+              "type": "CU",
+              "velocity": 76.6,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": -0.3806912599503124,
+              "pz": 2.208172293748458,
+              "type": "CU",
+              "velocity": 77.2,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": -0.30159126817263815,
+              "pz": 2.1817625600783503,
+              "type": "CU",
+              "velocity": 75.5,
+              "call": "X",
+              "inning": 4
+            },
+            {
+              "px": 0.7064124274363333,
+              "pz": 1.0096954018701365,
+              "type": "FS",
+              "velocity": 86.2,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": -0.1466045113002255,
+              "pz": 1.2390847975754569,
+              "type": "SI",
+              "velocity": 93.8,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": 0.20390568754811164,
+              "pz": 2.4025003619562053,
+              "type": "FC",
+              "velocity": 91.4,
+              "call": "F",
+              "inning": 4
+            },
+            {
+              "px": 0.29285619815123,
+              "pz": 1.7378190361737997,
+              "type": "SI",
+              "velocity": 94.0,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": 0.04602608426162124,
+              "pz": 1.2038244410656287,
+              "type": "SI",
+              "velocity": 94.9,
+              "call": "B",
+              "inning": 4
+            },
+            {
+              "px": -0.5429988245730157,
+              "pz": 3.1512270769045325,
+              "type": "SI",
+              "velocity": 94.0,
+              "call": "F",
+              "inning": 4
+            },
+            {
+              "px": -0.02997303334339387,
+              "pz": 1.7290804497902437,
+              "type": "FF",
+              "velocity": 95.9,
+              "call": "X",
+              "inning": 4
             }
           ]
         }
