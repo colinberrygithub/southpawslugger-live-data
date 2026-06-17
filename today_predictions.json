@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-17T16:14:21+00:00",
+  "updated_at": "2026-06-17T16:25:21+00:00",
   "date": "2026-06-17",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 823451,
@@ -3123,11 +3123,25 @@
       "game_pk": 824503,
       "home_team_id": 113,
       "away_team_id": 121,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.47875,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.45,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 701807,
+        "current_batter_name": "Carson Benge",
+        "current_pitcher_id": 666157,
+        "current_pitcher_name": "Nick Lodolo"
+      },
       "lineups": {
         "home": [
           {
@@ -3278,7 +3292,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 666157,
+          "pitcher_name": "Nick Lodolo",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 690997,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 822721,
