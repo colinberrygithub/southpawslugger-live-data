@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-18T22:47:11+00:00",
+  "updated_at": "2026-06-18T22:58:13+00:00",
   "date": "2026-06-18",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 824503,
@@ -3069,21 +3069,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.516575,
-      "live_home_win_prob": 0.442,
+      "live_home_win_prob": 0.493,
       "linescore": {
         "current_inning": 1,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 0,
-        "away_runs": 1,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 2,
-        "base_state": "000",
-        "current_batter_id": 676724,
-        "current_batter_name": "Jared Young",
-        "current_pitcher_id": 605400,
-        "current_pitcher_name": "Aaron Nola"
+        "away_runs": 2,
+        "balls": 2,
+        "strikes": 1,
+        "outs": 0,
+        "base_state": "110",
+        "current_batter_id": 656941,
+        "current_batter_name": "Kyle Schwarber",
+        "current_pitcher_id": 640455,
+        "current_pitcher_name": "Sean Manaea"
       },
       "lineups": {
         "home": [
@@ -3092,16 +3092,16 @@
             "player_id": 607208,
             "name": "Trea Turner",
             "season_avg": ".223",
-            "season_obp": ".274",
+            "season_obp": ".276",
             "season_slg": ".334"
           },
           {
             "order": 2,
             "player_id": 656941,
             "name": "Kyle Schwarber",
-            "season_avg": ".245",
-            "season_obp": ".364",
-            "season_slg": ".565"
+            "season_avg": ".248",
+            "season_obp": ".366",
+            "season_slg": ".567"
           },
           {
             "order": 3,
@@ -3189,25 +3189,25 @@
             "order": 4,
             "player_id": 676724,
             "name": "Jared Young",
-            "season_avg": ".244",
-            "season_obp": ".308",
-            "season_slg": ".439"
+            "season_avg": ".241",
+            "season_obp": ".304",
+            "season_slg": ".434"
           },
           {
             "order": 5,
             "player_id": 805999,
             "name": "A.J. Ewing",
-            "season_avg": ".250",
-            "season_obp": ".333",
-            "season_slg": ".362"
+            "season_avg": ".256",
+            "season_obp": ".338",
+            "season_slg": ".376"
           },
           {
             "order": 6,
             "player_id": 543760,
             "name": "Marcus Semien",
-            "season_avg": ".221",
-            "season_obp": ".280",
-            "season_slg": ".352"
+            "season_avg": ".220",
+            "season_obp": ".279",
+            "season_slg": ".351"
           },
           {
             "order": 7,
@@ -3239,7 +3239,7 @@
         "home": {
           "pitcher_id": 605400,
           "pitcher_name": "Aaron Nola",
-          "pitch_count": 13,
+          "pitch_count": 23,
           "pitches": [
             {
               "px": -0.20860822482614091,
@@ -3344,14 +3344,151 @@
               "velocity": 86.9,
               "call": "X",
               "inning": 1
+            },
+            {
+              "px": 0.44127861793467726,
+              "pz": 2.2657472545295922,
+              "type": "KC",
+              "velocity": 78.6,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.47912132041997446,
+              "pz": 1.0903526038301246,
+              "type": "SI",
+              "velocity": 93.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.4636803754134897,
+              "pz": 2.532983279288645,
+              "type": "SI",
+              "velocity": 92.9,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.7429188587709425,
+              "pz": 2.2006385339340957,
+              "type": "KC",
+              "velocity": 79.9,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 1.3661778929785067,
+              "pz": 1.9987462461630772,
+              "type": "SL",
+              "velocity": 83.8,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 2.1607565072757042,
+              "pz": 0.9438813334169632,
+              "type": "KC",
+              "velocity": 79.6,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.8715420083363882,
+              "pz": 3.140235403575096,
+              "type": "FF",
+              "velocity": 93.3,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.3544263864234916,
+              "pz": 2.512989731888592,
+              "type": "FC",
+              "velocity": 83.9,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -0.28187359775052323,
+              "pz": 2.0625466479492163,
+              "type": "KC",
+              "velocity": 78.4,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.19783835725394694,
+              "pz": 2.8360719902790024,
+              "type": "SI",
+              "velocity": 95.0,
+              "call": "S",
+              "inning": 1
             }
           ]
         },
         "away": {
           "pitcher_id": 640455,
-          "pitcher_name": null,
-          "pitch_count": 0,
-          "pitches": []
+          "pitcher_name": "Sean Manaea",
+          "pitch_count": 7,
+          "pitches": [
+            {
+              "px": 0.3279207513574953,
+              "pz": 2.2990866210197334,
+              "type": "FF",
+              "velocity": 91.7,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.5436758638263202,
+              "pz": 2.234034567695108,
+              "type": "ST",
+              "velocity": 75.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -2.726778051515912,
+              "pz": 1.255766377893008,
+              "type": "ST",
+              "velocity": 79.2,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -1.8085731516258947,
+              "pz": 1.9256929644922283,
+              "type": "FC",
+              "velocity": 85.1,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -1.4343256070692658,
+              "pz": 0.8514432604167327,
+              "type": "SI",
+              "velocity": 90.7,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.01179906910331606,
+              "pz": 2.1175890349026867,
+              "type": "SI",
+              "velocity": 90.4,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -0.1944427080139371,
+              "pz": 2.1241188781447646,
+              "type": "SI",
+              "velocity": 90.4,
+              "call": "X",
+              "inning": 1
+            }
+          ]
         }
       }
     },
@@ -3359,11 +3496,25 @@
       "game_pk": 823533,
       "home_team_id": 147,
       "away_team_id": 145,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.683175,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.728,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 805367,
+        "current_batter_name": "Chase Meidroth",
+        "current_pitcher_id": 677960,
+        "current_pitcher_name": "Ryan Weathers"
+      },
       "lineups": {
         "home": [
           {
@@ -3514,7 +3665,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 677960,
+          "pitcher_name": "Ryan Weathers",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 663542,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824098,
