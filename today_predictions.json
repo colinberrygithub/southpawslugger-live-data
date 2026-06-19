@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T19:58:13+00:00",
+  "updated_at": "2026-06-19T20:03:11+00:00",
   "date": "2026-06-19",
   "live_game_count": 1,
   "games": [
@@ -1313,21 +1313,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5476000000000001,
-      "live_home_win_prob": 1.0,
+      "live_home_win_prob": 0.994,
       "linescore": {
-        "current_inning": 5,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 6,
+        "inning_state": "Top",
+        "is_top_inning": true,
         "home_runs": 7,
-        "away_runs": 1,
-        "balls": 2,
-        "strikes": 2,
-        "outs": 2,
-        "base_state": "011",
-        "current_batter_id": 683737,
-        "current_batter_name": "Michael Busch",
-        "current_pitcher_id": 663893,
-        "current_pitcher_name": "Brendon Little"
+        "away_runs": 2,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 665489,
+        "current_batter_name": "Vladimir Guerrero Jr.",
+        "current_pitcher_id": 676962,
+        "current_pitcher_name": "Ben Brown"
       },
       "lineups": {
         "home": [
@@ -1351,9 +1351,9 @@
             "order": 3,
             "player_id": 683737,
             "name": "Michael Busch",
-            "season_avg": ".246",
-            "season_obp": ".377",
-            "season_slg": ".399"
+            "season_avg": ".245",
+            "season_obp": ".376",
+            "season_slg": ".398"
           },
           {
             "order": 4,
@@ -1409,9 +1409,9 @@
             "order": 1,
             "player_id": 543807,
             "name": "George Springer",
-            "season_avg": ".221",
-            "season_obp": ".313",
-            "season_slg": ".377"
+            "season_avg": ".224",
+            "season_obp": ".316",
+            "season_slg": ".395"
           },
           {
             "order": 2,
@@ -1483,7 +1483,7 @@
         "home": {
           "pitcher_id": 676962,
           "pitcher_name": "Ben Brown",
-          "pitch_count": 57,
+          "pitch_count": 62,
           "pitches": [
             {
               "px": -0.1305563695793568,
@@ -1940,6 +1940,46 @@
               "velocity": 97.6,
               "call": "X",
               "inning": 5
+            },
+            {
+              "px": 0.2982547313548926,
+              "pz": 1.5195648340402557,
+              "type": "SI",
+              "velocity": 94.1,
+              "call": "B",
+              "inning": 6
+            },
+            {
+              "px": -0.7417586203609572,
+              "pz": 2.4375449836487695,
+              "type": "KC",
+              "velocity": 84.5,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": -0.4587615030045169,
+              "pz": 2.500718845199,
+              "type": "KC",
+              "velocity": 83.1,
+              "call": "F",
+              "inning": 6
+            },
+            {
+              "px": -0.5782573957804827,
+              "pz": 3.6554535483518307,
+              "type": "KC",
+              "velocity": 84.0,
+              "call": "B",
+              "inning": 6
+            },
+            {
+              "px": -0.32678851366763717,
+              "pz": 2.101203122640537,
+              "type": "KC",
+              "velocity": 85.2,
+              "call": "X",
+              "inning": 6
             }
           ]
         },
@@ -3321,12 +3361,85 @@
       "home_team_id": 117,
       "away_team_id": 114,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.49575,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 665161,
+            "name": "Jeremy Pe\u00f1a",
+            "season_avg": ".279",
+            "season_obp": ".344",
+            "season_slg": ".415"
+          },
+          {
+            "order": 2,
+            "player_id": 670541,
+            "name": "Yordan Alvarez",
+            "season_avg": ".325",
+            "season_obp": ".428",
+            "season_slg": ".642"
+          },
+          {
+            "order": 3,
+            "player_id": 572233,
+            "name": "Christian Walker",
+            "season_avg": ".246",
+            "season_obp": ".315",
+            "season_slg": ".495"
+          },
+          {
+            "order": 4,
+            "player_id": 670623,
+            "name": "Isaac Paredes",
+            "season_avg": ".234",
+            "season_obp": ".341",
+            "season_slg": ".414"
+          },
+          {
+            "order": 5,
+            "player_id": 514888,
+            "name": "Jose Altuve",
+            "season_avg": ".229",
+            "season_obp": ".307",
+            "season_slg": ".383"
+          },
+          {
+            "order": 6,
+            "player_id": 673237,
+            "name": "Yainer Diaz",
+            "season_avg": ".240",
+            "season_obp": ".264",
+            "season_slg": ".346"
+          },
+          {
+            "order": 7,
+            "player_id": 701358,
+            "name": "Cam Smith",
+            "season_avg": ".223",
+            "season_obp": ".304",
+            "season_slg": ".363"
+          },
+          {
+            "order": 8,
+            "player_id": 694388,
+            "name": "Joey Loperfido",
+            "season_avg": ".236",
+            "season_obp": ".349",
+            "season_slg": ".319"
+          },
+          {
+            "order": 9,
+            "player_id": 676694,
+            "name": "Jake Meyers",
+            "season_avg": ".214",
+            "season_obp": ".276",
+            "season_slg": ".330"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
