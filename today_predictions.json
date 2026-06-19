@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-19T22:14:22+00:00",
+  "updated_at": "2026-06-19T22:25:24+00:00",
   "date": "2026-06-19",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824748,
@@ -1471,11 +1471,25 @@
       "game_pk": 824264,
       "home_team_id": 116,
       "away_team_id": 145,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.6122,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.659,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 678246,
+        "current_batter_name": "Miguel Vargas",
+        "current_pitcher_id": 669373,
+        "current_pitcher_name": "Tarik Skubal"
+      },
       "lineups": {
         "home": [
           {
@@ -1626,7 +1640,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 669373,
+          "pitcher_name": "Tarik Skubal",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 685126,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823534,
@@ -3000,7 +3027,80 @@
             "season_slg": ".318"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 687263,
+            "name": "Zach Neto",
+            "season_avg": ".225",
+            "season_obp": ".326",
+            "season_slg": ".443"
+          },
+          {
+            "order": 2,
+            "player_id": 694384,
+            "name": "Nolan Schanuel",
+            "season_avg": ".254",
+            "season_obp": ".321",
+            "season_slg": ".366"
+          },
+          {
+            "order": 3,
+            "player_id": 666176,
+            "name": "Jo Adell",
+            "season_avg": ".249",
+            "season_obp": ".292",
+            "season_slg": ".391"
+          },
+          {
+            "order": 4,
+            "player_id": 672724,
+            "name": "Oswald Peraza",
+            "season_avg": ".259",
+            "season_obp": ".307",
+            "season_slg": ".421"
+          },
+          {
+            "order": 5,
+            "player_id": 695681,
+            "name": "Christian Moore",
+            "season_avg": ".250",
+            "season_obp": ".250",
+            "season_slg": ".250"
+          },
+          {
+            "order": 6,
+            "player_id": 694203,
+            "name": "Denzer Guzman",
+            "season_avg": ".250",
+            "season_obp": ".289",
+            "season_slg": ".306"
+          },
+          {
+            "order": 7,
+            "player_id": 681351,
+            "name": "Logan O'Hoppe",
+            "season_avg": ".231",
+            "season_obp": ".301",
+            "season_slg": ".340"
+          },
+          {
+            "order": 8,
+            "player_id": 685133,
+            "name": "Wade Meckler",
+            "season_avg": ".292",
+            "season_obp": ".354",
+            "season_slg": ".444"
+          },
+          {
+            "order": 9,
+            "player_id": 642350,
+            "name": "Jose Siri",
+            "season_avg": ".288",
+            "season_obp": ".362",
+            "season_slg": ".519"
+          }
+        ]
       },
       "starting_pitchers": null
     },
@@ -3088,7 +3188,80 @@
             "season_slg": ".161"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 663616,
+            "name": "Trevor Larnach",
+            "season_avg": ".273",
+            "season_obp": ".373",
+            "season_slg": ".417"
+          },
+          {
+            "order": 2,
+            "player_id": 621439,
+            "name": "Byron Buxton",
+            "season_avg": ".270",
+            "season_obp": ".330",
+            "season_slg": ".589"
+          },
+          {
+            "order": 3,
+            "player_id": 665019,
+            "name": "Kody Clemens",
+            "season_avg": ".250",
+            "season_obp": ".315",
+            "season_slg": ".486"
+          },
+          {
+            "order": 4,
+            "player_id": 605137,
+            "name": "Josh Bell",
+            "season_avg": ".244",
+            "season_obp": ".300",
+            "season_slg": ".387"
+          },
+          {
+            "order": 5,
+            "player_id": 668904,
+            "name": "Royce Lewis",
+            "season_avg": ".199",
+            "season_obp": ".283",
+            "season_slg": ".356"
+          },
+          {
+            "order": 6,
+            "player_id": 686797,
+            "name": "Brooks Lee",
+            "season_avg": ".238",
+            "season_obp": ".294",
+            "season_slg": ".423"
+          },
+          {
+            "order": 7,
+            "player_id": 605170,
+            "name": "Victor Caratini",
+            "season_avg": ".228",
+            "season_obp": ".320",
+            "season_slg": ".329"
+          },
+          {
+            "order": 8,
+            "player_id": 656484,
+            "name": "Tristan Gray",
+            "season_avg": ".240",
+            "season_obp": ".284",
+            "season_slg": ".364"
+          },
+          {
+            "order": 9,
+            "player_id": 807712,
+            "name": "Luke Keaschall",
+            "season_avg": ".252",
+            "season_obp": ".335",
+            "season_slg": ".333"
+          }
+        ]
       },
       "starting_pitchers": null
     },
