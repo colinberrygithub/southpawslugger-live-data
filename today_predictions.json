@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-20T16:47:15+00:00",
+  "updated_at": "2026-06-20T16:58:12+00:00",
   "date": "2026-06-20",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824663,
@@ -2261,11 +2261,25 @@
       "game_pk": 824263,
       "home_team_id": 116,
       "away_team_id": 145,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5624750000000001,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.583,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 803011,
+        "current_batter_name": "Sam Antonacci",
+        "current_pitcher_id": 675512,
+        "current_pitcher_name": "Troy Melton"
+      },
       "lineups": {
         "home": [
           {
@@ -2416,7 +2430,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 675512,
+          "pitcher_name": "Troy Melton",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 656794,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823532,
@@ -2824,7 +2851,80 @@
             "season_slg": ".387"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 665487,
+            "name": "Fernando Tatis Jr.",
+            "season_avg": ".280",
+            "season_obp": ".346",
+            "season_slg": ".348"
+          },
+          {
+            "order": 2,
+            "player_id": 669392,
+            "name": "Samad Taylor",
+            "season_avg": ".375",
+            "season_obp": ".432",
+            "season_slg": ".475"
+          },
+          {
+            "order": 3,
+            "player_id": 592518,
+            "name": "Manny Machado",
+            "season_avg": ".174",
+            "season_obp": ".253",
+            "season_slg": ".351"
+          },
+          {
+            "order": 4,
+            "player_id": 593428,
+            "name": "Xander Bogaerts",
+            "season_avg": ".224",
+            "season_obp": ".306",
+            "season_slg": ".337"
+          },
+          {
+            "order": 5,
+            "player_id": 701538,
+            "name": "Jackson Merrill",
+            "season_avg": ".209",
+            "season_obp": ".273",
+            "season_slg": ".352"
+          },
+          {
+            "order": 6,
+            "player_id": 664034,
+            "name": "Ty France",
+            "season_avg": ".259",
+            "season_obp": ".306",
+            "season_slg": ".490"
+          },
+          {
+            "order": 7,
+            "player_id": 669256,
+            "name": "Nick Solak",
+            "season_avg": ".200",
+            "season_obp": ".167",
+            "season_slg": ".200"
+          },
+          {
+            "order": 8,
+            "player_id": 687749,
+            "name": "Jase Bowen",
+            "season_avg": ".120",
+            "season_obp": ".154",
+            "season_slg": ".120"
+          },
+          {
+            "order": 9,
+            "player_id": 675448,
+            "name": "Blake Hunt",
+            "season_avg": ".000",
+            "season_obp": ".000",
+            "season_slg": ".000"
+          }
+        ]
       },
       "starting_pitchers": null
     },
