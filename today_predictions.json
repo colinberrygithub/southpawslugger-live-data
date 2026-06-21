@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-21T22:58:15+00:00",
+  "updated_at": "2026-06-21T23:03:17+00:00",
   "date": "2026-06-21",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 824263,
@@ -4038,16 +4038,16 @@
       "live_home_win_prob": 0.0,
       "linescore": {
         "current_inning": 9,
-        "inning_state": "Middle",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 1,
         "away_runs": 12,
         "balls": 0,
-        "strikes": 0,
-        "outs": 3,
+        "strikes": 2,
+        "outs": 2,
         "base_state": "000",
-        "current_batter_id": 663656,
-        "current_batter_name": "Kyle Tucker",
+        "current_batter_id": 690976,
+        "current_batter_name": "Alex Freeland",
         "current_pitcher_id": 669211,
         "current_pitcher_name": "Keegan Akin"
       },
@@ -4097,17 +4097,17 @@
             "order": 6,
             "player_id": 663656,
             "name": "Kyle Tucker",
-            "season_avg": ".235",
-            "season_obp": ".332",
-            "season_slg": ".375"
+            "season_avg": ".234",
+            "season_obp": ".331",
+            "season_slg": ".374"
           },
           {
             "order": 7,
             "player_id": 669743,
             "name": "Alex Call",
-            "season_avg": ".250",
-            "season_obp": ".364",
-            "season_slg": ".304"
+            "season_avg": ".247",
+            "season_obp": ".360",
+            "season_slg": ".301"
           },
           {
             "order": 8,
@@ -5799,11 +5799,25 @@
       "game_pk": 823449,
       "home_team_id": 143,
       "away_team_id": 121,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.6869999999999999,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.739,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 701807,
+        "current_batter_name": "Carson Benge",
+        "current_pitcher_id": 554430,
+        "current_pitcher_name": "Zack Wheeler"
+      },
       "lineups": {
         "home": [
           {
@@ -5954,7 +5968,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 554430,
+          "pitcher_name": "Zack Wheeler",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 656849,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824664,
