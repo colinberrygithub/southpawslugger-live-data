@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-22T21:47:28+00:00",
+  "updated_at": "2026-06-22T21:58:24+00:00",
   "date": "2026-06-22",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 823531,
@@ -2276,11 +2276,25 @@
       "game_pk": 824261,
       "home_team_id": 116,
       "away_team_id": 147,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.419675,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.404,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 642708,
+        "current_batter_name": "Amed Rosario",
+        "current_pitcher_id": 664285,
+        "current_pitcher_name": "Framber Valdez"
+      },
       "lineups": {
         "home": [
           {
@@ -2431,7 +2445,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 664285,
+          "pitcher_name": "Framber Valdez",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 543037,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 822964,
