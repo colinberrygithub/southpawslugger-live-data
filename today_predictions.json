@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-23T19:36:16+00:00",
+  "updated_at": "2026-06-23T19:47:16+00:00",
   "date": "2026-06-23",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824261,
@@ -1954,11 +1954,25 @@
       "game_pk": 822799,
       "home_team_id": 141,
       "away_team_id": 117,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.519125,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.509,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 514888,
+        "current_batter_name": "Jose Altuve",
+        "current_pitcher_id": 669456,
+        "current_pitcher_name": "Shane Bieber"
+      },
       "lineups": {
         "home": [
           {
@@ -2109,7 +2123,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 669456,
+          "pitcher_name": "Shane Bieber",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 663567,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823365,
@@ -3015,7 +3042,80 @@
             "season_slg": ".280"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 694192,
+            "name": "Jackson Chourio",
+            "season_avg": ".294",
+            "season_obp": ".347",
+            "season_slg": ".528"
+          },
+          {
+            "order": 2,
+            "player_id": 668930,
+            "name": "Brice Turang",
+            "season_avg": ".263",
+            "season_obp": ".372",
+            "season_slg": ".456"
+          },
+          {
+            "order": 3,
+            "player_id": 661388,
+            "name": "William Contreras",
+            "season_avg": ".295",
+            "season_obp": ".357",
+            "season_slg": ".413"
+          },
+          {
+            "order": 4,
+            "player_id": 683734,
+            "name": "Andrew Vaughn",
+            "season_avg": ".349",
+            "season_obp": ".432",
+            "season_slg": ".523"
+          },
+          {
+            "order": 5,
+            "player_id": 641343,
+            "name": "Jake Bauers",
+            "season_avg": ".266",
+            "season_obp": ".371",
+            "season_slg": ".489"
+          },
+          {
+            "order": 6,
+            "player_id": 596142,
+            "name": "Gary S\u00e1nchez",
+            "season_avg": ".222",
+            "season_obp": ".366",
+            "season_slg": ".453"
+          },
+          {
+            "order": 7,
+            "player_id": 663368,
+            "name": "Blake Perkins",
+            "season_avg": ".157",
+            "season_obp": ".247",
+            "season_slg": ".253"
+          },
+          {
+            "order": 8,
+            "player_id": 806198,
+            "name": "Cooper Pratt",
+            "season_avg": ".350",
+            "season_obp": ".391",
+            "season_slg": ".350"
+          },
+          {
+            "order": 9,
+            "player_id": 687401,
+            "name": "Joey Ortiz",
+            "season_avg": ".203",
+            "season_obp": ".287",
+            "season_slg": ".253"
+          }
+        ]
       },
       "starting_pitchers": null
     },
