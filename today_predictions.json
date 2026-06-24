@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-24T18:47:18+00:00",
+  "updated_at": "2026-06-24T18:58:25+00:00",
   "date": "2026-06-24",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 822799,
@@ -2423,7 +2423,7 @@
       "home_team_id": 146,
       "away_team_id": 140,
       "abstract_status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "pre_home_win_prob": 0.457075,
       "live_home_win_prob": null,
       "linescore": null,
@@ -2586,21 +2586,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.539525,
-      "live_home_win_prob": 0.514,
+      "live_home_win_prob": 0.234,
       "linescore": {
         "current_inning": 6,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 3,
-        "away_runs": 3,
-        "balls": 0,
+        "away_runs": 6,
+        "balls": 1,
         "strikes": 0,
-        "outs": 2,
-        "base_state": "101",
-        "current_batter_id": 621020,
-        "current_batter_name": "Dansby Swanson",
-        "current_pitcher_id": 690997,
-        "current_pitcher_name": "Nolan McLean"
+        "outs": 0,
+        "base_state": "110",
+        "current_batter_id": 676572,
+        "current_batter_name": "Eric Wagaman",
+        "current_pitcher_id": 669020,
+        "current_pitcher_name": "Ryan Rolison"
       },
       "lineups": {
         "home": [
@@ -2630,27 +2630,27 @@
           },
           {
             "order": 4,
-            "player_id": 676724,
-            "name": "Jared Young",
-            "season_avg": ".237",
-            "season_obp": ".301",
-            "season_slg": ".441"
+            "player_id": 668901,
+            "name": "Mark Vientos",
+            "season_avg": ".221",
+            "season_obp": ".260",
+            "season_slg": ".390"
           },
           {
             "order": 5,
             "player_id": 682626,
             "name": "Francisco Alvarez",
-            "season_avg": ".261",
-            "season_obp": ".329",
-            "season_slg": ".431"
+            "season_avg": ".266",
+            "season_obp": ".333",
+            "season_slg": ".435"
           },
           {
             "order": 6,
-            "player_id": 683146,
-            "name": "Brett Baty",
-            "season_avg": ".219",
-            "season_obp": ".300",
-            "season_slg": ".307"
+            "player_id": 676572,
+            "name": "Eric Wagaman",
+            "season_avg": ".214",
+            "season_obp": ".353",
+            "season_slg": ".429"
           },
           {
             "order": 7,
@@ -2682,9 +2682,9 @@
             "order": 1,
             "player_id": 691718,
             "name": "Pete Crow-Armstrong",
-            "season_avg": ".288",
-            "season_obp": ".369",
-            "season_slg": ".529"
+            "season_avg": ".287",
+            "season_obp": ".368",
+            "season_slg": ".527"
           },
           {
             "order": 2,
@@ -2746,9 +2746,9 @@
             "order": 9,
             "player_id": 621020,
             "name": "Dansby Swanson",
-            "season_avg": ".188",
-            "season_obp": ".293",
-            "season_slg": ".343"
+            "season_avg": ".191",
+            "season_obp": ".295",
+            "season_slg": ".358"
           }
         ]
       },
@@ -2756,7 +2756,7 @@
         "home": {
           "pitcher_id": 690997,
           "pitcher_name": "Nolan McLean",
-          "pitch_count": 99,
+          "pitch_count": 104,
           "pitches": [
             {
               "px": -0.5260137623126028,
@@ -3548,6 +3548,46 @@
               "type": "ST",
               "velocity": 85.0,
               "call": "X",
+              "inning": 6
+            },
+            {
+              "px": 1.0103093209170093,
+              "pz": 1.636853699819041,
+              "type": "FF",
+              "velocity": 96.0,
+              "call": "B",
+              "inning": 6
+            },
+            {
+              "px": 0.03526634193700026,
+              "pz": 2.6685945988100177,
+              "type": "FF",
+              "velocity": 95.5,
+              "call": "X",
+              "inning": 6
+            },
+            {
+              "px": -0.314284035591279,
+              "pz": 3.3925901291397413,
+              "type": "ST",
+              "velocity": 83.1,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": -0.13799279574473045,
+              "pz": 1.122834368278607,
+              "type": "CU",
+              "velocity": 82.4,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": -0.3239959299826688,
+              "pz": 1.4793978115444977,
+              "type": "CU",
+              "velocity": 82.1,
+              "call": "S",
               "inning": 6
             }
           ]
@@ -4405,11 +4445,25 @@
       "game_pk": 824341,
       "home_team_id": 115,
       "away_team_id": 111,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.293025,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.253,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 681987,
+        "current_batter_name": "Nate Eaton",
+        "current_pitcher_id": 607536,
+        "current_pitcher_name": "Kyle Freeland"
+      },
       "lineups": {
         "home": [
           {
@@ -4560,7 +4614,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 607536,
+          "pitcher_name": "Kyle Freeland",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 624133,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824018,
@@ -4822,7 +4889,80 @@
             "season_slg": ".320"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 695600,
+            "name": "Carter Jensen",
+            "season_avg": ".244",
+            "season_obp": ".313",
+            "season_slg": ".431"
+          },
+          {
+            "order": 2,
+            "player_id": 679845,
+            "name": "Nick Loftin",
+            "season_avg": ".264",
+            "season_obp": ".358",
+            "season_slg": ".448"
+          },
+          {
+            "order": 3,
+            "player_id": 695506,
+            "name": "Jac Caglianone",
+            "season_avg": ".277",
+            "season_obp": ".349",
+            "season_slg": ".498"
+          },
+          {
+            "order": 4,
+            "player_id": 521692,
+            "name": "Salvador Perez",
+            "season_avg": ".206",
+            "season_obp": ".249",
+            "season_slg": ".340"
+          },
+          {
+            "order": 5,
+            "player_id": 686681,
+            "name": "Michael Massey",
+            "season_avg": ".261",
+            "season_obp": ".284",
+            "season_slg": ".450"
+          },
+          {
+            "order": 6,
+            "player_id": 686555,
+            "name": "Isaac Collins",
+            "season_avg": ".227",
+            "season_obp": ".338",
+            "season_slg": ".318"
+          },
+          {
+            "order": 7,
+            "player_id": 670231,
+            "name": "John Rave",
+            "season_avg": ".300",
+            "season_obp": ".462",
+            "season_slg": ".900"
+          },
+          {
+            "order": 8,
+            "player_id": 670224,
+            "name": "Kameron Misner",
+            "season_avg": ".333",
+            "season_obp": ".360",
+            "season_slg": ".375"
+          },
+          {
+            "order": 9,
+            "player_id": 686475,
+            "name": "Tyler Tolbert",
+            "season_avg": ".250",
+            "season_obp": ".321",
+            "season_slg": ".250"
+          }
+        ]
       },
       "starting_pitchers": null
     },
