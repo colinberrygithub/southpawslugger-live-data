@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T20:58:11+00:00",
+  "updated_at": "2026-06-25T21:03:13+00:00",
   "date": "2026-06-25",
   "live_game_count": 1,
   "games": [
@@ -2908,21 +2908,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.62325,
-      "live_home_win_prob": 0.511,
+      "live_home_win_prob": 0.558,
       "linescore": {
         "current_inning": 5,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 1,
-        "away_runs": 1,
+        "away_runs": 2,
         "balls": 2,
-        "strikes": 1,
-        "outs": 1,
-        "base_state": "101",
-        "current_batter_id": 701762,
-        "current_batter_name": "Nick Kurtz",
-        "current_pitcher_id": 694738,
-        "current_pitcher_name": "Landen Roupp"
+        "strikes": 2,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 682674,
+        "current_batter_name": "Victor Bericoto",
+        "current_pitcher_id": 605488,
+        "current_pitcher_name": "Jeffrey Springs"
       },
       "lineups": {
         "home": [
@@ -3012,17 +3012,17 @@
             "order": 2,
             "player_id": 701762,
             "name": "Nick Kurtz",
-            "season_avg": ".280",
-            "season_obp": ".427",
-            "season_slg": ".536"
+            "season_avg": ".279",
+            "season_obp": ".426",
+            "season_slg": ".534"
           },
           {
             "order": 3,
             "player_id": 669127,
             "name": "Shea Langeliers",
-            "season_avg": ".263",
-            "season_obp": ".329",
-            "season_slg": ".507"
+            "season_avg": ".262",
+            "season_obp": ".328",
+            "season_slg": ".505"
           },
           {
             "order": 4,
@@ -3078,7 +3078,7 @@
         "home": {
           "pitcher_id": 694738,
           "pitcher_name": "Landen Roupp",
-          "pitch_count": 86,
+          "pitch_count": 91,
           "pitches": [
             {
               "px": -0.027053206248036178,
@@ -3767,13 +3767,53 @@
               "velocity": 92.9,
               "call": "X",
               "inning": 5
+            },
+            {
+              "px": -0.3559752541370523,
+              "pz": 2.0009902451534667,
+              "type": "SI",
+              "velocity": 91.7,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": -0.0008599654652538,
+              "pz": 3.0661218266235566,
+              "type": "FF",
+              "velocity": 92.6,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": -0.33607009019823353,
+              "pz": 4.409424865050857,
+              "type": "FF",
+              "velocity": 92.2,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 1.234759835203437,
+              "pz": 4.002954681620874,
+              "type": "FF",
+              "velocity": 91.7,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 1.3237499268283435,
+              "pz": 2.520752453416778,
+              "type": "CU",
+              "velocity": 76.7,
+              "call": "S",
+              "inning": 5
             }
           ]
         },
         "away": {
           "pitcher_id": 605488,
           "pitcher_name": "Jeffrey Springs",
-          "pitch_count": 62,
+          "pitch_count": 66,
           "pitches": [
             {
               "px": 1.2137917009799843,
@@ -4270,6 +4310,38 @@
               "velocity": 85.4,
               "call": "X",
               "inning": 4
+            },
+            {
+              "px": 1.0137602093205762,
+              "pz": 1.1579022741791416,
+              "type": "CH",
+              "velocity": 79.8,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 1.2275078808999609,
+              "pz": 2.198422310488082,
+              "type": "CH",
+              "velocity": 79.4,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 1.430136785986812,
+              "pz": 1.2699328724618064,
+              "type": "CH",
+              "velocity": 80.2,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 0.28047212167558294,
+              "pz": 2.7926420205566056,
+              "type": "SL",
+              "velocity": 83.2,
+              "call": "F",
+              "inning": 5
             }
           ]
         }
