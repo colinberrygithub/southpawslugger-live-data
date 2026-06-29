@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-29T22:14:12+00:00",
+  "updated_at": "2026-06-29T22:25:23+00:00",
   "date": "2026-06-29",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 824821,
@@ -2610,11 +2610,25 @@
       "game_pk": 823444,
       "home_team_id": 143,
       "away_team_id": 134,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.4966,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.517,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 804606,
+        "current_batter_name": "Konnor Griffin",
+        "current_pitcher_id": 605400,
+        "current_pitcher_name": "Aaron Nola"
+      },
       "lineups": {
         "home": [
           {
@@ -2765,7 +2779,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 605400,
+          "pitcher_name": "Aaron Nola",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 677952,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823529,
@@ -4241,7 +4268,80 @@
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 606466,
+            "name": "Ketel Marte",
+            "season_avg": ".262",
+            "season_obp": ".317",
+            "season_slg": ".470"
+          },
+          {
+            "order": 2,
+            "player_id": 672695,
+            "name": "Geraldo Perdomo",
+            "season_avg": ".245",
+            "season_obp": ".357",
+            "season_slg": ".361"
+          },
+          {
+            "order": 3,
+            "player_id": 682998,
+            "name": "Corbin Carroll",
+            "season_avg": ".278",
+            "season_obp": ".361",
+            "season_slg": ".532"
+          },
+          {
+            "order": 4,
+            "player_id": 672515,
+            "name": "Gabriel Moreno",
+            "season_avg": ".280",
+            "season_obp": ".361",
+            "season_slg": ".439"
+          },
+          {
+            "order": 5,
+            "player_id": 666971,
+            "name": "Lourdes Gurriel Jr.",
+            "season_avg": ".219",
+            "season_obp": ".271",
+            "season_slg": ".289"
+          },
+          {
+            "order": 6,
+            "player_id": 596146,
+            "name": "Max Kepler",
+            "season_avg": ".000",
+            "season_obp": ".000",
+            "season_slg": ".000"
+          },
+          {
+            "order": 7,
+            "player_id": 571448,
+            "name": "Nolan Arenado",
+            "season_avg": ".237",
+            "season_obp": ".311",
+            "season_slg": ".383"
+          },
+          {
+            "order": 8,
+            "player_id": 656976,
+            "name": "Pavin Smith",
+            "season_avg": ".161",
+            "season_obp": ".273",
+            "season_slg": ".232"
+          },
+          {
+            "order": 9,
+            "player_id": 694371,
+            "name": "Tommy Troy",
+            "season_avg": ".228",
+            "season_obp": ".304",
+            "season_slg": ".380"
+          }
+        ],
         "away": [
           {
             "order": 1,
