@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-01T22:14:25+00:00",
+  "updated_at": "2026-07-01T22:25:31+00:00",
   "date": "2026-07-01",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824819,
@@ -3228,7 +3228,7 @@
       "home_team_id": 141,
       "away_team_id": 121,
       "abstract_status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "pre_home_win_prob": 0.572675,
       "live_home_win_prob": null,
       "linescore": null,
@@ -3388,11 +3388,25 @@
       "game_pk": 823446,
       "home_team_id": 143,
       "away_team_id": 134,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.65215,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.712,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 804606,
+        "current_batter_name": "Konnor Griffin",
+        "current_pitcher_id": 554430,
+        "current_pitcher_name": "Zack Wheeler"
+      },
       "lineups": {
         "home": [
           {
@@ -3543,7 +3557,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 554430,
+          "pitcher_name": "Zack Wheeler",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 694973,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824905,
