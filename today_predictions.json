@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T16:58:21+00:00",
+  "updated_at": "2026-07-02T17:03:21+00:00",
   "date": "2026-07-02",
   "live_game_count": 1,
   "games": [
@@ -2264,21 +2264,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.60115,
-      "live_home_win_prob": 0.671,
+      "live_home_win_prob": 0.688,
       "linescore": {
         "current_inning": 2,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 3,
-        "strikes": 2,
-        "outs": 2,
-        "base_state": "010",
-        "current_batter_id": 542303,
-        "current_batter_name": "Marcell Ozuna",
-        "current_pitcher_id": 660604,
-        "current_pitcher_name": "Alan Rangel"
+        "balls": 0,
+        "strikes": 1,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 669016,
+        "current_batter_name": "Brandon Marsh",
+        "current_pitcher_id": 683003,
+        "current_pitcher_name": "Jared Jones"
       },
       "lineups": {
         "home": [
@@ -2409,16 +2409,16 @@
             "player_id": 542303,
             "name": "Marcell Ozuna",
             "season_avg": ".200",
-            "season_obp": ".279",
+            "season_obp": ".282",
             "season_slg": ".324"
           },
           {
             "order": 8,
             "player_id": 682848,
             "name": "Endy Rodr\u00edguez",
-            "season_avg": ".270",
-            "season_obp": ".398",
-            "season_slg": ".472"
+            "season_avg": ".267",
+            "season_obp": ".394",
+            "season_slg": ".467"
           },
           {
             "order": 9,
@@ -2434,7 +2434,7 @@
         "home": {
           "pitcher_id": 660604,
           "pitcher_name": "Alan Rangel",
-          "pitch_count": 33,
+          "pitch_count": 37,
           "pitches": [
             {
               "px": -0.1372523689299818,
@@ -2699,13 +2699,45 @@
               "velocity": 79.6,
               "call": "B",
               "inning": 2
+            },
+            {
+              "px": -0.2729140062063384,
+              "pz": 3.0210477902811266,
+              "type": "CU",
+              "velocity": 73.5,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.6479501593435923,
+              "pz": 1.6236972779182517,
+              "type": "CU",
+              "velocity": 74.2,
+              "call": "F",
+              "inning": 2
+            },
+            {
+              "px": -0.2934818597394048,
+              "pz": 4.074002700887622,
+              "type": "FF",
+              "velocity": 93.8,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.49523636898906104,
+              "pz": 1.6677103473565598,
+              "type": "CH",
+              "velocity": 83.2,
+              "call": "S",
+              "inning": 2
             }
           ]
         },
         "away": {
           "pitcher_id": 683003,
           "pitcher_name": "Jared Jones",
-          "pitch_count": 18,
+          "pitch_count": 19,
           "pitches": [
             {
               "px": 1.0642668759003593,
@@ -2850,6 +2882,14 @@
               "velocity": 100.2,
               "call": "S",
               "inning": 1
+            },
+            {
+              "px": 0.42489334997691336,
+              "pz": 2.983164478306212,
+              "type": "FF",
+              "velocity": 97.0,
+              "call": "F",
+              "inning": 2
             }
           ]
         }
