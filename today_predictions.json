@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T16:25:25+00:00",
+  "updated_at": "2026-07-02T16:36:14+00:00",
   "date": "2026-07-02",
   "live_game_count": 1,
   "games": [
@@ -2262,9 +2262,9 @@
       "home_team_id": 143,
       "away_team_id": 134,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.60115,
-      "live_home_win_prob": 0.633,
+      "live_home_win_prob": 0.644,
       "linescore": {
         "current_inning": 1,
         "inning_state": "Top",
@@ -2272,8 +2272,8 @@
         "home_runs": 0,
         "away_runs": 0,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "strikes": 2,
+        "outs": 1,
         "base_state": "000",
         "current_batter_id": 663968,
         "current_batter_name": "Jake Mangum",
@@ -2434,8 +2434,33 @@
         "home": {
           "pitcher_id": 660604,
           "pitcher_name": "Alan Rangel",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 3,
+          "pitches": [
+            {
+              "px": -0.1372523689299818,
+              "pz": 2.147995937156365,
+              "type": "FF",
+              "velocity": 91.9,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.24093172819316003,
+              "pz": 1.3257423465565312,
+              "type": "CH",
+              "velocity": 80.7,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.26335620367872936,
+              "pz": 1.8727302141072217,
+              "type": "CH",
+              "velocity": 82.4,
+              "call": "X",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 683003,
@@ -2690,7 +2715,80 @@
             "season_slg": ".307"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 689414,
+            "name": "Liam Hicks",
+            "season_avg": ".283",
+            "season_obp": ".360",
+            "season_slg": ".469"
+          },
+          {
+            "order": 2,
+            "player_id": 672640,
+            "name": "Otto Lopez",
+            "season_avg": ".332",
+            "season_obp": ".365",
+            "season_slg": ".484"
+          },
+          {
+            "order": 3,
+            "player_id": 669065,
+            "name": "Kyle Stowers",
+            "season_avg": ".231",
+            "season_obp": ".320",
+            "season_slg": ".427"
+          },
+          {
+            "order": 4,
+            "player_id": 669364,
+            "name": "Xavier Edwards",
+            "season_avg": ".303",
+            "season_obp": ".381",
+            "season_slg": ".432"
+          },
+          {
+            "order": 5,
+            "player_id": 665052,
+            "name": "Griffin Conine",
+            "season_avg": ".280",
+            "season_obp": ".368",
+            "season_slg": ".520"
+          },
+          {
+            "order": 6,
+            "player_id": 683357,
+            "name": "Owen Caissie",
+            "season_avg": ".240",
+            "season_obp": ".299",
+            "season_slg": ".442"
+          },
+          {
+            "order": 7,
+            "player_id": 805300,
+            "name": "Jakob Marsee",
+            "season_avg": ".189",
+            "season_obp": ".307",
+            "season_slg": ".287"
+          },
+          {
+            "order": 8,
+            "player_id": 691594,
+            "name": "Javier Sanoja",
+            "season_avg": ".277",
+            "season_obp": ".321",
+            "season_slg": ".415"
+          },
+          {
+            "order": 9,
+            "player_id": 691788,
+            "name": "Joe Mack",
+            "season_avg": ".256",
+            "season_obp": ".313",
+            "season_slg": ".429"
+          }
+        ]
       },
       "starting_pitchers": null
     },
