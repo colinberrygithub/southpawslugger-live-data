@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-02T16:03:09+00:00",
+  "updated_at": "2026-07-02T16:14:18+00:00",
   "date": "2026-07-02",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824818,
@@ -2261,11 +2261,25 @@
       "game_pk": 823442,
       "home_team_id": 143,
       "away_team_id": 134,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.60115,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.633,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 663968,
+        "current_batter_name": "Jake Mangum",
+        "current_pitcher_id": 660604,
+        "current_pitcher_name": "Alan Rangel"
+      },
       "lineups": {
         "home": [
           {
@@ -2416,7 +2430,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 660604,
+          "pitcher_name": "Alan Rangel",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 683003,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823765,
