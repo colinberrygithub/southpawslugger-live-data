@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-03T19:47:12+00:00",
+  "updated_at": "2026-07-03T19:58:11+00:00",
   "date": "2026-07-03",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 823442,
@@ -1456,11 +1456,25 @@
       "game_pk": 824659,
       "home_team_id": 112,
       "away_team_id": 138,
-      "abstract_status": "Preview",
-      "detailed_status": "Delayed Start",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5611999999999999,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.596,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 802139,
+        "current_batter_name": "JJ Wetherholt",
+        "current_pitcher_id": 656849,
+        "current_pitcher_name": "David Peterson"
+      },
       "lineups": {
         "home": [
           {
@@ -1611,19 +1625,105 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 656849,
+          "pitcher_name": "David Peterson",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 669467,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 822714,
       "home_team_id": 120,
       "away_team_id": 134,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.537825,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 695578,
+            "name": "James Wood",
+            "season_avg": ".265",
+            "season_obp": ".389",
+            "season_slg": ".522"
+          },
+          {
+            "order": 2,
+            "player_id": 671277,
+            "name": "Luis Garc\u00eda Jr.",
+            "season_avg": ".280",
+            "season_obp": ".310",
+            "season_slg": ".537"
+          },
+          {
+            "order": 3,
+            "player_id": 677588,
+            "name": "Jos\u00e9 Tena",
+            "season_avg": ".225",
+            "season_obp": ".287",
+            "season_slg": ".371"
+          },
+          {
+            "order": 4,
+            "player_id": 682928,
+            "name": "CJ Abrams",
+            "season_avg": ".273",
+            "season_obp": ".355",
+            "season_slg": ".511"
+          },
+          {
+            "order": 5,
+            "player_id": 686611,
+            "name": "Dylan Crews",
+            "season_avg": ".234",
+            "season_obp": ".284",
+            "season_slg": ".372"
+          },
+          {
+            "order": 6,
+            "player_id": 695734,
+            "name": "Daylen Lile",
+            "season_avg": ".250",
+            "season_obp": ".304",
+            "season_slg": ".396"
+          },
+          {
+            "order": 7,
+            "player_id": 660688,
+            "name": "Keibert Ruiz",
+            "season_avg": ".285",
+            "season_obp": ".316",
+            "season_slg": ".475"
+          },
+          {
+            "order": 8,
+            "player_id": 678391,
+            "name": "Jorbit Vivas",
+            "season_avg": ".250",
+            "season_obp": ".326",
+            "season_slg": ".350"
+          },
+          {
+            "order": 9,
+            "player_id": 683083,
+            "name": "Nasim Nu\u00f1ez",
+            "season_avg": ".233",
+            "season_obp": ".320",
+            "season_slg": ".286"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
@@ -1955,12 +2055,85 @@
       "home_team_id": 114,
       "away_team_id": 145,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.553125,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 683953,
+            "name": "Travis Bazzana",
+            "season_avg": ".251",
+            "season_obp": ".346",
+            "season_slg": ".420"
+          },
+          {
+            "order": 2,
+            "player_id": 681807,
+            "name": "David Fry",
+            "season_avg": ".220",
+            "season_obp": ".333",
+            "season_slg": ".407"
+          },
+          {
+            "order": 3,
+            "player_id": 800050,
+            "name": "Chase DeLauter",
+            "season_avg": ".274",
+            "season_obp": ".341",
+            "season_slg": ".418"
+          },
+          {
+            "order": 4,
+            "player_id": 656555,
+            "name": "Rhys Hoskins",
+            "season_avg": ".181",
+            "season_obp": ".318",
+            "season_slg": ".352"
+          },
+          {
+            "order": 5,
+            "player_id": 700932,
+            "name": "Kyle Manzardo",
+            "season_avg": ".230",
+            "season_obp": ".324",
+            "season_slg": ".393"
+          },
+          {
+            "order": 6,
+            "player_id": 677587,
+            "name": "Brayan Rocchio",
+            "season_avg": ".269",
+            "season_obp": ".342",
+            "season_slg": ".392"
+          },
+          {
+            "order": 7,
+            "player_id": 672356,
+            "name": "Gabriel Arias",
+            "season_avg": ".211",
+            "season_obp": ".243",
+            "season_slg": ".366"
+          },
+          {
+            "order": 8,
+            "player_id": 595978,
+            "name": "Austin Hedges",
+            "season_avg": ".270",
+            "season_obp": ".331",
+            "season_slg": ".383"
+          },
+          {
+            "order": 9,
+            "player_id": 680757,
+            "name": "Steven Kwan",
+            "season_avg": ".216",
+            "season_obp": ".325",
+            "season_slg": ".267"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
@@ -2049,7 +2222,80 @@
             "season_slg": ".411"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 805999,
+            "name": "A.J. Ewing",
+            "season_avg": ".268",
+            "season_obp": ".352",
+            "season_slg": ".401"
+          },
+          {
+            "order": 2,
+            "player_id": 665742,
+            "name": "Juan Soto",
+            "season_avg": ".293",
+            "season_obp": ".403",
+            "season_slg": ".554"
+          },
+          {
+            "order": 3,
+            "player_id": 666182,
+            "name": "Bo Bichette",
+            "season_avg": ".250",
+            "season_obp": ".296",
+            "season_slg": ".379"
+          },
+          {
+            "order": 4,
+            "player_id": 596019,
+            "name": "Francisco Lindor",
+            "season_avg": ".216",
+            "season_obp": ".300",
+            "season_slg": ".388"
+          },
+          {
+            "order": 5,
+            "player_id": 701807,
+            "name": "Carson Benge",
+            "season_avg": ".259",
+            "season_obp": ".318",
+            "season_slg": ".402"
+          },
+          {
+            "order": 6,
+            "player_id": 676724,
+            "name": "Jared Young",
+            "season_avg": ".228",
+            "season_obp": ".299",
+            "season_slg": ".421"
+          },
+          {
+            "order": 7,
+            "player_id": 682626,
+            "name": "Francisco Alvarez",
+            "season_avg": ".245",
+            "season_obp": ".307",
+            "season_slg": ".429"
+          },
+          {
+            "order": 8,
+            "player_id": 683146,
+            "name": "Brett Baty",
+            "season_avg": ".211",
+            "season_obp": ".295",
+            "season_slg": ".295"
+          },
+          {
+            "order": 9,
+            "player_id": 620443,
+            "name": "Luis Torrens",
+            "season_avg": ".217",
+            "season_obp": ".277",
+            "season_slg": ".322"
+          }
+        ]
       },
       "starting_pitchers": null
     },
@@ -2146,12 +2392,85 @@
       "home_team_id": 117,
       "away_team_id": 139,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.42010000000000003,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 514888,
+            "name": "Jose Altuve",
+            "season_avg": ".233",
+            "season_obp": ".307",
+            "season_slg": ".378"
+          },
+          {
+            "order": 2,
+            "player_id": 670541,
+            "name": "Yordan Alvarez",
+            "season_avg": ".319",
+            "season_obp": ".433",
+            "season_slg": ".620"
+          },
+          {
+            "order": 3,
+            "player_id": 670623,
+            "name": "Isaac Paredes",
+            "season_avg": ".250",
+            "season_obp": ".346",
+            "season_slg": ".416"
+          },
+          {
+            "order": 4,
+            "player_id": 572233,
+            "name": "Christian Walker",
+            "season_avg": ".239",
+            "season_obp": ".310",
+            "season_slg": ".469"
+          },
+          {
+            "order": 5,
+            "player_id": 701358,
+            "name": "Cam Smith",
+            "season_avg": ".223",
+            "season_obp": ".297",
+            "season_slg": ".387"
+          },
+          {
+            "order": 6,
+            "player_id": 666211,
+            "name": "Taylor Trammell",
+            "season_avg": ".265",
+            "season_obp": ".333",
+            "season_slg": ".429"
+          },
+          {
+            "order": 7,
+            "player_id": 673237,
+            "name": "Yainer Diaz",
+            "season_avg": ".239",
+            "season_obp": ".267",
+            "season_slg": ".352"
+          },
+          {
+            "order": 8,
+            "player_id": 676694,
+            "name": "Jake Meyers",
+            "season_avg": ".211",
+            "season_obp": ".269",
+            "season_slg": ".323"
+          },
+          {
+            "order": 9,
+            "player_id": 669397,
+            "name": "Nick Allen",
+            "season_avg": ".247",
+            "season_obp": ".291",
+            "season_slg": ".315"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
