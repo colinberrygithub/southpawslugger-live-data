@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-04T14:25:18+00:00",
+  "updated_at": "2026-07-04T14:36:13+00:00",
   "date": "2026-07-04",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824659,
@@ -2100,11 +2100,25 @@
       "game_pk": 822716,
       "home_team_id": 120,
       "away_team_id": 134,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.49022499999999997,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.51,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 804606,
+        "current_batter_name": "Konnor Griffin",
+        "current_pitcher_id": 687223,
+        "current_pitcher_name": "Carson Palmquist"
+      },
       "lineups": {
         "home": [
           {
@@ -2255,20 +2269,106 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 687223,
+          "pitcher_name": "Carson Palmquist",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 677952,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823526,
       "home_team_id": 147,
       "away_team_id": 142,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.574375,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
         "home": null,
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 663616,
+            "name": "Trevor Larnach",
+            "season_avg": ".287",
+            "season_obp": ".379",
+            "season_slg": ".430"
+          },
+          {
+            "order": 2,
+            "player_id": 621439,
+            "name": "Byron Buxton",
+            "season_avg": ".268",
+            "season_obp": ".325",
+            "season_slg": ".573"
+          },
+          {
+            "order": 3,
+            "player_id": 665019,
+            "name": "Kody Clemens",
+            "season_avg": ".244",
+            "season_obp": ".306",
+            "season_slg": ".489"
+          },
+          {
+            "order": 4,
+            "player_id": 605137,
+            "name": "Josh Bell",
+            "season_avg": ".241",
+            "season_obp": ".300",
+            "season_slg": ".408"
+          },
+          {
+            "order": 5,
+            "player_id": 668904,
+            "name": "Royce Lewis",
+            "season_avg": ".212",
+            "season_obp": ".288",
+            "season_slg": ".379"
+          },
+          {
+            "order": 6,
+            "player_id": 686797,
+            "name": "Brooks Lee",
+            "season_avg": ".248",
+            "season_obp": ".303",
+            "season_slg": ".434"
+          },
+          {
+            "order": 7,
+            "player_id": 668952,
+            "name": "Ryan Kreidler",
+            "season_avg": ".269",
+            "season_obp": ".342",
+            "season_slg": ".472"
+          },
+          {
+            "order": 8,
+            "player_id": 807712,
+            "name": "Luke Keaschall",
+            "season_avg": ".251",
+            "season_obp": ".336",
+            "season_slg": ".336"
+          },
+          {
+            "order": 9,
+            "player_id": 656577,
+            "name": "Alex Jackson",
+            "season_avg": ".311",
+            "season_obp": ".340",
+            "season_slg": ".378"
+          }
+        ]
       },
       "starting_pitchers": null
     },
