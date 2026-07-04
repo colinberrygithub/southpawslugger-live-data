@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-04T22:47:16+00:00",
+  "updated_at": "2026-07-04T22:58:18+00:00",
   "date": "2026-07-04",
-  "live_game_count": 2,
+  "live_game_count": 3,
   "games": [
     {
       "game_pk": 824659,
@@ -2584,7 +2584,7 @@
       "home_team_id": 136,
       "away_team_id": 141,
       "abstract_status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "pre_home_win_prob": 0.58585,
       "live_home_win_prob": null,
       "linescore": null,
@@ -3120,11 +3120,25 @@
       "game_pk": 824415,
       "home_team_id": 114,
       "away_team_id": 145,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5781999999999999,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.618,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 678246,
+        "current_batter_name": "Miguel Vargas",
+        "current_pitcher_id": 800048,
+        "current_pitcher_name": "Parker Messick"
+      },
       "lineups": {
         "home": [
           {
@@ -3275,7 +3289,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 800048,
+          "pitcher_name": "Parker Messick",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 680732,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824658,
@@ -4327,7 +4354,80 @@
             "season_slg": ".363"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 668930,
+            "name": "Brice Turang",
+            "season_avg": ".263",
+            "season_obp": ".361",
+            "season_slg": ".451"
+          },
+          {
+            "order": 2,
+            "player_id": 592885,
+            "name": "Christian Yelich",
+            "season_avg": ".248",
+            "season_obp": ".333",
+            "season_slg": ".379"
+          },
+          {
+            "order": 3,
+            "player_id": 641343,
+            "name": "Jake Bauers",
+            "season_avg": ".269",
+            "season_obp": ".368",
+            "season_slg": ".496"
+          },
+          {
+            "order": 4,
+            "player_id": 661388,
+            "name": "William Contreras",
+            "season_avg": ".293",
+            "season_obp": ".358",
+            "season_slg": ".416"
+          },
+          {
+            "order": 5,
+            "player_id": 669003,
+            "name": "Garrett Mitchell",
+            "season_avg": ".265",
+            "season_obp": ".362",
+            "season_slg": ".462"
+          },
+          {
+            "order": 6,
+            "player_id": 683734,
+            "name": "Andrew Vaughn",
+            "season_avg": ".336",
+            "season_obp": ".423",
+            "season_slg": ".523"
+          },
+          {
+            "order": 7,
+            "player_id": 686217,
+            "name": "Sal Frelick",
+            "season_avg": ".247",
+            "season_obp": ".318",
+            "season_slg": ".336"
+          },
+          {
+            "order": 8,
+            "player_id": 806198,
+            "name": "Cooper Pratt",
+            "season_avg": ".191",
+            "season_obp": ".304",
+            "season_slg": ".213"
+          },
+          {
+            "order": 9,
+            "player_id": 687401,
+            "name": "Joey Ortiz",
+            "season_avg": ".201",
+            "season_obp": ".277",
+            "season_slg": ".263"
+          }
+        ]
       },
       "starting_pitchers": null
     },
