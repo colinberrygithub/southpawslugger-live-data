@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-05T16:36:16+00:00",
+  "updated_at": "2026-07-05T16:47:10+00:00",
   "date": "2026-07-05",
-  "live_game_count": 0,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 822716,
@@ -2583,11 +2583,25 @@
       "game_pk": 822715,
       "home_team_id": 120,
       "away_team_id": 134,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.51785,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.526,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 804606,
+        "current_batter_name": "Konnor Griffin",
+        "current_pitcher_id": 676917,
+        "current_pitcher_name": "Cade Cavalli"
+      },
       "lineups": {
         "home": [
           {
@@ -2738,17 +2752,44 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 676917,
+          "pitcher_name": "Cade Cavalli",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 696149,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824497,
       "home_team_id": 113,
       "away_team_id": 110,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.50595,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.51,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 683002,
+        "current_batter_name": "Gunnar Henderson",
+        "current_pitcher_id": 666157,
+        "current_pitcher_name": "Nick Lodolo"
+      },
       "lineups": {
         "home": [
           {
@@ -2899,7 +2940,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 666157,
+          "pitcher_name": "Nick Lodolo",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 680694,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823525,
@@ -3726,12 +3780,85 @@
       "home_team_id": 115,
       "away_team_id": 137,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.3827,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 664983,
+            "name": "Jake McCarthy",
+            "season_avg": ".307",
+            "season_obp": ".344",
+            "season_slg": ".518"
+          },
+          {
+            "order": 2,
+            "player_id": 666160,
+            "name": "Mickey Moniak",
+            "season_avg": ".282",
+            "season_obp": ".333",
+            "season_slg": ".612"
+          },
+          {
+            "order": 3,
+            "player_id": 696100,
+            "name": "Hunter Goodman",
+            "season_avg": ".251",
+            "season_obp": ".316",
+            "season_slg": ".552"
+          },
+          {
+            "order": 4,
+            "player_id": 681198,
+            "name": "TJ Rumfield",
+            "season_avg": ".295",
+            "season_obp": ".376",
+            "season_slg": ".487"
+          },
+          {
+            "order": 5,
+            "player_id": 687859,
+            "name": "Troy Johnston",
+            "season_avg": ".312",
+            "season_obp": ".382",
+            "season_slg": ".433"
+          },
+          {
+            "order": 6,
+            "player_id": 691720,
+            "name": "Kyle Karros",
+            "season_avg": ".263",
+            "season_obp": ".361",
+            "season_slg": ".417"
+          },
+          {
+            "order": 7,
+            "player_id": 666397,
+            "name": "Edouard Julien",
+            "season_avg": ".226",
+            "season_obp": ".342",
+            "season_slg": ".302"
+          },
+          {
+            "order": 8,
+            "player_id": 664954,
+            "name": "Brett Sullivan",
+            "season_avg": ".219",
+            "season_obp": ".260",
+            "season_slg": ".377"
+          },
+          {
+            "order": 9,
+            "player_id": 678662,
+            "name": "Ezequiel Tovar",
+            "season_avg": ".210",
+            "season_obp": ".252",
+            "season_slg": ".337"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
