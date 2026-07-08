@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-08T19:14:25+00:00",
+  "updated_at": "2026-07-08T19:25:39+00:00",
   "date": "2026-07-08",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 823062,
@@ -2583,11 +2583,25 @@
       "game_pk": 823202,
       "home_team_id": 137,
       "away_team_id": 141,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.448575,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.445,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 676391,
+        "current_batter_name": "Ernie Clement",
+        "current_pitcher_id": 657277,
+        "current_pitcher_name": "Logan Webb"
+      },
       "lineups": {
         "home": [
           {
@@ -2738,7 +2752,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 657277,
+          "pitcher_name": "Logan Webb",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 656302,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824815,
@@ -3273,12 +3300,85 @@
       "home_team_id": 121,
       "away_team_id": 118,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.639825,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 805999,
+            "name": "A.J. Ewing",
+            "season_avg": ".276",
+            "season_obp": ".359",
+            "season_slg": ".431"
+          },
+          {
+            "order": 2,
+            "player_id": 665742,
+            "name": "Juan Soto",
+            "season_avg": ".299",
+            "season_obp": ".410",
+            "season_slg": ".575"
+          },
+          {
+            "order": 3,
+            "player_id": 666182,
+            "name": "Bo Bichette",
+            "season_avg": ".259",
+            "season_obp": ".303",
+            "season_slg": ".383"
+          },
+          {
+            "order": 4,
+            "player_id": 596019,
+            "name": "Francisco Lindor",
+            "season_avg": ".210",
+            "season_obp": ".297",
+            "season_slg": ".355"
+          },
+          {
+            "order": 5,
+            "player_id": 701807,
+            "name": "Carson Benge",
+            "season_avg": ".262",
+            "season_obp": ".322",
+            "season_slg": ".408"
+          },
+          {
+            "order": 6,
+            "player_id": 593871,
+            "name": "Jorge Polanco",
+            "season_avg": ".183",
+            "season_obp": ".258",
+            "season_slg": ".300"
+          },
+          {
+            "order": 7,
+            "player_id": 676724,
+            "name": "Jared Young",
+            "season_avg": ".231",
+            "season_obp": ".299",
+            "season_slg": ".400"
+          },
+          {
+            "order": 8,
+            "player_id": 683146,
+            "name": "Brett Baty",
+            "season_avg": ".218",
+            "season_obp": ".296",
+            "season_slg": ".306"
+          },
+          {
+            "order": 9,
+            "player_id": 682626,
+            "name": "Francisco Alvarez",
+            "season_avg": ".251",
+            "season_obp": ".313",
+            "season_slg": ".426"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
