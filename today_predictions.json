@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-08T22:03:33+00:00",
+  "updated_at": "2026-07-08T22:14:25+00:00",
   "date": "2026-07-08",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 823062,
@@ -2589,18 +2589,18 @@
       "live_home_win_prob": 0.0,
       "linescore": {
         "current_inning": 9,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 10,
         "balls": 0,
         "strikes": 0,
         "outs": 1,
-        "base_state": "000",
-        "current_batter_id": 672960,
-        "current_batter_name": "Kazuma Okamoto",
-        "current_pitcher_id": 676254,
-        "current_pitcher_name": "Ryan Walker"
+        "base_state": "100",
+        "current_batter_id": 669477,
+        "current_batter_name": "Casey Schmitt",
+        "current_pitcher_id": 643511,
+        "current_pitcher_name": "Tyler Rogers"
       },
       "lineups": {
         "home": [
@@ -2608,17 +2608,17 @@
             "order": 1,
             "player_id": 671218,
             "name": "Heliot Ramos",
-            "season_avg": ".275",
-            "season_obp": ".313",
-            "season_slg": ".485"
+            "season_avg": ".278",
+            "season_obp": ".317",
+            "season_slg": ".488"
           },
           {
             "order": 2,
             "player_id": 650333,
             "name": "Luis Arraez",
-            "season_avg": ".325",
-            "season_obp": ".361",
-            "season_slg": ".458"
+            "season_avg": ".324",
+            "season_obp": ".360",
+            "season_slg": ".457"
           },
           {
             "order": 3,
@@ -2722,25 +2722,25 @@
             "order": 6,
             "player_id": 672960,
             "name": "Kazuma Okamoto",
-            "season_avg": ".238",
-            "season_obp": ".315",
-            "season_slg": ".463"
+            "season_avg": ".237",
+            "season_obp": ".314",
+            "season_slg": ".462"
           },
           {
             "order": 7,
             "player_id": 672386,
             "name": "Alejandro Kirk",
-            "season_avg": ".175",
-            "season_obp": ".247",
-            "season_slg": ".275"
+            "season_avg": ".185",
+            "season_obp": ".256",
+            "season_slg": ".284"
           },
           {
             "order": 8,
             "player_id": 664702,
             "name": "Myles Straw",
-            "season_avg": ".230",
-            "season_obp": ".290",
-            "season_slg": ".338"
+            "season_avg": ".229",
+            "season_obp": ".288",
+            "season_slg": ".336"
           },
           {
             "order": 9,
@@ -3611,7 +3611,7 @@
         "away": {
           "pitcher_id": 656302,
           "pitcher_name": "Dylan Cease",
-          "pitch_count": 115,
+          "pitch_count": 118,
           "pitches": [
             {
               "px": 0.7142182929146224,
@@ -4532,6 +4532,30 @@
               "velocity": 98.8,
               "call": "S",
               "inning": 8
+            },
+            {
+              "px": 0.1345433541222191,
+              "pz": 2.794856787345488,
+              "type": "FF",
+              "velocity": 97.1,
+              "call": "S",
+              "inning": 9
+            },
+            {
+              "px": -1.4550651004128503,
+              "pz": 2.600724358664354,
+              "type": "FF",
+              "velocity": 97.2,
+              "call": "B",
+              "inning": 9
+            },
+            {
+              "px": -0.29431270152205097,
+              "pz": 3.0145132077238292,
+              "type": "SI",
+              "velocity": 96.8,
+              "call": "X",
+              "inning": 9
             }
           ]
         }
@@ -4541,11 +4565,25 @@
       "game_pk": 824815,
       "home_team_id": 110,
       "away_team_id": 112,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5034,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.512,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 691718,
+        "current_batter_name": "Pete Crow-Armstrong",
+        "current_pitcher_id": 665152,
+        "current_pitcher_name": "Dean Kremer"
+      },
       "lineups": {
         "home": [
           {
@@ -4696,7 +4734,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 665152,
+          "pitcher_name": "Dean Kremer",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 607067,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824253,
