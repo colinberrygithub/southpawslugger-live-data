@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-09T22:03:14+00:00",
+  "updated_at": "2026-07-09T22:14:31+00:00",
   "date": "2026-07-09",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 823202,
@@ -3549,11 +3549,25 @@
       "game_pk": 823846,
       "home_team_id": 146,
       "away_team_id": 136,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.46175,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.438,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 641487,
+        "current_batter_name": "J.P. Crawford",
+        "current_pitcher_id": 676083,
+        "current_pitcher_name": "Janson Junk"
+      },
       "lineups": {
         "home": [
           {
@@ -3704,7 +3718,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 676083,
+          "pitcher_name": "Janson Junk",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 682243,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824494,
@@ -4273,7 +4300,80 @@
             "season_slg": ".299"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 606466,
+            "name": "Ketel Marte",
+            "season_avg": ".266",
+            "season_obp": ".323",
+            "season_slg": ".482"
+          },
+          {
+            "order": 2,
+            "player_id": 672695,
+            "name": "Geraldo Perdomo",
+            "season_avg": ".243",
+            "season_obp": ".352",
+            "season_slg": ".362"
+          },
+          {
+            "order": 3,
+            "player_id": 682998,
+            "name": "Corbin Carroll",
+            "season_avg": ".261",
+            "season_obp": ".353",
+            "season_slg": ".497"
+          },
+          {
+            "order": 4,
+            "player_id": 672515,
+            "name": "Gabriel Moreno",
+            "season_avg": ".294",
+            "season_obp": ".377",
+            "season_slg": ".434"
+          },
+          {
+            "order": 5,
+            "player_id": 596146,
+            "name": "Max Kepler",
+            "season_avg": ".179",
+            "season_obp": ".207",
+            "season_slg": ".357"
+          },
+          {
+            "order": 6,
+            "player_id": 666971,
+            "name": "Lourdes Gurriel Jr.",
+            "season_avg": ".222",
+            "season_obp": ".273",
+            "season_slg": ".310"
+          },
+          {
+            "order": 7,
+            "player_id": 571448,
+            "name": "Nolan Arenado",
+            "season_avg": ".243",
+            "season_obp": ".312",
+            "season_slg": ".399"
+          },
+          {
+            "order": 8,
+            "player_id": 694371,
+            "name": "Tommy Troy",
+            "season_avg": ".222",
+            "season_obp": ".289",
+            "season_slg": ".368"
+          },
+          {
+            "order": 9,
+            "player_id": 694374,
+            "name": "Tim Tawa",
+            "season_avg": ".159",
+            "season_obp": ".263",
+            "season_slg": ".246"
+          }
+        ]
       },
       "starting_pitchers": null
     },
