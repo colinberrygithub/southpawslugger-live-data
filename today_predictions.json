@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T22:03:12+00:00",
+  "updated_at": "2026-07-16T22:14:15+00:00",
   "date": "2026-07-16",
   "live_game_count": 1,
   "games": [
@@ -8,18 +8,18 @@
       "home_team_id": 143,
       "away_team_id": 121,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.41245000000000004,
-      "live_home_win_prob": 0.369,
+      "live_home_win_prob": 0.407,
       "linescore": {
         "current_inning": 1,
         "inning_state": "Top",
         "is_top_inning": true,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 0,
+        "balls": 1,
+        "strikes": 3,
+        "outs": 1,
         "base_state": "000",
         "current_batter_id": 805999,
         "current_batter_name": "A.J. Ewing",
@@ -106,9 +106,9 @@
             "order": 1,
             "player_id": 805999,
             "name": "A.J. Ewing",
-            "season_avg": ".276",
-            "season_obp": ".350",
-            "season_slg": ".439"
+            "season_avg": ".274",
+            "season_obp": ".348",
+            "season_slg": ".437"
           },
           {
             "order": 2,
@@ -180,8 +180,41 @@
         "home": {
           "pitcher_id": 605400,
           "pitcher_name": "Aaron Nola",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 4,
+          "pitches": [
+            {
+              "px": 0.11892545105503827,
+              "pz": 1.4473863984777808,
+              "type": "FF",
+              "velocity": 91.5,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.32415291353822556,
+              "pz": 1.3535870737109945,
+              "type": "FF",
+              "velocity": 91.8,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -1.2733007221331696,
+              "pz": 1.4676766851561174,
+              "type": "CH",
+              "velocity": 85.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.6697631450735617,
+              "pz": 1.3216880457807916,
+              "type": "CH",
+              "velocity": 84.3,
+              "call": "S",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 681035,
