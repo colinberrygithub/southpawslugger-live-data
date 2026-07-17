@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T18:47:11+00:00",
+  "updated_at": "2026-07-17T18:58:10+00:00",
   "date": "2026-07-17",
   "live_game_count": 1,
   "games": [
@@ -171,21 +171,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.57905,
-      "live_home_win_prob": 0.966,
+      "live_home_win_prob": 0.996,
       "linescore": {
         "current_inning": 6,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 3,
         "away_runs": 0,
         "balls": 0,
-        "strikes": 0,
-        "outs": 1,
-        "base_state": "100",
-        "current_batter_id": 666018,
-        "current_batter_name": "Jonathan Aranda",
-        "current_pitcher_id": 687562,
-        "current_pitcher_name": "Jake Bennett"
+        "strikes": 2,
+        "outs": 0,
+        "base_state": "101",
+        "current_batter_id": 663853,
+        "current_batter_name": "Romy Gonzalez",
+        "current_pitcher_id": 643377,
+        "current_pitcher_name": "Griffin Jax"
       },
       "lineups": {
         "home": [
@@ -218,16 +218,16 @@
             "player_id": 702332,
             "name": "Caleb Durbin",
             "season_avg": ".230",
-            "season_obp": ".294",
+            "season_obp": ".297",
             "season_slg": ".394"
           },
           {
             "order": 5,
             "player_id": 807799,
             "name": "Masataka Yoshida",
-            "season_avg": ".272",
-            "season_obp": ".350",
-            "season_slg": ".411"
+            "season_avg": ".276",
+            "season_obp": ".353",
+            "season_slg": ".414"
           },
           {
             "order": 6,
@@ -275,17 +275,17 @@
             "order": 2,
             "player_id": 666018,
             "name": "Jonathan Aranda",
-            "season_avg": ".296",
-            "season_obp": ".395",
-            "season_slg": ".469"
+            "season_avg": ".295",
+            "season_obp": ".394",
+            "season_slg": ".468"
           },
           {
             "order": 3,
             "player_id": 691406,
             "name": "Junior Caminero",
-            "season_avg": ".280",
-            "season_obp": ".373",
-            "season_slg": ".555"
+            "season_avg": ".279",
+            "season_obp": ".372",
+            "season_slg": ".553"
           },
           {
             "order": 4,
@@ -341,7 +341,7 @@
         "home": {
           "pitcher_id": 687562,
           "pitcher_name": "Jake Bennett",
-          "pitch_count": 55,
+          "pitch_count": 65,
           "pitches": [
             {
               "px": 1.2250643435489998,
@@ -782,13 +782,93 @@
               "velocity": 90.0,
               "call": "X",
               "inning": 6
+            },
+            {
+              "px": 1.0544458646315569,
+              "pz": 4.663952835706457,
+              "type": "SI",
+              "velocity": 89.1,
+              "call": "B",
+              "inning": 6
+            },
+            {
+              "px": -0.16129721853725662,
+              "pz": 3.063911054843992,
+              "type": "FF",
+              "velocity": 90.4,
+              "call": "F",
+              "inning": 6
+            },
+            {
+              "px": 1.078062482438235,
+              "pz": 3.6139582106467185,
+              "type": "FF",
+              "velocity": 90.1,
+              "call": "B",
+              "inning": 6
+            },
+            {
+              "px": 0.2760906889990365,
+              "pz": 3.121639564627436,
+              "type": "SI",
+              "velocity": 89.6,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": -0.294861449448829,
+              "pz": 2.8746721791144223,
+              "type": "SI",
+              "velocity": 89.5,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": 1.0311039153439898,
+              "pz": 2.9915664489457385,
+              "type": "CH",
+              "velocity": 81.0,
+              "call": "B",
+              "inning": 6
+            },
+            {
+              "px": 0.3102515009506134,
+              "pz": 1.5041220915094493,
+              "type": "CH",
+              "velocity": 79.9,
+              "call": "B",
+              "inning": 6
+            },
+            {
+              "px": 1.5048523227964452,
+              "pz": 2.711752718018418,
+              "type": "SI",
+              "velocity": 89.6,
+              "call": "B",
+              "inning": 6
+            },
+            {
+              "px": -0.5691503424059605,
+              "pz": 2.3128707011220766,
+              "type": "FF",
+              "velocity": 89.9,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": 0.6374554801042457,
+              "pz": 2.2775141867254223,
+              "type": "CH",
+              "velocity": 79.1,
+              "call": "X",
+              "inning": 6
             }
           ]
         },
         "away": {
           "pitcher_id": 643377,
           "pitcher_name": "Griffin Jax",
-          "pitch_count": 71,
+          "pitch_count": 79,
           "pitches": [
             {
               "px": 0.14415797081617399,
@@ -1357,6 +1437,70 @@
               "velocity": 89.8,
               "call": "S",
               "inning": 5
+            },
+            {
+              "px": -1.604289220994649,
+              "pz": 3.6821905648472586,
+              "type": "SI",
+              "velocity": 93.6,
+              "call": "X",
+              "inning": 6
+            },
+            {
+              "px": -0.4809635775963582,
+              "pz": 1.8941736096239026,
+              "type": "CU",
+              "velocity": 83.0,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": -0.9217601812768869,
+              "pz": 2.194754490629953,
+              "type": "CH",
+              "velocity": 89.4,
+              "call": "B",
+              "inning": 6
+            },
+            {
+              "px": -1.0367099936036237,
+              "pz": 1.634079781289334,
+              "type": "CH",
+              "velocity": 89.7,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": 0.1059601189912632,
+              "pz": 0.7007603344076226,
+              "type": "CU",
+              "velocity": 84.5,
+              "call": "?",
+              "inning": 6
+            },
+            {
+              "px": -0.24277892855971794,
+              "pz": 2.055265011524424,
+              "type": "CH",
+              "velocity": 89.7,
+              "call": "X",
+              "inning": 6
+            },
+            {
+              "px": -0.0024335025983455434,
+              "pz": 2.0314641607089174,
+              "type": "ST",
+              "velocity": 86.4,
+              "call": "F",
+              "inning": 6
+            },
+            {
+              "px": 1.2793338905646645,
+              "pz": 2.138114329979448,
+              "type": "ST",
+              "velocity": 86.5,
+              "call": "S",
+              "inning": 6
             }
           ]
         }
@@ -1382,12 +1526,85 @@
       "home_team_id": 147,
       "away_team_id": 119,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.6100749999999999,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 663757,
+            "name": "Trent Grisham",
+            "season_avg": ".236",
+            "season_obp": ".337",
+            "season_slg": ".421"
+          },
+          {
+            "order": 2,
+            "player_id": 700250,
+            "name": "Ben Rice",
+            "season_avg": ".279",
+            "season_obp": ".372",
+            "season_slg": ".599"
+          },
+          {
+            "order": 3,
+            "player_id": 502671,
+            "name": "Paul Goldschmidt",
+            "season_avg": ".258",
+            "season_obp": ".317",
+            "season_slg": ".492"
+          },
+          {
+            "order": 4,
+            "player_id": 641355,
+            "name": "Cody Bellinger",
+            "season_avg": ".254",
+            "season_obp": ".345",
+            "season_slg": ".421"
+          },
+          {
+            "order": 5,
+            "player_id": 691176,
+            "name": "Jasson Dom\u00ednguez",
+            "season_avg": ".235",
+            "season_obp": ".273",
+            "season_slg": ".409"
+          },
+          {
+            "order": 6,
+            "player_id": 665862,
+            "name": "Jazz Chisholm Jr.",
+            "season_avg": ".223",
+            "season_obp": ".303",
+            "season_slg": ".395"
+          },
+          {
+            "order": 7,
+            "player_id": 676609,
+            "name": "Jos\u00e9 Caballero",
+            "season_avg": ".250",
+            "season_obp": ".301",
+            "season_slg": ".397"
+          },
+          {
+            "order": 8,
+            "player_id": 641857,
+            "name": "Ryan McMahon",
+            "season_avg": ".214",
+            "season_obp": ".277",
+            "season_slg": ".379"
+          },
+          {
+            "order": 9,
+            "player_id": 669224,
+            "name": "Austin Wells",
+            "season_avg": ".155",
+            "season_obp": ".247",
+            "season_slg": ".258"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
