@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-19T22:58:13+00:00",
+  "updated_at": "2026-07-19T23:03:23+00:00",
   "date": "2026-07-19",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 824414,
@@ -2744,11 +2744,25 @@
       "game_pk": 823521,
       "home_team_id": 147,
       "away_team_id": 119,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.48767499999999997,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.449,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 660271,
+        "current_batter_name": "Shohei Ohtani",
+        "current_pitcher_id": 642232,
+        "current_pitcher_name": "Ryan Yarbrough"
+      },
       "lineups": {
         "home": [
           {
@@ -2899,7 +2913,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 642232,
+          "pitcher_name": "Ryan Yarbrough",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 694361,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824739,
@@ -4840,19 +4867,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.58415,
-      "live_home_win_prob": 0.043,
+      "live_home_win_prob": 0.583,
       "linescore": {
         "current_inning": 8,
         "inning_state": "Bottom",
         "is_top_inning": false,
-        "home_runs": 5,
+        "home_runs": 7,
         "away_runs": 7,
-        "balls": 0,
-        "strikes": 1,
+        "balls": 3,
+        "strikes": 2,
         "outs": 2,
         "base_state": "000",
-        "current_batter_id": 682988,
-        "current_batter_name": "Tyler Locklear",
+        "current_batter_id": 680728,
+        "current_batter_name": "Adrian Del Castillo",
         "current_pitcher_id": 700669,
         "current_pitcher_name": "Gordon Graceffo"
       },
@@ -4902,17 +4929,17 @@
             "order": 6,
             "player_id": 682988,
             "name": "Tyler Locklear",
-            "season_avg": ".000",
-            "season_obp": ".333",
-            "season_slg": ".000"
+            "season_avg": ".333",
+            "season_obp": ".500",
+            "season_slg": ".333"
           },
           {
             "order": 7,
             "player_id": 571448,
             "name": "Nolan Arenado",
-            "season_avg": ".241",
-            "season_obp": ".316",
-            "season_slg": ".411"
+            "season_avg": ".244",
+            "season_obp": ".318",
+            "season_slg": ".422"
           },
           {
             "order": 8,
