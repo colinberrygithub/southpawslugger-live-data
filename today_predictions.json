@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-20T22:36:10+00:00",
+  "updated_at": "2026-07-20T22:47:16+00:00",
   "date": "2026-07-20",
-  "live_game_count": 2,
+  "live_game_count": 4,
   "games": [
     {
       "game_pk": 822786,
@@ -2584,9 +2584,9 @@
       "home_team_id": 114,
       "away_team_id": 142,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.48724999999999996,
-      "live_home_win_prob": 0.483,
+      "live_home_win_prob": 0.55,
       "linescore": {
         "current_inning": 1,
         "inning_state": "Top",
@@ -2595,10 +2595,10 @@
         "away_runs": 0,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "base_state": "000",
-        "current_batter_id": 663616,
-        "current_batter_name": "Trevor Larnach",
+        "outs": 2,
+        "base_state": "100",
+        "current_batter_id": 605137,
+        "current_batter_name": "Josh Bell",
         "current_pitcher_id": 676440,
         "current_pitcher_name": "Tanner Bibee"
       },
@@ -2682,25 +2682,25 @@
             "order": 1,
             "player_id": 663616,
             "name": "Trevor Larnach",
-            "season_avg": ".286",
-            "season_obp": ".377",
-            "season_slg": ".444"
+            "season_avg": ".285",
+            "season_obp": ".376",
+            "season_slg": ".442"
           },
           {
             "order": 2,
             "player_id": 621439,
             "name": "Byron Buxton",
-            "season_avg": ".271",
-            "season_obp": ".328",
-            "season_slg": ".575"
+            "season_avg": ".274",
+            "season_obp": ".330",
+            "season_slg": ".577"
           },
           {
             "order": 3,
             "player_id": 665019,
             "name": "Kody Clemens",
-            "season_avg": ".241",
-            "season_obp": ".300",
-            "season_slg": ".492"
+            "season_avg": ".240",
+            "season_obp": ".299",
+            "season_slg": ".490"
           },
           {
             "order": 4,
@@ -2756,8 +2756,81 @@
         "home": {
           "pitcher_id": 676440,
           "pitcher_name": "Tanner Bibee",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 9,
+          "pitches": [
+            {
+              "px": 0.11400922233867292,
+              "pz": 2.6900287032775028,
+              "type": "FF",
+              "velocity": 94.3,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -1.7664085028566077,
+              "pz": 5.369628105550864,
+              "type": "CH",
+              "velocity": 78.8,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -1.0441623122003563,
+              "pz": 4.0012078336337185,
+              "type": "CH",
+              "velocity": 78.0,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.8054740932354022,
+              "pz": 2.896207578465798,
+              "type": "FC",
+              "velocity": 85.9,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 1.029424900003761,
+              "pz": 1.2454515797680117,
+              "type": "FC",
+              "velocity": 86.2,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.6685762290137915,
+              "pz": 1.1094095270989528,
+              "type": "FC",
+              "velocity": 86.1,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.08535357253796144,
+              "pz": 1.2957887598847582,
+              "type": "ST",
+              "velocity": 82.6,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.693702657948712,
+              "pz": 2.81764759504961,
+              "type": "SI",
+              "velocity": 94.3,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -0.08820942467354047,
+              "pz": 2.6946825457016486,
+              "type": "SI",
+              "velocity": 93.3,
+              "call": "X",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 657746,
@@ -2959,11 +3032,25 @@
       "game_pk": 822788,
       "home_team_id": 141,
       "away_team_id": 139,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.50595,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.528,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 650490,
+        "current_batter_name": "Yandy D\u00edaz",
+        "current_pitcher_id": 656302,
+        "current_pitcher_name": "Dylan Cease"
+      },
       "lineups": {
         "home": [
           {
@@ -3114,7 +3201,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 656302,
+          "pitcher_name": "Dylan Cease",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 607259,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824736,
@@ -3281,11 +3381,25 @@
       "game_pk": 823436,
       "home_team_id": 143,
       "away_team_id": 119,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.587125,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.643,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 660271,
+        "current_batter_name": "Shohei Ohtani",
+        "current_pitcher_id": 650911,
+        "current_pitcher_name": "Cristopher S\u00e1nchez"
+      },
       "lineups": {
         "home": [
           {
@@ -3436,7 +3550,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 650911,
+          "pitcher_name": "Cristopher S\u00e1nchez",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 686218,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824898,
