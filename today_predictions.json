@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-24T19:47:15+00:00",
+  "updated_at": "2026-07-24T19:58:15+00:00",
   "date": "2026-07-24",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824893,
@@ -812,11 +812,25 @@
       "game_pk": 823759,
       "home_team_id": 158,
       "away_team_id": 115,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.54845,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.559,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 664983,
+        "current_batter_name": "Jake McCarthy",
+        "current_pitcher_id": 675660,
+        "current_pitcher_name": "Shane Drohan"
+      },
       "lineups": {
         "home": [
           {
@@ -967,7 +981,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 675660,
+          "pitcher_name": "Shane Drohan",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 608372,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824248,
@@ -2395,13 +2422,159 @@
       "home_team_id": 138,
       "away_team_id": 113,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.60455,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
-        "away": null
+        "home": [
+          {
+            "order": 1,
+            "player_id": 802139,
+            "name": "JJ Wetherholt",
+            "season_avg": ".259",
+            "season_obp": ".352",
+            "season_slg": ".403"
+          },
+          {
+            "order": 2,
+            "player_id": 691023,
+            "name": "Jordan Walker",
+            "season_avg": ".291",
+            "season_obp": ".352",
+            "season_slg": ".519"
+          },
+          {
+            "order": 3,
+            "player_id": 676475,
+            "name": "Alec Burleson",
+            "season_avg": ".284",
+            "season_obp": ".345",
+            "season_slg": ".469"
+          },
+          {
+            "order": 4,
+            "player_id": 671056,
+            "name": "Iv\u00e1n Herrera",
+            "season_avg": ".241",
+            "season_obp": ".366",
+            "season_slg": ".373"
+          },
+          {
+            "order": 5,
+            "player_id": 663457,
+            "name": "Lars Nootbaar",
+            "season_avg": ".254",
+            "season_obp": ".354",
+            "season_slg": ".389"
+          },
+          {
+            "order": 6,
+            "player_id": 691026,
+            "name": "Masyn Winn",
+            "season_avg": ".237",
+            "season_obp": ".314",
+            "season_slg": ".320"
+          },
+          {
+            "order": 7,
+            "player_id": 701675,
+            "name": "Nathan Church",
+            "season_avg": ".229",
+            "season_obp": ".269",
+            "season_slg": ".364"
+          },
+          {
+            "order": 8,
+            "player_id": 691458,
+            "name": "Blaze Jordan",
+            "season_avg": ".242",
+            "season_obp": ".255",
+            "season_slg": ".358"
+          },
+          {
+            "order": 9,
+            "player_id": 699625,
+            "name": "Jimmy Crooks",
+            "season_avg": ".178",
+            "season_obp": ".277",
+            "season_slg": ".329"
+          }
+        ],
+        "away": [
+          {
+            "order": 1,
+            "player_id": 682829,
+            "name": "Elly De La Cruz",
+            "season_avg": ".276",
+            "season_obp": ".351",
+            "season_slg": ".503"
+          },
+          {
+            "order": 2,
+            "player_id": 701398,
+            "name": "Sal Stewart",
+            "season_avg": ".249",
+            "season_obp": ".327",
+            "season_slg": ".472"
+          },
+          {
+            "order": 3,
+            "player_id": 668709,
+            "name": "JJ Bleday",
+            "season_avg": ".237",
+            "season_obp": ".342",
+            "season_slg": ".481"
+          },
+          {
+            "order": 4,
+            "player_id": 553993,
+            "name": "Eugenio Su\u00e1rez",
+            "season_avg": ".208",
+            "season_obp": ".280",
+            "season_slg": ".402"
+          },
+          {
+            "order": 5,
+            "player_id": 663993,
+            "name": "Nathaniel Lowe",
+            "season_avg": ".244",
+            "season_obp": ".326",
+            "season_slg": ".474"
+          },
+          {
+            "order": 6,
+            "player_id": 668715,
+            "name": "Spencer Steer",
+            "season_avg": ".242",
+            "season_obp": ".321",
+            "season_slg": ".427"
+          },
+          {
+            "order": 7,
+            "player_id": 663886,
+            "name": "Tyler Stephenson",
+            "season_avg": ".244",
+            "season_obp": ".320",
+            "season_slg": ".393"
+          },
+          {
+            "order": 8,
+            "player_id": 667472,
+            "name": "Dane Myers",
+            "season_avg": ".267",
+            "season_obp": ".370",
+            "season_slg": ".389"
+          },
+          {
+            "order": 9,
+            "player_id": 695490,
+            "name": "Edwin Arroyo",
+            "season_avg": ".254",
+            "season_obp": ".301",
+            "season_slg": ".298"
+          }
+        ]
       },
       "starting_pitchers": null
     },
