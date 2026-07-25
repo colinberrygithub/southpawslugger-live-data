@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-25T19:36:21+00:00",
+  "updated_at": "2026-07-25T19:47:15+00:00",
   "date": "2026-07-25",
-  "live_game_count": 0,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 823759,
@@ -2423,7 +2423,7 @@
       "home_team_id": 116,
       "away_team_id": 118,
       "abstract_status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "pre_home_win_prob": 0.566725,
       "live_home_win_prob": null,
       "linescore": null,
@@ -2583,11 +2583,25 @@
       "game_pk": 822704,
       "home_team_id": 120,
       "away_team_id": 109,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.551,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.592,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 682998,
+        "current_batter_name": "Corbin Carroll",
+        "current_pitcher_id": 656492,
+        "current_pitcher_name": "Foster Griffin"
+      },
       "lineups": {
         "home": [
           {
@@ -2738,17 +2752,44 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 656492,
+          "pitcher_name": "Foster Griffin",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 683352,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823197,
       "home_team_id": 137,
       "away_team_id": 108,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5964750000000001,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.627,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 687263,
+        "current_batter_name": "Zach Neto",
+        "current_pitcher_id": 592662,
+        "current_pitcher_name": "Robbie Ray"
+      },
       "lineups": {
         "home": [
           {
@@ -2899,7 +2940,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 592662,
+          "pitcher_name": "Robbie Ray",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 696270,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824734,
@@ -3902,13 +3956,86 @@
       "home_team_id": 158,
       "away_team_id": 115,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.6224000000000001,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
         "home": null,
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 664983,
+            "name": "Jake McCarthy",
+            "season_avg": ".303",
+            "season_obp": ".346",
+            "season_slg": ".513"
+          },
+          {
+            "order": 2,
+            "player_id": 691720,
+            "name": "Kyle Karros",
+            "season_avg": ".263",
+            "season_obp": ".363",
+            "season_slg": ".431"
+          },
+          {
+            "order": 3,
+            "player_id": 694249,
+            "name": "Cole Carrigg",
+            "season_avg": ".289",
+            "season_obp": ".362",
+            "season_slg": ".504"
+          },
+          {
+            "order": 4,
+            "player_id": 696100,
+            "name": "Hunter Goodman",
+            "season_avg": ".259",
+            "season_obp": ".332",
+            "season_slg": ".563"
+          },
+          {
+            "order": 5,
+            "player_id": 681198,
+            "name": "TJ Rumfield",
+            "season_avg": ".301",
+            "season_obp": ".384",
+            "season_slg": ".482"
+          },
+          {
+            "order": 6,
+            "player_id": 650489,
+            "name": "Willi Castro",
+            "season_avg": ".259",
+            "season_obp": ".327",
+            "season_slg": ".392"
+          },
+          {
+            "order": 7,
+            "player_id": 690924,
+            "name": "Braxton Fulford",
+            "season_avg": ".186",
+            "season_obp": ".265",
+            "season_slg": ".305"
+          },
+          {
+            "order": 8,
+            "player_id": 671289,
+            "name": "Tyler Freeman",
+            "season_avg": ".253",
+            "season_obp": ".328",
+            "season_slg": ".326"
+          },
+          {
+            "order": 9,
+            "player_id": 678662,
+            "name": "Ezequiel Tovar",
+            "season_avg": ".196",
+            "season_obp": ".240",
+            "season_slg": ".319"
+          }
+        ]
       },
       "starting_pitchers": null
     },
