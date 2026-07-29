@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-29T16:03:15+00:00",
+  "updated_at": "2026-07-29T16:14:23+00:00",
   "date": "2026-07-29",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 824490,
@@ -2438,9 +2438,9 @@
       "home_team_id": 146,
       "away_team_id": 143,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.4167,
-      "live_home_win_prob": 0.405,
+      "live_home_win_prob": 0.403,
       "linescore": {
         "current_inning": 1,
         "inning_state": "Top",
@@ -2449,10 +2449,10 @@
         "away_runs": 0,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
-        "base_state": "000",
-        "current_batter_id": 607208,
-        "current_batter_name": "Trea Turner",
+        "outs": 1,
+        "base_state": "100",
+        "current_batter_id": 547180,
+        "current_batter_name": "Bryce Harper",
         "current_pitcher_id": 687473,
         "current_pitcher_name": "Ryan Gusto"
       },
@@ -2536,17 +2536,17 @@
             "order": 1,
             "player_id": 607208,
             "name": "Trea Turner",
-            "season_avg": ".241",
-            "season_obp": ".291",
-            "season_slg": ".385"
+            "season_avg": ".243",
+            "season_obp": ".292",
+            "season_slg": ".387"
           },
           {
             "order": 2,
             "player_id": 681082,
             "name": "Bryson Stott",
-            "season_avg": ".253",
-            "season_obp": ".309",
-            "season_slg": ".408"
+            "season_avg": ".252",
+            "season_obp": ".308",
+            "season_slg": ".407"
           },
           {
             "order": 3,
@@ -2610,8 +2610,89 @@
         "home": {
           "pitcher_id": 687473,
           "pitcher_name": "Ryan Gusto",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 10,
+          "pitches": [
+            {
+              "px": -1.0334118756300452,
+              "pz": 2.627136068440674,
+              "type": "SI",
+              "velocity": 93.0,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.026311962134376424,
+              "pz": 2.3436426297314545,
+              "type": "CH",
+              "velocity": 86.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.6562799396611434,
+              "pz": 3.7480847148213488,
+              "type": "CU",
+              "velocity": 77.0,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.7035135222925302,
+              "pz": 3.672688951214196,
+              "type": "FF",
+              "velocity": 93.2,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.16655329491044496,
+              "pz": 2.893509678011893,
+              "type": "ST",
+              "velocity": 81.2,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.5181389254143204,
+              "pz": 1.0635146511106153,
+              "type": "SL",
+              "velocity": 83.8,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 1.2695268341739792,
+              "pz": 1.7900284792643437,
+              "type": "FC",
+              "velocity": 88.9,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.16524648224100963,
+              "pz": 3.2035945534840238,
+              "type": "FC",
+              "velocity": 89.2,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.1898601846975328,
+              "pz": 3.1338971322331513,
+              "type": "CH",
+              "velocity": 86.6,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.8148225869889943,
+              "pz": 2.4089080147447803,
+              "type": "SL",
+              "velocity": 83.9,
+              "call": "X",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 666200,
@@ -2625,11 +2706,25 @@
       "game_pk": 823351,
       "home_team_id": 134,
       "away_team_id": 109,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.47407499999999997,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.454,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 682998,
+        "current_batter_name": "Corbin Carroll",
+        "current_pitcher_id": 683003,
+        "current_pitcher_name": "Jared Jones"
+      },
       "lineups": {
         "home": [
           {
@@ -2780,7 +2875,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 683003,
+          "pitcher_name": "Jared Jones",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 593958,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 822702,
