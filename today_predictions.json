@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-31T21:47:12+00:00",
+  "updated_at": "2026-07-31T21:58:15+00:00",
   "date": "2026-07-31",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 822946,
@@ -1778,11 +1778,25 @@
       "game_pk": 824486,
       "home_team_id": 113,
       "away_team_id": 134,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.488525,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.446,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 663968,
+        "current_batter_name": "Jake Mangum",
+        "current_pitcher_id": 668881,
+        "current_pitcher_name": "Hunter Greene"
+      },
       "lineups": {
         "home": [
           {
@@ -1933,7 +1947,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 668881,
+          "pitcher_name": "Hunter Greene",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 694973,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824809,
@@ -3410,7 +3437,80 @@
             "season_slg": ".179"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 650333,
+            "name": "Luis Arraez",
+            "season_avg": ".328",
+            "season_obp": ".364",
+            "season_slg": ".447"
+          },
+          {
+            "order": 2,
+            "player_id": 671218,
+            "name": "Heliot Ramos",
+            "season_avg": ".267",
+            "season_obp": ".306",
+            "season_slg": ".433"
+          },
+          {
+            "order": 3,
+            "player_id": 805811,
+            "name": "Bryce Eldridge",
+            "season_avg": ".253",
+            "season_obp": ".353",
+            "season_slg": ".451"
+          },
+          {
+            "order": 4,
+            "player_id": 646240,
+            "name": "Rafael Devers",
+            "season_avg": ".248",
+            "season_obp": ".319",
+            "season_slg": ".477"
+          },
+          {
+            "order": 5,
+            "player_id": 808982,
+            "name": "Jung Hoo Lee",
+            "season_avg": ".302",
+            "season_obp": ".338",
+            "season_slg": ".436"
+          },
+          {
+            "order": 6,
+            "player_id": 642715,
+            "name": "Willy Adames",
+            "season_avg": ".227",
+            "season_obp": ".281",
+            "season_slg": ".425"
+          },
+          {
+            "order": 7,
+            "player_id": 687529,
+            "name": "Grant McCray",
+            "season_avg": ".176",
+            "season_obp": ".263",
+            "season_slg": ".353"
+          },
+          {
+            "order": 8,
+            "player_id": 701852,
+            "name": "Drew Cavanaugh",
+            "season_avg": ".261",
+            "season_obp": ".393",
+            "season_slg": ".261"
+          },
+          {
+            "order": 9,
+            "player_id": 683766,
+            "name": "Christian Koss",
+            "season_avg": ".171",
+            "season_obp": ".237",
+            "season_slg": ".200"
+          }
+        ]
       },
       "starting_pitchers": null
     },
