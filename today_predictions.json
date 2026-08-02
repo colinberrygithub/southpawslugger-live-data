@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-02T17:25:20+00:00",
+  "updated_at": "2026-08-02T17:36:19+00:00",
   "date": "2026-08-02",
-  "live_game_count": 6,
+  "live_game_count": 7,
   "games": [
     {
       "game_pk": 822781,
@@ -2423,7 +2423,7 @@
       "home_team_id": 110,
       "away_team_id": 143,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.39205,
       "live_home_win_prob": 0.369,
       "linescore": {
@@ -2611,7 +2611,7 @@
       "home_team_id": 144,
       "away_team_id": 120,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5374,
       "live_home_win_prob": 0.576,
       "linescore": {
@@ -3174,11 +3174,25 @@
       "game_pk": 824483,
       "home_team_id": 113,
       "away_team_id": 134,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.592225,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.614,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 663968,
+        "current_batter_name": "Jake Mangum",
+        "current_pitcher_id": 695505,
+        "current_pitcher_name": "Chase Burns"
+      },
       "lineups": {
         "home": [
           {
@@ -3329,7 +3343,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 695505,
+          "pitcher_name": "Chase Burns",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 656605,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 822943,
