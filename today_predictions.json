@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-05T22:03:56+00:00",
+  "updated_at": "2026-08-05T22:14:17+00:00",
   "date": "2026-08-05",
-  "live_game_count": 0,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 824805,
@@ -2906,7 +2906,7 @@
       "home_team_id": 115,
       "away_team_id": 139,
       "abstract_status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "pre_home_win_prob": 0.45325,
       "live_home_win_prob": null,
       "linescore": null,
@@ -3066,11 +3066,25 @@
       "game_pk": 824806,
       "home_team_id": 110,
       "away_team_id": 108,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.519975,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.5,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 687263,
+        "current_batter_name": "Zach Neto",
+        "current_pitcher_id": 669432,
+        "current_pitcher_name": "Trevor Rogers"
+      },
       "lineups": {
         "home": [
           {
@@ -3221,17 +3235,44 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 669432,
+          "pitcher_name": "Trevor Rogers",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 672282,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824402,
       "home_team_id": 114,
       "away_team_id": 121,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.443475,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.432,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 805999,
+        "current_batter_name": "A.J. Ewing",
+        "current_pitcher_id": 676440,
+        "current_pitcher_name": "Tanner Bibee"
+      },
       "lineups": {
         "home": [
           {
@@ -3382,7 +3423,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 676440,
+          "pitcher_name": "Tanner Bibee",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 681035,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824482,
