@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T00:58:17+00:00",
+  "updated_at": "2026-08-08T01:03:16+00:00",
   "date": "2026-08-08",
   "live_game_count": 11,
   "games": [
@@ -10,7 +10,7 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5272,
-      "live_home_win_prob": 0.002,
+      "live_home_win_prob": 0.007,
       "linescore": {
         "current_inning": 6,
         "inning_state": "Top",
@@ -18,11 +18,11 @@
         "home_runs": 0,
         "away_runs": 6,
         "balls": 1,
-        "strikes": 0,
-        "outs": 0,
-        "base_state": "100",
-        "current_batter_id": 593871,
-        "current_batter_name": "Jorge Polanco",
+        "strikes": 2,
+        "outs": 2,
+        "base_state": "010",
+        "current_batter_id": 805999,
+        "current_batter_name": "A.J. Ewing",
         "current_pitcher_id": 670990,
         "current_pitcher_name": "Yohan Ram\u00edrez"
       },
@@ -162,16 +162,16 @@
             "order": 8,
             "player_id": 593871,
             "name": "Jorge Polanco",
-            "season_avg": ".142",
-            "season_obp": ".198",
-            "season_slg": ".239"
+            "season_avg": ".140",
+            "season_obp": ".197",
+            "season_slg": ".237"
           },
           {
             "order": 9,
             "player_id": 620443,
             "name": "Luis Torrens",
             "season_avg": ".232",
-            "season_obp": ".297",
+            "season_obp": ".300",
             "season_slg": ".356"
           }
         ]
@@ -1208,21 +1208,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.6691499999999999,
-      "live_home_win_prob": 0.614,
+      "live_home_win_prob": 0.633,
       "linescore": {
         "current_inning": 2,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 1,
-        "balls": 1,
+        "balls": 0,
         "strikes": 2,
-        "outs": 1,
+        "outs": 0,
         "base_state": "000",
-        "current_batter_id": 676391,
-        "current_batter_name": "Ernie Clement",
-        "current_pitcher_id": 554430,
-        "current_pitcher_name": "Zack Wheeler"
+        "current_batter_id": 650333,
+        "current_batter_name": "Luis Arraez",
+        "current_pitcher_id": 667755,
+        "current_pitcher_name": "Jos\u00e9 Soriano"
       },
       "lineups": {
         "home": [
@@ -1352,17 +1352,17 @@
             "order": 7,
             "player_id": 676391,
             "name": "Ernie Clement",
-            "season_avg": ".287",
-            "season_obp": ".311",
-            "season_slg": ".415"
+            "season_avg": ".286",
+            "season_obp": ".310",
+            "season_slg": ".414"
           },
           {
             "order": 8,
             "player_id": 669701,
             "name": "Josh Smith",
-            "season_avg": ".204",
-            "season_obp": ".288",
-            "season_slg": ".261"
+            "season_avg": ".203",
+            "season_obp": ".286",
+            "season_slg": ".259"
           },
           {
             "order": 9,
@@ -1378,7 +1378,7 @@
         "home": {
           "pitcher_id": 554430,
           "pitcher_name": "Zack Wheeler",
-          "pitch_count": 24,
+          "pitch_count": 29,
           "pitches": [
             {
               "px": 0.07902127158980095,
@@ -1571,13 +1571,53 @@
               "velocity": 82.1,
               "call": "B",
               "inning": 2
+            },
+            {
+              "px": -0.30734430299939236,
+              "pz": 4.01148688727745,
+              "type": "FF",
+              "velocity": 95.0,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 0.20698580565692018,
+              "pz": 1.3076891431897701,
+              "type": "ST",
+              "velocity": 82.5,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.12572683116221753,
+              "pz": 3.2764023672407774,
+              "type": "FF",
+              "velocity": 96.0,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.05273217607555039,
+              "pz": 1.1323392967354728,
+              "type": "FS",
+              "velocity": 88.7,
+              "call": "F",
+              "inning": 2
+            },
+            {
+              "px": -0.15853063520861818,
+              "pz": 3.7624547908377806,
+              "type": "FF",
+              "velocity": 95.1,
+              "call": "S",
+              "inning": 2
             }
           ]
         },
         "away": {
           "pitcher_id": 667755,
           "pitcher_name": "Jos\u00e9 Soriano",
-          "pitch_count": 10,
+          "pitch_count": 13,
           "pitches": [
             {
               "px": -0.7796621312078402,
@@ -1658,6 +1698,30 @@
               "velocity": 93.4,
               "call": "X",
               "inning": 1
+            },
+            {
+              "px": -0.7179928110609429,
+              "pz": 2.4166582696886514,
+              "type": "KC",
+              "velocity": 85.1,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.7216348492299082,
+              "pz": 3.145020599843015,
+              "type": "KC",
+              "velocity": 85.8,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 1.3206119929322726,
+              "pz": 2.657754843583532,
+              "type": "SI",
+              "velocity": 97.0,
+              "call": "F",
+              "inning": 2
             }
           ]
         }
@@ -1670,21 +1734,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.50595,
-      "live_home_win_prob": 0.831,
+      "live_home_win_prob": 0.809,
       "linescore": {
         "current_inning": 4,
-        "inning_state": "Bottom",
+        "inning_state": "End",
         "is_top_inning": false,
         "home_runs": 5,
         "away_runs": 3,
-        "balls": 1,
-        "strikes": 1,
-        "outs": 1,
+        "balls": 3,
+        "strikes": 2,
+        "outs": 3,
         "base_state": "000",
-        "current_batter_id": 683083,
-        "current_batter_name": "Nasim Nu\u00f1ez",
-        "current_pitcher_id": 670062,
-        "current_pitcher_name": "Julian Garcia"
+        "current_batter_id": 663647,
+        "current_batter_name": "Ke'Bryan Hayes",
+        "current_pitcher_id": 676917,
+        "current_pitcher_name": "Cade Cavalli"
       },
       "lineups": {
         "home": [
@@ -1740,17 +1804,17 @@
             "order": 7,
             "player_id": 683083,
             "name": "Nasim Nu\u00f1ez",
-            "season_avg": ".232",
+            "season_avg": ".231",
             "season_obp": ".316",
-            "season_slg": ".271"
+            "season_slg": ".270"
           },
           {
             "order": 8,
             "player_id": 677588,
             "name": "Jos\u00e9 Tena",
-            "season_avg": ".235",
-            "season_obp": ".307",
-            "season_slg": ".382"
+            "season_avg": ".234",
+            "season_obp": ".305",
+            "season_slg": ".380"
           },
           {
             "order": 9,
@@ -2618,21 +2682,21 @@
       "home_team_id": 147,
       "away_team_id": 144,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.516575,
-      "live_home_win_prob": 0.49,
+      "live_home_win_prob": 0.494,
       "linescore": {
         "current_inning": 1,
         "inning_state": "Top",
         "is_top_inning": true,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 0,
+        "balls": 2,
         "strikes": 0,
-        "outs": 0,
-        "base_state": "000",
-        "current_batter_id": 660670,
-        "current_batter_name": "Ronald Acu\u00f1a Jr.",
+        "outs": 1,
+        "base_state": "100",
+        "current_batter_id": 645277,
+        "current_batter_name": "Ozzie Albies",
         "current_pitcher_id": 608331,
         "current_pitcher_name": "Max Fried"
       },
@@ -2716,17 +2780,17 @@
             "order": 1,
             "player_id": 660670,
             "name": "Ronald Acu\u00f1a Jr.",
-            "season_avg": ".244",
-            "season_obp": ".358",
-            "season_slg": ".436"
+            "season_avg": ".243",
+            "season_obp": ".357",
+            "season_slg": ".434"
           },
           {
             "order": 2,
             "player_id": 686948,
             "name": "Drake Baldwin",
-            "season_avg": ".271",
-            "season_obp": ".361",
-            "season_slg": ".458"
+            "season_avg": ".273",
+            "season_obp": ".363",
+            "season_slg": ".460"
           },
           {
             "order": 3,
@@ -2790,8 +2854,49 @@
         "home": {
           "pitcher_id": 608331,
           "pitcher_name": "Max Fried",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 5,
+          "pitches": [
+            {
+              "px": -0.26959716633607445,
+              "pz": 2.9923893882133155,
+              "type": "FF",
+              "velocity": 96.2,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -0.4491180509172707,
+              "pz": 3.4330348678312315,
+              "type": "FF",
+              "velocity": 95.7,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.6504100194709944,
+              "pz": 2.6276534587859506,
+              "type": "FF",
+              "velocity": 96.3,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -0.7438908925881649,
+              "pz": 3.831167637183152,
+              "type": "FC",
+              "velocity": 94.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -1.1927502254103615,
+              "pz": 1.840643183753473,
+              "type": "CH",
+              "velocity": 88.9,
+              "call": "B",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 641816,
@@ -2813,14 +2918,14 @@
         "current_inning": 6,
         "inning_state": "Bottom",
         "is_top_inning": false,
-        "home_runs": 9,
+        "home_runs": 11,
         "away_runs": 1,
-        "balls": 1,
-        "strikes": 0,
-        "outs": 0,
-        "base_state": "100",
-        "current_batter_id": 642201,
-        "current_batter_name": "Eli White",
+        "balls": 2,
+        "strikes": 2,
+        "outs": 2,
+        "base_state": "000",
+        "current_batter_id": 655316,
+        "current_batter_name": "Andruw Monasterio",
         "current_pitcher_id": 656240,
         "current_pitcher_name": "Scott Blewett"
       },
@@ -2846,16 +2951,16 @@
             "order": 3,
             "player_id": 642201,
             "name": "Eli White",
-            "season_avg": ".231",
-            "season_obp": ".283",
-            "season_slg": ".403"
+            "season_avg": ".230",
+            "season_obp": ".281",
+            "season_slg": ".400"
           },
           {
             "order": 4,
             "player_id": 702332,
             "name": "Caleb Durbin",
             "season_avg": ".249",
-            "season_obp": ".319",
+            "season_obp": ".318",
             "season_slg": ".404"
           },
           {
@@ -2863,7 +2968,7 @@
             "player_id": 807799,
             "name": "Masataka Yoshida",
             "season_avg": ".274",
-            "season_obp": ".348",
+            "season_obp": ".347",
             "season_slg": ".402"
           },
           {
@@ -4230,21 +4335,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.60625,
-      "live_home_win_prob": 0.68,
+      "live_home_win_prob": 0.638,
       "linescore": {
         "current_inning": 6,
         "inning_state": "Bottom",
         "is_top_inning": false,
         "home_runs": 1,
         "away_runs": 1,
-        "balls": 0,
+        "balls": 3,
         "strikes": 0,
-        "outs": 1,
-        "base_state": "100",
-        "current_batter_id": 691788,
-        "current_batter_name": "Joe Mack",
-        "current_pitcher_id": 642048,
-        "current_pitcher_name": "Tayler Saucedo"
+        "outs": 2,
+        "base_state": "010",
+        "current_batter_id": 665923,
+        "current_batter_name": "Esteury Ruiz",
+        "current_pitcher_id": 641312,
+        "current_pitcher_name": "Shaun Anderson"
       },
       "lineups": {
         "home": [
@@ -4308,16 +4413,16 @@
             "order": 8,
             "player_id": 691788,
             "name": "Joe Mack",
-            "season_avg": ".238",
-            "season_obp": ".290",
-            "season_slg": ".436"
+            "season_avg": ".236",
+            "season_obp": ".289",
+            "season_slg": ".433"
           },
           {
             "order": 9,
             "player_id": 665923,
             "name": "Esteury Ruiz",
             "season_avg": ".264",
-            "season_obp": ".380",
+            "season_obp": ".384",
             "season_slg": ".480"
           }
         ],
@@ -5572,21 +5677,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.39375,
-      "live_home_win_prob": 0.002,
+      "live_home_win_prob": 0.004,
       "linescore": {
         "current_inning": 5,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 1,
         "away_runs": 7,
         "balls": 0,
-        "strikes": 0,
-        "outs": 2,
-        "base_state": "100",
-        "current_batter_id": 694197,
-        "current_batter_name": "Angel Genao",
-        "current_pitcher_id": 689818,
-        "current_pitcher_name": "David Sandlin"
+        "strikes": 1,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 686668,
+        "current_batter_name": "Brenton Doyle",
+        "current_pitcher_id": 800048,
+        "current_pitcher_name": "Parker Messick"
       },
       "lineups": {
         "home": [
@@ -5732,9 +5837,9 @@
             "order": 9,
             "player_id": 694197,
             "name": "Angel Genao",
-            "season_avg": ".455",
-            "season_obp": ".455",
-            "season_slg": ".455"
+            "season_avg": ".417",
+            "season_obp": ".417",
+            "season_slg": ".417"
           }
         ]
       },
@@ -5933,7 +6038,7 @@
         "away": {
           "pitcher_id": 800048,
           "pitcher_name": "Parker Messick",
-          "pitch_count": 55,
+          "pitch_count": 56,
           "pitches": [
             {
               "px": 0.2212302382971364,
@@ -6374,6 +6479,14 @@
               "velocity": 96.5,
               "call": "S",
               "inning": 4
+            },
+            {
+              "px": 0.2670761441003733,
+              "pz": 2.2243849125037283,
+              "type": "FF",
+              "velocity": 93.0,
+              "call": "S",
+              "inning": 5
             }
           ]
         }
@@ -6386,21 +6499,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.6053999999999999,
-      "live_home_win_prob": 0.289,
+      "live_home_win_prob": 0.412,
       "linescore": {
         "current_inning": 5,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 4,
         "away_runs": 6,
-        "balls": 1,
-        "strikes": 2,
-        "outs": 2,
-        "base_state": "001",
-        "current_batter_id": 605170,
-        "current_batter_name": "Victor Caratini",
-        "current_pitcher_id": 675660,
-        "current_pitcher_name": "Shane Drohan"
+        "balls": 0,
+        "strikes": 1,
+        "outs": 0,
+        "base_state": "100",
+        "current_batter_id": 668930,
+        "current_batter_name": "Brice Turang",
+        "current_pitcher_id": 805673,
+        "current_pitcher_name": "Zebby Matthews"
       },
       "lineups": {
         "home": [
@@ -6472,9 +6585,9 @@
             "order": 9,
             "player_id": 666152,
             "name": "David Hamilton",
-            "season_avg": ".232",
-            "season_obp": ".312",
-            "season_slg": ".318"
+            "season_avg": ".235",
+            "season_obp": ".314",
+            "season_slg": ".321"
           }
         ],
         "away": [
@@ -6538,9 +6651,9 @@
             "order": 8,
             "player_id": 605170,
             "name": "Victor Caratini",
-            "season_avg": ".225",
-            "season_obp": ".313",
-            "season_slg": ".337"
+            "season_avg": ".224",
+            "season_obp": ".312",
+            "season_slg": ".336"
           },
           {
             "order": 9,
@@ -6556,7 +6669,7 @@
         "home": {
           "pitcher_id": 675660,
           "pitcher_name": "Shane Drohan",
-          "pitch_count": 92,
+          "pitch_count": 94,
           "pitches": [
             {
               "px": 0.5448697703703534,
@@ -7293,13 +7406,29 @@
               "velocity": 81.7,
               "call": "?",
               "inning": 5
+            },
+            {
+              "px": 2.5491031008044014,
+              "pz": 3.2547479888721114,
+              "type": "CU",
+              "velocity": 80.1,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 0.10804556510366874,
+              "pz": 1.931588139474669,
+              "type": "FC",
+              "velocity": 90.1,
+              "call": "X",
+              "inning": 5
             }
           ]
         },
         "away": {
           "pitcher_id": 805673,
           "pitcher_name": "Zebby Matthews",
-          "pitch_count": 55,
+          "pitch_count": 61,
           "pitches": [
             {
               "px": -0.34780662938039414,
@@ -7740,6 +7869,54 @@
               "velocity": 95.1,
               "call": "X",
               "inning": 4
+            },
+            {
+              "px": 0.10498963059954468,
+              "pz": 4.143049930171981,
+              "type": "FF",
+              "velocity": 92.8,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 0.3079997316573121,
+              "pz": 1.9522075159109171,
+              "type": "FF",
+              "velocity": 93.7,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": -0.7688014745027199,
+              "pz": 1.79513545306722,
+              "type": "CU",
+              "velocity": 80.6,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.38309928349825356,
+              "pz": 0.8059351405027215,
+              "type": "CH",
+              "velocity": 88.3,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": -0.4737056063338655,
+              "pz": 2.6658380268889292,
+              "type": "FF",
+              "velocity": 95.4,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": 0.18534393795301682,
+              "pz": 3.368815767173141,
+              "type": "FF",
+              "velocity": 95.4,
+              "call": "F",
+              "inning": 5
             }
           ]
         }
@@ -7752,19 +7929,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.395875,
-      "live_home_win_prob": 0.099,
+      "live_home_win_prob": 0.086,
       "linescore": {
         "current_inning": 3,
-        "inning_state": "Middle",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 1,
         "away_runs": 4,
-        "balls": 3,
-        "strikes": 1,
-        "outs": 3,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 1,
         "base_state": "000",
-        "current_batter_id": 695600,
-        "current_batter_name": "Carter Jensen",
+        "current_batter_id": 677951,
+        "current_batter_name": "Bobby Witt Jr.",
         "current_pitcher_id": 592332,
         "current_pitcher_name": "Kevin Gausman"
       },
@@ -7775,8 +7952,8 @@
             "player_id": 695600,
             "name": "Carter Jensen",
             "season_avg": ".228",
-            "season_obp": ".303",
-            "season_slg": ".415"
+            "season_obp": ".302",
+            "season_slg": ".414"
           },
           {
             "order": 2,
@@ -8209,7 +8386,7 @@
         "away": {
           "pitcher_id": 592332,
           "pitcher_name": "Kevin Gausman",
-          "pitch_count": 33,
+          "pitch_count": 42,
           "pitches": [
             {
               "px": -0.2767874807819789,
@@ -8474,6 +8651,78 @@
               "velocity": 93.9,
               "call": "X",
               "inning": 2
+            },
+            {
+              "px": -0.6570453673293047,
+              "pz": 2.979398212075678,
+              "type": "FF",
+              "velocity": 94.3,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": -0.7758449560711549,
+              "pz": 1.5681887170809663,
+              "type": "FS",
+              "velocity": 87.1,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": -1.2919425167434724,
+              "pz": 2.0377749360545807,
+              "type": "FS",
+              "velocity": 86.2,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": 0.24119429264320608,
+              "pz": 3.0283048181246794,
+              "type": "FF",
+              "velocity": 94.0,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": -0.29292833351235026,
+              "pz": 1.19893891412937,
+              "type": "FS",
+              "velocity": 85.3,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": -0.6848030035323783,
+              "pz": 0.93449676325673,
+              "type": "FS",
+              "velocity": 85.8,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": -0.2646122853847422,
+              "pz": 1.6039968319153814,
+              "type": "FS",
+              "velocity": 86.9,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": -0.5614163834194141,
+              "pz": 2.5339541760922635,
+              "type": "FF",
+              "velocity": 95.5,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": 1.253131720506575,
+              "pz": -0.3917276282634715,
+              "type": "FS",
+              "velocity": 87.1,
+              "call": "B",
+              "inning": 3
             }
           ]
         }
@@ -8486,21 +8735,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.62155,
-      "live_home_win_prob": 0.803,
+      "live_home_win_prob": 0.818,
       "linescore": {
         "current_inning": 3,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 2,
         "away_runs": 1,
         "balls": 0,
-        "strikes": 0,
-        "outs": 2,
-        "base_state": "010",
-        "current_batter_id": 696100,
-        "current_batter_name": "Hunter Goodman",
-        "current_pitcher_id": 681517,
-        "current_pitcher_name": "Kyle Leahy"
+        "strikes": 1,
+        "outs": 1,
+        "base_state": "000",
+        "current_batter_id": 671056,
+        "current_batter_name": "Iv\u00e1n Herrera",
+        "current_pitcher_id": 663372,
+        "current_pitcher_name": "Ryan Feltner"
       },
       "lineups": {
         "home": [
@@ -8525,8 +8774,8 @@
             "player_id": 676475,
             "name": "Alec Burleson",
             "season_avg": ".287",
-            "season_obp": ".352",
-            "season_slg": ".480"
+            "season_obp": ".351",
+            "season_slg": ".479"
           },
           {
             "order": 4,
@@ -8606,9 +8855,9 @@
             "order": 4,
             "player_id": 696100,
             "name": "Hunter Goodman",
-            "season_avg": ".254",
-            "season_obp": ".322",
-            "season_slg": ".546"
+            "season_avg": ".253",
+            "season_obp": ".321",
+            "season_slg": ".544"
           },
           {
             "order": 5,
@@ -8656,7 +8905,7 @@
         "home": {
           "pitcher_id": 681517,
           "pitcher_name": "Kyle Leahy",
-          "pitch_count": 41,
+          "pitch_count": 45,
           "pitches": [
             {
               "px": 0.07672040063934356,
@@ -8985,13 +9234,45 @@
               "velocity": 95.6,
               "call": "X",
               "inning": 3
+            },
+            {
+              "px": -0.28247717091583835,
+              "pz": 3.019292986584856,
+              "type": "SL",
+              "velocity": 89.0,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": -1.1229892755329134,
+              "pz": 2.4473682465895523,
+              "type": "SI",
+              "velocity": 95.0,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": -0.16008447784527227,
+              "pz": 2.544710997943788,
+              "type": "CU",
+              "velocity": 82.8,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": 1.1457576784157262,
+              "pz": 1.7655937275692593,
+              "type": "ST",
+              "velocity": 86.0,
+              "call": "S",
+              "inning": 3
             }
           ]
         },
         "away": {
           "pitcher_id": 663372,
           "pitcher_name": "Ryan Feltner",
-          "pitch_count": 36,
+          "pitch_count": 39,
           "pitches": [
             {
               "px": -0.0969347020477334,
@@ -9280,6 +9561,30 @@
               "velocity": 80.8,
               "call": "X",
               "inning": 2
+            },
+            {
+              "px": 0.261276672375663,
+              "pz": 2.9739469740532245,
+              "type": "SL",
+              "velocity": 88.3,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": -0.5268957004792731,
+              "pz": 3.2282018827764163,
+              "type": "CH",
+              "velocity": 84.1,
+              "call": "X",
+              "inning": 3
+            },
+            {
+              "px": -0.5259129118960474,
+              "pz": 2.0993584217239394,
+              "type": "SI",
+              "velocity": 92.4,
+              "call": "F",
+              "inning": 3
             }
           ]
         }
@@ -9292,19 +9597,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.53825,
-      "live_home_win_prob": 0.412,
+      "live_home_win_prob": 0.392,
       "linescore": {
         "current_inning": 3,
         "inning_state": "Bottom",
         "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 1,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 1,
+        "balls": 1,
+        "strikes": 2,
+        "outs": 2,
         "base_state": "000",
-        "current_batter_id": 670032,
-        "current_batter_name": "Nicky Lopez",
+        "current_batter_id": 592626,
+        "current_batter_name": "Joc Pederson",
         "current_pitcher_id": 669358,
         "current_pitcher_name": "Shane Baz"
       },
@@ -9378,9 +9683,9 @@
             "order": 9,
             "player_id": 670032,
             "name": "Nicky Lopez",
-            "season_avg": ".282",
-            "season_obp": ".323",
-            "season_slg": ".316"
+            "season_avg": ".280",
+            "season_obp": ".321",
+            "season_slg": ".314"
           }
         ],
         "away": [
@@ -9789,7 +10094,7 @@
         "away": {
           "pitcher_id": 669358,
           "pitcher_name": "Shane Baz",
-          "pitch_count": 33,
+          "pitch_count": 43,
           "pitches": [
             {
               "px": -0.7992335939376181,
@@ -10053,6 +10358,86 @@
               "type": "KC",
               "velocity": 85.1,
               "call": "S",
+              "inning": 3
+            },
+            {
+              "px": 1.1445427978969827,
+              "pz": 2.2336468901934605,
+              "type": "FF",
+              "velocity": 95.3,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": 0.8120028933570129,
+              "pz": 2.5567864538423715,
+              "type": "FF",
+              "velocity": 94.5,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": 0.2854559363656619,
+              "pz": 1.3226465206528883,
+              "type": "CH",
+              "velocity": 88.9,
+              "call": "X",
+              "inning": 3
+            },
+            {
+              "px": 0.38103279400285445,
+              "pz": 1.964698985407182,
+              "type": "KC",
+              "velocity": 85.0,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": -1.7383390195118327,
+              "pz": 3.277331497446841,
+              "type": "CH",
+              "velocity": 87.8,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": 0.40729287050855595,
+              "pz": 1.9534262876745043,
+              "type": "CH",
+              "velocity": 88.3,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": -0.4823801049881838,
+              "pz": 1.9498246774083083,
+              "type": "FF",
+              "velocity": 97.0,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": 0.41611016719297395,
+              "pz": 2.460278609883629,
+              "type": "CH",
+              "velocity": 87.7,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": -0.621398939686188,
+              "pz": 3.5547265666972034,
+              "type": "FF",
+              "velocity": 97.4,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": -1.1966180350289735,
+              "pz": 2.819653768207785,
+              "type": "CH",
+              "velocity": 84.7,
+              "call": "B",
               "inning": 3
             }
           ]
