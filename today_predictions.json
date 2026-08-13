@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T23:25:15+00:00",
+  "updated_at": "2026-08-13T23:36:14+00:00",
   "date": "2026-08-13",
   "live_game_count": 1,
   "games": [
@@ -3389,21 +3389,21 @@
       "home_team_id": 142,
       "away_team_id": 143,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.555675,
-      "live_home_win_prob": 0.553,
+      "live_home_win_prob": 0.456,
       "linescore": {
         "current_inning": 1,
         "inning_state": "Top",
         "is_top_inning": true,
         "home_runs": 0,
-        "away_runs": 0,
+        "away_runs": 1,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
+        "outs": 1,
         "base_state": "000",
-        "current_batter_id": 656941,
-        "current_batter_name": "Kyle Schwarber",
+        "current_batter_id": 547180,
+        "current_batter_name": "Bryce Harper",
         "current_pitcher_id": 671737,
         "current_pitcher_name": "Taj Bradley"
       },
@@ -3487,17 +3487,17 @@
             "order": 1,
             "player_id": 656941,
             "name": "Kyle Schwarber",
-            "season_avg": ".248",
-            "season_obp": ".371",
-            "season_slg": ".532"
+            "season_avg": ".250",
+            "season_obp": ".372",
+            "season_slg": ".540"
           },
           {
             "order": 2,
             "player_id": 607208,
             "name": "Trea Turner",
-            "season_avg": ".247",
-            "season_obp": ".296",
-            "season_slg": ".397"
+            "season_avg": ".246",
+            "season_obp": ".295",
+            "season_slg": ".396"
           },
           {
             "order": 3,
@@ -3561,8 +3561,81 @@
         "home": {
           "pitcher_id": 671737,
           "pitcher_name": "Taj Bradley",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 9,
+          "pitches": [
+            {
+              "px": -0.4732185,
+              "pz": 5.0408726,
+              "type": "FF",
+              "velocity": 97.5,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.91576445,
+              "pz": 1.6660466,
+              "type": "FF",
+              "velocity": 95.5,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.54801506,
+              "pz": 2.2554069,
+              "type": "FF",
+              "velocity": 95.4,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.72329724,
+              "pz": 0.9634022,
+              "type": "FC",
+              "velocity": 89.2,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.64941275,
+              "pz": 4.2022605,
+              "type": "FF",
+              "velocity": 96.5,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.20818897,
+              "pz": 1.9479855,
+              "type": "FC",
+              "velocity": 89.3,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.38024604,
+              "pz": 4.031975,
+              "type": "FC",
+              "velocity": 89.7,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.59365815,
+              "pz": 2.8187466,
+              "type": "FF",
+              "velocity": 96.9,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -0.17896654,
+              "pz": 1.5577296,
+              "type": "SL",
+              "velocity": 84.6,
+              "call": "B",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 605400,
@@ -3656,7 +3729,80 @@
             "season_slg": ".319"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 592626,
+            "name": "Joc Pederson",
+            "season_avg": ".252",
+            "season_obp": ".345",
+            "season_slg": ".511"
+          },
+          {
+            "order": 2,
+            "player_id": 694671,
+            "name": "Wyatt Langford",
+            "season_avg": ".253",
+            "season_obp": ".316",
+            "season_slg": ".465"
+          },
+          {
+            "order": 3,
+            "player_id": 608369,
+            "name": "Corey Seager",
+            "season_avg": ".202",
+            "season_obp": ".300",
+            "season_slg": ".395"
+          },
+          {
+            "order": 4,
+            "player_id": 607043,
+            "name": "Brandon Nimmo",
+            "season_avg": ".276",
+            "season_obp": ".342",
+            "season_slg": ".444"
+          },
+          {
+            "order": 5,
+            "player_id": 677649,
+            "name": "Ezequiel Duran",
+            "season_avg": ".269",
+            "season_obp": ".324",
+            "season_slg": ".442"
+          },
+          {
+            "order": 6,
+            "player_id": 694497,
+            "name": "Evan Carter",
+            "season_avg": ".192",
+            "season_obp": ".303",
+            "season_slg": ".322"
+          },
+          {
+            "order": 7,
+            "player_id": 670032,
+            "name": "Nicky Lopez",
+            "season_avg": ".269",
+            "season_obp": ".312",
+            "season_slg": ".312"
+          },
+          {
+            "order": 8,
+            "player_id": 642851,
+            "name": "Austin Wynns",
+            "season_avg": ".133",
+            "season_obp": ".177",
+            "season_slg": ".173"
+          },
+          {
+            "order": 9,
+            "player_id": 679822,
+            "name": "Justin Foscue",
+            "season_avg": ".259",
+            "season_obp": ".323",
+            "season_slg": ".469"
+          }
+        ]
       },
       "starting_pitchers": null
     },
