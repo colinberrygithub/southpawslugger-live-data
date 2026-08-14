@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-14T22:14:11+00:00",
+  "updated_at": "2026-08-14T22:25:11+00:00",
   "date": "2026-08-14",
-  "live_game_count": 2,
+  "live_game_count": 3,
   "games": [
     {
       "game_pk": 824238,
@@ -1620,19 +1620,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.51275,
-      "live_home_win_prob": 0.523,
+      "live_home_win_prob": 0.531,
       "linescore": {
         "current_inning": 1,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "End",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 0,
         "balls": 0,
-        "strikes": 1,
-        "outs": 1,
-        "base_state": "100",
-        "current_batter_id": 672640,
-        "current_batter_name": "Otto Lopez",
+        "strikes": 0,
+        "outs": 3,
+        "base_state": "000",
+        "current_batter_id": 665052,
+        "current_batter_name": "Griffin Conine",
         "current_pitcher_id": 695505,
         "current_pitcher_name": "Chase Burns"
       },
@@ -1643,32 +1643,32 @@
             "player_id": 682829,
             "name": "Elly De La Cruz",
             "season_avg": ".268",
-            "season_obp": ".349",
-            "season_slg": ".489"
+            "season_obp": ".348",
+            "season_slg": ".488"
           },
           {
             "order": 2,
             "player_id": 701398,
             "name": "Sal Stewart",
-            "season_avg": ".259",
-            "season_obp": ".337",
-            "season_slg": ".480"
+            "season_avg": ".258",
+            "season_obp": ".336",
+            "season_slg": ".479"
           },
           {
             "order": 3,
             "player_id": 668709,
             "name": "JJ Bleday",
             "season_avg": ".218",
-            "season_obp": ".332",
+            "season_obp": ".334",
             "season_slg": ".445"
           },
           {
             "order": 4,
             "player_id": 663886,
             "name": "Tyler Stephenson",
-            "season_avg": ".252",
-            "season_obp": ".336",
-            "season_slg": ".421"
+            "season_avg": ".251",
+            "season_obp": ".335",
+            "season_slg": ".419"
           },
           {
             "order": 5,
@@ -1734,7 +1734,7 @@
             "name": "Otto Lopez",
             "season_avg": ".312",
             "season_obp": ".344",
-            "season_slg": ".460"
+            "season_slg": ".459"
           },
           {
             "order": 4,
@@ -1790,7 +1790,7 @@
         "home": {
           "pitcher_id": 695505,
           "pitcher_name": "Chase Burns",
-          "pitch_count": 7,
+          "pitch_count": 8,
           "pitches": [
             {
               "px": -0.8622662492620414,
@@ -1847,14 +1847,135 @@
               "velocity": 89.8,
               "call": "S",
               "inning": 1
+            },
+            {
+              "px": 0.6108301113954695,
+              "pz": 1.7760818213598746,
+              "type": "SL",
+              "velocity": 90.7,
+              "call": "X",
+              "inning": 1
             }
           ]
         },
         "away": {
           "pitcher_id": 645261,
-          "pitcher_name": null,
-          "pitch_count": 0,
-          "pitches": []
+          "pitcher_name": "Sandy Alcantara",
+          "pitch_count": 14,
+          "pitches": [
+            {
+              "px": 1.711758958337369,
+              "pz": 1.7144206534885351,
+              "type": "FF",
+              "velocity": 93.9,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.49219998165595696,
+              "pz": 0.8289279285202829,
+              "type": "FC",
+              "velocity": 90.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.18362418518888549,
+              "pz": 2.9975895770142906,
+              "type": "FC",
+              "velocity": 88.8,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -1.0533832910912295,
+              "pz": 2.4614955004404404,
+              "type": "SI",
+              "velocity": 95.6,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -1.4724501156657432,
+              "pz": 3.951374194376379,
+              "type": "CU",
+              "velocity": 81.0,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.5666649087747194,
+              "pz": 2.964988137250358,
+              "type": "CH",
+              "velocity": 88.3,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -1.060507928472556,
+              "pz": 3.1982755537064396,
+              "type": "SI",
+              "velocity": 95.6,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.472982805257366,
+              "pz": 2.358608972148515,
+              "type": "FF",
+              "velocity": 95.9,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -1.0587442669527172,
+              "pz": 2.342409331602637,
+              "type": "SL",
+              "velocity": 81.8,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -1.3640005169154807,
+              "pz": 2.5091335071581913,
+              "type": "ST",
+              "velocity": 82.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -1.1135265104496712,
+              "pz": 2.5936449453561363,
+              "type": "CH",
+              "velocity": 88.3,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.11412542987766879,
+              "pz": 2.3197310156165685,
+              "type": "SI",
+              "velocity": 96.8,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.36280054326862893,
+              "pz": 4.143853124810678,
+              "type": "FF",
+              "velocity": 97.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.3169863743578893,
+              "pz": 2.9254198807144043,
+              "type": "FF",
+              "velocity": 96.5,
+              "call": "X",
+              "inning": 1
+            }
+          ]
         }
       }
     },
@@ -2050,11 +2171,25 @@
       "game_pk": 824237,
       "home_team_id": 116,
       "away_team_id": 145,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5943499999999999,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.622,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 803011,
+        "current_batter_name": "Sam Antonacci",
+        "current_pitcher_id": 695549,
+        "current_pitcher_name": "Jackson Jobe"
+      },
       "lineups": {
         "home": [
           {
@@ -2205,7 +2340,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 695549,
+          "pitcher_name": "Jackson Jobe",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 656794,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823591,
