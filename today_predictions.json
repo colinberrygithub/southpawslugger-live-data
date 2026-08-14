@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-14T22:03:11+00:00",
+  "updated_at": "2026-08-14T22:14:11+00:00",
   "date": "2026-08-14",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 824238,
@@ -1618,9 +1618,9 @@
       "home_team_id": 113,
       "away_team_id": 146,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.51275,
-      "live_home_win_prob": 0.526,
+      "live_home_win_prob": 0.523,
       "linescore": {
         "current_inning": 1,
         "inning_state": "Top",
@@ -1628,11 +1628,11 @@
         "home_runs": 0,
         "away_runs": 0,
         "balls": 0,
-        "strikes": 0,
-        "outs": 0,
-        "base_state": "000",
-        "current_batter_id": 805300,
-        "current_batter_name": "Jakob Marsee",
+        "strikes": 1,
+        "outs": 1,
+        "base_state": "100",
+        "current_batter_id": 672640,
+        "current_batter_name": "Otto Lopez",
         "current_pitcher_id": 695505,
         "current_pitcher_name": "Chase Burns"
       },
@@ -1716,17 +1716,17 @@
             "order": 1,
             "player_id": 805300,
             "name": "Jakob Marsee",
-            "season_avg": ".206",
-            "season_obp": ".323",
+            "season_avg": ".205",
+            "season_obp": ".322",
             "season_slg": ".308"
           },
           {
             "order": 2,
             "player_id": 669364,
             "name": "Xavier Edwards",
-            "season_avg": ".282",
-            "season_obp": ".362",
-            "season_slg": ".386"
+            "season_avg": ".284",
+            "season_obp": ".363",
+            "season_slg": ".387"
           },
           {
             "order": 3,
@@ -1790,8 +1790,65 @@
         "home": {
           "pitcher_id": 695505,
           "pitcher_name": "Chase Burns",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 7,
+          "pitches": [
+            {
+              "px": -0.8622662492620414,
+              "pz": 3.2706629035079993,
+              "type": "FF",
+              "velocity": 98.3,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.8949395789572973,
+              "pz": 2.8962040691276556,
+              "type": "FF",
+              "velocity": 98.2,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.44973702255913073,
+              "pz": 3.297110003492309,
+              "type": "FF",
+              "velocity": 97.9,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.4194406200675898,
+              "pz": 3.27953648338433,
+              "type": "SL",
+              "velocity": 90.1,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.26913103036441965,
+              "pz": 0.5704518423699433,
+              "type": "SL",
+              "velocity": 91.0,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.14169767542389505,
+              "pz": 2.787306192565127,
+              "type": "FF",
+              "velocity": 99.2,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.4812738222373075,
+              "pz": 2.28093581999885,
+              "type": "SL",
+              "velocity": 89.8,
+              "call": "S",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 645261,
@@ -1805,11 +1862,25 @@
       "game_pk": 823346,
       "home_team_id": 134,
       "away_team_id": 111,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.483,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.441,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 686765,
+        "current_batter_name": "Nick Sogard",
+        "current_pitcher_id": 696149,
+        "current_pitcher_name": "Bubba Chandler"
+      },
       "lineups": {
         "home": [
           {
@@ -1960,7 +2031,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 696149,
+          "pitcher_name": "Bubba Chandler",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 687562,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824237,
