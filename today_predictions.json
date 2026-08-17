@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T21:36:12+00:00",
+  "updated_at": "2026-08-17T21:47:14+00:00",
   "date": "2026-08-17",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 822940,
@@ -2744,11 +2744,25 @@
       "game_pk": 822939,
       "home_team_id": 139,
       "away_team_id": 110,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5017,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.525,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 641933,
+        "current_batter_name": "Tyler O'Neill",
+        "current_pitcher_id": 663556,
+        "current_pitcher_name": "Shane McClanahan"
+      },
       "lineups": {
         "home": [
           {
@@ -2899,7 +2913,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 663556,
+          "pitcher_name": "Shane McClanahan",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 687064,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823427,
@@ -3903,19 +3930,19 @@
           },
           {
             "order": 2,
+            "player_id": 687597,
+            "name": "Jordan Beck",
+            "season_avg": ".194",
+            "season_obp": ".250",
+            "season_slg": ".330"
+          },
+          {
+            "order": 3,
             "player_id": 694249,
             "name": "Cole Carrigg",
             "season_avg": ".292",
             "season_obp": ".378",
             "season_slg": ".486"
-          },
-          {
-            "order": 3,
-            "player_id": 696100,
-            "name": "Hunter Goodman",
-            "season_avg": ".251",
-            "season_obp": ".320",
-            "season_slg": ".541"
           },
           {
             "order": 4,
@@ -3935,14 +3962,6 @@
           },
           {
             "order": 6,
-            "player_id": 687597,
-            "name": "Jordan Beck",
-            "season_avg": ".194",
-            "season_obp": ".250",
-            "season_slg": ".330"
-          },
-          {
-            "order": 7,
             "player_id": 681393,
             "name": "Connor Norby",
             "season_avg": ".203",
@@ -3950,20 +3969,28 @@
             "season_slg": ".321"
           },
           {
-            "order": 8,
-            "player_id": 678662,
-            "name": "Ezequiel Tovar",
-            "season_avg": ".208",
-            "season_obp": ".255",
-            "season_slg": ".332"
-          },
-          {
-            "order": 9,
+            "order": 7,
             "player_id": 691182,
             "name": "Adael Amador",
             "season_avg": ".500",
             "season_obp": ".750",
             "season_slg": "2.000"
+          },
+          {
+            "order": 8,
+            "player_id": 664954,
+            "name": "Brett Sullivan",
+            "season_avg": ".241",
+            "season_obp": ".282",
+            "season_slg": ".451"
+          },
+          {
+            "order": 9,
+            "player_id": 678662,
+            "name": "Ezequiel Tovar",
+            "season_avg": ".208",
+            "season_obp": ".255",
+            "season_slg": ".332"
           }
         ],
         "away": [
