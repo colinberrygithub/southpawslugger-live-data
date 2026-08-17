@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-17T17:14:17+00:00",
+  "updated_at": "2026-08-17T17:47:14+00:00",
   "date": "2026-08-17",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 822940,
@@ -2422,11 +2422,25 @@
       "game_pk": 824514,
       "home_team_id": 113,
       "away_team_id": 138,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.4915,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.381,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 2,
+        "outs": 0,
+        "base_state": "110",
+        "current_batter_id": 691023,
+        "current_batter_name": "Jordan Walker",
+        "current_pitcher_id": 592288,
+        "current_pitcher_name": "Kent Emanuel"
+      },
       "lineups": {
         "home": [
           {
@@ -2508,7 +2522,7 @@
             "player_id": 695491,
             "name": "Joshua B\u00e1ez",
             "season_avg": ".333",
-            "season_obp": ".333",
+            "season_obp": ".400",
             "season_slg": "1.333"
           },
           {
@@ -2516,7 +2530,7 @@
             "player_id": 671056,
             "name": "Iv\u00e1n Herrera",
             "season_avg": ".249",
-            "season_obp": ".361",
+            "season_obp": ".362",
             "season_slg": ".387"
           },
           {
@@ -2577,7 +2591,109 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 592288,
+          "pitcher_name": "Kent Emanuel",
+          "pitch_count": 11,
+          "pitches": [
+            {
+              "px": 0.10095252469073175,
+              "pz": 3.1840790371959815,
+              "type": "SI",
+              "velocity": 91.0,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -2.442567377467344,
+              "pz": 0.8339060591035812,
+              "type": "ST",
+              "velocity": 79.4,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -0.6380924528931228,
+              "pz": 2.925620703398274,
+              "type": "SI",
+              "velocity": 90.3,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.006571543223259612,
+              "pz": 3.3979814452009203,
+              "type": "SL",
+              "velocity": 84.9,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.7545943348908775,
+              "pz": 1.6091869686970106,
+              "type": "CH",
+              "velocity": 82.9,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.4424929943662098,
+              "pz": 3.0391578624165043,
+              "type": "CH",
+              "velocity": 82.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.24312158552591645,
+              "pz": 0.780990828197075,
+              "type": "CH",
+              "velocity": 82.7,
+              "call": "?",
+              "inning": 1
+            },
+            {
+              "px": -1.325397279961597,
+              "pz": 1.6894117523201753,
+              "type": "SI",
+              "velocity": 89.3,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.5805995569055293,
+              "pz": 2.768577490178436,
+              "type": "ST",
+              "velocity": 78.1,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.3553593887456725,
+              "pz": 3.319453783421703,
+              "type": "CH",
+              "velocity": 83.1,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.9406449569479886,
+              "pz": 1.6642121195267092,
+              "type": "ST",
+              "velocity": 79.9,
+              "call": "F",
+              "inning": 1
+            }
+          ]
+        },
+        "away": {
+          "pitcher_id": 687273,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824478,
