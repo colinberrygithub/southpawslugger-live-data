@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T17:58:11+00:00",
+  "updated_at": "2026-08-22T18:03:14+00:00",
   "date": "2026-08-22",
   "live_game_count": 2,
   "games": [
@@ -2423,23 +2423,23 @@
       "home_team_id": 147,
       "away_team_id": 141,
       "abstract_status": "Live",
-      "detailed_status": "Player challenge",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.4915,
-      "live_home_win_prob": 0.464,
+      "live_home_win_prob": 0.372,
       "linescore": {
-        "current_inning": 1,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 2,
+        "inning_state": "Top",
+        "is_top_inning": true,
         "home_runs": 0,
         "away_runs": 1,
-        "balls": 0,
-        "strikes": 3,
-        "outs": 1,
-        "base_state": "001",
-        "current_batter_id": 671218,
-        "current_batter_name": "Heliot Ramos",
-        "current_pitcher_id": 656302,
-        "current_pitcher_name": "Dylan Cease"
+        "balls": 2,
+        "strikes": 1,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 663662,
+        "current_batter_name": "Daz Cameron",
+        "current_pitcher_id": 677960,
+        "current_pitcher_name": "Ryan Weathers"
       },
       "lineups": {
         "home": [
@@ -2472,8 +2472,8 @@
             "player_id": 671277,
             "name": "Luis Garc\u00eda Jr.",
             "season_avg": ".278",
-            "season_obp": ".309",
-            "season_slg": ".540"
+            "season_obp": ".308",
+            "season_slg": ".539"
           },
           {
             "order": 5,
@@ -2595,7 +2595,7 @@
         "home": {
           "pitcher_id": 677960,
           "pitcher_name": "Ryan Weathers",
-          "pitch_count": 25,
+          "pitch_count": 28,
           "pitches": [
             {
               "px": -0.450747347880922,
@@ -2796,13 +2796,37 @@
               "velocity": 95.2,
               "call": "X",
               "inning": 1
+            },
+            {
+              "px": 0.7542448187710742,
+              "pz": 1.7374162934635224,
+              "type": "SI",
+              "velocity": 91.8,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 1.2853347682311642,
+              "pz": 2.892412159679252,
+              "type": "SI",
+              "velocity": 93.9,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 1.3267345168692157,
+              "pz": 3.0346941408064163,
+              "type": "ST",
+              "velocity": 80.2,
+              "call": "B",
+              "inning": 2
             }
           ]
         },
         "away": {
           "pitcher_id": 656302,
           "pitcher_name": "Dylan Cease",
-          "pitch_count": 13,
+          "pitch_count": 19,
           "pitches": [
             {
               "px": 0.21111603740962762,
@@ -2906,6 +2930,54 @@
               "type": "SL",
               "velocity": 87.1,
               "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.040691052665259624,
+              "pz": 2.9781004511774922,
+              "type": "FF",
+              "velocity": 97.0,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.5303777582786572,
+              "pz": 2.642177874859932,
+              "type": "FF",
+              "velocity": 96.6,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -0.3750638904064433,
+              "pz": 1.3038562446522572,
+              "type": "KC",
+              "velocity": 81.1,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -1.2170928449754548,
+              "pz": 1.3681014026162674,
+              "type": "CH",
+              "velocity": 80.5,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.6026350393456518,
+              "pz": 2.0210760325078376,
+              "type": "SL",
+              "velocity": 89.3,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.3485306068230952,
+              "pz": 0.8787777140132836,
+              "type": "SL",
+              "velocity": 87.8,
+              "call": "S",
               "inning": 1
             }
           ]
