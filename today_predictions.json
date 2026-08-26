@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T19:14:20+00:00",
+  "updated_at": "2026-08-26T19:25:32+00:00",
   "date": "2026-08-26",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824233,
@@ -2423,7 +2423,7 @@
       "home_team_id": 116,
       "away_team_id": 139,
       "abstract_status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "pre_home_win_prob": 0.6640499999999999,
       "live_home_win_prob": null,
       "linescore": null,
@@ -2583,11 +2583,25 @@
       "game_pk": 825039,
       "home_team_id": 109,
       "away_team_id": 112,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.559075,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.56,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 691718,
+        "current_batter_name": "Pete Crow-Armstrong",
+        "current_pitcher_id": 593958,
+        "current_pitcher_name": "Eduardo Rodriguez"
+      },
       "lineups": {
         "home": [
           {
@@ -2738,7 +2752,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 593958,
+          "pitcher_name": "Eduardo Rodriguez",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 571510,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823180,
@@ -2911,7 +2938,80 @@
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 687263,
+            "name": "Zach Neto",
+            "season_avg": ".236",
+            "season_obp": ".315",
+            "season_slg": ".432"
+          },
+          {
+            "order": 2,
+            "player_id": 545361,
+            "name": "Mike Trout",
+            "season_avg": ".242",
+            "season_obp": ".383",
+            "season_slg": ".436"
+          },
+          {
+            "order": 3,
+            "player_id": 687093,
+            "name": "Vaughn Grissom",
+            "season_avg": ".248",
+            "season_obp": ".309",
+            "season_slg": ".390"
+          },
+          {
+            "order": 4,
+            "player_id": 695681,
+            "name": "Christian Moore",
+            "season_avg": ".167",
+            "season_obp": ".205",
+            "season_slg": ".278"
+          },
+          {
+            "order": 5,
+            "player_id": 642350,
+            "name": "Jose Siri",
+            "season_avg": ".250",
+            "season_obp": ".310",
+            "season_slg": ".436"
+          },
+          {
+            "order": 6,
+            "player_id": 666139,
+            "name": "Josh Lowe",
+            "season_avg": ".213",
+            "season_obp": ".269",
+            "season_slg": ".361"
+          },
+          {
+            "order": 7,
+            "player_id": 694203,
+            "name": "Denzer Guzman",
+            "season_avg": ".226",
+            "season_obp": ".267",
+            "season_slg": ".357"
+          },
+          {
+            "order": 8,
+            "player_id": 623168,
+            "name": "Tyler Heineman",
+            "season_avg": ".179",
+            "season_obp": ".228",
+            "season_slg": ".229"
+          },
+          {
+            "order": 9,
+            "player_id": 669326,
+            "name": "Bryce Teodosio",
+            "season_avg": ".213",
+            "season_obp": ".260",
+            "season_slg": ".255"
+          }
+        ],
         "away": [
           {
             "order": 1,
@@ -3570,7 +3670,80 @@
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 663757,
+            "name": "Trent Grisham",
+            "season_avg": ".220",
+            "season_obp": ".318",
+            "season_slg": ".419"
+          },
+          {
+            "order": 2,
+            "player_id": 700250,
+            "name": "Ben Rice",
+            "season_avg": ".249",
+            "season_obp": ".346",
+            "season_slg": ".522"
+          },
+          {
+            "order": 3,
+            "player_id": 671277,
+            "name": "Luis Garc\u00eda Jr.",
+            "season_avg": ".283",
+            "season_obp": ".317",
+            "season_slg": ".554"
+          },
+          {
+            "order": 4,
+            "player_id": 641355,
+            "name": "Cody Bellinger",
+            "season_avg": ".258",
+            "season_obp": ".348",
+            "season_slg": ".423"
+          },
+          {
+            "order": 5,
+            "player_id": 806146,
+            "name": "George Lombard Jr.",
+            "season_avg": ".286",
+            "season_obp": ".343",
+            "season_slg": ".397"
+          },
+          {
+            "order": 6,
+            "player_id": 682987,
+            "name": "Spencer Jones",
+            "season_avg": ".233",
+            "season_obp": ".313",
+            "season_slg": ".429"
+          },
+          {
+            "order": 7,
+            "player_id": 665862,
+            "name": "Jazz Chisholm Jr.",
+            "season_avg": ".221",
+            "season_obp": ".299",
+            "season_slg": ".397"
+          },
+          {
+            "order": 8,
+            "player_id": 669224,
+            "name": "Austin Wells",
+            "season_avg": ".177",
+            "season_obp": ".274",
+            "season_slg": ".293"
+          },
+          {
+            "order": 9,
+            "player_id": 676609,
+            "name": "Jos\u00e9 Caballero",
+            "season_avg": ".233",
+            "season_obp": ".291",
+            "season_slg": ".372"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
@@ -3688,7 +3861,80 @@
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 686948,
+            "name": "Drake Baldwin",
+            "season_avg": ".270",
+            "season_obp": ".353",
+            "season_slg": ".444"
+          },
+          {
+            "order": 2,
+            "player_id": 660670,
+            "name": "Ronald Acu\u00f1a Jr.",
+            "season_avg": ".232",
+            "season_obp": ".335",
+            "season_slg": ".407"
+          },
+          {
+            "order": 3,
+            "player_id": 621566,
+            "name": "Matt Olson",
+            "season_avg": ".260",
+            "season_obp": ".334",
+            "season_slg": ".533"
+          },
+          {
+            "order": 4,
+            "player_id": 643289,
+            "name": "Mauricio Dub\u00f3n",
+            "season_avg": ".268",
+            "season_obp": ".314",
+            "season_slg": ".393"
+          },
+          {
+            "order": 5,
+            "player_id": 671739,
+            "name": "Michael Harris II",
+            "season_avg": ".293",
+            "season_obp": ".319",
+            "season_slg": ".491"
+          },
+          {
+            "order": 6,
+            "player_id": 645277,
+            "name": "Ozzie Albies",
+            "season_avg": ".255",
+            "season_obp": ".309",
+            "season_slg": ".420"
+          },
+          {
+            "order": 7,
+            "player_id": 573262,
+            "name": "Mike Yastrzemski",
+            "season_avg": ".228",
+            "season_obp": ".315",
+            "season_slg": ".383"
+          },
+          {
+            "order": 8,
+            "player_id": 663586,
+            "name": "Austin Riley",
+            "season_avg": ".221",
+            "season_obp": ".294",
+            "season_slg": ".364"
+          },
+          {
+            "order": 9,
+            "player_id": 669221,
+            "name": "Sean Murphy",
+            "season_avg": ".136",
+            "season_obp": ".156",
+            "season_slg": ".159"
+          }
+        ],
         "away": [
           {
             "order": 1,
