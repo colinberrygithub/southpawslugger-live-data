@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T16:47:22+00:00",
+  "updated_at": "2026-08-26T16:58:22+00:00",
   "date": "2026-08-26",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824233,
@@ -2422,11 +2422,25 @@
       "game_pk": 824234,
       "home_team_id": 116,
       "away_team_id": 139,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.6640499999999999,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.739,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 650490,
+        "current_batter_name": "Yandy D\u00edaz",
+        "current_pitcher_id": 675512,
+        "current_pitcher_name": "Troy Melton"
+      },
       "lineups": {
         "home": [
           {
@@ -2577,7 +2591,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 675512,
+          "pitcher_name": "Troy Melton",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 642547,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 825039,
@@ -2623,11 +2650,11 @@
           },
           {
             "order": 3,
-            "player_id": 808982,
-            "name": "Jung Hoo Lee",
-            "season_avg": ".289",
-            "season_obp": ".325",
-            "season_slg": ".423"
+            "player_id": 678545,
+            "name": "Osleivis Basabe",
+            "season_avg": ".218",
+            "season_obp": ".244",
+            "season_slg": ".359"
           },
           {
             "order": 4,
@@ -2639,14 +2666,6 @@
           },
           {
             "order": 5,
-            "player_id": 678545,
-            "name": "Osleivis Basabe",
-            "season_avg": ".218",
-            "season_obp": ".244",
-            "season_slg": ".359"
-          },
-          {
-            "order": 6,
             "player_id": 806367,
             "name": "Turner Hill",
             "season_avg": ".222",
@@ -2654,7 +2673,7 @@
             "season_slg": ".389"
           },
           {
-            "order": 7,
+            "order": 6,
             "player_id": 668800,
             "name": "Andrew Knizner",
             "season_avg": ".200",
@@ -2662,20 +2681,28 @@
             "season_slg": ".400"
           },
           {
-            "order": 8,
-            "player_id": 694376,
-            "name": "Shay Whitcomb",
-            "season_avg": ".100",
-            "season_obp": ".129",
-            "season_slg": ".300"
-          },
-          {
-            "order": 9,
+            "order": 7,
             "player_id": 683766,
             "name": "Christian Koss",
             "season_avg": ".210",
             "season_obp": ".252",
             "season_slg": ".257"
+          },
+          {
+            "order": 8,
+            "player_id": 687529,
+            "name": "Grant McCray",
+            "season_avg": ".114",
+            "season_obp": ".235",
+            "season_slg": ".250"
+          },
+          {
+            "order": 9,
+            "player_id": 694376,
+            "name": "Shay Whitcomb",
+            "season_avg": ".100",
+            "season_obp": ".129",
+            "season_slg": ".300"
           }
         ],
         "away": [
@@ -2775,12 +2802,85 @@
       "home_team_id": 135,
       "away_team_id": 134,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.514875,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 665487,
+            "name": "Fernando Tatis Jr.",
+            "season_avg": ".287",
+            "season_obp": ".357",
+            "season_slg": ".449"
+          },
+          {
+            "order": 2,
+            "player_id": 630105,
+            "name": "Jake Cronenworth",
+            "season_avg": ".227",
+            "season_obp": ".311",
+            "season_slg": ".302"
+          },
+          {
+            "order": 3,
+            "player_id": 592518,
+            "name": "Manny Machado",
+            "season_avg": ".213",
+            "season_obp": ".301",
+            "season_slg": ".404"
+          },
+          {
+            "order": 4,
+            "player_id": 664034,
+            "name": "Ty France",
+            "season_avg": ".287",
+            "season_obp": ".355",
+            "season_slg": ".507"
+          },
+          {
+            "order": 5,
+            "player_id": 701538,
+            "name": "Jackson Merrill",
+            "season_avg": ".236",
+            "season_obp": ".286",
+            "season_slg": ".409"
+          },
+          {
+            "order": 6,
+            "player_id": 650859,
+            "name": "Luis Rengifo",
+            "season_avg": ".244",
+            "season_obp": ".323",
+            "season_slg": ".323"
+          },
+          {
+            "order": 7,
+            "player_id": 657757,
+            "name": "Gavin Sheets",
+            "season_avg": ".212",
+            "season_obp": ".316",
+            "season_slg": ".393"
+          },
+          {
+            "order": 8,
+            "player_id": 593428,
+            "name": "Xander Bogaerts",
+            "season_avg": ".219",
+            "season_obp": ".319",
+            "season_slg": ".326"
+          },
+          {
+            "order": 9,
+            "player_id": 666023,
+            "name": "Freddy Fermin",
+            "season_avg": ".201",
+            "season_obp": ".271",
+            "season_slg": ".317"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
