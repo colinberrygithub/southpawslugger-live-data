@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-27T17:58:10+00:00",
+  "updated_at": "2026-08-27T18:03:16+00:00",
   "date": "2026-08-27",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 824234,
@@ -2428,18 +2428,18 @@
       "live_home_win_prob": null,
       "linescore": {
         "current_inning": 3,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 2,
-        "away_runs": 0,
+        "away_runs": 1,
         "balls": 0,
         "strikes": 0,
-        "outs": 2,
-        "base_state": "111",
-        "current_batter_id": 664954,
-        "current_batter_name": "Brett Sullivan",
-        "current_pitcher_id": 663623,
-        "current_pitcher_name": "Jake Irvin"
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 686611,
+        "current_batter_name": "Dylan Crews",
+        "current_pitcher_id": 687312,
+        "current_pitcher_name": "Gabriel Hughes"
       },
       "lineups": {
         "home": [
@@ -2569,17 +2569,17 @@
             "order": 7,
             "player_id": 664954,
             "name": "Brett Sullivan",
-            "season_avg": ".227",
-            "season_obp": ".270",
-            "season_slg": ".420"
+            "season_avg": ".231",
+            "season_obp": ".274",
+            "season_slg": ".423"
           },
           {
             "order": 8,
             "player_id": 691728,
             "name": "Zac Veen",
-            "season_avg": ".208",
-            "season_obp": ".296",
-            "season_slg": ".500"
+            "season_avg": ".200",
+            "season_obp": ".286",
+            "season_slg": ".480"
           },
           {
             "order": 9,
@@ -2595,7 +2595,7 @@
         "home": {
           "pitcher_id": 663623,
           "pitcher_name": "Jake Irvin",
-          "pitch_count": 62,
+          "pitch_count": 66,
           "pitches": [
             {
               "px": 0.3620379837613485,
@@ -3092,6 +3092,38 @@
               "velocity": 76.3,
               "call": "B",
               "inning": 3
+            },
+            {
+              "px": -0.42023703579644445,
+              "pz": 2.123144121158811,
+              "type": "FF",
+              "velocity": 89.5,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": 0.07732685234693813,
+              "pz": 2.798505534729197,
+              "type": "CU",
+              "velocity": 75.9,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": 0.144035263963809,
+              "pz": 1.384290160749614,
+              "type": "FF",
+              "velocity": 94.4,
+              "call": "X",
+              "inning": 3
+            },
+            {
+              "px": -0.7157956382273616,
+              "pz": 2.475617816691259,
+              "type": "CU",
+              "velocity": 77.2,
+              "call": "X",
+              "inning": 3
             }
           ]
         },
@@ -3396,11 +3428,25 @@
       "game_pk": 823014,
       "home_team_id": 138,
       "away_team_id": 110,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": null,
       "live_home_win_prob": null,
-      "linescore": null,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 702616,
+        "current_batter_name": "Jackson Holliday",
+        "current_pitcher_id": 700669,
+        "current_pitcher_name": "Gordon Graceffo"
+      },
       "lineups": {
         "home": [
           {
@@ -3551,7 +3597,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 700669,
+          "pitcher_name": "Gordon Graceffo",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 669432,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823503,
