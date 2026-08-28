@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T19:36:18+00:00",
+  "updated_at": "2026-08-28T19:47:08+00:00",
   "date": "2026-08-28",
   "live_game_count": 1,
   "games": [
@@ -9,7 +9,7 @@
       "away_team_id": 115,
       "abstract_status": "Final",
       "detailed_status": "Final",
-      "pre_home_win_prob": 0.5935,
+      "pre_home_win_prob": null,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -170,7 +170,7 @@
       "away_team_id": 110,
       "abstract_status": "Final",
       "detailed_status": "Final",
-      "pre_home_win_prob": 0.522525,
+      "pre_home_win_prob": null,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -331,7 +331,7 @@
       "away_team_id": 117,
       "abstract_status": "Final",
       "detailed_status": "Final",
-      "pre_home_win_prob": 0.6385500000000001,
+      "pre_home_win_prob": null,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -492,7 +492,7 @@
       "away_team_id": 118,
       "abstract_status": "Final",
       "detailed_status": "Final",
-      "pre_home_win_prob": 0.556525,
+      "pre_home_win_prob": null,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -653,7 +653,7 @@
       "away_team_id": 158,
       "abstract_status": "Final",
       "detailed_status": "Final",
-      "pre_home_win_prob": 0.32489999999999997,
+      "pre_home_win_prob": null,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -814,7 +814,7 @@
       "away_team_id": 119,
       "abstract_status": "Final",
       "detailed_status": "Final",
-      "pre_home_win_prob": 0.5136000000000001,
+      "pre_home_win_prob": null,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -975,7 +975,7 @@
       "away_team_id": 109,
       "abstract_status": "Final",
       "detailed_status": "Final",
-      "pre_home_win_prob": 0.47705,
+      "pre_home_win_prob": null,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -1136,20 +1136,20 @@
       "away_team_id": 113,
       "abstract_status": "Live",
       "detailed_status": "In Progress",
-      "pre_home_win_prob": null,
-      "live_home_win_prob": null,
+      "pre_home_win_prob": 0.5896750000000001,
+      "live_home_win_prob": 0.792,
       "linescore": {
-        "current_inning": 4,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 5,
+        "inning_state": "Middle",
+        "is_top_inning": true,
         "home_runs": 3,
-        "away_runs": 1,
+        "away_runs": 2,
         "balls": 0,
-        "strikes": 2,
-        "outs": 2,
-        "base_state": "010",
-        "current_batter_id": 608348,
-        "current_batter_name": "Carson Kelly",
+        "strikes": 0,
+        "outs": 3,
+        "base_state": "000",
+        "current_batter_id": 691718,
+        "current_batter_name": "Pete Crow-Armstrong",
         "current_pitcher_id": 695076,
         "current_pitcher_name": "Rhett Lowder"
       },
@@ -1223,9 +1223,9 @@
             "order": 9,
             "player_id": 608348,
             "name": "Carson Kelly",
-            "season_avg": ".259",
-            "season_obp": ".339",
-            "season_slg": ".374"
+            "season_avg": ".258",
+            "season_obp": ".338",
+            "season_slg": ".373"
           }
         ],
         "away": [
@@ -1241,41 +1241,41 @@
             "order": 2,
             "player_id": 682829,
             "name": "Elly De La Cruz",
-            "season_avg": ".266",
-            "season_obp": ".344",
-            "season_slg": ".475"
+            "season_avg": ".265",
+            "season_obp": ".343",
+            "season_slg": ".474"
           },
           {
             "order": 3,
             "player_id": 701398,
             "name": "Sal Stewart",
-            "season_avg": ".261",
-            "season_obp": ".334",
-            "season_slg": ".471"
+            "season_avg": ".262",
+            "season_obp": ".336",
+            "season_slg": ".478"
           },
           {
             "order": 4,
             "player_id": 663886,
             "name": "Tyler Stephenson",
-            "season_avg": ".247",
-            "season_obp": ".328",
-            "season_slg": ".407"
+            "season_avg": ".246",
+            "season_obp": ".327",
+            "season_slg": ".405"
           },
           {
             "order": 5,
             "player_id": 553993,
             "name": "Eugenio Su\u00e1rez",
             "season_avg": ".207",
-            "season_obp": ".294",
+            "season_obp": ".295",
             "season_slg": ".408"
           },
           {
             "order": 6,
             "player_id": 668709,
             "name": "JJ Bleday",
-            "season_avg": ".221",
-            "season_obp": ".334",
-            "season_slg": ".436"
+            "season_avg": ".220",
+            "season_obp": ".333",
+            "season_slg": ".435"
           },
           {
             "order": 7,
@@ -1307,7 +1307,7 @@
         "home": {
           "pitcher_id": 656849,
           "pitcher_name": "David Peterson",
-          "pitch_count": 70,
+          "pitch_count": 88,
           "pitches": [
             {
               "px": 0.87934065285981,
@@ -1868,13 +1868,157 @@
               "velocity": 87.3,
               "call": "X",
               "inning": 4
+            },
+            {
+              "px": -0.7330811469786436,
+              "pz": 2.1018297879853205,
+              "type": "CU",
+              "velocity": 80.3,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": 0.7695046350562473,
+              "pz": 1.9331294711859328,
+              "type": "CU",
+              "velocity": 78.6,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.8621296959804907,
+              "pz": 1.99534361334867,
+              "type": "CH",
+              "velocity": 85.7,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 1.212577625604253,
+              "pz": 0.9540247764968524,
+              "type": "SI",
+              "velocity": 93.6,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 0.250380547461473,
+              "pz": 0.558934794113341,
+              "type": "CH",
+              "velocity": 85.9,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 0.17928965056876037,
+              "pz": 2.3473854411863933,
+              "type": "CU",
+              "velocity": 80.5,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": 2.4590305998369404,
+              "pz": 3.6864484080374385,
+              "type": "SI",
+              "velocity": 91.4,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 0.11321913873678718,
+              "pz": 1.7258749392386616,
+              "type": "CH",
+              "velocity": 83.1,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 1.0555236153973235,
+              "pz": 2.5737965641702925,
+              "type": "CH",
+              "velocity": 85.0,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": -0.018823812347769503,
+              "pz": 2.4909249078393763,
+              "type": "FF",
+              "velocity": 94.3,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": -1.0825889401555053,
+              "pz": 0.6087623968976315,
+              "type": "CU",
+              "velocity": 81.0,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 1.3356907054403722,
+              "pz": 2.8501487514274872,
+              "type": "SI",
+              "velocity": 92.0,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 1.1358793879975242,
+              "pz": 1.780630564965687,
+              "type": "CH",
+              "velocity": 85.4,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.3753189435229832,
+              "pz": 0.13354925288481975,
+              "type": "CH",
+              "velocity": 85.8,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.1674134528722114,
+              "pz": 1.6671373524911102,
+              "type": "SL",
+              "velocity": 87.4,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.8483333030827296,
+              "pz": 3.828930597888925,
+              "type": "FF",
+              "velocity": 94.3,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -1.8470505979171346,
+              "pz": 1.1917713278728388,
+              "type": "CU",
+              "velocity": 81.8,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 1.2358003507061917,
+              "pz": 2.7661012610292506,
+              "type": "SI",
+              "velocity": 93.6,
+              "call": "X",
+              "inning": 5
             }
           ]
         },
         "away": {
           "pitcher_id": 695076,
           "pitcher_name": "Rhett Lowder",
-          "pitch_count": 81,
+          "pitch_count": 83,
           "pitches": [
             {
               "px": 0.09302608168665387,
@@ -2523,6 +2667,22 @@
               "velocity": 85.6,
               "call": "F",
               "inning": 4
+            },
+            {
+              "px": 0.10103589360417704,
+              "pz": 0.2454082727972265,
+              "type": "SL",
+              "velocity": 86.4,
+              "call": "?",
+              "inning": 4
+            },
+            {
+              "px": 0.0840783071927055,
+              "pz": 2.356515290008218,
+              "type": "SL",
+              "velocity": 86.4,
+              "call": "X",
+              "inning": 4
             }
           ]
         }
@@ -2534,7 +2694,7 @@
       "away_team_id": 119,
       "abstract_status": "Preview",
       "detailed_status": "Pre-Game",
-      "pre_home_win_prob": null,
+      "pre_home_win_prob": 0.42774999999999996,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -2694,13 +2854,86 @@
       "home_team_id": 120,
       "away_team_id": 146,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
-      "pre_home_win_prob": null,
+      "detailed_status": "Pre-Game",
+      "pre_home_win_prob": 0.41202500000000003,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
         "home": null,
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 681715,
+            "name": "Heriberto Hern\u00e1ndez",
+            "season_avg": ".234",
+            "season_obp": ".313",
+            "season_slg": ".460"
+          },
+          {
+            "order": 2,
+            "player_id": 682663,
+            "name": "Agust\u00edn Ram\u00edrez",
+            "season_avg": ".232",
+            "season_obp": ".330",
+            "season_slg": ".335"
+          },
+          {
+            "order": 3,
+            "player_id": 672640,
+            "name": "Otto Lopez",
+            "season_avg": ".308",
+            "season_obp": ".343",
+            "season_slg": ".444"
+          },
+          {
+            "order": 4,
+            "player_id": 691594,
+            "name": "Javier Sanoja",
+            "season_avg": ".280",
+            "season_obp": ".318",
+            "season_slg": ".420"
+          },
+          {
+            "order": 5,
+            "player_id": 669364,
+            "name": "Xavier Edwards",
+            "season_avg": ".286",
+            "season_obp": ".364",
+            "season_slg": ".382"
+          },
+          {
+            "order": 6,
+            "player_id": 669065,
+            "name": "Kyle Stowers",
+            "season_avg": ".242",
+            "season_obp": ".329",
+            "season_slg": ".458"
+          },
+          {
+            "order": 7,
+            "player_id": 677870,
+            "name": "Leo Jim\u00e9nez",
+            "season_avg": ".206",
+            "season_obp": ".311",
+            "season_slg": ".271"
+          },
+          {
+            "order": 8,
+            "player_id": 665923,
+            "name": "Esteury Ruiz",
+            "season_avg": ".241",
+            "season_obp": ".363",
+            "season_slg": ".430"
+          },
+          {
+            "order": 9,
+            "player_id": 691788,
+            "name": "Joe Mack",
+            "season_avg": ".233",
+            "season_obp": ".290",
+            "season_slg": ".417"
+          }
+        ]
       },
       "starting_pitchers": null
     },
@@ -2710,7 +2943,7 @@
       "away_team_id": 118,
       "abstract_status": "Preview",
       "detailed_status": "Pre-Game",
-      "pre_home_win_prob": null,
+      "pre_home_win_prob": 0.48469999999999996,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -2871,7 +3104,7 @@
       "away_team_id": 117,
       "abstract_status": "Preview",
       "detailed_status": "Pre-Game",
-      "pre_home_win_prob": null,
+      "pre_home_win_prob": 0.544625,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -2959,7 +3192,7 @@
       "away_team_id": 135,
       "abstract_status": "Preview",
       "detailed_status": "Pre-Game",
-      "pre_home_win_prob": null,
+      "pre_home_win_prob": 0.47025,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -3120,7 +3353,7 @@
       "away_team_id": 136,
       "abstract_status": "Preview",
       "detailed_status": "Pre-Game",
-      "pre_home_win_prob": null,
+      "pre_home_win_prob": 0.62665,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -3281,7 +3514,7 @@
       "away_team_id": 115,
       "abstract_status": "Preview",
       "detailed_status": "Pre-Game",
-      "pre_home_win_prob": null,
+      "pre_home_win_prob": 0.59945,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -3442,7 +3675,7 @@
       "away_team_id": 111,
       "abstract_status": "Preview",
       "detailed_status": "Pre-Game",
-      "pre_home_win_prob": null,
+      "pre_home_win_prob": 0.525925,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -3603,7 +3836,7 @@
       "away_team_id": 140,
       "abstract_status": "Preview",
       "detailed_status": "Scheduled",
-      "pre_home_win_prob": null,
+      "pre_home_win_prob": 0.664475,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -3618,7 +3851,7 @@
       "away_team_id": 145,
       "abstract_status": "Preview",
       "detailed_status": "Scheduled",
-      "pre_home_win_prob": null,
+      "pre_home_win_prob": 0.485975,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -3633,7 +3866,7 @@
       "away_team_id": 134,
       "abstract_status": "Preview",
       "detailed_status": "Scheduled",
-      "pre_home_win_prob": null,
+      "pre_home_win_prob": 0.49319999999999997,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -3648,7 +3881,7 @@
       "away_team_id": 143,
       "abstract_status": "Preview",
       "detailed_status": "Scheduled",
-      "pre_home_win_prob": null,
+      "pre_home_win_prob": 0.551,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -3663,7 +3896,7 @@
       "away_team_id": 110,
       "abstract_status": "Preview",
       "detailed_status": "Scheduled",
-      "pre_home_win_prob": null,
+      "pre_home_win_prob": 0.3708,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
@@ -3678,7 +3911,7 @@
       "away_team_id": 109,
       "abstract_status": "Preview",
       "detailed_status": "Scheduled",
-      "pre_home_win_prob": null,
+      "pre_home_win_prob": 0.5123249999999999,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
