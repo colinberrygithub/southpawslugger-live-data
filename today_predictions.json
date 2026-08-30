@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-30T23:36:13+00:00",
+  "updated_at": "2026-08-30T23:47:18+00:00",
   "date": "2026-08-30",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 823539,
@@ -4837,11 +4837,25 @@
       "game_pk": 824636,
       "home_team_id": 112,
       "away_team_id": 113,
-      "abstract_status": "Preview",
-      "detailed_status": "Delayed Start",
+      "abstract_status": "Live",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.545475,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.596,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1,
+        "base_state": "000",
+        "current_batter_id": 682829,
+        "current_batter_name": "Elly De La Cruz",
+        "current_pitcher_id": 684007,
+        "current_pitcher_name": "Shota Imanaga"
+      },
       "lineups": {
         "home": [
           {
@@ -4922,9 +4936,9 @@
             "order": 1,
             "player_id": 667472,
             "name": "Dane Myers",
-            "season_avg": ".254",
-            "season_obp": ".349",
-            "season_slg": ".358"
+            "season_avg": ".253",
+            "season_obp": ".348",
+            "season_slg": ".356"
           },
           {
             "order": 2,
@@ -4992,7 +5006,53 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 684007,
+          "pitcher_name": "Shota Imanaga",
+          "pitch_count": 4,
+          "pitches": [
+            {
+              "px": -0.5122971746959314,
+              "pz": 1.7631641446148933,
+              "type": "FF",
+              "velocity": 91.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.5355730980936714,
+              "pz": 3.1238794802031897,
+              "type": "FF",
+              "velocity": 92.4,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.7793869261494067,
+              "pz": 2.662397003109138,
+              "type": "FF",
+              "velocity": 92.2,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.5005383714605204,
+              "pz": 3.7785802476495056,
+              "type": "FF",
+              "velocity": 92.8,
+              "call": "X",
+              "inning": 1
+            }
+          ]
+        },
+        "away": {
+          "pitcher_id": 695505,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     }
   ]
 }
