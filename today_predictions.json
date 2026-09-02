@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T16:58:16+00:00",
+  "updated_at": "2026-09-02T17:03:23+00:00",
   "date": "2026-09-02",
   "live_game_count": 2,
   "games": [
@@ -2425,19 +2425,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.467275,
-      "live_home_win_prob": 0.199,
+      "live_home_win_prob": 0.151,
       "linescore": {
-        "current_inning": 1,
-        "inning_state": "End",
-        "is_top_inning": false,
+        "current_inning": 2,
+        "inning_state": "Top",
+        "is_top_inning": true,
         "home_runs": 0,
         "away_runs": 2,
-        "balls": 1,
-        "strikes": 0,
-        "outs": 3,
-        "base_state": "000",
-        "current_batter_id": 669720,
-        "current_batter_name": "Austin Hays",
+        "balls": 3,
+        "strikes": 2,
+        "outs": 0,
+        "base_state": "010",
+        "current_batter_id": 669134,
+        "current_batter_name": "Luis Campusano",
         "current_pitcher_id": 682227,
         "current_pitcher_name": "Brandon Williamson"
       },
@@ -2569,9 +2569,9 @@
             "order": 7,
             "player_id": 669720,
             "name": "Austin Hays",
-            "season_avg": ".219",
-            "season_obp": ".250",
-            "season_slg": ".315"
+            "season_avg": ".230",
+            "season_obp": ".260",
+            "season_slg": ".338"
           },
           {
             "order": 8,
@@ -2595,7 +2595,7 @@
         "home": {
           "pitcher_id": 682227,
           "pitcher_name": "Brandon Williamson",
-          "pitch_count": 17,
+          "pitch_count": 26,
           "pitches": [
             {
               "px": 0.2286411433844267,
@@ -2732,6 +2732,78 @@
               "velocity": 90.8,
               "call": "X",
               "inning": 1
+            },
+            {
+              "px": -0.017464022209046356,
+              "pz": 4.032663252570213,
+              "type": "FC",
+              "velocity": 88.9,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 0.632494934802936,
+              "pz": 2.5044606581013915,
+              "type": "CH",
+              "velocity": 85.6,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 0.3388636452081855,
+              "pz": 1.1939148800155877,
+              "type": "CH",
+              "velocity": 85.1,
+              "call": "F",
+              "inning": 2
+            },
+            {
+              "px": 0.29553223123295747,
+              "pz": 3.2907318394128837,
+              "type": "FF",
+              "velocity": 95.5,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": -0.8762574212279526,
+              "pz": 2.4385285099169334,
+              "type": "CH",
+              "velocity": 84.1,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.8172018574817415,
+              "pz": 2.9386806979984925,
+              "type": "FC",
+              "velocity": 90.7,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.5852631202735873,
+              "pz": 2.4744489916294956,
+              "type": "FC",
+              "velocity": 89.9,
+              "call": "F",
+              "inning": 2
+            },
+            {
+              "px": -0.5353289036121629,
+              "pz": 0.0860563027242722,
+              "type": "CH",
+              "velocity": 85.7,
+              "call": "?",
+              "inning": 2
+            },
+            {
+              "px": 1.3728410408989622,
+              "pz": 3.095015972646308,
+              "type": "CH",
+              "velocity": 84.6,
+              "call": "B",
+              "inning": 2
             }
           ]
         },
@@ -3393,7 +3465,80 @@
             "season_slg": ".479"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 656941,
+            "name": "Kyle Schwarber",
+            "season_avg": ".241",
+            "season_obp": ".357",
+            "season_slg": ".521"
+          },
+          {
+            "order": 2,
+            "player_id": 607208,
+            "name": "Trea Turner",
+            "season_avg": ".241",
+            "season_obp": ".294",
+            "season_slg": ".379"
+          },
+          {
+            "order": 3,
+            "player_id": 547180,
+            "name": "Bryce Harper",
+            "season_avg": ".274",
+            "season_obp": ".392",
+            "season_slg": ".509"
+          },
+          {
+            "order": 4,
+            "player_id": 650333,
+            "name": "Luis Arraez",
+            "season_avg": ".317",
+            "season_obp": ".350",
+            "season_slg": ".432"
+          },
+          {
+            "order": 5,
+            "player_id": 681082,
+            "name": "Bryson Stott",
+            "season_avg": ".257",
+            "season_obp": ".333",
+            "season_slg": ".406"
+          },
+          {
+            "order": 6,
+            "player_id": 669016,
+            "name": "Brandon Marsh",
+            "season_avg": ".270",
+            "season_obp": ".316",
+            "season_slg": ".424"
+          },
+          {
+            "order": 7,
+            "player_id": 702222,
+            "name": "Justin Crawford",
+            "season_avg": ".268",
+            "season_obp": ".318",
+            "season_slg": ".352"
+          },
+          {
+            "order": 8,
+            "player_id": 592663,
+            "name": "J.T. Realmuto",
+            "season_avg": ".224",
+            "season_obp": ".298",
+            "season_slg": ".359"
+          },
+          {
+            "order": 9,
+            "player_id": 650559,
+            "name": "Bryan De La Cruz",
+            "season_avg": ".333",
+            "season_obp": ".373",
+            "season_slg": ".511"
+          }
+        ]
       },
       "starting_pitchers": null
     },
