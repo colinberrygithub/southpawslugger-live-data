@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T00:36:12+00:00",
+  "updated_at": "2026-09-08T00:47:13+00:00",
   "date": "2026-09-08",
   "live_game_count": 1,
   "games": [
@@ -1298,21 +1298,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.517425,
-      "live_home_win_prob": 0.737,
+      "live_home_win_prob": 0.72,
       "linescore": {
-        "current_inning": 2,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 3,
+        "inning_state": "Top",
+        "is_top_inning": true,
         "home_runs": 1,
         "away_runs": 0,
-        "balls": 1,
-        "strikes": 2,
-        "outs": 0,
+        "balls": 0,
+        "strikes": 1,
+        "outs": 1,
         "base_state": "000",
-        "current_batter_id": 678545,
-        "current_batter_name": "Osleivis Basabe",
-        "current_pitcher_id": 700241,
-        "current_pitcher_name": "Michael McGreevy"
+        "current_batter_id": 701675,
+        "current_batter_name": "Nathan Church",
+        "current_pitcher_id": 657277,
+        "current_pitcher_name": "Logan Webb"
       },
       "lineups": {
         "home": [
@@ -1360,25 +1360,25 @@
             "order": 6,
             "player_id": 678545,
             "name": "Osleivis Basabe",
-            "season_avg": ".208",
-            "season_obp": ".254",
-            "season_slg": ".368"
+            "season_avg": ".215",
+            "season_obp": ".261",
+            "season_slg": ".374"
           },
           {
             "order": 7,
             "player_id": 668800,
             "name": "Andrew Knizner",
-            "season_avg": ".176",
-            "season_obp": ".263",
-            "season_slg": ".324"
+            "season_avg": ".171",
+            "season_obp": ".256",
+            "season_slg": ".314"
           },
           {
             "order": 8,
             "player_id": 694376,
             "name": "Shay Whitcomb",
-            "season_avg": ".131",
-            "season_obp": ".172",
-            "season_slg": ".311"
+            "season_avg": ".129",
+            "season_obp": ".169",
+            "season_slg": ".306"
           },
           {
             "order": 9,
@@ -1450,9 +1450,9 @@
             "order": 8,
             "player_id": 695336,
             "name": "Thomas Saggese",
-            "season_avg": ".270",
-            "season_obp": ".330",
-            "season_slg": ".460"
+            "season_avg": ".267",
+            "season_obp": ".327",
+            "season_slg": ".455"
           },
           {
             "order": 9,
@@ -1468,7 +1468,7 @@
         "home": {
           "pitcher_id": 657277,
           "pitcher_name": "Logan Webb",
-          "pitch_count": 27,
+          "pitch_count": 32,
           "pitches": [
             {
               "px": -0.9866394145822668,
@@ -1685,13 +1685,53 @@
               "velocity": 86.1,
               "call": "S",
               "inning": 2
+            },
+            {
+              "px": 1.4749488768573014,
+              "pz": 2.2468770952343324,
+              "type": "FC",
+              "velocity": 91.0,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": -0.009672624141680292,
+              "pz": 2.5236755345379382,
+              "type": "FF",
+              "velocity": 91.0,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": 0.34335228562293,
+              "pz": 2.5097480462682684,
+              "type": "FC",
+              "velocity": 90.2,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": 0.8191032945683506,
+              "pz": 1.4531331898602344,
+              "type": "ST",
+              "velocity": 83.6,
+              "call": "X",
+              "inning": 3
+            },
+            {
+              "px": 0.00917453075241708,
+              "pz": 1.7306992964431622,
+              "type": "SI",
+              "velocity": 92.3,
+              "call": "S",
+              "inning": 3
             }
           ]
         },
         "away": {
           "pitcher_id": 700241,
           "pitcher_name": "Michael McGreevy",
-          "pitch_count": 24,
+          "pitch_count": 39,
           "pitches": [
             {
               "px": -0.8511455397347917,
@@ -1883,6 +1923,126 @@
               "type": "CU",
               "velocity": 80.1,
               "call": "F",
+              "inning": 2
+            },
+            {
+              "px": 1.6937362705458863,
+              "pz": 1.3422537165817907,
+              "type": "ST",
+              "velocity": 82.3,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 0.22854973320356187,
+              "pz": 2.843226908249227,
+              "type": "FF",
+              "velocity": 92.2,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": -0.47248787698336153,
+              "pz": 3.2838642448462765,
+              "type": "FF",
+              "velocity": 91.0,
+              "call": "F",
+              "inning": 2
+            },
+            {
+              "px": 0.15493744320394448,
+              "pz": 1.2701447564736263,
+              "type": "SI",
+              "velocity": 91.6,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 1.0148412889676854,
+              "pz": 0.7546123139322928,
+              "type": "ST",
+              "velocity": 80.9,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 1.2738699094484043,
+              "pz": 0.7394118834700854,
+              "type": "ST",
+              "velocity": 81.8,
+              "call": "?",
+              "inning": 2
+            },
+            {
+              "px": -0.4592484985153776,
+              "pz": 3.718863538229955,
+              "type": "SI",
+              "velocity": 91.8,
+              "call": "F",
+              "inning": 2
+            },
+            {
+              "px": 0.3185508800230069,
+              "pz": 1.1630709533933485,
+              "type": "CU",
+              "velocity": 78.8,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.188877831839676,
+              "pz": 2.5727508533385617,
+              "type": "SI",
+              "velocity": 90.5,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": -0.23642039395048986,
+              "pz": 2.3046005882276113,
+              "type": "CU",
+              "velocity": 79.4,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 1.8327582507549325,
+              "pz": 2.290890334937603,
+              "type": "ST",
+              "velocity": 82.3,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 0.3098340484196501,
+              "pz": 3.701029125775192,
+              "type": "FF",
+              "velocity": 92.9,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -1.3219297224151978,
+              "pz": 4.791370001475922,
+              "type": "FF",
+              "velocity": 92.7,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 0.21839176328618673,
+              "pz": 1.3516560838339997,
+              "type": "SI",
+              "velocity": 93.1,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.19911180724160715,
+              "pz": 3.2527493416738866,
+              "type": "FF",
+              "velocity": 94.0,
+              "call": "S",
               "inning": 2
             }
           ]
