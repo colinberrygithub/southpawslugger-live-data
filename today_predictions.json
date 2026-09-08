@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-08T22:03:12+00:00",
+  "updated_at": "2026-09-08T22:14:21+00:00",
   "date": "2026-09-08",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 823415,
@@ -1778,11 +1778,25 @@
       "game_pk": 824792,
       "home_team_id": 110,
       "away_team_id": 114,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.58415,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.622,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 680757,
+        "current_batter_name": "Steven Kwan",
+        "current_pitcher_id": 687064,
+        "current_pitcher_name": "Brandon Young"
+      },
       "lineups": {
         "home": [
           {
@@ -1933,7 +1947,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 687064,
+          "pitcher_name": "Brandon Young",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 676440,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824228,
@@ -3020,14 +3047,6 @@
           },
           {
             "order": 5,
-            "player_id": 682998,
-            "name": "Corbin Carroll",
-            "season_avg": ".240",
-            "season_obp": ".334",
-            "season_slg": ".466"
-          },
-          {
-            "order": 6,
             "player_id": 571448,
             "name": "Nolan Arenado",
             "season_avg": ".235",
@@ -3035,7 +3054,7 @@
             "season_slg": ".424"
           },
           {
-            "order": 7,
+            "order": 6,
             "player_id": 694371,
             "name": "Tommy Troy",
             "season_avg": ".220",
@@ -3043,12 +3062,20 @@
             "season_slg": ".358"
           },
           {
-            "order": 8,
+            "order": 7,
             "player_id": 694374,
             "name": "Tim Tawa",
             "season_avg": ".240",
             "season_obp": ".299",
             "season_slg": ".388"
+          },
+          {
+            "order": 8,
+            "player_id": 545121,
+            "name": "Ildemaro Vargas",
+            "season_avg": ".253",
+            "season_obp": ".293",
+            "season_slg": ".383"
           },
           {
             "order": 9,
