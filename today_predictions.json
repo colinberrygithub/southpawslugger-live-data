@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-08T22:25:26+00:00",
+  "updated_at": "2026-09-08T22:36:23+00:00",
   "date": "2026-09-08",
-  "live_game_count": 4,
+  "live_game_count": 5,
   "games": [
     {
       "game_pk": 823415,
@@ -1779,7 +1779,7 @@
       "home_team_id": 110,
       "away_team_id": 114,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.58415,
       "live_home_win_prob": 0.622,
       "linescore": {
@@ -2530,11 +2530,25 @@
       "game_pk": 824714,
       "home_team_id": 111,
       "away_team_id": 108,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5552499999999999,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.592,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 687263,
+        "current_batter_name": "Zach Neto",
+        "current_pitcher_id": 663776,
+        "current_pitcher_name": "Patrick Sandoval"
+      },
       "lineups": {
         "home": [
           {
@@ -2685,7 +2699,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 663776,
+          "pitcher_name": "Patrick Sandoval",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 672282,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 823500,
@@ -4001,7 +4028,80 @@
             "season_slg": ".351"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 667472,
+            "name": "Dane Myers",
+            "season_avg": ".268",
+            "season_obp": ".358",
+            "season_slg": ".382"
+          },
+          {
+            "order": 2,
+            "player_id": 682829,
+            "name": "Elly De La Cruz",
+            "season_avg": ".281",
+            "season_obp": ".361",
+            "season_slg": ".498"
+          },
+          {
+            "order": 3,
+            "player_id": 701398,
+            "name": "Sal Stewart",
+            "season_avg": ".266",
+            "season_obp": ".338",
+            "season_slg": ".480"
+          },
+          {
+            "order": 4,
+            "player_id": 663886,
+            "name": "Tyler Stephenson",
+            "season_avg": ".246",
+            "season_obp": ".327",
+            "season_slg": ".421"
+          },
+          {
+            "order": 5,
+            "player_id": 553993,
+            "name": "Eugenio Su\u00e1rez",
+            "season_avg": ".209",
+            "season_obp": ".302",
+            "season_slg": ".424"
+          },
+          {
+            "order": 6,
+            "player_id": 668709,
+            "name": "JJ Bleday",
+            "season_avg": ".217",
+            "season_obp": ".328",
+            "season_slg": ".424"
+          },
+          {
+            "order": 7,
+            "player_id": 624431,
+            "name": "Jose Trevino",
+            "season_avg": ".231",
+            "season_obp": ".235",
+            "season_slg": ".369"
+          },
+          {
+            "order": 8,
+            "player_id": 680574,
+            "name": "Matt McLain",
+            "season_avg": ".188",
+            "season_obp": ".283",
+            "season_slg": ".346"
+          },
+          {
+            "order": 9,
+            "player_id": 699302,
+            "name": "H\u00e9ctor Rodr\u00edguez",
+            "season_avg": ".275",
+            "season_obp": ".333",
+            "season_slg": ".473"
+          }
+        ]
       },
       "starting_pitchers": null
     }
