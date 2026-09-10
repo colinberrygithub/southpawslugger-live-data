@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T20:03:15+00:00",
+  "updated_at": "2026-09-10T20:14:16+00:00",
   "date": "2026-09-10",
   "live_game_count": 1,
   "games": [
@@ -2745,21 +2745,21 @@
       "home_team_id": 136,
       "away_team_id": 140,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.531025,
-      "live_home_win_prob": 0.577,
+      "live_home_win_prob": 0.579,
       "linescore": {
         "current_inning": 1,
         "inning_state": "Top",
         "is_top_inning": true,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
-        "outs": 0,
+        "outs": 1,
         "base_state": "000",
-        "current_batter_id": 592626,
-        "current_batter_name": "Joc Pederson",
+        "current_batter_id": 608369,
+        "current_batter_name": "Corey Seager",
         "current_pitcher_id": 669302,
         "current_pitcher_name": "Logan Gilbert"
       },
@@ -2843,9 +2843,9 @@
             "order": 1,
             "player_id": 592626,
             "name": "Joc Pederson",
-            "season_avg": ".234",
-            "season_obp": ".329",
-            "season_slg": ".481"
+            "season_avg": ".233",
+            "season_obp": ".328",
+            "season_slg": ".479"
           },
           {
             "order": 2,
@@ -2917,8 +2917,65 @@
         "home": {
           "pitcher_id": 669302,
           "pitcher_name": "Logan Gilbert",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 7,
+          "pitches": [
+            {
+              "px": -0.2321408572150086,
+              "pz": 4.1949998671821795,
+              "type": "FF",
+              "velocity": 97.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.44843934051474155,
+              "pz": 1.7601313204536353,
+              "type": "FF",
+              "velocity": 96.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.80937302117112,
+              "pz": 1.6825869118782724,
+              "type": "SL",
+              "velocity": 88.0,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 1.2203346133036261,
+              "pz": 1.4158983678494839,
+              "type": "SL",
+              "velocity": 89.1,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.37622703325375073,
+              "pz": 3.02307477948317,
+              "type": "SL",
+              "velocity": 87.8,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.9434558532313737,
+              "pz": 3.4726890031795263,
+              "type": "SL",
+              "velocity": 87.8,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.6096547029380583,
+              "pz": 2.1512838275774775,
+              "type": "CH",
+              "velocity": 88.4,
+              "call": "X",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 594798,
@@ -3012,7 +3069,80 @@
             "season_slg": ".322"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 664983,
+            "name": "Jake McCarthy",
+            "season_avg": ".292",
+            "season_obp": ".336",
+            "season_slg": ".480"
+          },
+          {
+            "order": 2,
+            "player_id": 681393,
+            "name": "Connor Norby",
+            "season_avg": ".227",
+            "season_obp": ".330",
+            "season_slg": ".365"
+          },
+          {
+            "order": 3,
+            "player_id": 696100,
+            "name": "Hunter Goodman",
+            "season_avg": ".247",
+            "season_obp": ".313",
+            "season_slg": ".528"
+          },
+          {
+            "order": 4,
+            "player_id": 681198,
+            "name": "TJ Rumfield",
+            "season_avg": ".297",
+            "season_obp": ".389",
+            "season_slg": ".457"
+          },
+          {
+            "order": 5,
+            "player_id": 694249,
+            "name": "Cole Carrigg",
+            "season_avg": ".261",
+            "season_obp": ".337",
+            "season_slg": ".443"
+          },
+          {
+            "order": 6,
+            "player_id": 691720,
+            "name": "Kyle Karros",
+            "season_avg": ".261",
+            "season_obp": ".356",
+            "season_slg": ".419"
+          },
+          {
+            "order": 7,
+            "player_id": 691182,
+            "name": "Adael Amador",
+            "season_avg": ".344",
+            "season_obp": ".417",
+            "season_slg": ".688"
+          },
+          {
+            "order": 8,
+            "player_id": 687597,
+            "name": "Jordan Beck",
+            "season_avg": ".197",
+            "season_obp": ".250",
+            "season_slg": ".299"
+          },
+          {
+            "order": 9,
+            "player_id": 678662,
+            "name": "Ezequiel Tovar",
+            "season_avg": ".210",
+            "season_obp": ".257",
+            "season_slg": ".331"
+          }
+        ]
       },
       "starting_pitchers": null
     },
@@ -3021,12 +3151,85 @@
       "home_team_id": 145,
       "away_team_id": 134,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.48045,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 803011,
+            "name": "Sam Antonacci",
+            "season_avg": ".267",
+            "season_obp": ".365",
+            "season_slg": ".390"
+          },
+          {
+            "order": 2,
+            "player_id": 678246,
+            "name": "Miguel Vargas",
+            "season_avg": ".249",
+            "season_obp": ".359",
+            "season_slg": ".479"
+          },
+          {
+            "order": 3,
+            "player_id": 808959,
+            "name": "Munetaka Murakami",
+            "season_avg": ".210",
+            "season_obp": ".349",
+            "season_slg": ".480"
+          },
+          {
+            "order": 4,
+            "player_id": 643217,
+            "name": "Andrew Benintendi",
+            "season_avg": ".244",
+            "season_obp": ".306",
+            "season_slg": ".424"
+          },
+          {
+            "order": 5,
+            "player_id": 695657,
+            "name": "Colson Montgomery",
+            "season_avg": ".208",
+            "season_obp": ".288",
+            "season_slg": ".431"
+          },
+          {
+            "order": 6,
+            "player_id": 695731,
+            "name": "Braden Montgomery",
+            "season_avg": ".223",
+            "season_obp": ".318",
+            "season_slg": ".358"
+          },
+          {
+            "order": 7,
+            "player_id": 805367,
+            "name": "Chase Meidroth",
+            "season_avg": ".268",
+            "season_obp": ".343",
+            "season_slg": ".391"
+          },
+          {
+            "order": 8,
+            "player_id": 671976,
+            "name": "Tristan Peters",
+            "season_avg": ".283",
+            "season_obp": ".347",
+            "season_slg": ".470"
+          },
+          {
+            "order": 9,
+            "player_id": 668670,
+            "name": "Jake Rogers",
+            "season_avg": ".169",
+            "season_obp": ".275",
+            "season_slg": ".301"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
