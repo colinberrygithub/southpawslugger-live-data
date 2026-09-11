@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-11T22:03:11+00:00",
+  "updated_at": "2026-09-11T22:14:17+00:00",
   "date": "2026-09-11",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824872,
@@ -973,11 +973,25 @@
       "game_pk": 824227,
       "home_team_id": 116,
       "away_team_id": 115,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.521675,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.521,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 664983,
+        "current_batter_name": "Jake McCarthy",
+        "current_pitcher_id": 664285,
+        "current_pitcher_name": "Framber Valdez"
+      },
       "lineups": {
         "home": [
           {
@@ -1128,7 +1142,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 664285,
+          "pitcher_name": "Framber Valdez",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 690279,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 822684,
