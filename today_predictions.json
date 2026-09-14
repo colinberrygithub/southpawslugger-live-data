@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-14T22:14:23+00:00",
+  "updated_at": "2026-09-14T22:25:14+00:00",
   "date": "2026-09-14",
-  "live_game_count": 0,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 824225,
@@ -2422,11 +2422,25 @@
       "game_pk": 824465,
       "home_team_id": 113,
       "away_team_id": 119,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.347,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.309,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 669242,
+        "current_batter_name": "Tommy Edman",
+        "current_pitcher_id": 666157,
+        "current_pitcher_name": "Nick Lodolo"
+      },
       "lineups": {
         "home": [
           {
@@ -2577,17 +2591,44 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 666157,
+          "pitcher_name": "Nick Lodolo",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 669373,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824386,
       "home_team_id": 114,
       "away_team_id": 145,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.521675,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.564,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 803011,
+        "current_batter_name": "Sam Antonacci",
+        "current_pitcher_id": 668909,
+        "current_pitcher_name": "Gavin Williams"
+      },
       "lineups": {
         "home": [
           {
@@ -2738,7 +2779,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 668909,
+          "pitcher_name": "Gavin Williams",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 656794,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 822765,
@@ -3716,7 +3770,80 @@
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 687263,
+            "name": "Zach Neto",
+            "season_avg": ".240",
+            "season_obp": ".320",
+            "season_slg": ".440"
+          },
+          {
+            "order": 2,
+            "player_id": 545361,
+            "name": "Mike Trout",
+            "season_avg": ".244",
+            "season_obp": ".379",
+            "season_slg": ".430"
+          },
+          {
+            "order": 3,
+            "player_id": 642350,
+            "name": "Jose Siri",
+            "season_avg": ".223",
+            "season_obp": ".281",
+            "season_slg": ".394"
+          },
+          {
+            "order": 4,
+            "player_id": 687093,
+            "name": "Vaughn Grissom",
+            "season_avg": ".239",
+            "season_obp": ".303",
+            "season_slg": ".383"
+          },
+          {
+            "order": 5,
+            "player_id": 695681,
+            "name": "Christian Moore",
+            "season_avg": ".179",
+            "season_obp": ".240",
+            "season_slg": ".263"
+          },
+          {
+            "order": 6,
+            "player_id": 694203,
+            "name": "Denzer Guzman",
+            "season_avg": ".221",
+            "season_obp": ".265",
+            "season_slg": ".349"
+          },
+          {
+            "order": 7,
+            "player_id": 518595,
+            "name": "Travis d'Arnaud",
+            "season_avg": ".185",
+            "season_obp": ".274",
+            "season_slg": ".277"
+          },
+          {
+            "order": 8,
+            "player_id": 677347,
+            "name": "Kyren Paris",
+            "season_avg": ".000",
+            "season_obp": ".188",
+            "season_slg": ".000"
+          },
+          {
+            "order": 9,
+            "player_id": 685133,
+            "name": "Wade Meckler",
+            "season_avg": ".293",
+            "season_obp": ".371",
+            "season_slg": ".386"
+          }
+        ],
         "away": [
           {
             "order": 1,
