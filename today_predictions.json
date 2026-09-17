@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-17T16:03:12+00:00",
+  "updated_at": "2026-09-17T16:14:15+00:00",
   "date": "2026-09-17",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 824382,
@@ -2422,11 +2422,25 @@
       "game_pk": 823334,
       "home_team_id": 134,
       "away_team_id": 158,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.515725,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.519,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 668930,
+        "current_batter_name": "Brice Turang",
+        "current_pitcher_id": 696062,
+        "current_pitcher_name": "Wilber Dotel"
+      },
       "lineups": {
         "home": [
           {
@@ -2577,7 +2591,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 696062,
+          "pitcher_name": "Wilber Dotel",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 690986,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824464,
@@ -2985,7 +3012,80 @@
             "season_slg": ".442"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 665487,
+            "name": "Fernando Tatis Jr.",
+            "season_avg": ".286",
+            "season_obp": ".354",
+            "season_slg": ".462"
+          },
+          {
+            "order": 2,
+            "player_id": 687957,
+            "name": "Dustin Harris",
+            "season_avg": ".293",
+            "season_obp": ".362",
+            "season_slg": ".391"
+          },
+          {
+            "order": 3,
+            "player_id": 592518,
+            "name": "Manny Machado",
+            "season_avg": ".221",
+            "season_obp": ".311",
+            "season_slg": ".414"
+          },
+          {
+            "order": 4,
+            "player_id": 664034,
+            "name": "Ty France",
+            "season_avg": ".294",
+            "season_obp": ".360",
+            "season_slg": ".509"
+          },
+          {
+            "order": 5,
+            "player_id": 701538,
+            "name": "Jackson Merrill",
+            "season_avg": ".256",
+            "season_obp": ".304",
+            "season_slg": ".442"
+          },
+          {
+            "order": 6,
+            "player_id": 593428,
+            "name": "Xander Bogaerts",
+            "season_avg": ".222",
+            "season_obp": ".323",
+            "season_slg": ".321"
+          },
+          {
+            "order": 7,
+            "player_id": 669134,
+            "name": "Luis Campusano",
+            "season_avg": ".273",
+            "season_obp": ".368",
+            "season_slg": ".455"
+          },
+          {
+            "order": 8,
+            "player_id": 630105,
+            "name": "Jake Cronenworth",
+            "season_avg": ".216",
+            "season_obp": ".298",
+            "season_slg": ".292"
+          },
+          {
+            "order": 9,
+            "player_id": 669392,
+            "name": "Samad Taylor",
+            "season_avg": ".312",
+            "season_obp": ".386",
+            "season_slg": ".384"
+          }
+        ]
       },
       "starting_pitchers": null
     },
