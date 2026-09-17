@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T20:47:14+00:00",
+  "updated_at": "2026-09-17T20:58:16+00:00",
   "date": "2026-09-17",
   "live_game_count": 1,
   "games": [
@@ -2908,21 +2908,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.29685,
-      "live_home_win_prob": 0.002,
+      "live_home_win_prob": 0.0,
       "linescore": {
-        "current_inning": 5,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 6,
+        "inning_state": "Top",
+        "is_top_inning": true,
         "home_runs": 1,
         "away_runs": 9,
-        "balls": 2,
-        "strikes": 1,
+        "balls": 0,
+        "strikes": 2,
         "outs": 2,
-        "base_state": "100",
-        "current_batter_id": 691728,
-        "current_batter_name": "Zac Veen",
-        "current_pitcher_id": 650633,
-        "current_pitcher_name": "Michael King"
+        "base_state": "010",
+        "current_batter_id": 669134,
+        "current_batter_name": "Luis Campusano",
+        "current_pitcher_id": 688642,
+        "current_pitcher_name": "Zach Agnos"
       },
       "lineups": {
         "home": [
@@ -2994,9 +2994,9 @@
             "order": 9,
             "player_id": 691728,
             "name": "Zac Veen",
-            "season_avg": ".245",
-            "season_obp": ".333",
-            "season_slg": ".434"
+            "season_avg": ".241",
+            "season_obp": ".328",
+            "season_slg": ".426"
           }
         ],
         "away": [
@@ -3028,23 +3028,23 @@
             "order": 4,
             "player_id": 664034,
             "name": "Ty France",
-            "season_avg": ".297",
-            "season_obp": ".362",
-            "season_slg": ".510"
+            "season_avg": ".299",
+            "season_obp": ".364",
+            "season_slg": ".514"
           },
           {
             "order": 5,
             "player_id": 701538,
             "name": "Jackson Merrill",
             "season_avg": ".256",
-            "season_obp": ".305",
-            "season_slg": ".445"
+            "season_obp": ".304",
+            "season_slg": ".444"
           },
           {
             "order": 6,
             "player_id": 593428,
             "name": "Xander Bogaerts",
-            "season_avg": ".227",
+            "season_avg": ".226",
             "season_obp": ".326",
             "season_slg": ".337"
           },
@@ -3773,7 +3773,7 @@
         "away": {
           "pitcher_id": 650633,
           "pitcher_name": "Michael King",
-          "pitch_count": 66,
+          "pitch_count": 70,
           "pitches": [
             {
               "px": -0.8594298963287186,
@@ -4302,6 +4302,38 @@
               "velocity": 94.1,
               "call": "B",
               "inning": 5
+            },
+            {
+              "px": -0.11917233936311873,
+              "pz": 3.200309418450682,
+              "type": "SI",
+              "velocity": 93.7,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 1.16607589223639,
+              "pz": 2.9247099107158983,
+              "type": "SI",
+              "velocity": 95.2,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.010701743043241835,
+              "pz": 3.141600078299683,
+              "type": "SI",
+              "velocity": 95.8,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 1.2128692183236667,
+              "pz": 1.8629501212134925,
+              "type": "SL",
+              "velocity": 88.4,
+              "call": "S",
+              "inning": 5
             }
           ]
         }
@@ -4724,19 +4756,19 @@
           },
           {
             "order": 2,
-            "player_id": 701678,
-            "name": "Hao-Yu Lee",
-            "season_avg": ".254",
-            "season_obp": ".313",
-            "season_slg": ".412"
+            "player_id": 650402,
+            "name": "Gleyber Torres",
+            "season_avg": ".265",
+            "season_obp": ".366",
+            "season_slg": ".375"
           },
           {
             "order": 3,
-            "player_id": 690993,
-            "name": "Colt Keith",
-            "season_avg": ".259",
-            "season_obp": ".321",
-            "season_slg": ".406"
+            "player_id": 693307,
+            "name": "Dillon Dingler",
+            "season_avg": ".242",
+            "season_obp": ".302",
+            "season_slg": ".451"
           },
           {
             "order": 4,
@@ -4748,22 +4780,6 @@
           },
           {
             "order": 5,
-            "player_id": 693307,
-            "name": "Dillon Dingler",
-            "season_avg": ".242",
-            "season_obp": ".302",
-            "season_slg": ".451"
-          },
-          {
-            "order": 6,
-            "player_id": 703601,
-            "name": "Max Clark",
-            "season_avg": ".277",
-            "season_obp": ".352",
-            "season_slg": ".446"
-          },
-          {
-            "order": 7,
             "player_id": 679529,
             "name": "Spencer Torkelson",
             "season_avg": ".226",
@@ -4771,20 +4787,36 @@
             "season_slg": ".423"
           },
           {
-            "order": 8,
-            "player_id": 814430,
-            "name": "Brett Callahan",
-            "season_avg": ".214",
-            "season_obp": ".274",
-            "season_slg": ".357"
+            "order": 6,
+            "player_id": 656716,
+            "name": "Zach McKinstry",
+            "season_avg": ".204",
+            "season_obp": ".289",
+            "season_slg": ".301"
           },
           {
-            "order": 9,
+            "order": 7,
+            "player_id": 703601,
+            "name": "Max Clark",
+            "season_avg": ".277",
+            "season_obp": ".352",
+            "season_slg": ".446"
+          },
+          {
+            "order": 8,
             "player_id": 807726,
             "name": "John Peck",
             "season_avg": ".220",
             "season_obp": ".340",
             "season_slg": ".244"
+          },
+          {
+            "order": 9,
+            "player_id": 595879,
+            "name": "Javier B\u00e1ez",
+            "season_avg": ".238",
+            "season_obp": ".267",
+            "season_slg": ".349"
           }
         ]
       },
