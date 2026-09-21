@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-21T22:58:12+00:00",
+  "updated_at": "2026-09-21T23:03:18+00:00",
   "date": "2026-09-21",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 823570,
@@ -2422,11 +2422,25 @@
       "game_pk": 824787,
       "home_team_id": 110,
       "away_team_id": 141,
-      "abstract_status": "Preview",
-      "detailed_status": "Delayed Start",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5034,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.541,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 703520,
+        "current_batter_name": "Brett Bateman",
+        "current_pitcher_id": 669358,
+        "current_pitcher_name": "Shane Baz"
+      },
       "lineups": {
         "home": [
           {
@@ -2577,7 +2591,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 669358,
+          "pitcher_name": "Shane Baz",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 702056,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824221,
@@ -2586,21 +2613,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.533575,
-      "live_home_win_prob": 0.879,
+      "live_home_win_prob": 0.822,
       "linescore": {
-        "current_inning": 1,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 2,
+        "inning_state": "Top",
+        "is_top_inning": true,
         "home_runs": 2,
         "away_runs": 0,
-        "balls": 0,
-        "strikes": 1,
-        "outs": 2,
-        "base_state": "011",
-        "current_batter_id": 679529,
-        "current_batter_name": "Spencer Torkelson",
-        "current_pitcher_id": 687792,
-        "current_pitcher_name": "DJ Herz"
+        "balls": 1,
+        "strikes": 0,
+        "outs": 1,
+        "base_state": "000",
+        "current_batter_id": 686611,
+        "current_batter_name": "Dylan Crews",
+        "current_pitcher_id": 689981,
+        "current_pitcher_name": "River Ryan"
       },
       "lineups": {
         "home": [
@@ -2657,8 +2684,8 @@
             "player_id": 679529,
             "name": "Spencer Torkelson",
             "season_avg": ".229",
-            "season_obp": ".326",
-            "season_slg": ".424"
+            "season_obp": ".325",
+            "season_slg": ".423"
           },
           {
             "order": 8,
@@ -2707,16 +2734,16 @@
             "player_id": 682928,
             "name": "CJ Abrams",
             "season_avg": ".261",
-            "season_obp": ".336",
-            "season_slg": ".492"
+            "season_obp": ".335",
+            "season_slg": ".491"
           },
           {
             "order": 5,
             "player_id": 686611,
             "name": "Dylan Crews",
-            "season_avg": ".222",
-            "season_obp": ".286",
-            "season_slg": ".371"
+            "season_avg": ".224",
+            "season_obp": ".288",
+            "season_slg": ".372"
           },
           {
             "order": 6,
@@ -2756,7 +2783,7 @@
         "home": {
           "pitcher_id": 689981,
           "pitcher_name": "River Ryan",
-          "pitch_count": 14,
+          "pitch_count": 20,
           "pitches": [
             {
               "px": -0.222398225454155,
@@ -2869,13 +2896,61 @@
               "velocity": 97.7,
               "call": "X",
               "inning": 1
+            },
+            {
+              "px": -0.0993645225561283,
+              "pz": 0.5085444036772301,
+              "type": "FF",
+              "velocity": 95.8,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 0.512452529006798,
+              "pz": 2.071205500729129,
+              "type": "SL",
+              "velocity": 89.6,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.9717161462111085,
+              "pz": 3.6154034967541477,
+              "type": "FF",
+              "velocity": 97.8,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 0.6577374023178291,
+              "pz": 1.4212614590051882,
+              "type": "SL",
+              "velocity": 90.6,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": -0.15173256520138562,
+              "pz": 1.286976304513853,
+              "type": "SI",
+              "velocity": 94.3,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.893727708286929,
+              "pz": 2.48248797381215,
+              "type": "SI",
+              "velocity": 95.8,
+              "call": "X",
+              "inning": 2
             }
           ]
         },
         "away": {
           "pitcher_id": 687792,
           "pitcher_name": "DJ Herz",
-          "pitch_count": 23,
+          "pitch_count": 26,
           "pitches": [
             {
               "px": 1.4533282503860707,
@@ -3058,6 +3133,30 @@
               "pz": 1.3111978875965082,
               "type": "CH",
               "velocity": 82.7,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.6773095588432843,
+              "pz": 2.9470620751373082,
+              "type": "FF",
+              "velocity": 92.7,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.10242027049470065,
+              "pz": 3.0949715839270007,
+              "type": "FF",
+              "velocity": 94.7,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.9257740211620588,
+              "pz": 3.162199539506819,
+              "type": "FF",
+              "velocity": 95.1,
               "call": "S",
               "inning": 1
             }
