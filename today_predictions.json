@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T18:58:14+00:00",
+  "updated_at": "2026-09-22T19:03:16+00:00",
   "date": "2026-09-22",
   "live_game_count": 1,
   "games": [
@@ -493,21 +493,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.519125,
-      "live_home_win_prob": 0.979,
+      "live_home_win_prob": 0.986,
       "linescore": {
         "current_inning": 8,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 2,
         "away_runs": 0,
-        "balls": 0,
-        "strikes": 3,
-        "outs": 2,
+        "balls": 3,
+        "strikes": 1,
+        "outs": 1,
         "base_state": "000",
-        "current_batter_id": 676356,
-        "current_batter_name": "Jonny DeLuca",
-        "current_pitcher_id": 607074,
-        "current_pitcher_name": "Carlos Rod\u00f3n"
+        "current_batter_id": 641355,
+        "current_batter_name": "Cody Bellinger",
+        "current_pitcher_id": 694494,
+        "current_pitcher_name": "Ty Johnson"
       },
       "lineups": {
         "home": [
@@ -516,8 +516,8 @@
             "player_id": 700250,
             "name": "Ben Rice",
             "season_avg": ".262",
-            "season_obp": ".362",
-            "season_slg": ".530"
+            "season_obp": ".361",
+            "season_slg": ".529"
           },
           {
             "order": 2,
@@ -637,9 +637,9 @@
             "order": 7,
             "player_id": 683748,
             "name": "Victor Mesa Jr.",
-            "season_avg": ".253",
-            "season_obp": ".324",
-            "season_slg": ".502"
+            "season_avg": ".252",
+            "season_obp": ".322",
+            "season_slg": ".500"
           },
           {
             "order": 8,
@@ -663,7 +663,7 @@
         "home": {
           "pitcher_id": 607074,
           "pitcher_name": "Carlos Rod\u00f3n",
-          "pitch_count": 94,
+          "pitch_count": 96,
           "pitches": [
             {
               "px": 0.10687367232902469,
@@ -1415,6 +1415,22 @@
               "type": "SL",
               "velocity": 86.3,
               "call": "S",
+              "inning": 8
+            },
+            {
+              "px": -0.6286847244288231,
+              "pz": 3.170417840362831,
+              "type": "SL",
+              "velocity": 87.3,
+              "call": "S",
+              "inning": 8
+            },
+            {
+              "px": -0.03167656176359746,
+              "pz": 2.005644114980039,
+              "type": "SL",
+              "velocity": 88.0,
+              "call": "X",
               "inning": 8
             }
           ]
@@ -2279,7 +2295,80 @@
             "season_slg": ".200"
           }
         ],
-        "away": null
+        "away": [
+          {
+            "order": 1,
+            "player_id": 695578,
+            "name": "James Wood",
+            "season_avg": ".265",
+            "season_obp": ".389",
+            "season_slg": ".511"
+          },
+          {
+            "order": 2,
+            "player_id": 695734,
+            "name": "Daylen Lile",
+            "season_avg": ".249",
+            "season_obp": ".301",
+            "season_slg": ".437"
+          },
+          {
+            "order": 3,
+            "player_id": 686611,
+            "name": "Dylan Crews",
+            "season_avg": ".223",
+            "season_obp": ".288",
+            "season_slg": ".370"
+          },
+          {
+            "order": 4,
+            "player_id": 682928,
+            "name": "CJ Abrams",
+            "season_avg": ".260",
+            "season_obp": ".334",
+            "season_slg": ".489"
+          },
+          {
+            "order": 5,
+            "player_id": 665953,
+            "name": "Andr\u00e9s Chaparro",
+            "season_avg": ".257",
+            "season_obp": ".362",
+            "season_slg": ".508"
+          },
+          {
+            "order": 6,
+            "player_id": 678391,
+            "name": "Jorbit Vivas",
+            "season_avg": ".245",
+            "season_obp": ".339",
+            "season_slg": ".331"
+          },
+          {
+            "order": 7,
+            "player_id": 691002,
+            "name": "Yohandy Morales",
+            "season_avg": ".306",
+            "season_obp": ".306",
+            "season_slg": ".667"
+          },
+          {
+            "order": 8,
+            "player_id": 660688,
+            "name": "Keibert Ruiz",
+            "season_avg": ".283",
+            "season_obp": ".320",
+            "season_slg": ".450"
+          },
+          {
+            "order": 9,
+            "player_id": 683083,
+            "name": "Nasim Nu\u00f1ez",
+            "season_avg": ".209",
+            "season_obp": ".290",
+            "season_slg": ".242"
+          }
+        ]
       },
       "starting_pitchers": null
     },
@@ -2449,12 +2538,85 @@
       "home_team_id": 143,
       "away_team_id": 158,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.553975,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 656941,
+            "name": "Kyle Schwarber",
+            "season_avg": ".234",
+            "season_obp": ".355",
+            "season_slg": ".512"
+          },
+          {
+            "order": 2,
+            "player_id": 607208,
+            "name": "Trea Turner",
+            "season_avg": ".241",
+            "season_obp": ".299",
+            "season_slg": ".382"
+          },
+          {
+            "order": 3,
+            "player_id": 547180,
+            "name": "Bryce Harper",
+            "season_avg": ".271",
+            "season_obp": ".382",
+            "season_slg": ".491"
+          },
+          {
+            "order": 4,
+            "player_id": 650333,
+            "name": "Luis Arraez",
+            "season_avg": ".313",
+            "season_obp": ".348",
+            "season_slg": ".424"
+          },
+          {
+            "order": 5,
+            "player_id": 664761,
+            "name": "Alec Bohm",
+            "season_avg": ".253",
+            "season_obp": ".317",
+            "season_slg": ".390"
+          },
+          {
+            "order": 6,
+            "player_id": 681082,
+            "name": "Bryson Stott",
+            "season_avg": ".248",
+            "season_obp": ".324",
+            "season_slg": ".387"
+          },
+          {
+            "order": 7,
+            "player_id": 592663,
+            "name": "J.T. Realmuto",
+            "season_avg": ".213",
+            "season_obp": ".289",
+            "season_slg": ".342"
+          },
+          {
+            "order": 8,
+            "player_id": 669016,
+            "name": "Brandon Marsh",
+            "season_avg": ".260",
+            "season_obp": ".304",
+            "season_slg": ".405"
+          },
+          {
+            "order": 9,
+            "player_id": 702222,
+            "name": "Justin Crawford",
+            "season_avg": ".265",
+            "season_obp": ".312",
+            "season_slg": ".358"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
