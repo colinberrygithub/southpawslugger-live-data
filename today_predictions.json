@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T03:14:14+00:00",
+  "updated_at": "2026-09-22T03:25:17+00:00",
   "date": "2026-09-22",
   "live_game_count": 1,
   "games": [
@@ -332,19 +332,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.459625,
-      "live_home_win_prob": 0.986,
+      "live_home_win_prob": 0.98,
       "linescore": {
-        "current_inning": 5,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 6,
+        "inning_state": "Middle",
+        "is_top_inning": true,
         "home_runs": 5,
         "away_runs": 1,
         "balls": 3,
         "strikes": 2,
-        "outs": 1,
-        "base_state": "001",
-        "current_batter_id": 691785,
-        "current_batter_name": "Marcelo Mayer",
+        "outs": 3,
+        "base_state": "000",
+        "current_batter_id": 701852,
+        "current_batter_name": "Drew Cavanaugh",
         "current_pitcher_id": 805673,
         "current_pitcher_name": "Zebby Matthews"
       },
@@ -378,17 +378,17 @@
             "order": 4,
             "player_id": 691785,
             "name": "Marcelo Mayer",
-            "season_avg": ".217",
-            "season_obp": ".279",
-            "season_slg": ".309"
+            "season_avg": ".216",
+            "season_obp": ".278",
+            "season_slg": ".308"
           },
           {
             "order": 5,
             "player_id": 695391,
             "name": "Brett Harris",
-            "season_avg": ".172",
-            "season_obp": ".294",
-            "season_slg": ".241"
+            "season_avg": ".167",
+            "season_obp": ".286",
+            "season_slg": ".233"
           },
           {
             "order": 6,
@@ -428,25 +428,25 @@
             "order": 1,
             "player_id": 805805,
             "name": "Walker Jenkins",
-            "season_avg": ".219",
-            "season_obp": ".306",
-            "season_slg": ".391"
+            "season_avg": ".215",
+            "season_obp": ".301",
+            "season_slg": ".385"
           },
           {
             "order": 2,
             "player_id": 807712,
             "name": "Luke Keaschall",
-            "season_avg": ".277",
-            "season_obp": ".369",
-            "season_slg": ".385"
+            "season_avg": ".276",
+            "season_obp": ".368",
+            "season_slg": ".384"
           },
           {
             "order": 3,
             "player_id": 686797,
             "name": "Brooks Lee",
             "season_avg": ".254",
-            "season_obp": ".302",
-            "season_slg": ".435"
+            "season_obp": ".301",
+            "season_slg": ".434"
           },
           {
             "order": 4,
@@ -941,7 +941,7 @@
         "away": {
           "pitcher_id": 805673,
           "pitcher_name": "Zebby Matthews",
-          "pitch_count": 92,
+          "pitch_count": 100,
           "pitches": [
             {
               "px": -0.07092194443162471,
@@ -1677,6 +1677,70 @@
               "type": "SL",
               "velocity": 88.4,
               "call": "F",
+              "inning": 5
+            },
+            {
+              "px": -0.02076634936513791,
+              "pz": 0.8394109214032752,
+              "type": "CU",
+              "velocity": 79.0,
+              "call": "?",
+              "inning": 5
+            },
+            {
+              "px": 0.3708231530552873,
+              "pz": 1.447015721036678,
+              "type": "SL",
+              "velocity": 88.0,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.6573715476016563,
+              "pz": 2.048572950810586,
+              "type": "FC",
+              "velocity": 91.6,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 1.159593260299817,
+              "pz": 2.353456623810316,
+              "type": "FF",
+              "velocity": 95.5,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 1.5808954925642142,
+              "pz": -0.15409657694083392,
+              "type": "SL",
+              "velocity": 88.9,
+              "call": "?",
+              "inning": 5
+            },
+            {
+              "px": 0.9416224687962337,
+              "pz": 1.9889919018851354,
+              "type": "FC",
+              "velocity": 92.1,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 1.0650335377639117,
+              "pz": 1.0009078034156718,
+              "type": "SL",
+              "velocity": 88.1,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.010450614791487997,
+              "pz": 3.4521246241022814,
+              "type": "FF",
+              "velocity": 95.0,
+              "call": "S",
               "inning": 5
             }
           ]
