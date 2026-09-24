@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-24T17:36:17+00:00",
+  "updated_at": "2026-09-24T17:47:17+00:00",
   "date": "2026-09-24",
-  "live_game_count": 1,
+  "live_game_count": 2,
   "games": [
     {
       "game_pk": 824223,
@@ -2586,19 +2586,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5131749999999999,
-      "live_home_win_prob": 0.503,
+      "live_home_win_prob": 0.517,
       "linescore": {
         "current_inning": 4,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "End",
+        "is_top_inning": false,
         "home_runs": 1,
         "away_runs": 1,
-        "balls": 0,
+        "balls": 1,
         "strikes": 0,
-        "outs": 2,
-        "base_state": "110",
-        "current_batter_id": 695336,
-        "current_batter_name": "Thomas Saggese",
+        "outs": 3,
+        "base_state": "000",
+        "current_batter_id": 701675,
+        "current_batter_name": "Nathan Church",
         "current_pitcher_id": 694973,
         "current_pitcher_name": "Paul Skenes"
       },
@@ -2641,30 +2641,30 @@
             "player_id": 693304,
             "name": "Nick Gonzales",
             "season_avg": ".303",
-            "season_obp": ".365",
+            "season_obp": ".366",
             "season_slg": ".389"
           },
           {
             "order": 6,
             "player_id": 682927,
             "name": "Ronny Simon",
-            "season_avg": ".268",
-            "season_obp": ".305",
-            "season_slg": ".375"
+            "season_avg": ".263",
+            "season_obp": ".300",
+            "season_slg": ".368"
           },
           {
             "order": 7,
             "player_id": 687462,
             "name": "Spencer Horwitz",
-            "season_avg": ".249",
-            "season_obp": ".348",
-            "season_slg": ".369"
+            "season_avg": ".248",
+            "season_obp": ".347",
+            "season_slg": ".368"
           },
           {
             "order": 8,
             "player_id": 663968,
             "name": "Jake Mangum",
-            "season_avg": ".277",
+            "season_avg": ".276",
             "season_obp": ".333",
             "season_slg": ".366"
           },
@@ -2730,9 +2730,9 @@
             "order": 7,
             "player_id": 695336,
             "name": "Thomas Saggese",
-            "season_avg": ".242",
-            "season_obp": ".301",
-            "season_slg": ".369"
+            "season_avg": ".240",
+            "season_obp": ".299",
+            "season_slg": ".367"
           },
           {
             "order": 8,
@@ -2756,7 +2756,7 @@
         "home": {
           "pitcher_id": 694973,
           "pitcher_name": "Paul Skenes",
-          "pitch_count": 66,
+          "pitch_count": 70,
           "pitches": [
             {
               "px": -2.153862155902441,
@@ -3285,6 +3285,38 @@
               "velocity": 96.9,
               "call": "B",
               "inning": 4
+            },
+            {
+              "px": 0.48949000777214247,
+              "pz": 2.7630083401988905,
+              "type": "FF",
+              "velocity": 97.5,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": 0.6985588256693742,
+              "pz": 2.1668028809437705,
+              "type": "ST",
+              "velocity": 84.6,
+              "call": "S",
+              "inning": 4
+            },
+            {
+              "px": 0.24479151152309164,
+              "pz": 3.0977718263846654,
+              "type": "FF",
+              "velocity": 96.9,
+              "call": "F",
+              "inning": 4
+            },
+            {
+              "px": 0.43094220311292103,
+              "pz": 2.6226227862982263,
+              "type": "ST",
+              "velocity": 85.6,
+              "call": "X",
+              "inning": 4
             }
           ]
         },
@@ -3597,11 +3629,25 @@
       "game_pk": 824059,
       "home_team_id": 118,
       "away_team_id": 145,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.538675,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.554,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 803011,
+        "current_batter_name": "Sam Antonacci",
+        "current_pitcher_id": 677976,
+        "current_pitcher_name": "Randy Dobnak"
+      },
       "lineups": {
         "home": [
           {
@@ -3752,7 +3798,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 677976,
+          "pitcher_name": "Randy Dobnak",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 689818,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     },
     {
       "game_pk": 824623,
