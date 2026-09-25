@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T21:25:17+00:00",
+  "updated_at": "2026-09-25T21:36:14+00:00",
   "date": "2026-09-25",
   "live_game_count": 2,
   "games": [
@@ -2101,7 +2101,7 @@
       "home_team_id": 111,
       "away_team_id": 112,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.4745,
       "live_home_win_prob": 0.473,
       "linescore": {
@@ -2110,8 +2110,8 @@
         "is_top_inning": true,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 0,
-        "strikes": 0,
+        "balls": 1,
+        "strikes": 1,
         "outs": 0,
         "base_state": "000",
         "current_batter_id": 691718,
@@ -2273,8 +2273,33 @@
         "home": {
           "pitcher_id": 678394,
           "pitcher_name": "Brayan Bello",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 3,
+          "pitches": [
+            {
+              "px": -0.8747195948098413,
+              "pz": 2.1557592267063956,
+              "type": "FF",
+              "velocity": 96.9,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.9047340944421136,
+              "pz": 2.5955392454557993,
+              "type": "SI",
+              "velocity": 97.2,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.9036922931475007,
+              "pz": 1.0656995365871156,
+              "type": "CH",
+              "velocity": 90.7,
+              "call": "B",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 656849,
@@ -2291,21 +2316,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5518500000000001,
-      "live_home_win_prob": 0.021,
+      "live_home_win_prob": 0.005,
       "linescore": {
-        "current_inning": 5,
-        "inning_state": "Middle",
+        "current_inning": 6,
+        "inning_state": "Top",
         "is_top_inning": true,
         "home_runs": 1,
-        "away_runs": 7,
+        "away_runs": 8,
         "balls": 0,
         "strikes": 0,
-        "outs": 3,
+        "outs": 2,
         "base_state": "000",
-        "current_batter_id": 676609,
-        "current_batter_name": "Jos\u00e9 Caballero",
-        "current_pitcher_id": 669432,
-        "current_pitcher_name": "Trevor Rogers"
+        "current_batter_id": 687637,
+        "current_batter_name": "Dylan Beavers",
+        "current_pitcher_id": 660787,
+        "current_pitcher_name": "Yerry De los Santos"
       },
       "lineups": {
         "home": [
@@ -2313,17 +2338,17 @@
             "order": 1,
             "player_id": 502671,
             "name": "Paul Goldschmidt",
-            "season_avg": ".254",
-            "season_obp": ".316",
-            "season_slg": ".455"
+            "season_avg": ".253",
+            "season_obp": ".315",
+            "season_slg": ".453"
           },
           {
             "order": 2,
             "player_id": 700250,
             "name": "Ben Rice",
             "season_avg": ".261",
-            "season_obp": ".361",
-            "season_slg": ".533"
+            "season_obp": ".360",
+            "season_slg": ".532"
           },
           {
             "order": 3,
@@ -2378,8 +2403,8 @@
             "player_id": 676609,
             "name": "Jos\u00e9 Caballero",
             "season_avg": ".232",
-            "season_obp": ".290",
-            "season_slg": ".367"
+            "season_obp": ".289",
+            "season_slg": ".366"
           }
         ],
         "away": [
@@ -2435,25 +2460,25 @@
             "order": 7,
             "player_id": 669236,
             "name": "Jeremiah Jackson",
-            "season_avg": ".218",
-            "season_obp": ".243",
-            "season_slg": ".358"
+            "season_avg": ".221",
+            "season_obp": ".246",
+            "season_slg": ".371"
           },
           {
             "order": 8,
             "player_id": 681047,
             "name": "Christian Franklin",
-            "season_avg": ".143",
-            "season_obp": ".294",
-            "season_slg": ".190"
+            "season_avg": ".140",
+            "season_obp": ".288",
+            "season_slg": ".186"
           },
           {
             "order": 9,
             "player_id": 665966,
             "name": "Carlos Narv\u00e1ez",
-            "season_avg": ".163",
-            "season_obp": ".240",
-            "season_slg": ".228"
+            "season_avg": ".162",
+            "season_obp": ".239",
+            "season_slg": ".227"
           }
         ]
       },
