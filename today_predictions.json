@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T02:03:10+00:00",
+  "updated_at": "2026-09-30T02:14:14+00:00",
   "date": "2026-09-30",
   "live_game_count": 2,
   "games": [
@@ -332,21 +332,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.535275,
-      "live_home_win_prob": 0.94,
+      "live_home_win_prob": 0.92,
       "linescore": {
         "current_inning": 6,
-        "inning_state": "Middle",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 2,
         "away_runs": 0,
-        "balls": 2,
-        "strikes": 3,
-        "outs": 3,
-        "base_state": "000",
-        "current_batter_id": 641355,
-        "current_batter_name": "Cody Bellinger",
-        "current_pitcher_id": 669062,
-        "current_pitcher_name": "Erik Miller"
+        "balls": 1,
+        "strikes": 1,
+        "outs": 2,
+        "base_state": "100",
+        "current_batter_id": 683011,
+        "current_batter_name": "Anthony Volpe",
+        "current_pitcher_id": 669711,
+        "current_pitcher_name": "Greg Weissert"
       },
       "lineups": {
         "home": [
@@ -378,17 +378,17 @@
             "order": 4,
             "player_id": 641355,
             "name": "Cody Bellinger",
-            "season_avg": ".000",
-            "season_obp": ".000",
-            "season_slg": ".000"
+            "season_avg": ".333",
+            "season_obp": ".333",
+            "season_slg": ".333"
           },
           {
             "order": 5,
             "player_id": 806146,
             "name": "George Lombard Jr.",
-            "season_avg": "1.000",
-            "season_obp": "1.000",
-            "season_slg": "1.000"
+            "season_avg": ".667",
+            "season_obp": ".667",
+            "season_slg": ".667"
           },
           {
             "order": 6,
@@ -2040,9 +2040,9 @@
       "home_team_id": 135,
       "away_team_id": 112,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.488525,
-      "live_home_win_prob": 0.51,
+      "live_home_win_prob": 0.538,
       "linescore": {
         "current_inning": 1,
         "inning_state": "Top",
@@ -2051,10 +2051,10 @@
         "away_runs": 0,
         "balls": 0,
         "strikes": 0,
-        "outs": 0,
+        "outs": 2,
         "base_state": "000",
-        "current_batter_id": 691718,
-        "current_batter_name": "Pete Crow-Armstrong",
+        "current_batter_id": 683737,
+        "current_batter_name": "Michael Busch",
         "current_pitcher_id": 650633,
         "current_pitcher_name": "Michael King"
       },
@@ -2212,8 +2212,81 @@
         "home": {
           "pitcher_id": 650633,
           "pitcher_name": "Michael King",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 9,
+          "pitches": [
+            {
+              "px": 0.5020274927383699,
+              "pz": 2.3973047159663667,
+              "type": "SI",
+              "velocity": 96.3,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 1.282487876437138,
+              "pz": 1.4800826426424478,
+              "type": "ST",
+              "velocity": 86.4,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.4124845298848476,
+              "pz": 2.9667149324245607,
+              "type": "FF",
+              "velocity": 97.6,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 1.1575235042903562,
+              "pz": 1.515570295613707,
+              "type": "SL",
+              "velocity": 89.1,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.5276487378474758,
+              "pz": 1.158810480883284,
+              "type": "SL",
+              "velocity": 89.8,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.5580176028796984,
+              "pz": 2.077491807463098,
+              "type": "SI",
+              "velocity": 96.4,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.06351353802515756,
+              "pz": 1.7997570341589146,
+              "type": "SI",
+              "velocity": 97.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 1.406461572261899,
+              "pz": 0.8898659557575319,
+              "type": "ST",
+              "velocity": 88.6,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.189397714284816,
+              "pz": 4.2911640318325555,
+              "type": "SI",
+              "velocity": 95.2,
+              "call": "B",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 571510,
