@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T21:25:12+00:00",
+  "updated_at": "2026-09-30T21:36:13+00:00",
   "date": "2026-09-30",
   "live_game_count": 1,
   "games": [
@@ -652,7 +652,7 @@
       "home_team_id": 144,
       "away_team_id": 143,
       "abstract_status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "pre_home_win_prob": 0.5289,
       "live_home_win_prob": null,
       "linescore": null,
@@ -815,21 +815,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.47705,
-      "live_home_win_prob": 0.068,
+      "live_home_win_prob": 0.103,
       "linescore": {
         "current_inning": 1,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 4,
         "balls": 1,
-        "strikes": 0,
-        "outs": 1,
-        "base_state": "110",
-        "current_batter_id": 695731,
-        "current_batter_name": "Braden Montgomery",
-        "current_pitcher_id": 686613,
-        "current_pitcher_name": "Hunter Brown"
+        "strikes": 1,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 665161,
+        "current_batter_name": "Jeremy Pe\u00f1a",
+        "current_pitcher_id": 680732,
+        "current_pitcher_name": "Sean Burke"
       },
       "lineups": {
         "home": [
@@ -911,9 +911,9 @@
             "order": 1,
             "player_id": 803011,
             "name": "Sam Antonacci",
-            "season_avg": ".500",
-            "season_obp": ".667",
-            "season_slg": ".750"
+            "season_avg": ".400",
+            "season_obp": ".571",
+            "season_slg": ".600"
           },
           {
             "order": 2,
@@ -967,16 +967,16 @@
             "order": 8,
             "player_id": 695731,
             "name": "Braden Montgomery",
-            "season_avg": ".500",
-            "season_obp": ".500",
-            "season_slg": ".500"
+            "season_avg": ".400",
+            "season_obp": ".400",
+            "season_slg": ".400"
           },
           {
             "order": 9,
             "player_id": 695657,
             "name": "Colson Montgomery",
             "season_avg": ".333",
-            "season_obp": ".500",
+            "season_obp": ".600",
             "season_slg": "1.333"
           }
         ]
@@ -985,7 +985,7 @@
         "home": {
           "pitcher_id": 686613,
           "pitcher_name": "Hunter Brown",
-          "pitch_count": 27,
+          "pitch_count": 36,
           "pitches": [
             {
               "px": 0.06326408660047525,
@@ -1202,14 +1202,103 @@
               "velocity": 96.5,
               "call": "B",
               "inning": 1
+            },
+            {
+              "px": -0.8200988568690794,
+              "pz": 2.0138689942804087,
+              "type": "SI",
+              "velocity": 95.2,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.46635252882766143,
+              "pz": 1.632150239258189,
+              "type": "SV",
+              "velocity": 86.4,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.45109367861369104,
+              "pz": 1.9456118084547933,
+              "type": "CH",
+              "velocity": 88.3,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 1.1984699111219002,
+              "pz": 0.27092507002590027,
+              "type": "KC",
+              "velocity": 84.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.7054562662770083,
+              "pz": 2.7411240703601076,
+              "type": "FF",
+              "velocity": 96.6,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -0.34629772484783894,
+              "pz": 2.638167606416286,
+              "type": "FF",
+              "velocity": 97.0,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.6881235396948445,
+              "pz": 1.0967443954380363,
+              "type": "KC",
+              "velocity": 84.6,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.11429063188934899,
+              "pz": 4.253100959140458,
+              "type": "SI",
+              "velocity": 96.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.962350074534239,
+              "pz": 1.4701847147685432,
+              "type": "KC",
+              "velocity": 84.9,
+              "call": "B",
+              "inning": 1
             }
           ]
         },
         "away": {
           "pitcher_id": 680732,
-          "pitcher_name": null,
-          "pitch_count": 0,
-          "pitches": []
+          "pitcher_name": "Sean Burke",
+          "pitch_count": 2,
+          "pitches": [
+            {
+              "px": -0.27480382041791523,
+              "pz": 1.9645287596090661,
+              "type": "SI",
+              "velocity": 92.8,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 1.3940146240906528,
+              "pz": 1.1234014657378166,
+              "type": "SL",
+              "velocity": 85.5,
+              "call": "B",
+              "inning": 1
+            }
+          ]
         }
       }
     },
@@ -1379,12 +1468,85 @@
       "home_team_id": 135,
       "away_team_id": 112,
       "abstract_status": "Preview",
-      "detailed_status": "Scheduled",
+      "detailed_status": "Pre-Game",
       "pre_home_win_prob": 0.5416500000000001,
       "live_home_win_prob": null,
       "linescore": null,
       "lineups": {
-        "home": null,
+        "home": [
+          {
+            "order": 1,
+            "player_id": 665487,
+            "name": "Fernando Tatis Jr.",
+            "season_avg": ".289",
+            "season_obp": ".358",
+            "season_slg": ".470"
+          },
+          {
+            "order": 2,
+            "player_id": 687957,
+            "name": "Dustin Harris",
+            "season_avg": ".293",
+            "season_obp": ".353",
+            "season_slg": ".383"
+          },
+          {
+            "order": 3,
+            "player_id": 592518,
+            "name": "Manny Machado",
+            "season_avg": ".217",
+            "season_obp": ".303",
+            "season_slg": ".407"
+          },
+          {
+            "order": 4,
+            "player_id": 664034,
+            "name": "Ty France",
+            "season_avg": ".295",
+            "season_obp": ".363",
+            "season_slg": ".502"
+          },
+          {
+            "order": 5,
+            "player_id": 701538,
+            "name": "Jackson Merrill",
+            "season_avg": ".254",
+            "season_obp": ".303",
+            "season_slg": ".440"
+          },
+          {
+            "order": 6,
+            "player_id": 593428,
+            "name": "Xander Bogaerts",
+            "season_avg": ".231",
+            "season_obp": ".332",
+            "season_slg": ".344"
+          },
+          {
+            "order": 7,
+            "player_id": 806956,
+            "name": "Ethan Salas",
+            "season_avg": ".256",
+            "season_obp": ".275",
+            "season_slg": ".462"
+          },
+          {
+            "order": 8,
+            "player_id": 669720,
+            "name": "Austin Hays",
+            "season_avg": ".280",
+            "season_obp": ".305",
+            "season_slg": ".400"
+          },
+          {
+            "order": 9,
+            "player_id": 630105,
+            "name": "Jake Cronenworth",
+            "season_avg": ".225",
+            "season_obp": ".308",
+            "season_slg": ".321"
+          }
+        ],
         "away": null
       },
       "starting_pitchers": null
