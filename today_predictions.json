@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T19:58:21+00:00",
+  "updated_at": "2026-09-30T20:03:15+00:00",
   "date": "2026-09-30",
   "live_game_count": 1,
   "games": [
@@ -654,21 +654,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5289,
-      "live_home_win_prob": 0.776,
+      "live_home_win_prob": 0.616,
       "linescore": {
-        "current_inning": 6,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 7,
+        "inning_state": "Top",
+        "is_top_inning": true,
         "home_runs": 1,
         "away_runs": 1,
         "balls": 0,
         "strikes": 0,
-        "outs": 1,
-        "base_state": "111",
-        "current_batter_id": 671739,
-        "current_batter_name": "Michael Harris II",
-        "current_pitcher_id": 650911,
-        "current_pitcher_name": "Cristopher S\u00e1nchez"
+        "outs": 2,
+        "base_state": "000",
+        "current_batter_id": 607208,
+        "current_batter_name": "Trea Turner",
+        "current_pitcher_id": 641816,
+        "current_pitcher_name": "Tyler Mahle"
       },
       "lineups": {
         "home": [
@@ -724,9 +724,9 @@
             "order": 7,
             "player_id": 671739,
             "name": "Michael Harris II",
-            "season_avg": ".600",
-            "season_obp": ".600",
-            "season_slg": ".600"
+            "season_avg": ".500",
+            "season_obp": ".500",
+            "season_slg": ".500"
           },
           {
             "order": 8,
@@ -806,9 +806,9 @@
             "order": 8,
             "player_id": 702222,
             "name": "Justin Crawford",
-            "season_avg": ".333",
-            "season_obp": ".333",
-            "season_slg": ".333"
+            "season_avg": ".250",
+            "season_obp": ".250",
+            "season_slg": ".250"
           },
           {
             "order": 9,
@@ -824,7 +824,7 @@
         "home": {
           "pitcher_id": 641816,
           "pitcher_name": "Tyler Mahle",
-          "pitch_count": 87,
+          "pitch_count": 92,
           "pitches": [
             {
               "px": 1.065544775388137,
@@ -1521,13 +1521,53 @@
               "velocity": 93.2,
               "call": "X",
               "inning": 6
+            },
+            {
+              "px": -0.6138575366270435,
+              "pz": 3.074915348790009,
+              "type": "FF",
+              "velocity": 90.9,
+              "call": "F",
+              "inning": 7
+            },
+            {
+              "px": -0.242196206415062,
+              "pz": 4.094174360296642,
+              "type": "FF",
+              "velocity": 91.8,
+              "call": "B",
+              "inning": 7
+            },
+            {
+              "px": -0.266833417418512,
+              "pz": 1.1479273228401685,
+              "type": "FS",
+              "velocity": 86.6,
+              "call": "X",
+              "inning": 7
+            },
+            {
+              "px": -0.2606041722987886,
+              "pz": 2.173142529576272,
+              "type": "FS",
+              "velocity": 86.4,
+              "call": "F",
+              "inning": 7
+            },
+            {
+              "px": -0.27929108628322336,
+              "pz": 2.8231260222305545,
+              "type": "FS",
+              "velocity": 86.6,
+              "call": "S",
+              "inning": 7
             }
           ]
         },
         "away": {
           "pitcher_id": 650911,
           "pitcher_name": "Cristopher S\u00e1nchez",
-          "pitch_count": 90,
+          "pitch_count": 91,
           "pitches": [
             {
               "px": -1.3674056022895071,
@@ -2246,6 +2286,14 @@
               "pz": 2.3065343889463863,
               "type": "CH",
               "velocity": 88.0,
+              "call": "X",
+              "inning": 6
+            },
+            {
+              "px": 1.0202945757935946,
+              "pz": 2.4986791419490624,
+              "type": "SI",
+              "velocity": 95.7,
               "call": "X",
               "inning": 6
             }
