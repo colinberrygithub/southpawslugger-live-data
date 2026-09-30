@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T01:47:15+00:00",
+  "updated_at": "2026-09-30T01:58:12+00:00",
   "date": "2026-09-30",
   "live_game_count": 2,
   "games": [
@@ -332,21 +332,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.535275,
-      "live_home_win_prob": 0.771,
+      "live_home_win_prob": 0.907,
       "linescore": {
-        "current_inning": 5,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "home_runs": 1,
+        "current_inning": 6,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 2,
         "away_runs": 0,
-        "balls": 3,
-        "strikes": 2,
-        "outs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 1,
         "base_state": "000",
-        "current_batter_id": 669224,
-        "current_batter_name": "Austin Wells",
-        "current_pitcher_id": 801139,
-        "current_pitcher_name": "Payton Tolle"
+        "current_batter_id": 655316,
+        "current_batter_name": "Andruw Monasterio",
+        "current_pitcher_id": 693645,
+        "current_pitcher_name": "Cam Schlittler"
       },
       "lineups": {
         "home": [
@@ -362,9 +362,9 @@
             "order": 2,
             "player_id": 700250,
             "name": "Ben Rice",
-            "season_avg": ".500",
-            "season_obp": ".500",
-            "season_slg": "1.000"
+            "season_avg": ".667",
+            "season_obp": ".667",
+            "season_slg": "2.000"
           },
           {
             "order": 3,
@@ -418,16 +418,16 @@
             "order": 9,
             "player_id": 669224,
             "name": "Austin Wells",
-            "season_avg": "1.000",
-            "season_obp": "1.000",
-            "season_slg": "1.000"
+            "season_avg": ".500",
+            "season_obp": ".500",
+            "season_slg": ".500"
           }
         ],
         "away": [
           {
             "order": 1,
-            "player_id": 701350,
-            "name": "Roman Anthony",
+            "player_id": 655316,
+            "name": "Andruw Monasterio",
             "season_avg": ".000",
             "season_obp": ".000",
             "season_slg": ".000"
@@ -502,7 +502,7 @@
         "home": {
           "pitcher_id": 693645,
           "pitcher_name": "Cam Schlittler",
-          "pitch_count": 89,
+          "pitch_count": 96,
           "pitches": [
             {
               "px": -0.31767418286058585,
@@ -1215,13 +1215,69 @@
               "velocity": 99.2,
               "call": "X",
               "inning": 5
+            },
+            {
+              "px": 0.4496576085136013,
+              "pz": 2.9091693029283396,
+              "type": "SI",
+              "velocity": 96.6,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": -1.0045029252989797,
+              "pz": 3.3817115725870877,
+              "type": "FF",
+              "velocity": 98.0,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": 0.010248980732763755,
+              "pz": 3.7845851987641423,
+              "type": "FF",
+              "velocity": 97.6,
+              "call": "F",
+              "inning": 6
+            },
+            {
+              "px": 1.7999035848671683,
+              "pz": 0.2217468630237843,
+              "type": "CU",
+              "velocity": 88.3,
+              "call": "B",
+              "inning": 6
+            },
+            {
+              "px": 0.14558185875877686,
+              "pz": 1.3115031714575058,
+              "type": "CU",
+              "velocity": 85.0,
+              "call": "F",
+              "inning": 6
+            },
+            {
+              "px": 1.4594863745230688,
+              "pz": 2.617835647199659,
+              "type": "SI",
+              "velocity": 98.8,
+              "call": "B",
+              "inning": 6
+            },
+            {
+              "px": -0.29743812410809545,
+              "pz": 2.5090227521820467,
+              "type": "SI",
+              "velocity": 98.8,
+              "call": "X",
+              "inning": 6
             }
           ]
         },
         "away": {
           "pitcher_id": 801139,
           "pitcher_name": "Payton Tolle",
-          "pitch_count": 80,
+          "pitch_count": 83,
           "pitches": [
             {
               "px": -0.5360251603584713,
@@ -1861,6 +1917,30 @@
               "type": "CU",
               "velocity": 82.5,
               "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 0.7174127189096664,
+              "pz": 2.764284978756038,
+              "type": "FC",
+              "velocity": 88.5,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 0.8984419717458283,
+              "pz": 2.8756405586114866,
+              "type": "FF",
+              "velocity": 97.0,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": 0.48273519026587536,
+              "pz": 2.4008811878067857,
+              "type": "SI",
+              "velocity": 95.9,
+              "call": "X",
               "inning": 5
             }
           ]
