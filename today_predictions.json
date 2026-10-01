@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-01T23:47:11+00:00",
+  "updated_at": "2026-10-01T23:58:12+00:00",
   "date": "2026-10-01",
-  "live_game_count": 0,
+  "live_game_count": 1,
   "games": [
     {
       "game_pk": 849841,
@@ -651,11 +651,25 @@
       "game_pk": 849844,
       "home_team_id": 144,
       "away_team_id": 143,
-      "abstract_status": "Preview",
-      "detailed_status": "Pre-Game",
+      "abstract_status": "Live",
+      "detailed_status": "Warmup",
       "pre_home_win_prob": 0.5416500000000001,
-      "live_home_win_prob": null,
-      "linescore": null,
+      "live_home_win_prob": 0.554,
+      "linescore": {
+        "current_inning": 1,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 0,
+        "away_runs": 0,
+        "balls": 0,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 607208,
+        "current_batter_name": "Trea Turner",
+        "current_pitcher_id": 678061,
+        "current_pitcher_name": "Ray Kerr"
+      },
       "lineups": {
         "home": [
           {
@@ -806,7 +820,20 @@
           }
         ]
       },
-      "starting_pitchers": null
+      "starting_pitchers": {
+        "home": {
+          "pitcher_id": 678061,
+          "pitcher_name": "Ray Kerr",
+          "pitch_count": 0,
+          "pitches": []
+        },
+        "away": {
+          "pitcher_id": 605400,
+          "pitcher_name": null,
+          "pitch_count": 0,
+          "pitches": []
+        }
+      }
     }
   ]
 }
