@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T00:47:13+00:00",
+  "updated_at": "2026-10-01T00:58:13+00:00",
   "date": "2026-10-01",
   "live_game_count": 1,
   "games": [
@@ -332,21 +332,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.4711,
-      "live_home_win_prob": 0.478,
+      "live_home_win_prob": 0.487,
       "linescore": {
         "current_inning": 3,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 1,
+        "balls": 0,
         "strikes": 0,
-        "outs": 0,
+        "outs": 1,
         "base_state": "000",
-        "current_batter_id": 596115,
-        "current_batter_name": "Trevor Story",
-        "current_pitcher_id": 608331,
-        "current_pitcher_name": "Max Fried"
+        "current_batter_id": 641857,
+        "current_batter_name": "Ryan McMahon",
+        "current_pitcher_id": 543243,
+        "current_pitcher_name": "Sonny Gray"
       },
       "lineups": {
         "home": [
@@ -410,9 +410,9 @@
             "order": 8,
             "player_id": 669224,
             "name": "Austin Wells",
-            "season_avg": ".667",
-            "season_obp": ".500",
-            "season_slg": ".667"
+            "season_avg": ".500",
+            "season_obp": ".400",
+            "season_slg": ".500"
           },
           {
             "order": 9,
@@ -436,9 +436,9 @@
             "order": 2,
             "player_id": 668939,
             "name": "Adley Rutschman",
-            "season_avg": ".200",
-            "season_obp": ".200",
-            "season_slg": ".200"
+            "season_avg": ".167",
+            "season_obp": ".167",
+            "season_slg": ".167"
           },
           {
             "order": 3,
@@ -484,17 +484,17 @@
             "order": 8,
             "player_id": 596115,
             "name": "Trevor Story",
-            "season_avg": ".333",
-            "season_obp": ".333",
-            "season_slg": ".667"
+            "season_avg": ".250",
+            "season_obp": ".250",
+            "season_slg": ".500"
           },
           {
             "order": 9,
             "player_id": 681987,
             "name": "Nate Eaton",
-            "season_avg": ".000",
-            "season_obp": ".000",
-            "season_slg": ".000"
+            "season_avg": "1.000",
+            "season_obp": "1.000",
+            "season_slg": "2.000"
           }
         ]
       },
@@ -502,7 +502,7 @@
         "home": {
           "pitcher_id": 608331,
           "pitcher_name": "Max Fried",
-          "pitch_count": 29,
+          "pitch_count": 44,
           "pitches": [
             {
               "px": 0.7208222514254169,
@@ -735,13 +735,133 @@
               "velocity": 73.8,
               "call": "B",
               "inning": 3
+            },
+            {
+              "px": 0.6165775676305922,
+              "pz": 3.0672860576628453,
+              "type": "CU",
+              "velocity": 72.8,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": -0.13164054971773842,
+              "pz": 1.7893693031925222,
+              "type": "CH",
+              "velocity": 84.3,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": 0.5962117984997453,
+              "pz": 1.1474457755343288,
+              "type": "CU",
+              "velocity": 81.2,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": 0.8084224945026418,
+              "pz": 1.5610175112909497,
+              "type": "CH",
+              "velocity": 88.6,
+              "call": "X",
+              "inning": 3
+            },
+            {
+              "px": 1.2449749795418799,
+              "pz": 2.147861588636563,
+              "type": "SI",
+              "velocity": 91.9,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": 0.4051614407515761,
+              "pz": 2.7989020140711003,
+              "type": "FC",
+              "velocity": 90.2,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": 0.302000139178144,
+              "pz": 2.8846322079817384,
+              "type": "CH",
+              "velocity": 85.1,
+              "call": "X",
+              "inning": 3
+            },
+            {
+              "px": 0.05212577085474081,
+              "pz": 3.354365560971982,
+              "type": "ST",
+              "velocity": 80.0,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": -0.22081885433085757,
+              "pz": 1.0524530511879024,
+              "type": "CU",
+              "velocity": 73.9,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": 1.4859013832819001,
+              "pz": 3.0132771300365224,
+              "type": "ST",
+              "velocity": 77.6,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": 0.3308771976244076,
+              "pz": 2.837772148050112,
+              "type": "FC",
+              "velocity": 92.3,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": -0.1363274495775534,
+              "pz": 2.5370937971673704,
+              "type": "FF",
+              "velocity": 95.5,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": 0.6194757408141869,
+              "pz": 2.3184060814491443,
+              "type": "ST",
+              "velocity": 80.1,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": 0.016318602445463855,
+              "pz": 1.3254620795850056,
+              "type": "CH",
+              "velocity": 85.0,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": -0.08923534202940923,
+              "pz": 1.0838563090510578,
+              "type": "CH",
+              "velocity": 86.9,
+              "call": "X",
+              "inning": 3
             }
           ]
         },
         "away": {
           "pitcher_id": 543243,
           "pitcher_name": "Sonny Gray",
-          "pitch_count": 25,
+          "pitch_count": 30,
           "pitches": [
             {
               "px": -1.1667156488452266,
@@ -942,6 +1062,46 @@
               "velocity": 91.4,
               "call": "X",
               "inning": 2
+            },
+            {
+              "px": 0.2870324759896575,
+              "pz": 1.60993130659408,
+              "type": "CU",
+              "velocity": 79.5,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": 0.23891389454117784,
+              "pz": 1.269823466135797,
+              "type": "ST",
+              "velocity": 84.6,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": 0.571107232034938,
+              "pz": 0.7788377532168714,
+              "type": "FF",
+              "velocity": 91.3,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": -0.6615624935987066,
+              "pz": 2.81278722457175,
+              "type": "FF",
+              "velocity": 91.2,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": -0.19405526747898144,
+              "pz": 1.8802560089339597,
+              "type": "SI",
+              "velocity": 91.3,
+              "call": "X",
+              "inning": 3
             }
           ]
         }
