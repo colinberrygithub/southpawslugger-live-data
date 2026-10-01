@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T00:25:12+00:00",
+  "updated_at": "2026-10-01T00:36:14+00:00",
   "date": "2026-10-01",
   "live_game_count": 1,
   "games": [
@@ -169,7 +169,7 @@
       "home_team_id": 117,
       "away_team_id": 145,
       "abstract_status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "pre_home_win_prob": 0.47705,
       "live_home_win_prob": null,
       "linescore": null,
@@ -332,9 +332,9 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.4711,
-      "live_home_win_prob": 0.52,
+      "live_home_win_prob": 0.532,
       "linescore": {
-        "current_inning": 1,
+        "current_inning": 2,
         "inning_state": "Middle",
         "is_top_inning": true,
         "home_runs": 0,
@@ -343,8 +343,8 @@
         "strikes": 2,
         "outs": 3,
         "base_state": "000",
-        "current_batter_id": 700250,
-        "current_batter_name": "Ben Rice",
+        "current_batter_id": 682987,
+        "current_batter_name": "Spencer Jones",
         "current_pitcher_id": 543243,
         "current_pitcher_name": "Sonny Gray"
       },
@@ -354,17 +354,17 @@
             "order": 1,
             "player_id": 700250,
             "name": "Ben Rice",
-            "season_avg": ".800",
-            "season_obp": ".800",
-            "season_slg": "2.200"
+            "season_avg": ".667",
+            "season_obp": ".667",
+            "season_slg": "1.833"
           },
           {
             "order": 2,
             "player_id": 641355,
             "name": "Cody Bellinger",
-            "season_avg": ".250",
-            "season_obp": ".250",
-            "season_slg": ".250"
+            "season_avg": ".200",
+            "season_obp": ".200",
+            "season_slg": ".200"
           },
           {
             "order": 3,
@@ -502,7 +502,7 @@
         "home": {
           "pitcher_id": 608331,
           "pitcher_name": "Max Fried",
-          "pitch_count": 21,
+          "pitch_count": 28,
           "pitches": [
             {
               "px": 0.7208222514254169,
@@ -671,14 +671,159 @@
               "velocity": 81.3,
               "call": "X",
               "inning": 1
+            },
+            {
+              "px": 0.09517881107303905,
+              "pz": 3.233706876241138,
+              "type": "FC",
+              "velocity": 91.9,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.9047520443944521,
+              "pz": 2.7360262524119046,
+              "type": "FC",
+              "velocity": 90.8,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": 0.3234333081116172,
+              "pz": 3.1067780323580667,
+              "type": "FC",
+              "velocity": 90.6,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.2655367945031734,
+              "pz": 1.4045174832691776,
+              "type": "CH",
+              "velocity": 85.7,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": 0.10759123791998972,
+              "pz": 2.824245592228007,
+              "type": "CU",
+              "velocity": 74.2,
+              "call": "F",
+              "inning": 2
+            },
+            {
+              "px": 0.3561236265581131,
+              "pz": 2.236709876666755,
+              "type": "ST",
+              "velocity": 79.9,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.5154637395052941,
+              "pz": 3.098696155105574,
+              "type": "FC",
+              "velocity": 93.1,
+              "call": "X",
+              "inning": 2
             }
           ]
         },
         "away": {
           "pitcher_id": 543243,
-          "pitcher_name": null,
-          "pitch_count": 0,
-          "pitches": []
+          "pitcher_name": "Sonny Gray",
+          "pitch_count": 11,
+          "pitches": [
+            {
+              "px": -1.1667156488452266,
+              "pz": 3.733386291400213,
+              "type": "FF",
+              "velocity": 90.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.07978692202395991,
+              "pz": 2.197102722380755,
+              "type": "FF",
+              "velocity": 91.8,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.5602440006878227,
+              "pz": 2.0932889110888406,
+              "type": "CU",
+              "velocity": 80.3,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.5037972742820205,
+              "pz": 1.432198771318461,
+              "type": "ST",
+              "velocity": 85.3,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.6301548292684022,
+              "pz": 2.7605577923674716,
+              "type": "SI",
+              "velocity": 92.0,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -0.37924739575745836,
+              "pz": 2.012506468663729,
+              "type": "SI",
+              "velocity": 92.3,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.7573314033877355,
+              "pz": 3.7123657627478557,
+              "type": "SI",
+              "velocity": 92.9,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.5949736623525947,
+              "pz": 0.9876386053085895,
+              "type": "ST",
+              "velocity": 86.2,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.32680808170214226,
+              "pz": 1.4050291660499172,
+              "type": "ST",
+              "velocity": 85.6,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.5840057858678931,
+              "pz": 2.152381771760692,
+              "type": "SI",
+              "velocity": 92.6,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -0.1263466162226866,
+              "pz": 1.7291294089645892,
+              "type": "CH",
+              "velocity": 87.8,
+              "call": "X",
+              "inning": 1
+            }
+          ]
         }
       }
     },
