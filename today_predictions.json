@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T02:36:18+00:00",
+  "updated_at": "2026-10-01T02:47:14+00:00",
   "date": "2026-10-01",
   "live_game_count": 2,
   "games": [
@@ -332,21 +332,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.4711,
-      "live_home_win_prob": 0.999,
+      "live_home_win_prob": 1.0,
       "linescore": {
         "current_inning": 7,
         "inning_state": "Bottom",
         "is_top_inning": false,
-        "home_runs": 8,
+        "home_runs": 9,
         "away_runs": 2,
-        "balls": 3,
+        "balls": 2,
         "strikes": 1,
-        "outs": 1,
-        "base_state": "000",
-        "current_batter_id": 665862,
-        "current_batter_name": "Jazz Chisholm Jr.",
-        "current_pitcher_id": 676477,
-        "current_pitcher_name": "Garrett Whitlock"
+        "outs": 2,
+        "base_state": "101",
+        "current_batter_id": 700250,
+        "current_batter_name": "Ben Rice",
+        "current_pitcher_id": 687941,
+        "current_pitcher_name": "Alec Gamboa"
       },
       "lineups": {
         "home": [
@@ -395,7 +395,7 @@
             "player_id": 665862,
             "name": "Jazz Chisholm Jr.",
             "season_avg": ".667",
-            "season_obp": ".667",
+            "season_obp": ".750",
             "season_slg": ".667"
           },
           {
@@ -403,24 +403,24 @@
             "player_id": 663757,
             "name": "Trent Grisham",
             "season_avg": ".500",
-            "season_obp": ".500",
+            "season_obp": ".600",
             "season_slg": ".500"
           },
           {
             "order": 8,
             "player_id": 669224,
             "name": "Austin Wells",
-            "season_avg": ".400",
-            "season_obp": ".286",
-            "season_slg": ".400"
+            "season_avg": ".500",
+            "season_obp": ".375",
+            "season_slg": ".500"
           },
           {
             "order": 9,
-            "player_id": 641857,
-            "name": "Ryan McMahon",
-            "season_avg": ".250",
-            "season_obp": ".400",
-            "season_slg": ".250"
+            "player_id": 502671,
+            "name": "Paul Goldschmidt",
+            "season_avg": ".000",
+            "season_obp": ".333",
+            "season_slg": ".000"
           }
         ],
         "away": [
@@ -1866,21 +1866,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5416500000000001,
-      "live_home_win_prob": 0.774,
+      "live_home_win_prob": 0.834,
       "linescore": {
-        "current_inning": 2,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "home_runs": 0,
+        "current_inning": 3,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 2,
         "away_runs": 0,
         "balls": 1,
         "strikes": 0,
         "outs": 0,
-        "base_state": "101",
-        "current_batter_id": 593428,
-        "current_batter_name": "Xander Bogaerts",
-        "current_pitcher_id": 592332,
-        "current_pitcher_name": "Kevin Gausman"
+        "base_state": "000",
+        "current_batter_id": 807713,
+        "current_batter_name": "Matt Shaw",
+        "current_pitcher_id": 601713,
+        "current_pitcher_name": "Nick Pivetta"
       },
       "lineups": {
         "home": [
@@ -1928,9 +1928,9 @@
             "order": 6,
             "player_id": 593428,
             "name": "Xander Bogaerts",
-            "season_avg": ".500",
-            "season_obp": ".500",
-            "season_slg": "1.250"
+            "season_avg": ".600",
+            "season_obp": ".600",
+            "season_slg": "1.200"
           },
           {
             "order": 7,
@@ -1952,9 +1952,9 @@
             "order": 9,
             "player_id": 630105,
             "name": "Jake Cronenworth",
-            "season_avg": ".250",
-            "season_obp": ".250",
-            "season_slg": ".250"
+            "season_avg": ".200",
+            "season_obp": ".200",
+            "season_slg": ".200"
           }
         ],
         "away": [
@@ -2036,7 +2036,7 @@
         "home": {
           "pitcher_id": 601713,
           "pitcher_name": "Nick Pivetta",
-          "pitch_count": 31,
+          "pitch_count": 33,
           "pitches": [
             {
               "px": 0.856278784917684,
@@ -2285,13 +2285,29 @@
               "velocity": 94.4,
               "call": "X",
               "inning": 2
+            },
+            {
+              "px": 0.3924267092657038,
+              "pz": 3.7241080496037333,
+              "type": "FF",
+              "velocity": 93.3,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": -0.23183203081679477,
+              "pz": 2.3652397644300396,
+              "type": "FF",
+              "velocity": 92.3,
+              "call": "S",
+              "inning": 3
             }
           ]
         },
         "away": {
           "pitcher_id": 592332,
           "pitcher_name": "Kevin Gausman",
-          "pitch_count": 18,
+          "pitch_count": 30,
           "pitches": [
             {
               "px": -1.193602181188342,
@@ -2435,6 +2451,102 @@
               "type": "FF",
               "velocity": 93.6,
               "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 0.5547316651718684,
+              "pz": 0.6170616268039076,
+              "type": "FS",
+              "velocity": 83.1,
+              "call": "?",
+              "inning": 2
+            },
+            {
+              "px": -0.0632177970994115,
+              "pz": 1.8906584229708692,
+              "type": "FF",
+              "velocity": 93.3,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 1.5197712914089698,
+              "pz": 1.6081041576861321,
+              "type": "FF",
+              "velocity": 93.7,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 0.43913973658656685,
+              "pz": 1.93694026256679,
+              "type": "FF",
+              "velocity": 94.5,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": -2.2062144898115945,
+              "pz": 2.6442106722202596,
+              "type": "FS",
+              "velocity": 82.6,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.5769579389648333,
+              "pz": 2.3575421052535597,
+              "type": "FF",
+              "velocity": 92.3,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": 0.7875785622862407,
+              "pz": 1.1074326357621362,
+              "type": "FS",
+              "velocity": 82.8,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 0.10951027192148428,
+              "pz": 1.4754245548943068,
+              "type": "FS",
+              "velocity": 82.6,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 0.27009848284069465,
+              "pz": 0.806823592271221,
+              "type": "FS",
+              "velocity": 83.8,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.22460583673196502,
+              "pz": 2.9408967457846877,
+              "type": "FF",
+              "velocity": 93.9,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": 1.109526383257681,
+              "pz": 0.2643801942156279,
+              "type": "FS",
+              "velocity": 82.9,
+              "call": "?",
+              "inning": 2
+            },
+            {
+              "px": 0.3731758651575223,
+              "pz": 1.2382915460549264,
+              "type": "FS",
+              "velocity": 83.6,
+              "call": "X",
               "inning": 2
             }
           ]
