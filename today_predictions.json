@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T21:09:05+00:00",
+  "updated_at": "2026-10-05T21:14:59+00:00",
   "date": "2026-10-05",
   "live_game_count": 1,
   "games": [
@@ -332,21 +332,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.54505,
-      "live_home_win_prob": 0.609,
+      "live_home_win_prob": 0.657,
       "linescore": {
         "current_inning": 1,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 2,
-        "base_state": "100",
-        "current_batter_id": 808959,
-        "current_batter_name": "Munetaka Murakami",
-        "current_pitcher_id": 668909,
-        "current_pitcher_name": "Gavin Williams"
+        "balls": 1,
+        "strikes": 1,
+        "outs": 0,
+        "base_state": "000",
+        "current_batter_id": 680757,
+        "current_batter_name": "Steven Kwan",
+        "current_pitcher_id": 641743,
+        "current_pitcher_name": "Anthony Kay"
       },
       "lineups": {
         "home": [
@@ -452,9 +452,9 @@
             "order": 4,
             "player_id": 808959,
             "name": "Munetaka Murakami",
-            "season_avg": ".250",
-            "season_obp": ".286",
-            "season_slg": ".500"
+            "season_avg": ".231",
+            "season_obp": ".267",
+            "season_slg": ".462"
           },
           {
             "order": 5,
@@ -502,7 +502,7 @@
         "home": {
           "pitcher_id": 668909,
           "pitcher_name": "Gavin Williams",
-          "pitch_count": 11,
+          "pitch_count": 15,
           "pitches": [
             {
               "px": 0.8961422356503819,
@@ -591,14 +591,71 @@
               "velocity": 99.8,
               "call": "B",
               "inning": 1
+            },
+            {
+              "px": 0.7060221631767727,
+              "pz": 2.993905928168319,
+              "type": "FF",
+              "velocity": 99.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.1366209059371963,
+              "pz": 3.2990687279768878,
+              "type": "FF",
+              "velocity": 99.4,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.1336634189088375,
+              "pz": 4.2480533796833075,
+              "type": "FF",
+              "velocity": 100.0,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.5426524244403198,
+              "pz": 2.2147723747550447,
+              "type": "ST",
+              "velocity": 89.1,
+              "call": "S",
+              "inning": 1
             }
           ]
         },
         "away": {
           "pitcher_id": 641743,
-          "pitcher_name": null,
-          "pitch_count": 0,
-          "pitches": []
+          "pitcher_name": "Anthony Kay",
+          "pitch_count": 3,
+          "pitches": [
+            {
+              "px": 0.3528078230873962,
+              "pz": 3.52864965612583,
+              "type": "SI",
+              "velocity": 95.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.36934365705807937,
+              "pz": 1.8185911974323117,
+              "type": "SI",
+              "velocity": 95.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.9230722366486799,
+              "pz": 3.2147936522495697,
+              "type": "FF",
+              "velocity": 97.5,
+              "call": "B",
+              "inning": 1
+            }
+          ]
         }
       }
     },
