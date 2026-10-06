@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T22:03:11+00:00",
+  "updated_at": "2026-10-06T22:14:10+00:00",
   "date": "2026-10-06",
   "live_game_count": 1,
   "games": [
@@ -330,19 +330,19 @@
       "home_team_id": 144,
       "away_team_id": 119,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5021249999999999,
-      "live_home_win_prob": 0.516,
+      "live_home_win_prob": 0.457,
       "linescore": {
         "current_inning": 1,
         "inning_state": "Top",
         "is_top_inning": true,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 0,
-        "strikes": 0,
+        "balls": 3,
+        "strikes": 2,
         "outs": 0,
-        "base_state": "000",
+        "base_state": "100",
         "current_batter_id": 605141,
         "current_batter_name": "Mookie Betts",
         "current_pitcher_id": 519242,
@@ -428,9 +428,9 @@
             "order": 1,
             "player_id": 605141,
             "name": "Mookie Betts",
-            "season_avg": ".200",
-            "season_obp": ".500",
-            "season_slg": ".200"
+            "season_avg": ".333",
+            "season_obp": ".556",
+            "season_slg": ".333"
           },
           {
             "order": 2,
@@ -502,8 +502,65 @@
         "home": {
           "pitcher_id": 519242,
           "pitcher_name": "Chris Sale",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 7,
+          "pitches": [
+            {
+              "px": -0.5492307622486449,
+              "pz": 1.9927527112476293,
+              "type": "FF",
+              "velocity": 98.2,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -1.2096762190502848,
+              "pz": 2.520795353493547,
+              "type": "FF",
+              "velocity": 96.8,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.8057297985261146,
+              "pz": 2.497205180481227,
+              "type": "FF",
+              "velocity": 96.6,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 1.180383028300222,
+              "pz": 3.2895192826594686,
+              "type": "FF",
+              "velocity": 99.1,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": -0.5111552440373157,
+              "pz": 1.9091461195638209,
+              "type": "SL",
+              "velocity": 82.6,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.8962633246412859,
+              "pz": 1.8103315801272923,
+              "type": "SL",
+              "velocity": 79.0,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.29911865805838234,
+              "pz": 2.7022256671838667,
+              "type": "SL",
+              "velocity": 79.9,
+              "call": "X",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 808967,
