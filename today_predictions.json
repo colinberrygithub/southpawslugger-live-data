@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T00:25:10+00:00",
+  "updated_at": "2026-10-06T00:36:10+00:00",
   "date": "2026-10-06",
   "live_game_count": 1,
   "games": [
@@ -171,21 +171,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.456225,
-      "live_home_win_prob": 0.671,
+      "live_home_win_prob": 0.674,
       "linescore": {
-        "current_inning": 1,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 2,
+        "inning_state": "Top",
+        "is_top_inning": true,
         "home_runs": 1,
         "away_runs": 0,
         "balls": 0,
-        "strikes": 2,
-        "outs": 1,
-        "base_state": "010",
-        "current_batter_id": 689414,
-        "current_batter_name": "Liam Hicks",
-        "current_pitcher_id": 693645,
-        "current_pitcher_name": "Cam Schlittler"
+        "strikes": 0,
+        "outs": 2,
+        "base_state": "000",
+        "current_batter_id": 665862,
+        "current_batter_name": "Jazz Chisholm Jr.",
+        "current_pitcher_id": 642547,
+        "current_pitcher_name": "Freddy Peralta"
       },
       "lineups": {
         "home": [
@@ -233,9 +233,9 @@
             "order": 6,
             "player_id": 683748,
             "name": "Victor Mesa Jr.",
-            "season_avg": ".333",
-            "season_obp": ".333",
-            "season_slg": ".333"
+            "season_avg": ".250",
+            "season_obp": ".250",
+            "season_slg": ".250"
           },
           {
             "order": 7,
@@ -291,17 +291,17 @@
             "order": 4,
             "player_id": 682987,
             "name": "Spencer Jones",
-            "season_avg": ".182",
-            "season_obp": ".250",
-            "season_slg": ".182"
+            "season_avg": ".167",
+            "season_obp": ".231",
+            "season_slg": ".167"
           },
           {
             "order": 5,
             "player_id": 806146,
             "name": "George Lombard Jr.",
-            "season_avg": ".364",
-            "season_obp": ".364",
-            "season_slg": ".364"
+            "season_avg": ".333",
+            "season_obp": ".333",
+            "season_slg": ".333"
           },
           {
             "order": 6,
@@ -341,7 +341,7 @@
         "home": {
           "pitcher_id": 642547,
           "pitcher_name": "Freddy Peralta",
-          "pitch_count": 8,
+          "pitch_count": 13,
           "pitches": [
             {
               "px": 1.7464123590530238,
@@ -406,13 +406,53 @@
               "velocity": 89.6,
               "call": "S",
               "inning": 1
+            },
+            {
+              "px": -0.08549344082728871,
+              "pz": 3.3137651695605594,
+              "type": "FF",
+              "velocity": 95.4,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.3516985908884337,
+              "pz": 3.5470861258736983,
+              "type": "FF",
+              "velocity": 95.2,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": -1.1215750676794534,
+              "pz": 3.3330221712802355,
+              "type": "FF",
+              "velocity": 97.1,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.19193565929527595,
+              "pz": 3.752490667239993,
+              "type": "FF",
+              "velocity": 96.4,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.11015346065260544,
+              "pz": 2.453079245906628,
+              "type": "FF",
+              "velocity": 96.9,
+              "call": "X",
+              "inning": 2
             }
           ]
         },
         "away": {
           "pitcher_id": 693645,
           "pitcher_name": "Cam Schlittler",
-          "pitch_count": 12,
+          "pitch_count": 19,
           "pitches": [
             {
               "px": -0.6989601519776731,
@@ -508,6 +548,62 @@
               "type": "FC",
               "velocity": 94.4,
               "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.11010091924801296,
+              "pz": 2.164561706290073,
+              "type": "FF",
+              "velocity": 98.1,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.7018422682066848,
+              "pz": 1.5833986016560113,
+              "type": "SI",
+              "velocity": 98.6,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.7671791501235995,
+              "pz": 3.7629717984405193,
+              "type": "FF",
+              "velocity": 98.2,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.3264061256990105,
+              "pz": 1.4246621094217107,
+              "type": "CU",
+              "velocity": 85.0,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.04692163571467048,
+              "pz": 3.487226365450903,
+              "type": "FF",
+              "velocity": 97.5,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -0.8753205857520674,
+              "pz": 3.24196730975242,
+              "type": "FF",
+              "velocity": 97.8,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -0.11508500908799064,
+              "pz": 2.047180343494528,
+              "type": "CU",
+              "velocity": 85.1,
+              "call": "X",
               "inning": 1
             }
           ]
