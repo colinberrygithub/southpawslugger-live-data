@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T01:47:10+00:00",
+  "updated_at": "2026-10-06T01:58:10+00:00",
   "date": "2026-10-06",
   "live_game_count": 1,
   "games": [
@@ -171,21 +171,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.456225,
-      "live_home_win_prob": 0.516,
+      "live_home_win_prob": 0.872,
       "linescore": {
         "current_inning": 5,
-        "inning_state": "Middle",
-        "is_top_inning": true,
-        "home_runs": 1,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "home_runs": 3,
         "away_runs": 1,
         "balls": 0,
-        "strikes": 2,
-        "outs": 3,
-        "base_state": "000",
-        "current_batter_id": 666018,
-        "current_batter_name": "Jonathan Aranda",
-        "current_pitcher_id": 693645,
-        "current_pitcher_name": "Cam Schlittler"
+        "strikes": 0,
+        "outs": 1,
+        "base_state": "100",
+        "current_batter_id": 683748,
+        "current_batter_name": "Victor Mesa Jr.",
+        "current_pitcher_id": 687396,
+        "current_pitcher_name": "Brent Headrick"
       },
       "lineups": {
         "home": [
@@ -201,33 +201,33 @@
             "order": 2,
             "player_id": 666018,
             "name": "Jonathan Aranda",
-            "season_avg": ".333",
-            "season_obp": ".333",
-            "season_slg": ".833"
+            "season_avg": ".429",
+            "season_obp": ".429",
+            "season_slg": ".857"
           },
           {
             "order": 3,
             "player_id": 691406,
             "name": "Junior Caminero",
-            "season_avg": ".250",
-            "season_obp": ".500",
-            "season_slg": ".250"
+            "season_avg": ".400",
+            "season_obp": ".571",
+            "season_slg": ".600"
           },
           {
             "order": 4,
             "player_id": 689414,
             "name": "Liam Hicks",
-            "season_avg": ".250",
-            "season_obp": ".400",
-            "season_slg": ".500"
+            "season_avg": ".200",
+            "season_obp": ".333",
+            "season_slg": ".400"
           },
           {
             "order": 5,
             "player_id": 802415,
             "name": "Chandler Simpson",
-            "season_avg": ".167",
-            "season_obp": ".167",
-            "season_slg": ".167"
+            "season_avg": ".143",
+            "season_obp": ".143",
+            "season_slg": ".143"
           },
           {
             "order": 6,
@@ -876,7 +876,7 @@
         "away": {
           "pitcher_id": 693645,
           "pitcher_name": "Cam Schlittler",
-          "pitch_count": 62,
+          "pitch_count": 76,
           "pitches": [
             {
               "px": -0.6989601519776731,
@@ -1373,6 +1373,118 @@
               "velocity": 95.1,
               "call": "X",
               "inning": 4
+            },
+            {
+              "px": -0.42816257200717983,
+              "pz": 3.1947352768392725,
+              "type": "FC",
+              "velocity": 92.4,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 1.286669711895762,
+              "pz": 1.0087730639707566,
+              "type": "CU",
+              "velocity": 85.3,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 0.5466534020957567,
+              "pz": -0.09986478394072802,
+              "type": "CU",
+              "velocity": 84.7,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.9283673297619853,
+              "pz": 2.832016929690565,
+              "type": "FC",
+              "velocity": 93.5,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": -0.1378523340618609,
+              "pz": 2.6683291198494024,
+              "type": "FF",
+              "velocity": 98.0,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": -0.46169369211078937,
+              "pz": 2.833285790853762,
+              "type": "SI",
+              "velocity": 96.5,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": -0.28355862593097264,
+              "pz": 2.0601834604309874,
+              "type": "FC",
+              "velocity": 94.7,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 0.409710965361639,
+              "pz": 2.9060441296024373,
+              "type": "FC",
+              "velocity": 94.6,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": 0.12425226918464802,
+              "pz": 1.3847356151956407,
+              "type": "SI",
+              "velocity": 98.1,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.6985148487337001,
+              "pz": 1.9832712132835306,
+              "type": "SI",
+              "velocity": 97.6,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.29518188499584036,
+              "pz": 2.968879894318852,
+              "type": "SI",
+              "velocity": 98.3,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 0.8480420854995405,
+              "pz": 2.8316381969956566,
+              "type": "SI",
+              "velocity": 98.0,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.12955106506303746,
+              "pz": 1.0316829799245277,
+              "type": "SI",
+              "velocity": 98.0,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.6968790770272797,
+              "pz": 2.244247899620182,
+              "type": "SI",
+              "velocity": 98.3,
+              "call": "X",
+              "inning": 5
             }
           ]
         }
