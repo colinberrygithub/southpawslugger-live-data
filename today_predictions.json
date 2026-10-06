@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T00:14:12+00:00",
+  "updated_at": "2026-10-06T00:25:10+00:00",
   "date": "2026-10-06",
   "live_game_count": 1,
   "games": [
@@ -8,7 +8,7 @@
       "home_team_id": 114,
       "away_team_id": 145,
       "abstract_status": "Final",
-      "detailed_status": "Game Over",
+      "detailed_status": "Final",
       "pre_home_win_prob": 0.54505,
       "live_home_win_prob": null,
       "linescore": null,
@@ -171,19 +171,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.456225,
-      "live_home_win_prob": 0.508,
+      "live_home_win_prob": 0.671,
       "linescore": {
         "current_inning": 1,
-        "inning_state": "Middle",
-        "is_top_inning": true,
-        "home_runs": 0,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
+        "home_runs": 1,
         "away_runs": 0,
         "balls": 0,
-        "strikes": 3,
-        "outs": 3,
-        "base_state": "000",
-        "current_batter_id": 650490,
-        "current_batter_name": "Yandy D\u00edaz",
+        "strikes": 2,
+        "outs": 1,
+        "base_state": "010",
+        "current_batter_id": 689414,
+        "current_batter_name": "Liam Hicks",
         "current_pitcher_id": 693645,
         "current_pitcher_name": "Cam Schlittler"
       },
@@ -193,16 +193,16 @@
             "order": 1,
             "player_id": 650490,
             "name": "Yandy D\u00edaz",
-            "season_avg": ".250",
-            "season_obp": ".250",
-            "season_slg": ".250"
+            "season_avg": ".200",
+            "season_obp": ".200",
+            "season_slg": ".200"
           },
           {
             "order": 2,
             "player_id": 666018,
             "name": "Jonathan Aranda",
-            "season_avg": ".250",
-            "season_obp": ".250",
+            "season_avg": ".400",
+            "season_obp": ".400",
             "season_slg": "1.000"
           },
           {
@@ -210,7 +210,7 @@
             "player_id": 691406,
             "name": "Junior Caminero",
             "season_avg": ".000",
-            "season_obp": ".500",
+            "season_obp": ".400",
             "season_slg": ".000"
           },
           {
@@ -411,9 +411,106 @@
         },
         "away": {
           "pitcher_id": 693645,
-          "pitcher_name": null,
-          "pitch_count": 0,
-          "pitches": []
+          "pitcher_name": "Cam Schlittler",
+          "pitch_count": 12,
+          "pitches": [
+            {
+              "px": -0.6989601519776731,
+              "pz": 1.9924157736037929,
+              "type": "FF",
+              "velocity": 97.5,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.155616839234731,
+              "pz": 1.2503574844002103,
+              "type": "FF",
+              "velocity": 98.0,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -0.3778796515673214,
+              "pz": 1.5379066660119922,
+              "type": "FF",
+              "velocity": 97.8,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.49989791035598674,
+              "pz": 2.3575152615351245,
+              "type": "FF",
+              "velocity": 99.4,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 1.1326430491198296,
+              "pz": -0.23683209499085942,
+              "type": "CU",
+              "velocity": 85.8,
+              "call": "?",
+              "inning": 1
+            },
+            {
+              "px": 0.4888567774169631,
+              "pz": 1.5583794442829086,
+              "type": "FF",
+              "velocity": 97.8,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.1786823711690002,
+              "pz": 0.6952791212513587,
+              "type": "CU",
+              "velocity": 86.0,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": -1.349634283687805,
+              "pz": 0.7371550639484035,
+              "type": "SI",
+              "velocity": 97.7,
+              "call": "?",
+              "inning": 1
+            },
+            {
+              "px": -0.7936842158250016,
+              "pz": 2.928803186231291,
+              "type": "FF",
+              "velocity": 98.7,
+              "call": "F",
+              "inning": 1
+            },
+            {
+              "px": 0.9669219564548986,
+              "pz": 2.481356271705163,
+              "type": "FC",
+              "velocity": 94.7,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": -0.2912916244188698,
+              "pz": 2.4181610627492334,
+              "type": "FC",
+              "velocity": 94.1,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": -0.5492935288904365,
+              "pz": 2.569347730433872,
+              "type": "FC",
+              "velocity": 94.4,
+              "call": "S",
+              "inning": 1
+            }
+          ]
         }
       }
     },
