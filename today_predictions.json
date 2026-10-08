@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T01:25:12+00:00",
+  "updated_at": "2026-10-08T01:36:12+00:00",
   "date": "2026-10-08",
   "live_game_count": 1,
   "games": [
@@ -332,21 +332,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5425,
-      "live_home_win_prob": 0.378,
+      "live_home_win_prob": 0.585,
       "linescore": {
-        "current_inning": 4,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
-        "home_runs": 1,
+        "current_inning": 5,
+        "inning_state": "Top",
+        "is_top_inning": true,
+        "home_runs": 2,
         "away_runs": 2,
         "balls": 2,
-        "strikes": 2,
-        "outs": 2,
+        "strikes": 0,
+        "outs": 0,
         "base_state": "000",
-        "current_batter_id": 683011,
-        "current_batter_name": "Anthony Volpe",
-        "current_pitcher_id": 607259,
-        "current_pitcher_name": "Nick Martinez"
+        "current_batter_id": 676356,
+        "current_batter_name": "Jonny DeLuca",
+        "current_pitcher_id": 608331,
+        "current_pitcher_name": "Max Fried"
       },
       "lineups": {
         "home": [
@@ -402,17 +402,17 @@
             "order": 7,
             "player_id": 683011,
             "name": "Anthony Volpe",
-            "season_avg": ".250",
-            "season_obp": ".250",
-            "season_slg": ".250"
+            "season_avg": ".400",
+            "season_obp": ".400",
+            "season_slg": ".400"
           },
           {
             "order": 8,
             "player_id": 682987,
             "name": "Spencer Jones",
-            "season_avg": ".133",
-            "season_obp": ".235",
-            "season_slg": ".133"
+            "season_avg": ".188",
+            "season_obp": ".278",
+            "season_slg": ".250"
           },
           {
             "order": 9,
@@ -502,7 +502,7 @@
         "home": {
           "pitcher_id": 608331,
           "pitcher_name": "Max Fried",
-          "pitch_count": 60,
+          "pitch_count": 62,
           "pitches": [
             {
               "px": -0.1072745141229693,
@@ -983,13 +983,29 @@
               "velocity": 81.9,
               "call": "S",
               "inning": 4
+            },
+            {
+              "px": 0.012652652525177735,
+              "pz": 3.6050187140658405,
+              "type": "ST",
+              "velocity": 77.1,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.8680213178453791,
+              "pz": 1.8036255049089192,
+              "type": "CH",
+              "velocity": 83.0,
+              "call": "B",
+              "inning": 5
             }
           ]
         },
         "away": {
           "pitcher_id": 607259,
           "pitcher_name": "Nick Martinez",
-          "pitch_count": 61,
+          "pitch_count": 63,
           "pitches": [
             {
               "px": -1.1539560910353637,
@@ -1477,6 +1493,22 @@
               "type": "CH",
               "velocity": 77.6,
               "call": "B",
+              "inning": 4
+            },
+            {
+              "px": 0.15141224741249973,
+              "pz": 2.1246621082512545,
+              "type": "SI",
+              "velocity": 93.4,
+              "call": "F",
+              "inning": 4
+            },
+            {
+              "px": -0.04754846541041231,
+              "pz": 3.2689012466505254,
+              "type": "FF",
+              "velocity": 93.2,
+              "call": "X",
               "inning": 4
             }
           ]
