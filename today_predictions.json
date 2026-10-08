@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T02:04:19+00:00",
+  "updated_at": "2026-10-08T02:14:12+00:00",
   "date": "2026-10-08",
   "live_game_count": 2,
   "games": [
@@ -332,19 +332,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5425,
-      "live_home_win_prob": 0.171,
+      "live_home_win_prob": 0.357,
       "linescore": {
         "current_inning": 6,
         "inning_state": "Bottom",
         "is_top_inning": false,
-        "home_runs": 2,
+        "home_runs": 3,
         "away_runs": 4,
-        "balls": 3,
-        "strikes": 1,
-        "outs": 1,
-        "base_state": "000",
-        "current_batter_id": 806146,
-        "current_batter_name": "George Lombard Jr.",
+        "balls": 0,
+        "strikes": 0,
+        "outs": 2,
+        "base_state": "010",
+        "current_batter_id": 682987,
+        "current_batter_name": "Spencer Jones",
         "current_pitcher_id": 643377,
         "current_pitcher_name": "Griffin Jax"
       },
@@ -387,24 +387,24 @@
             "player_id": 806146,
             "name": "George Lombard Jr.",
             "season_avg": ".353",
-            "season_obp": ".353",
+            "season_obp": ".389",
             "season_slg": ".353"
           },
           {
             "order": 6,
             "player_id": 669224,
             "name": "Austin Wells",
-            "season_avg": ".357",
-            "season_obp": ".313",
-            "season_slg": ".500"
+            "season_avg": ".333",
+            "season_obp": ".294",
+            "season_slg": ".467"
           },
           {
             "order": 7,
             "player_id": 683011,
             "name": "Anthony Volpe",
-            "season_avg": ".400",
-            "season_obp": ".400",
-            "season_slg": ".400"
+            "season_avg": ".500",
+            "season_obp": ".500",
+            "season_slg": ".667"
           },
           {
             "order": 8,
@@ -1664,23 +1664,23 @@
       "home_team_id": 135,
       "away_team_id": 158,
       "abstract_status": "Live",
-      "detailed_status": "Warmup",
+      "detailed_status": "In Progress",
       "pre_home_win_prob": 0.466,
-      "live_home_win_prob": 0.45,
+      "live_home_win_prob": 0.533,
       "linescore": {
         "current_inning": 1,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 0,
         "balls": 0,
         "strikes": 0,
         "outs": 0,
         "base_state": "000",
-        "current_batter_id": 694192,
-        "current_batter_name": "Jackson Chourio",
-        "current_pitcher_id": 621111,
-        "current_pitcher_name": "Walker Buehler"
+        "current_batter_id": 665487,
+        "current_batter_name": "Fernando Tatis Jr.",
+        "current_pitcher_id": 688107,
+        "current_pitcher_name": "Robert Gasser"
       },
       "lineups": {
         "home": [
@@ -1762,25 +1762,25 @@
             "order": 1,
             "player_id": 694192,
             "name": "Jackson Chourio",
-            "season_avg": ".167",
-            "season_obp": ".214",
-            "season_slg": ".417"
+            "season_avg": ".154",
+            "season_obp": ".200",
+            "season_slg": ".385"
           },
           {
             "order": 2,
             "player_id": 592885,
             "name": "Christian Yelich",
-            "season_avg": ".400",
-            "season_obp": ".500",
-            "season_slg": ".500"
+            "season_avg": ".364",
+            "season_obp": ".462",
+            "season_slg": ".455"
           },
           {
             "order": 3,
             "player_id": 661388,
             "name": "William Contreras",
-            "season_avg": ".364",
-            "season_obp": ".462",
-            "season_slg": ".909"
+            "season_avg": ".333",
+            "season_obp": ".429",
+            "season_slg": ".833"
           },
           {
             "order": 4,
@@ -1836,12 +1836,61 @@
         "home": {
           "pitcher_id": 621111,
           "pitcher_name": "Walker Buehler",
-          "pitch_count": 0,
-          "pitches": []
+          "pitch_count": 6,
+          "pitches": [
+            {
+              "px": 0.20845564611668524,
+              "pz": 1.170318729797979,
+              "type": "SI",
+              "velocity": 97.4,
+              "call": "B",
+              "inning": 1
+            },
+            {
+              "px": 0.5207938644440372,
+              "pz": 2.218637707160911,
+              "type": "SI",
+              "velocity": 97.2,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.12034216158751726,
+              "pz": 2.588110141552512,
+              "type": "SI",
+              "velocity": 96.2,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.6782001094568566,
+              "pz": 2.1589987445220906,
+              "type": "SI",
+              "velocity": 97.3,
+              "call": "S",
+              "inning": 1
+            },
+            {
+              "px": 0.34649369412378583,
+              "pz": 2.4544998967064826,
+              "type": "FC",
+              "velocity": 91.8,
+              "call": "X",
+              "inning": 1
+            },
+            {
+              "px": 0.5473941082237983,
+              "pz": 2.540676049704214,
+              "type": "FF",
+              "velocity": 96.6,
+              "call": "X",
+              "inning": 1
+            }
+          ]
         },
         "away": {
           "pitcher_id": 688107,
-          "pitcher_name": null,
+          "pitcher_name": "Robert Gasser",
           "pitch_count": 0,
           "pitches": []
         }
