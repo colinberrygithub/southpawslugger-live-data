@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T01:25:11+00:00",
+  "updated_at": "2026-10-11T01:36:12+00:00",
   "date": "2026-10-11",
   "live_game_count": 1,
   "games": [
@@ -10,21 +10,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5051,
-      "live_home_win_prob": 0.9,
+      "live_home_win_prob": 0.8,
       "linescore": {
-        "current_inning": 5,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 6,
+        "inning_state": "Top",
+        "is_top_inning": true,
         "home_runs": 2,
         "away_runs": 0,
-        "balls": 0,
+        "balls": 2,
         "strikes": 0,
         "outs": 0,
-        "base_state": "000",
-        "current_batter_id": 672275,
-        "current_batter_name": "Patrick Bailey",
-        "current_pitcher_id": 680732,
-        "current_pitcher_name": "Sean Burke"
+        "base_state": "100",
+        "current_batter_id": 686668,
+        "current_batter_name": "Brenton Doyle",
+        "current_pitcher_id": 668909,
+        "current_pitcher_name": "Gavin Williams"
       },
       "lineups": {
         "home": [
@@ -80,25 +80,25 @@
             "order": 7,
             "player_id": 672275,
             "name": "Patrick Bailey",
-            "season_avg": ".385",
-            "season_obp": ".429",
-            "season_slg": ".615"
+            "season_avg": ".357",
+            "season_obp": ".400",
+            "season_slg": ".571"
           },
           {
             "order": 8,
             "player_id": 690984,
             "name": "Petey Halpin",
-            "season_avg": ".000",
-            "season_obp": ".333",
-            "season_slg": ".000"
+            "season_avg": ".333",
+            "season_obp": ".500",
+            "season_slg": ".667"
           },
           {
             "order": 9,
             "player_id": 677587,
             "name": "Brayan Rocchio",
-            "season_avg": ".167",
-            "season_obp": ".333",
-            "season_slg": ".167"
+            "season_avg": ".154",
+            "season_obp": ".313",
+            "season_slg": ".154"
           }
         ],
         "away": [
@@ -163,7 +163,7 @@
             "player_id": 695657,
             "name": "Colson Montgomery",
             "season_avg": ".250",
-            "season_obp": ".375",
+            "season_obp": ".400",
             "season_slg": ".450"
           },
           {
@@ -180,7 +180,7 @@
         "home": {
           "pitcher_id": 668909,
           "pitcher_name": "Gavin Williams",
-          "pitch_count": 72,
+          "pitch_count": 77,
           "pitches": [
             {
               "px": -0.18047368718363896,
@@ -757,13 +757,53 @@
               "velocity": 99.1,
               "call": "S",
               "inning": 5
+            },
+            {
+              "px": 0.20113709989529058,
+              "pz": 1.463920964293551,
+              "type": "KC",
+              "velocity": 81.1,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": 0.7493959857194566,
+              "pz": 1.9124325135147577,
+              "type": "ST",
+              "velocity": 87.0,
+              "call": "S",
+              "inning": 6
+            },
+            {
+              "px": 2.8391501727593385,
+              "pz": 0.12253573088225314,
+              "type": "ST",
+              "velocity": 88.0,
+              "call": "X",
+              "inning": 6
+            },
+            {
+              "px": 1.2454556143926536,
+              "pz": 0.5853889994500437,
+              "type": "KC",
+              "velocity": 82.3,
+              "call": "?",
+              "inning": 6
+            },
+            {
+              "px": 1.3496519191794334,
+              "pz": 0.23561328009472154,
+              "type": "ST",
+              "velocity": 87.3,
+              "call": "?",
+              "inning": 6
             }
           ]
         },
         "away": {
           "pitcher_id": 680732,
           "pitcher_name": "Sean Burke",
-          "pitch_count": 56,
+          "pitch_count": 71,
           "pitches": [
             {
               "px": 0.6717132638586496,
@@ -1212,6 +1252,126 @@
               "velocity": 86.8,
               "call": "S",
               "inning": 4
+            },
+            {
+              "px": -0.014366108750978542,
+              "pz": 2.58953536293217,
+              "type": "SI",
+              "velocity": 93.4,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": -0.038145072293064575,
+              "pz": 4.847237474279897,
+              "type": "FC",
+              "velocity": 91.3,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 0.7972224028553153,
+              "pz": 1.510987322656771,
+              "type": "FC",
+              "velocity": 87.2,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.7606610196601005,
+              "pz": 2.7264709248068493,
+              "type": "FC",
+              "velocity": 88.4,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": -0.5459144475163508,
+              "pz": 2.784311451217893,
+              "type": "FF",
+              "velocity": 93.5,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 0.2355293442939227,
+              "pz": 1.7799142810637671,
+              "type": "SL",
+              "velocity": 87.4,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": -0.736669865140137,
+              "pz": 3.8609576811714756,
+              "type": "FF",
+              "velocity": 94.5,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 0.3724886217018032,
+              "pz": 2.9964029387444313,
+              "type": "FC",
+              "velocity": 87.7,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 0.3247192083139955,
+              "pz": 2.321311748910213,
+              "type": "FF",
+              "velocity": 94.7,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": -1.1743334929707714,
+              "pz": 4.330807898689752,
+              "type": "FF",
+              "velocity": 95.8,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.348477580970874,
+              "pz": 2.7573489060906287,
+              "type": "FC",
+              "velocity": 90.0,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": -0.43924078964183644,
+              "pz": 2.5226913313961123,
+              "type": "KC",
+              "velocity": 75.5,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.02089531544899046,
+              "pz": 3.173870872351525,
+              "type": "FF",
+              "velocity": 95.6,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": -0.7520885475174699,
+              "pz": 1.5098663127687444,
+              "type": "SL",
+              "velocity": 87.3,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.9281539771462507,
+              "pz": 1.5747322513907505,
+              "type": "FF",
+              "velocity": 94.3,
+              "call": "S",
+              "inning": 5
             }
           ]
         }
