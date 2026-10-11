@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T00:25:17+00:00",
+  "updated_at": "2026-10-11T00:36:10+00:00",
   "date": "2026-10-11",
   "live_game_count": 1,
   "games": [
@@ -10,19 +10,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5051,
-      "live_home_win_prob": 0.542,
+      "live_home_win_prob": 0.555,
       "linescore": {
         "current_inning": 2,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "End",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 2,
-        "base_state": "100",
-        "current_batter_id": 805367,
-        "current_batter_name": "Chase Meidroth",
+        "balls": 1,
+        "strikes": 3,
+        "outs": 3,
+        "base_state": "000",
+        "current_batter_id": 695657,
+        "current_batter_name": "Colson Montgomery",
         "current_pitcher_id": 668909,
         "current_pitcher_name": "Gavin Williams"
       },
@@ -56,25 +56,25 @@
             "order": 4,
             "player_id": 666176,
             "name": "Jo Adell",
-            "season_avg": ".267",
-            "season_obp": ".389",
-            "season_slg": ".533"
+            "season_avg": ".250",
+            "season_obp": ".368",
+            "season_slg": ".500"
           },
           {
             "order": 5,
             "player_id": 663993,
             "name": "Nathaniel Lowe",
-            "season_avg": ".250",
-            "season_obp": ".471",
-            "season_slg": ".333"
+            "season_avg": ".231",
+            "season_obp": ".444",
+            "season_slg": ".308"
           },
           {
             "order": 6,
             "player_id": 683953,
             "name": "Travis Bazzana",
-            "season_avg": ".154",
-            "season_obp": ".313",
-            "season_slg": ".308"
+            "season_avg": ".143",
+            "season_obp": ".294",
+            "season_slg": ".286"
           },
           {
             "order": 7,
@@ -154,9 +154,9 @@
             "order": 7,
             "player_id": 805367,
             "name": "Chase Meidroth",
-            "season_avg": ".348",
-            "season_obp": ".400",
-            "season_slg": ".565"
+            "season_avg": ".333",
+            "season_obp": ".385",
+            "season_slg": ".542"
           },
           {
             "order": 8,
@@ -180,7 +180,7 @@
         "home": {
           "pitcher_id": 668909,
           "pitcher_name": "Gavin Williams",
-          "pitch_count": 21,
+          "pitch_count": 24,
           "pitches": [
             {
               "px": -0.18047368718363896,
@@ -349,13 +349,37 @@
               "velocity": 99.5,
               "call": "B",
               "inning": 2
+            },
+            {
+              "px": 0.44096963442721515,
+              "pz": 2.1712671620808943,
+              "type": "ST",
+              "velocity": 87.8,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 0.7258610222941706,
+              "pz": 1.7690243016775495,
+              "type": "ST",
+              "velocity": 89.5,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.5415464415310417,
+              "pz": 2.9997010063513563,
+              "type": "ST",
+              "velocity": 88.9,
+              "call": "S",
+              "inning": 2
             }
           ]
         },
         "away": {
           "pitcher_id": 680732,
           "pitcher_name": "Sean Burke",
-          "pitch_count": 9,
+          "pitch_count": 19,
           "pitches": [
             {
               "px": 0.6717132638586496,
@@ -428,6 +452,86 @@
               "velocity": 91.4,
               "call": "X",
               "inning": 1
+            },
+            {
+              "px": 0.2467290809939538,
+              "pz": 3.3955469206772273,
+              "type": "SL",
+              "velocity": 86.3,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 1.2722732662598235,
+              "pz": 1.9393981554426434,
+              "type": "SL",
+              "velocity": 86.5,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 1.6704075039294484,
+              "pz": 2.308669996946704,
+              "type": "SL",
+              "velocity": 86.3,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 0.5139096158128057,
+              "pz": 2.364705738415064,
+              "type": "SL",
+              "velocity": 87.1,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": 0.36896783792401877,
+              "pz": 2.7588379495834094,
+              "type": "FF",
+              "velocity": 94.9,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 0.7522265025391338,
+              "pz": 2.6776079289580323,
+              "type": "FF",
+              "velocity": 95.0,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": 0.10192397233190335,
+              "pz": 2.260232188821771,
+              "type": "FC",
+              "velocity": 89.4,
+              "call": "F",
+              "inning": 2
+            },
+            {
+              "px": -0.37659192868502267,
+              "pz": 2.7182094045969887,
+              "type": "KC",
+              "velocity": 77.8,
+              "call": "F",
+              "inning": 2
+            },
+            {
+              "px": -1.0216107996511083,
+              "pz": 1.0360078764535452,
+              "type": "FC",
+              "velocity": 87.0,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.018277401868140874,
+              "pz": 2.5739187800897465,
+              "type": "FF",
+              "velocity": 96.4,
+              "call": "S",
+              "inning": 2
             }
           ]
         }
