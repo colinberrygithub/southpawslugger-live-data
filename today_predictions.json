@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T00:58:13+00:00",
+  "updated_at": "2026-10-11T01:03:18+00:00",
   "date": "2026-10-11",
   "live_game_count": 1,
   "games": [
@@ -10,21 +10,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5051,
-      "live_home_win_prob": 0.581,
+      "live_home_win_prob": 0.661,
       "linescore": {
         "current_inning": 4,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 0,
-        "strikes": 2,
-        "outs": 2,
-        "base_state": "000",
-        "current_batter_id": 808959,
-        "current_batter_name": "Munetaka Murakami",
-        "current_pitcher_id": 668909,
-        "current_pitcher_name": "Gavin Williams"
+        "balls": 1,
+        "strikes": 0,
+        "outs": 0,
+        "base_state": "100",
+        "current_batter_id": 608070,
+        "current_batter_name": "Jos\u00e9 Ram\u00edrez",
+        "current_pitcher_id": 680732,
+        "current_pitcher_name": "Sean Burke"
       },
       "lineups": {
         "home": [
@@ -32,9 +32,9 @@
             "order": 1,
             "player_id": 680757,
             "name": "Steven Kwan",
-            "season_avg": ".176",
-            "season_obp": ".300",
-            "season_slg": ".176"
+            "season_avg": ".222",
+            "season_obp": ".333",
+            "season_slg": ".222"
           },
           {
             "order": 2,
@@ -130,9 +130,9 @@
             "order": 4,
             "player_id": 808959,
             "name": "Munetaka Murakami",
-            "season_avg": ".208",
-            "season_obp": ".286",
-            "season_slg": ".333"
+            "season_avg": ".200",
+            "season_obp": ".276",
+            "season_slg": ".320"
           },
           {
             "order": 5,
@@ -180,7 +180,7 @@
         "home": {
           "pitcher_id": 668909,
           "pitcher_name": "Gavin Williams",
-          "pitch_count": 50,
+          "pitch_count": 51,
           "pitches": [
             {
               "px": -0.18047368718363896,
@@ -581,13 +581,21 @@
               "velocity": 100.8,
               "call": "S",
               "inning": 4
+            },
+            {
+              "px": 0.42031227204166377,
+              "pz": 3.5123424900997233,
+              "type": "FF",
+              "velocity": 99.9,
+              "call": "S",
+              "inning": 4
             }
           ]
         },
         "away": {
           "pitcher_id": 680732,
           "pitcher_name": "Sean Burke",
-          "pitch_count": 34,
+          "pitch_count": 37,
           "pitches": [
             {
               "px": 0.6717132638586496,
@@ -860,6 +868,30 @@
               "velocity": 87.4,
               "call": "S",
               "inning": 3
+            },
+            {
+              "px": -0.46314962280540733,
+              "pz": 2.973517386647846,
+              "type": "FF",
+              "velocity": 93.0,
+              "call": "?",
+              "inning": 4
+            },
+            {
+              "px": -0.5817952599879043,
+              "pz": 2.1324921269935264,
+              "type": "KC",
+              "velocity": 77.4,
+              "call": "X",
+              "inning": 4
+            },
+            {
+              "px": -0.9316036136025602,
+              "pz": 3.3400719348051027,
+              "type": "KC",
+              "velocity": 75.7,
+              "call": "B",
+              "inning": 4
             }
           ]
         }
