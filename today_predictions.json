@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T01:36:15+00:00",
+  "updated_at": "2026-10-12T01:47:12+00:00",
   "date": "2026-10-12",
   "live_game_count": 1,
   "games": [
@@ -10,21 +10,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.552275,
-      "live_home_win_prob": 0.634,
+      "live_home_win_prob": 0.542,
       "linescore": {
-        "current_inning": 4,
-        "inning_state": "Bottom",
-        "is_top_inning": false,
+        "current_inning": 5,
+        "inning_state": "Top",
+        "is_top_inning": true,
         "home_runs": 1,
         "away_runs": 1,
-        "balls": 0,
-        "strikes": 1,
+        "balls": 1,
+        "strikes": 2,
         "outs": 1,
         "base_state": "100",
-        "current_batter_id": 683734,
-        "current_batter_name": "Andrew Vaughn",
-        "current_pitcher_id": 669373,
-        "current_pitcher_name": "Tarik Skubal"
+        "current_batter_id": 518692,
+        "current_batter_name": "Freddie Freeman",
+        "current_pitcher_id": 669084,
+        "current_pitcher_name": "DL Hall"
       },
       "lineups": {
         "home": [
@@ -64,9 +64,9 @@
             "order": 5,
             "player_id": 683734,
             "name": "Andrew Vaughn",
-            "season_avg": ".667",
-            "season_obp": ".667",
-            "season_slg": "1.000"
+            "season_avg": ".500",
+            "season_obp": ".500",
+            "season_slg": ".750"
           },
           {
             "order": 6,
@@ -107,7 +107,7 @@
             "player_id": 605141,
             "name": "Mookie Betts",
             "season_avg": ".250",
-            "season_obp": ".368",
+            "season_obp": ".400",
             "season_slg": ".250"
           },
           {
@@ -170,9 +170,9 @@
             "order": 9,
             "player_id": 571771,
             "name": "Enrique Hern\u00e1ndez",
-            "season_avg": ".143",
-            "season_obp": ".143",
-            "season_slg": ".571"
+            "season_avg": ".125",
+            "season_obp": ".125",
+            "season_slg": ".500"
           }
         ]
       },
@@ -180,7 +180,7 @@
         "home": {
           "pitcher_id": 694819,
           "pitcher_name": "Jacob Misiorowski",
-          "pitch_count": 85,
+          "pitch_count": 94,
           "pitches": [
             {
               "px": -0.4432075926375781,
@@ -861,13 +861,85 @@
               "velocity": 94.3,
               "call": "S",
               "inning": 4
+            },
+            {
+              "px": 0.42838064329975717,
+              "pz": 3.0875447838689216,
+              "type": "FF",
+              "velocity": 98.9,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": -0.11721281912447744,
+              "pz": 2.6019263002040693,
+              "type": "FF",
+              "velocity": 99.2,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": 0.35514247557419404,
+              "pz": 3.656131443053517,
+              "type": "FF",
+              "velocity": 100.0,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 2.1963674110573943,
+              "pz": 1.6095523598583994,
+              "type": "FC",
+              "velocity": 94.0,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.2353260857584188,
+              "pz": 2.669855496201964,
+              "type": "FF",
+              "velocity": 100.0,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 1.7395282316786183,
+              "pz": 0.9313167559137948,
+              "type": "FF",
+              "velocity": 98.5,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.7694677738880837,
+              "pz": 2.63608216231125,
+              "type": "FF",
+              "velocity": 98.8,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 0.056985086399713385,
+              "pz": 2.079501017997029,
+              "type": "SL",
+              "velocity": 91.2,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": -1.094928390208445,
+              "pz": 2.3480702498383605,
+              "type": "CU",
+              "velocity": 88.6,
+              "call": "B",
+              "inning": 5
             }
           ]
         },
         "away": {
           "pitcher_id": 669373,
           "pitcher_name": "Tarik Skubal",
-          "pitch_count": 53,
+          "pitch_count": 55,
           "pitches": [
             {
               "px": -0.7550858625811323,
@@ -1291,6 +1363,22 @@
               "type": "FF",
               "velocity": 97.1,
               "call": "F",
+              "inning": 4
+            },
+            {
+              "px": -0.8200574866987371,
+              "pz": -0.08366928336867722,
+              "type": "CU",
+              "velocity": 81.7,
+              "call": "?",
+              "inning": 4
+            },
+            {
+              "px": 0.9773835244959007,
+              "pz": 2.183044661736015,
+              "type": "CH",
+              "velocity": 87.5,
+              "call": "X",
               "inning": 4
             }
           ]
