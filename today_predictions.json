@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T01:36:11+00:00",
+  "updated_at": "2026-10-14T01:47:15+00:00",
   "date": "2026-10-14",
   "live_game_count": 1,
   "games": [
@@ -10,19 +10,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.51785,
-      "live_home_win_prob": 0.936,
+      "live_home_win_prob": 0.95,
       "linescore": {
         "current_inning": 5,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "End",
+        "is_top_inning": false,
         "home_runs": 3,
         "away_runs": 0,
-        "balls": 0,
+        "balls": 2,
         "strikes": 0,
-        "outs": 2,
-        "base_state": "110",
-        "current_batter_id": 666176,
-        "current_batter_name": "Jo Adell",
+        "outs": 3,
+        "base_state": "000",
+        "current_batter_id": 663993,
+        "current_batter_name": "Nathaniel Lowe",
         "current_pitcher_id": 642547,
         "current_pitcher_name": "Freddy Peralta"
       },
@@ -32,33 +32,33 @@
             "order": 1,
             "player_id": 650490,
             "name": "Yandy D\u00edaz",
-            "season_avg": ".263",
-            "season_obp": ".300",
-            "season_slg": ".316"
+            "season_avg": ".250",
+            "season_obp": ".286",
+            "season_slg": ".300"
           },
           {
             "order": 2,
             "player_id": 666018,
             "name": "Jonathan Aranda",
             "season_avg": ".235",
-            "season_obp": ".278",
+            "season_obp": ".316",
             "season_slg": ".412"
           },
           {
             "order": 3,
             "player_id": 691406,
             "name": "Junior Caminero",
-            "season_avg": ".333",
-            "season_obp": ".444",
-            "season_slg": ".467"
+            "season_avg": ".313",
+            "season_obp": ".421",
+            "season_slg": ".438"
           },
           {
             "order": 4,
             "player_id": 683748,
             "name": "Victor Mesa Jr.",
-            "season_avg": ".188",
-            "season_obp": ".235",
-            "season_slg": ".375"
+            "season_avg": ".176",
+            "season_obp": ".222",
+            "season_slg": ".353"
           },
           {
             "order": 5,
@@ -130,9 +130,9 @@
             "order": 4,
             "player_id": 666176,
             "name": "Jo Adell",
-            "season_avg": ".231",
-            "season_obp": ".310",
-            "season_slg": ".423"
+            "season_avg": ".222",
+            "season_obp": ".300",
+            "season_slg": ".407"
           },
           {
             "order": 5,
@@ -180,7 +180,7 @@
         "home": {
           "pitcher_id": 642547,
           "pitcher_name": "Freddy Peralta",
-          "pitch_count": 83,
+          "pitch_count": 85,
           "pitches": [
             {
               "px": -0.30514683019910366,
@@ -845,13 +845,29 @@
               "velocity": 87.2,
               "call": "B",
               "inning": 5
+            },
+            {
+              "px": -0.12796975179384615,
+              "pz": 2.399665557187707,
+              "type": "FF",
+              "velocity": 99.4,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": -0.5460329385288591,
+              "pz": 2.6503502660694216,
+              "type": "FF",
+              "velocity": 99.0,
+              "call": "X",
+              "inning": 5
             }
           ]
         },
         "away": {
           "pitcher_id": 800048,
           "pitcher_name": "Parker Messick",
-          "pitch_count": 71,
+          "pitch_count": 82,
           "pitches": [
             {
               "px": -0.31345434700284447,
@@ -1420,6 +1436,94 @@
               "velocity": 95.6,
               "call": "S",
               "inning": 4
+            },
+            {
+              "px": -1.0179334589408324,
+              "pz": 2.9208061355277057,
+              "type": "FF",
+              "velocity": 92.6,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": 0.9650254151785596,
+              "pz": 3.8257559114551203,
+              "type": "FF",
+              "velocity": 91.5,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.08278554670620794,
+              "pz": 2.2354664390183974,
+              "type": "SI",
+              "velocity": 91.8,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": 1.7084217635500283,
+              "pz": 3.579264074041991,
+              "type": "SI",
+              "velocity": 93.1,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": -0.5659346958194587,
+              "pz": 3.013277584679993,
+              "type": "FF",
+              "velocity": 94.2,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.5913000890490419,
+              "pz": 1.7049283485969497,
+              "type": "SL",
+              "velocity": 86.3,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.9621419646630939,
+              "pz": -0.5294949218956448,
+              "type": "CH",
+              "velocity": 85.2,
+              "call": "?",
+              "inning": 5
+            },
+            {
+              "px": 0.1975673144868816,
+              "pz": 3.1463832005118926,
+              "type": "FF",
+              "velocity": 94.8,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": -1.4459408276226693,
+              "pz": 3.300878099556555,
+              "type": "FF",
+              "velocity": 94.8,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.2311541399354146,
+              "pz": 3.589039255674227,
+              "type": "SI",
+              "velocity": 93.1,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.14432197062102434,
+              "pz": 2.66315696679257,
+              "type": "SI",
+              "velocity": 93.1,
+              "call": "X",
+              "inning": 5
             }
           ]
         }
