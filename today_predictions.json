@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T17:47:13+00:00",
+  "updated_at": "2026-10-15T17:58:12+00:00",
   "date": "2026-10-15",
   "live_game_count": 1,
   "games": [
@@ -171,21 +171,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.52805,
-      "live_home_win_prob": 0.733,
+      "live_home_win_prob": 0.746,
       "linescore": {
         "current_inning": 3,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 1,
         "away_runs": 0,
-        "balls": 0,
-        "strikes": 0,
-        "outs": 1,
-        "base_state": "000",
-        "current_batter_id": 680700,
-        "current_batter_name": "Richie Palacios",
-        "current_pitcher_id": 668909,
-        "current_pitcher_name": "Gavin Williams"
+        "balls": 2,
+        "strikes": 2,
+        "outs": 2,
+        "base_state": "010",
+        "current_batter_id": 800050,
+        "current_batter_name": "Chase DeLauter",
+        "current_pitcher_id": 643377,
+        "current_pitcher_name": "Griffin Jax"
       },
       "lineups": {
         "home": [
@@ -193,17 +193,17 @@
             "order": 1,
             "player_id": 680757,
             "name": "Steven Kwan",
-            "season_avg": ".233",
-            "season_obp": ".324",
-            "season_slg": ".233"
+            "season_avg": ".226",
+            "season_obp": ".314",
+            "season_slg": ".226"
           },
           {
             "order": 2,
             "player_id": 608070,
             "name": "Jos\u00e9 Ram\u00edrez",
-            "season_avg": ".333",
-            "season_obp": ".438",
-            "season_slg": ".667"
+            "season_avg": ".357",
+            "season_obp": ".455",
+            "season_slg": ".679"
           },
           {
             "order": 3,
@@ -257,9 +257,9 @@
             "order": 9,
             "player_id": 677587,
             "name": "Brayan Rocchio",
-            "season_avg": ".091",
-            "season_obp": ".200",
-            "season_slg": ".091"
+            "season_avg": ".087",
+            "season_obp": ".192",
+            "season_slg": ".087"
           }
         ],
         "away": [
@@ -323,17 +323,17 @@
             "order": 8,
             "player_id": 680700,
             "name": "Richie Palacios",
-            "season_avg": ".182",
-            "season_obp": ".182",
-            "season_slg": ".273"
+            "season_avg": ".167",
+            "season_obp": ".167",
+            "season_slg": ".250"
           },
           {
             "order": 9,
             "player_id": 670764,
             "name": "Taylor Walls",
-            "season_avg": ".125",
-            "season_obp": ".125",
-            "season_slg": ".125"
+            "season_avg": ".118",
+            "season_obp": ".118",
+            "season_slg": ".118"
           }
         ]
       },
@@ -341,7 +341,7 @@
         "home": {
           "pitcher_id": 668909,
           "pitcher_name": "Gavin Williams",
-          "pitch_count": 25,
+          "pitch_count": 35,
           "pitches": [
             {
               "px": 0.2936140788268769,
@@ -542,13 +542,93 @@
               "velocity": 97.3,
               "call": "X",
               "inning": 3
+            },
+            {
+              "px": 0.6020051084875265,
+              "pz": 2.1884243923368945,
+              "type": "ST",
+              "velocity": 87.4,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": -0.25339280485142124,
+              "pz": 2.336885615254113,
+              "type": "ST",
+              "velocity": 86.1,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": 0.345620416179786,
+              "pz": 0.6864903593838804,
+              "type": "KC",
+              "velocity": 81.6,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": 0.32273633556730297,
+              "pz": 1.5075236958799552,
+              "type": "ST",
+              "velocity": 88.4,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": 0.6722560736065166,
+              "pz": 3.32619725604148,
+              "type": "FF",
+              "velocity": 97.9,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": -0.20080926270365604,
+              "pz": 1.979910042164639,
+              "type": "KC",
+              "velocity": 80.3,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": -0.10036583280597025,
+              "pz": 2.0830132994614092,
+              "type": "KC",
+              "velocity": 81.8,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": 0.27925448668715797,
+              "pz": -0.17315636826964112,
+              "type": "KC",
+              "velocity": 82.6,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": 0.47513584517597934,
+              "pz": 1.3291868405048377,
+              "type": "ST",
+              "velocity": 87.7,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": -0.33311458592912685,
+              "pz": 3.040566709091473,
+              "type": "ST",
+              "velocity": 86.9,
+              "call": "S",
+              "inning": 3
             }
           ]
         },
         "away": {
           "pitcher_id": 643377,
           "pitcher_name": "Griffin Jax",
-          "pitch_count": 33,
+          "pitch_count": 44,
           "pitches": [
             {
               "px": 0.5372886620798809,
@@ -813,6 +893,94 @@
               "velocity": 86.6,
               "call": "X",
               "inning": 2
+            },
+            {
+              "px": 0.6731224727440958,
+              "pz": 1.37126816787628,
+              "type": "ST",
+              "velocity": 87.8,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": -0.26750058499109247,
+              "pz": 2.293769110534398,
+              "type": "SI",
+              "velocity": 94.5,
+              "call": "X",
+              "inning": 3
+            },
+            {
+              "px": -0.21823871980325296,
+              "pz": 3.2298773361855426,
+              "type": "SI",
+              "velocity": 94.7,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": 0.06199940655650817,
+              "pz": 1.8421557087736582,
+              "type": "SI",
+              "velocity": 95.5,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": -0.3641585986586832,
+              "pz": 2.50502117108891,
+              "type": "CU",
+              "velocity": 85.1,
+              "call": "X",
+              "inning": 3
+            },
+            {
+              "px": 0.9711983552536018,
+              "pz": 2.572038231397607,
+              "type": "SI",
+              "velocity": 95.8,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": -0.09401352504255973,
+              "pz": 2.9159595623223495,
+              "type": "FF",
+              "velocity": 96.3,
+              "call": "X",
+              "inning": 3
+            },
+            {
+              "px": 0.5068869732839252,
+              "pz": 1.8538453377575117,
+              "type": "CU",
+              "velocity": 85.4,
+              "call": "B",
+              "inning": 3
+            },
+            {
+              "px": 0.5238013627643751,
+              "pz": 2.226900399078882,
+              "type": "SI",
+              "velocity": 95.9,
+              "call": "S",
+              "inning": 3
+            },
+            {
+              "px": -0.31765941628344385,
+              "pz": 1.5435018142993067,
+              "type": "CH",
+              "velocity": 90.9,
+              "call": "F",
+              "inning": 3
+            },
+            {
+              "px": 0.6494305712693029,
+              "pz": 4.573460182546484,
+              "type": "FF",
+              "velocity": 95.5,
+              "call": "B",
+              "inning": 3
             }
           ]
         }
