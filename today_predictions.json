@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T00:25:21+00:00",
+  "updated_at": "2026-10-20T00:36:12+00:00",
   "date": "2026-10-20",
   "live_game_count": 1,
   "games": [
@@ -10,21 +10,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.5416500000000001,
-      "live_home_win_prob": 0.586,
+      "live_home_win_prob": 0.671,
       "linescore": {
         "current_inning": 2,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 0,
-        "balls": 0,
+        "balls": 3,
         "strikes": 0,
-        "outs": 1,
-        "base_state": "000",
-        "current_batter_id": 683953,
-        "current_batter_name": "Travis Bazzana",
-        "current_pitcher_id": 642547,
-        "current_pitcher_name": "Freddy Peralta"
+        "outs": 0,
+        "base_state": "100",
+        "current_batter_id": 802415,
+        "current_batter_name": "Chandler Simpson",
+        "current_pitcher_id": 682120,
+        "current_pitcher_name": "Tim Herrin"
       },
       "lineups": {
         "home": [
@@ -56,9 +56,9 @@
             "order": 4,
             "player_id": 691406,
             "name": "Junior Caminero",
-            "season_avg": ".233",
-            "season_obp": ".303",
-            "season_slg": ".333"
+            "season_avg": ".258",
+            "season_obp": ".324",
+            "season_slg": ".355"
           },
           {
             "order": 5,
@@ -146,17 +146,17 @@
             "order": 6,
             "player_id": 683953,
             "name": "Travis Bazzana",
-            "season_avg": ".176",
-            "season_obp": ".263",
-            "season_slg": ".324"
+            "season_avg": ".171",
+            "season_obp": ".256",
+            "season_slg": ".314"
           },
           {
             "order": 7,
             "player_id": 672275,
             "name": "Patrick Bailey",
-            "season_avg": ".300",
-            "season_obp": ".344",
-            "season_slg": ".500"
+            "season_avg": ".290",
+            "season_obp": ".333",
+            "season_slg": ".484"
           },
           {
             "order": 8,
@@ -180,7 +180,7 @@
         "home": {
           "pitcher_id": 642547,
           "pitcher_name": "Freddy Peralta",
-          "pitch_count": 18,
+          "pitch_count": 29,
           "pitches": [
             {
               "px": -0.5829639291344286,
@@ -325,13 +325,101 @@
               "velocity": 90.0,
               "call": "S",
               "inning": 2
+            },
+            {
+              "px": -0.9959465245987513,
+              "pz": 4.389122495023377,
+              "type": "FF",
+              "velocity": 97.5,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.8719779586478508,
+              "pz": 1.9702654369026675,
+              "type": "CH",
+              "velocity": 89.2,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 0.06535943189529277,
+              "pz": 1.0312090315148705,
+              "type": "CH",
+              "velocity": 90.3,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -1.3269281113753284,
+              "pz": 2.7438656387888316,
+              "type": "CH",
+              "velocity": 88.4,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 1.1452218699455297,
+              "pz": 3.165878186004975,
+              "type": "FF",
+              "velocity": 97.6,
+              "call": "F",
+              "inning": 2
+            },
+            {
+              "px": 0.2108720962844309,
+              "pz": 2.1961501696091266,
+              "type": "CH",
+              "velocity": 89.6,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": -0.47272020930087383,
+              "pz": 1.6902129918924649,
+              "type": "CH",
+              "velocity": 90.9,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.7815319365863468,
+              "pz": 1.1727971937814403,
+              "type": "CH",
+              "velocity": 89.7,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.2761039837557639,
+              "pz": 3.6836448724982063,
+              "type": "FF",
+              "velocity": 97.9,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 0.31148733904412307,
+              "pz": 0.5624781647366661,
+              "type": "CH",
+              "velocity": 89.3,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 0.17655821154432086,
+              "pz": 2.8212379958125964,
+              "type": "FF",
+              "velocity": 97.4,
+              "call": "X",
+              "inning": 2
             }
           ]
         },
         "away": {
           "pitcher_id": 542888,
           "pitcher_name": "Shawn Armstrong",
-          "pitch_count": 7,
+          "pitch_count": 9,
           "pitches": [
             {
               "px": 0.43022226159072213,
@@ -388,6 +476,22 @@
               "velocity": 92.2,
               "call": "X",
               "inning": 1
+            },
+            {
+              "px": 1.0142819340153972,
+              "pz": 1.927553136335547,
+              "type": "FC",
+              "velocity": 89.3,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 0.2940810790510482,
+              "pz": 1.698743154861195,
+              "type": "ST",
+              "velocity": 85.2,
+              "call": "X",
+              "inning": 2
             }
           ]
         }
