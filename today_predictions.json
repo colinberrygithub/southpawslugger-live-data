@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T01:36:22+00:00",
+  "updated_at": "2026-10-24T01:47:19+00:00",
   "date": "2026-10-24",
   "live_game_count": 1,
   "games": [
@@ -10,21 +10,21 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.6053999999999999,
-      "live_home_win_prob": 0.742,
+      "live_home_win_prob": 0.801,
       "linescore": {
         "current_inning": 5,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "Bottom",
+        "is_top_inning": false,
         "home_runs": 2,
         "away_runs": 1,
         "balls": 0,
-        "strikes": 2,
-        "outs": 0,
-        "base_state": "100",
-        "current_batter_id": 810938,
-        "current_batter_name": "Ben Williamson",
-        "current_pitcher_id": 694819,
-        "current_pitcher_name": "Jacob Misiorowski"
+        "strikes": 0,
+        "outs": 1,
+        "base_state": "000",
+        "current_batter_id": 666152,
+        "current_batter_name": "David Hamilton",
+        "current_pitcher_id": 607259,
+        "current_pitcher_name": "Nick Martinez"
       },
       "lineups": {
         "home": [
@@ -88,9 +88,9 @@
             "order": 8,
             "player_id": 686217,
             "name": "Sal Frelick",
-            "season_avg": ".250",
-            "season_obp": ".381",
-            "season_slg": ".250"
+            "season_avg": ".235",
+            "season_obp": ".364",
+            "season_slg": ".235"
           },
           {
             "order": 9,
@@ -162,17 +162,17 @@
             "order": 8,
             "player_id": 810938,
             "name": "Ben Williamson",
-            "season_avg": ".111",
-            "season_obp": ".333",
-            "season_slg": ".111"
+            "season_avg": ".100",
+            "season_obp": ".308",
+            "season_slg": ".100"
           },
           {
             "order": 9,
             "player_id": 670764,
             "name": "Taylor Walls",
-            "season_avg": ".143",
-            "season_obp": ".226",
-            "season_slg": ".143"
+            "season_avg": ".138",
+            "season_obp": ".219",
+            "season_slg": ".138"
           }
         ]
       },
@@ -180,7 +180,7 @@
         "home": {
           "pitcher_id": 694819,
           "pitcher_name": "Jacob Misiorowski",
-          "pitch_count": 68,
+          "pitch_count": 78,
           "pitches": [
             {
               "px": -0.5565138044142495,
@@ -265,7 +265,7 @@
             {
               "px": -1.1319747678953787,
               "pz": 2.858146841282277,
-              "type": "SL",
+              "type": "CU",
               "velocity": 87.7,
               "call": "X",
               "inning": 1
@@ -725,13 +725,93 @@
               "velocity": 101.1,
               "call": "F",
               "inning": 5
+            },
+            {
+              "px": -0.7093886091718676,
+              "pz": 2.4218935141839815,
+              "type": "SL",
+              "velocity": 89.8,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 0.027661341266403492,
+              "pz": 2.2825144985965786,
+              "type": "SL",
+              "velocity": 88.6,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": 0.2273946693978968,
+              "pz": 2.4186519720231208,
+              "type": "FF",
+              "velocity": 99.2,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 1.3209876982302964,
+              "pz": 1.4841774985987874,
+              "type": "FC",
+              "velocity": 93.5,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.47207580799423204,
+              "pz": 1.745008018824072,
+              "type": "FF",
+              "velocity": 99.3,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": -1.8762549998135598,
+              "pz": 3.063151560168651,
+              "type": "CU",
+              "velocity": 85.4,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 0.6414730401352428,
+              "pz": 2.3365614648118314,
+              "type": "CU",
+              "velocity": 86.5,
+              "call": "X",
+              "inning": 5
+            },
+            {
+              "px": -0.4446881021189765,
+              "pz": 2.9108417794120154,
+              "type": "FF",
+              "velocity": 102.9,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": 0.2762173117958993,
+              "pz": 2.974327637124019,
+              "type": "FF",
+              "velocity": 101.7,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": -0.4284306665861083,
+              "pz": 4.207882902552937,
+              "type": "FF",
+              "velocity": 103.0,
+              "call": "B",
+              "inning": 5
             }
           ]
         },
         "away": {
           "pitcher_id": 607259,
           "pitcher_name": "Nick Martinez",
-          "pitch_count": 61,
+          "pitch_count": 67,
           "pitches": [
             {
               "px": 0.4200938391984254,
@@ -1220,6 +1300,54 @@
               "velocity": 93.7,
               "call": "X",
               "inning": 4
+            },
+            {
+              "px": -0.1465337906529064,
+              "pz": 3.3979795577417704,
+              "type": "FC",
+              "velocity": 89.8,
+              "call": "S",
+              "inning": 5
+            },
+            {
+              "px": -0.4606320980989989,
+              "pz": 2.2730318240954523,
+              "type": "SL",
+              "velocity": 83.9,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 0.14738159899164296,
+              "pz": 3.794983971253364,
+              "type": "SI",
+              "velocity": 93.1,
+              "call": "B",
+              "inning": 5
+            },
+            {
+              "px": -0.16454964041815723,
+              "pz": 3.544313016385087,
+              "type": "FF",
+              "velocity": 94.3,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": -0.4993837319386994,
+              "pz": 3.0590045011325135,
+              "type": "SL",
+              "velocity": 84.3,
+              "call": "F",
+              "inning": 5
+            },
+            {
+              "px": 1.1557448036196036,
+              "pz": 1.3784392819652753,
+              "type": "FC",
+              "velocity": 90.6,
+              "call": "X",
+              "inning": 5
             }
           ]
         }
