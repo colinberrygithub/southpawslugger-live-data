@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T00:36:10+00:00",
+  "updated_at": "2026-10-27T00:47:11+00:00",
   "date": "2026-10-27",
   "live_game_count": 1,
   "games": [
@@ -10,19 +10,19 @@
       "abstract_status": "Live",
       "detailed_status": "In Progress",
       "pre_home_win_prob": 0.46090000000000003,
-      "live_home_win_prob": 0.392,
+      "live_home_win_prob": 0.466,
       "linescore": {
         "current_inning": 2,
-        "inning_state": "Top",
-        "is_top_inning": true,
+        "inning_state": "End",
+        "is_top_inning": false,
         "home_runs": 0,
         "away_runs": 0,
         "balls": 0,
-        "strikes": 2,
-        "outs": 0,
-        "base_state": "100",
-        "current_batter_id": 806198,
-        "current_batter_name": "Cooper Pratt",
+        "strikes": 0,
+        "outs": 3,
+        "base_state": "000",
+        "current_batter_id": 666152,
+        "current_batter_name": "David Hamilton",
         "current_pitcher_id": 642547,
         "current_pitcher_name": "Freddy Peralta"
       },
@@ -56,25 +56,25 @@
             "order": 4,
             "player_id": 691406,
             "name": "Junior Caminero",
-            "season_avg": ".275",
-            "season_obp": ".356",
-            "season_slg": ".450"
+            "season_avg": ".268",
+            "season_obp": ".348",
+            "season_slg": ".439"
           },
           {
             "order": 5,
             "player_id": 810938,
             "name": "Ben Williamson",
-            "season_avg": ".083",
-            "season_obp": ".267",
-            "season_slg": ".083"
+            "season_avg": ".077",
+            "season_obp": ".250",
+            "season_slg": ".077"
           },
           {
             "order": 6,
             "player_id": 676356,
             "name": "Jonny DeLuca",
-            "season_avg": ".211",
-            "season_obp": ".225",
-            "season_slg": ".263"
+            "season_avg": ".205",
+            "season_obp": ".220",
+            "season_slg": ".256"
           },
           {
             "order": 7,
@@ -154,17 +154,17 @@
             "order": 7,
             "player_id": 806198,
             "name": "Cooper Pratt",
-            "season_avg": ".286",
-            "season_obp": ".324",
-            "season_slg": ".314"
+            "season_avg": ".278",
+            "season_obp": ".316",
+            "season_slg": ".306"
           },
           {
             "order": 8,
             "player_id": 686217,
             "name": "Sal Frelick",
-            "season_avg": ".273",
-            "season_obp": ".370",
-            "season_slg": ".409"
+            "season_avg": ".261",
+            "season_obp": ".357",
+            "season_slg": ".391"
           },
           {
             "order": 9,
@@ -180,7 +180,7 @@
         "home": {
           "pitcher_id": 642547,
           "pitcher_name": "Freddy Peralta",
-          "pitch_count": 31,
+          "pitch_count": 40,
           "pitches": [
             {
               "px": -2.048765089554486,
@@ -429,13 +429,85 @@
               "velocity": 94.7,
               "call": "S",
               "inning": 2
+            },
+            {
+              "px": 0.38705833411412527,
+              "pz": 1.2517946264601518,
+              "type": "CH",
+              "velocity": 87.1,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -0.48367978918418447,
+              "pz": 2.064287459073668,
+              "type": "CU",
+              "velocity": 81.7,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": -1.5707198930356572,
+              "pz": 2.702963727456389,
+              "type": "CH",
+              "velocity": 86.7,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.6719585225400955,
+              "pz": 0.7606598918773707,
+              "type": "CH",
+              "velocity": 86.3,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.418053389896748,
+              "pz": 2.818121482377411,
+              "type": "FF",
+              "velocity": 96.0,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": -0.11652989632563068,
+              "pz": 0.4951794701414129,
+              "type": "CU",
+              "velocity": 84.0,
+              "call": "?",
+              "inning": 2
+            },
+            {
+              "px": -0.8250332889503083,
+              "pz": 3.329348637595766,
+              "type": "FF",
+              "velocity": 96.1,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": 0.0642423941822832,
+              "pz": 2.6550380581998096,
+              "type": "FF",
+              "velocity": 95.4,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 0.5395263978174528,
+              "pz": 2.1582530494425423,
+              "type": "FF",
+              "velocity": 96.3,
+              "call": "S",
+              "inning": 2
             }
           ]
         },
         "away": {
           "pitcher_id": 688107,
           "pitcher_name": "Robert Gasser",
-          "pitch_count": 19,
+          "pitch_count": 24,
           "pitches": [
             {
               "px": -0.5748509351938773,
@@ -588,6 +660,46 @@
               "velocity": 90.2,
               "call": "B",
               "inning": 1
+            },
+            {
+              "px": 1.0612095903010885,
+              "pz": 1.8610586638412219,
+              "type": "CH",
+              "velocity": 89.1,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": -0.10548004615529658,
+              "pz": 2.6388884371685575,
+              "type": "SI",
+              "velocity": 93.6,
+              "call": "S",
+              "inning": 2
+            },
+            {
+              "px": 1.0447579654253512,
+              "pz": 3.673081434251634,
+              "type": "SI",
+              "velocity": 93.1,
+              "call": "B",
+              "inning": 2
+            },
+            {
+              "px": -0.3442258285031157,
+              "pz": 1.9315137555886575,
+              "type": "SI",
+              "velocity": 94.7,
+              "call": "X",
+              "inning": 2
+            },
+            {
+              "px": 1.1200779302928703,
+              "pz": 2.038989708868819,
+              "type": "SI",
+              "velocity": 94.0,
+              "call": "X",
+              "inning": 2
             }
           ]
         }
